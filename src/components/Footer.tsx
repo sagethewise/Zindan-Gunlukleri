@@ -35,22 +35,28 @@ const Footer = () => {
   </label>
 
   <form
-  onSubmit={(e) => e.preventDefault()}
+  action="https://formsubmit.co/asliggiray@outlook.com"
+  method="POST"
   className="flex flex-col sm:flex-row sm:items-center gap-3 w-full"
 >
   <input
     type="email"
-    id="email"
+    name="email"
     placeholder="Your email"
     className="flex-1 border border-gray-300 rounded-md px-3 py-2 text-sm focus:outline-none focus:ring-2 focus:ring-brand"
     required
   />
-<button
-  type="submit"
-  className="w-full sm:w-auto px-4 py-2 bg-brand text-green-600 rounded-md hover:bg-brand-dark transition"
->
-  Subscribe
-</button>
+
+  {/* Anti-spam honeypot */}
+  <input type="hidden" name="_captcha" value="false" />
+  <input type="hidden" name="_next" value="https://zindangunlukleri.com/teşekkürler" />
+
+  <button
+    type="submit"
+    className="w-full sm:w-auto px-4 py-2 bg-brand text-green-600 rounded-md hover:bg-brand-dark transition"
+  >
+    Subscribe
+  </button>
 </form>
 
 </div>
