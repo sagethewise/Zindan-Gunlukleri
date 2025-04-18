@@ -4,6 +4,7 @@ import { useState } from 'react';
 import BlogCard from '@/components/BlogCard';
 import { Post } from '@/lib/types';
 import { AnimatePresence, motion } from 'framer-motion';
+import Image from "next/image";
 
 export default function BlogClient({ posts }: { posts: Post[] }) {
   const [visibleCount, setVisibleCount] = useState(6);
@@ -32,13 +33,17 @@ export default function BlogClient({ posts }: { posts: Post[] }) {
     <main className="px-4 py-8 max-w-7xl mx-auto grid gap-6">
 
       {/* 🖼️ Banner Section */}
-      <section className="relative w-full h-64 md:h-80 rounded-lg overflow-hidden mb-2">
-        <div
-          className="absolute inset-0 bg-cover bg-center"
-          style={{ backgroundImage: "url('/images/blog-banner.PNG')" }}
-        />
-         
-      </section>
+      
+      <section className="relative w-full rounded-lg overflow-hidden mb-2">
+  <Image
+    src="/images/blog-banner.PNG"
+    alt="Blog Banner"
+    width={1440}
+    height={600}
+    priority
+    className="object-cover object-center"
+  />
+</section>
 
       {/* Filters - sticky bar */}
       <div className="mb-2 sticky top-[76px] z-30 bg-white/80  border-gray-200">

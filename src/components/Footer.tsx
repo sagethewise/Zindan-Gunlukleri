@@ -23,6 +23,7 @@ const Footer = () => {
             <Link href="/gundem" className="hover:text-brand transition">
               Gündem
             </Link>
+            <Link href="/contact" className="text-gray-700 hover:text-green-600">İletişim</Link>
           </div>
         </div>
 

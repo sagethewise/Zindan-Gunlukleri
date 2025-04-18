@@ -5,6 +5,7 @@ import { Post } from '@/lib/types';
 import BlogCard from '@/components/BlogCard';
 import { AnimatePresence, motion } from 'framer-motion';
 
+
 export default function GundemClient({ posts }: { posts: Post[] }) {
   const [activeTag, setActiveTag] = useState<string | null>(null);
   const [activeCategory, setActiveCategory] = useState<string | null>(null);
@@ -31,7 +32,9 @@ export default function GundemClient({ posts }: { posts: Post[] }) {
   return (
     <main className="px-4 py-8 max-w-7xl mx-auto grid gap-6">
       {/* 🖼️ Banner */}
-      <section className="relative w-full h-64 md:h-80 rounded-lg overflow-hidden mb-12">
+     
+     
+      <section className="relative w-full h-64 md:h-80 rounded-lg overflow-hidden mb-2">
         <div
           className="absolute inset-0 bg-cover bg-center"
           style={{ backgroundImage: "url('/images/news.jpg')" }}
