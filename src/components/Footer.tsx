@@ -25,44 +25,11 @@ const Footer = () => {
           <Link href="/gundem" className="hover:text-brand transition">
             Gündem
           </Link>
-          <Link href="/contact" className="text-gray-700 dark:text-gray-200 hover:text-green-600">İletişim</Link>
+          <Link href="/contact" className="text-gray-700  hover:text-green-600">İletişim</Link>
 
         </div>
         </div>
-       {/* 🧾 Section: Newsletter */}
-{/*<div className="flex flex-col gap-3">
-  <label htmlFor="email" className="font-semibold text-brand text-base">
-    Stay Updated
-  </label>
 
-  <form
-  action="https://formsubmit.co/asliggiray@outlook.com"
-  method="POST"
-  className="flex flex-col sm:flex-row sm:items-center gap-3 w-full"
->
-  <input
-    type="email"
-    name="email"
-    placeholder="Your email"
-    className="flex-1 border border-gray-300 rounded-md px-3 py-2 text-sm focus:outline-none focus:ring-2 focus:ring-brand"
-    required
-  />
-
- 
-  <input type="hidden" name="_captcha" value="false" />
-  <input type="hidden" name="_next" value="https://zindangunlukleri.com/teşekkürler" />
-
-  <button
-    type="submit"
-    className="w-full sm:w-auto px-4 py-2 bg-brand text-green-600 rounded-md hover:bg-brand-dark transition"
-  >
-    Subscribe
-  </button>
-  <input type="hidden" name="_next" value="https://zindangunlukleri.com/teşekkürler" />
-
-</form>
-
-</div>*/}
         {/* 🌍 Section: Socials */}
         <div className="flex flex-col gap-3">
   <label htmlFor="email" className="font-semibold text-brand text-base">

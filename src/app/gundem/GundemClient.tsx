@@ -40,7 +40,7 @@ export default function GundemClient({ posts }: { posts: Post[] }) {
       </section>
 
       {/* Filters */}
-      <div className="mb-2 sticky top-[76px] z-30 bg-white/80 dark:bg-gray-900/80 backdrop-blur border-b border-gray-200 dark:border-gray-700">
+      <div className="mb-2 sticky top-[76px] z-30 bg-white/80 backdrop-blur border-b border-gray-200">
         <div className="max-w-7xl mx-auto px-4 py-4">
           <div className="mb-2 flex flex-wrap justify-center gap-2">
             {allCategories.map((cat, index) => (
@@ -50,7 +50,7 @@ export default function GundemClient({ posts }: { posts: Post[] }) {
                 className={`px-4 py-1 text-sm font-medium rounded-full transition ${
                   cat === activeCategory
                     ? "bg-green-700 text-white"
-                    : "bg-gray-100 text-gray-800 hover:bg-green-100 dark:bg-gray-700 dark:text-gray-200 dark:hover:bg-green-900"
+                    : "bg-gray-100 text-gray-800 hover:bg-green-100"
                 }`}
               >
                 {cat}
@@ -65,7 +65,7 @@ export default function GundemClient({ posts }: { posts: Post[] }) {
                 className={`px-3 py-1 text-sm rounded-full border transition ${
                   tag === activeTag
                     ? "bg-green-600 text-white"
-                    : "border-gray-300 text-gray-600 hover:bg-green-50 dark:border-gray-600 dark:text-gray-200 dark:hover:bg-green-800"
+                    : "border-gray-300 text-gray-600 hover:bg-green-50"
                 }`}
               >
                 #{tag}
@@ -77,19 +77,19 @@ export default function GundemClient({ posts }: { posts: Post[] }) {
 
       {/* View + Sort controls */}
       <div className="flex justify-end px-4 mb-2">
-  <div className="w-full max-w-7xl">
-    <div className="flex justify-end">
-      <select
-        value={sortOrder}
-        onChange={(e) => setSortOrder(e.target.value as 'newest' | 'oldest')}
-        className="text-sm px-3 py-2 border border-gray-300 rounded-md bg-white dark:bg-gray-800 dark:text-white"
-      >
-        <option value="newest">🆕 En Yeni</option>
-        <option value="oldest">📜 En Eski</option>
-      </select>
-    </div>
-  </div>
-</div>
+        <div className="w-full max-w-7xl">
+          <div className="flex justify-end">
+            <select
+              value={sortOrder}
+              onChange={(e) => setSortOrder(e.target.value as 'newest' | 'oldest')}
+              className="text-sm px-3 py-2 border border-gray-300 rounded-md bg-white text-black"
+            >
+              <option value="newest">🆕 En Yeni</option>
+              <option value="oldest">📜 En Eski</option>
+            </select>
+          </div>
+        </div>
+      </div>
 
       {/* Grid */}
       <AnimatePresence mode="wait">

@@ -7,7 +7,7 @@ import TeamSection from "./TeamSection";
 
 export default function AboutPage() {
   return (
-    <main className="max-w-6xl mx-auto px-4 py-12 text-gray-800 dark:text-gray-100">
+    <main className="max-w-6xl mx-auto px-4 py-12 text-gray-800 ">
       {/* 🖼️ Banner Section */}
       <section className="relative w-full h-64 md:h-80 rounded-lg overflow-hidden mb-12">
         {/* Background image */}
