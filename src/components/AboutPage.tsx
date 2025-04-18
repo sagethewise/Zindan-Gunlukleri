@@ -3,7 +3,7 @@
 import Link from "next/link";
 import YouTubeEmbed from "./YouTubeEmbed";
 import TeamSection from "./TeamSection";
-import ContactForm from "./ContactForm";
+//import ContactForm from "./ContactForm";
 
 export default function AboutPage() {
   return (
@@ -62,7 +62,7 @@ export default function AboutPage() {
       <YouTubeEmbed />
 
       <p className="mt-4">
-      🎬 Daha fazlası için kanalımıza göz at:{" "}
+        🎬 Daha fazlası için kanalımıza göz at:{" "}
         <Link
           href="https://www.youtube.com/@gg_asli"
           target="_blank"
@@ -72,15 +72,16 @@ export default function AboutPage() {
         </Link>
       </p>
 
- {/* 2-column layout for team and contact */}
- <section className="mt-16 grid md:grid-cols-2 gap-8">
+      {/* 2-column layout for team and contact 
+      <section className="mt-16 grid md:grid-cols-1 gap-8">
         <div className="bg-white dark:bg-gray-900 shadow-md rounded-lg p-6 flex flex-col justify-between">
           <TeamSection />
         </div>
-        <div className="bg-white dark:bg-gray-900 shadow-md rounded-lg p-6 flex flex-col justify-between">
+   <div className="bg-white dark:bg-gray-900 shadow-md rounded-lg p-6 flex flex-col justify-between">
           <ContactForm />
-        </div>
-      </section>
+        </div> 
+      </section>*/}
+      <TeamSection />
     </main>
   );
 }
