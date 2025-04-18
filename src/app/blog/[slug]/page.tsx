@@ -1,21 +1,30 @@
 import Image from "next/image";
-import { getPostBySlug } from '@/lib/posts';
-import { markdownToHtml } from '@/lib/markdownToHtml';
-import { notFound } from 'next/navigation';
-import Link from 'next/link';
-import Questionnaire from '@/components/Questionnaire';
+import { getPostBySlug } from "@/lib/posts";
+import { markdownToHtml } from "@/lib/markdownToHtml";
+import { notFound } from "next/navigation";
+import Link from "next/link";
+import Questionnaire from "@/components/Questionnaire";
 
-export default async function Page({ params }: { params: { slug: string } }) {
+export default async function Page({
+  params,
+}: {
+  params: {
+    slug: string;
+  };
+}) {
   const { slug } = params;
-  const post = await getPostBySlug(slug); // ✅ async olabilir
 
+  const post = await getPostBySlug(slug);
   if (!post) return notFound();
 
   const contentHtml = await markdownToHtml(post.content);
 
   return (
     <main className="max-w-3xl mx-auto px-6 py-20">
-      <Link href="/blog" className="text-sm text-green-600 hover:underline mb-6 inline-block">
+      <Link
+        href="/blog"
+        className="text-sm text-green-600 hover:underline mb-6 inline-block"
+      >
         ← Blog&apos;a Dön
       </Link>
 
@@ -29,14 +38,21 @@ export default async function Page({ params }: { params: { slug: string } }) {
         />
       )}
 
-      <h1 className="text-4xl font-bold text-green-700 mb-2">{post.metadata.title}</h1>
+      <h1 className="text-4xl font-bold text-green-700 mb-2">
+        {post.metadata.title}
+      </h1>
       <p className="text-gray-500 mb-2">
-        {new Date(post.metadata.date).toLocaleDateString("tr-TR")} · {post.metadata.readingTime}
+        {new Date(post.metadata.date).toLocaleDateString("tr-TR")} ·{" "}
+        {post.metadata.readingTime}
       </p>
-
       <div className="flex flex-wrap gap-2 mb-4">
         {post.metadata.tags?.map((tag: string) => (
-          <span key={tag} className="text-xs bg-gray-200 text-gray-800 px-2 py-1 rounded-full">{tag}</span>
+          <span
+            key={tag}
+            className="text-xs bg-gray-200 text-gray-800 px-2 py-1 rounded-full"
+          >
+            {tag}
+          </span>
         ))}
       </div>
 
