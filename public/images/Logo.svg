@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="katman_1" data-name="katman 1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 1920 436.19">
+  <defs>
+    <style>
+      .cls-1 {
+        font-size: 60px;
+      }
+
+      .cls-2 {
+        letter-spacing: .01em;
+      }
+
+      .cls-3 {
+        font-size: 48px;
+      }
+
+      .cls-4 {
+        fill: #fff;
+        font-family: Constantia, Constantia;
+      }
+
+      .cls-5 {
+        letter-spacing: -.06em;
+      }
+
+      .cls-6 {
+        letter-spacing: -.04em;
+      }
+
+      .cls-7 {
+        letter-spacing: -.02em;
+      }
+
+      .cls-8 {
+        letter-spacing: -.02em;
+      }
+
+      .cls-9 {
+        fill: #353535;
+        stroke-width: 0px;
+      }
+
+      .cls-10 {
+        letter-spacing: 0em;
+      }
+
+      .cls-11 {
+        letter-spacing: -.01em;
+      }
+
+      .cls-12 {
+        letter-spacing: -.05em;
+      }
+    </style>
+    <image id="image" width="1191" height="1280" xlink:href="D20-PNG-Photos.png"/>
+  </defs>
+  <rect class="cls-9" width="1920" height="194"/>
+  <use transform="translate(50 30) scale(.1)" xlink:href="#image"/>
+  <use transform="translate(1760 30) scale(.1)" xlink:href="#image"/>
+  <text class="cls-4" transform="translate(712.22 89.97)"><tspan class="cls-1"><tspan class="cls-6" x="0" y="0">W</tspan><tspan x="58.54" y="0">ORLD </tspan><tspan class="cls-5" x="238.12" y="0">F</tspan><tspan x="266.66" y="0">AN</tspan><tspan class="cls-12" x="352.06" y="0">T</tspan><tspan x="385.63" y="0">ASI</tspan><tspan class="cls-11" x="477.07" y="0">A</tspan></tspan><tspan class="cls-3"><tspan class="cls-2" x="65.92" y="57.6">L</tspan><tspan x="93.17" y="57.6">e</tspan><tspan class="cls-7" x="116.17" y="57.6">t</tspan><tspan class="cls-10" x="131.94" y="57.6"> </tspan><tspan x="143.52" y="57.6">th</tspan><tspan class="cls-7" x="188.28" y="57.6">e </tspan><tspan x="220.98" y="57.6">di</tspan><tspan class="cls-8" x="261.81" y="57.6">c</tspan><tspan class="cls-7" x="283.02" y="57.6">e </tspan><tspan x="315.71" y="57.6">decid</tspan><tspan class="cls-7" x="428.92" y="57.6">e</tspan></tspan></text>
+</svg>
