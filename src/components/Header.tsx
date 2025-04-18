@@ -30,7 +30,7 @@ const Header = () => {
         <Link href="/blog" className="text-gray-700 dark:text-gray-200 hover:text-green-600">Oyun</Link>
         <Link href="/gundem" className="text-gray-700 hover:text-brand">Gündem</Link>
         <Link href="/about" className="text-gray-700 dark:text-gray-200 hover:text-green-600">Hakkımızda</Link>
-        
+        <Link href="/contact" className="text-gray-700 dark:text-gray-200 hover:text-green-600">İletişim</Link>
       </nav>
     </header>
   );

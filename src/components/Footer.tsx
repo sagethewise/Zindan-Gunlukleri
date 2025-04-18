@@ -25,11 +25,12 @@ const Footer = () => {
           <Link href="/gundem" className="hover:text-brand transition">
             Gündem
           </Link>
+          <Link href="/contact" className="text-gray-700 dark:text-gray-200 hover:text-green-600">İletişim</Link>
 
         </div>
         </div>
        {/* 🧾 Section: Newsletter */}
-<div className="flex flex-col gap-3">
+{/*<div className="flex flex-col gap-3">
   <label htmlFor="email" className="font-semibold text-brand text-base">
     Stay Updated
   </label>
@@ -47,7 +48,7 @@ const Footer = () => {
     required
   />
 
-  {/* Anti-spam honeypot */}
+ 
   <input type="hidden" name="_captcha" value="false" />
   <input type="hidden" name="_next" value="https://zindangunlukleri.com/teşekkürler" />
 
@@ -57,9 +58,11 @@ const Footer = () => {
   >
     Subscribe
   </button>
+  <input type="hidden" name="_next" value="https://zindangunlukleri.com/teşekkürler" />
+
 </form>
 
-</div>
+</div>*/}
         {/* 🌍 Section: Socials */}
         <div className="flex flex-col gap-3">
   <label htmlFor="email" className="font-semibold text-brand text-base">

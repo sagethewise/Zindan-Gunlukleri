@@ -18,24 +18,16 @@ export default function ContactForm() {
     setFormData({ ...formData, house: e.target.value });
   };
 
-  const handleSubmit = (e: React.FormEvent) => {
-    e.preventDefault();
-    alert("Form gönderildi!");
-  };
+
 
   return (
     <section>
         <div className="flex justify-center">
       <form
-        onSubmit={handleSubmit}
+          action="https://formsubmit.co/asliggiray@outlook.com"
+  method="POST"
         className="w-full max-w-md bg-white dark:bg-gray-900 rounded-lg p-6 space-y-5"
       >
-        <div>
-          <h2 className="text-xl font-semibold mb-4 text-center">📬 İletişim</h2>
-          <p className="text-sm text-gray-600 dark:text-gray-300 text-center">
-            Nedir durum, yardımcı olalım!
-          </p>
-        </div>
 
         <div>
           <label htmlFor="name" className="block text-sm font-medium mb-1">
