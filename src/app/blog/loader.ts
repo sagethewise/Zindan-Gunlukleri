@@ -26,7 +26,8 @@ function readPostsFrom(dir: string, type: 'oyun' | 'gundem'): Post[] {
         category: data.category || '',
         coverImage: data.coverImage || '',
         readingTime: data.readingTime || '',
-        type: type === "gundem" ? "oyun" : type
+        type: type
+
       },
     };
   });
@@ -34,8 +35,8 @@ function readPostsFrom(dir: string, type: 'oyun' | 'gundem'): Post[] {
 
 export function getAllPosts(): Post[] {
   const oyunPosts = readPostsFrom('oyun', 'oyun');
-  const gundemPosts = readPostsFrom('gundem', 'gundem');
-  return [...oyunPosts, ...gundemPosts].sort((a, b) =>
+  
+  return [...oyunPosts].sort((a, b) =>
     Date.parse(b.metadata.date) - Date.parse(a.metadata.date)
   );
 }
