@@ -61,7 +61,7 @@ export function getPostBySlug(slug: string): Post | null {
           coverImage: data.coverImage || '',
           readingTime: data.readingTime || '',
           type: dir === 'gundem' ? 'gundem' : 'oyun',
-          summary: undefined,
+          summary: typeof data.summary === "string" ? data.summary : "",
           featured: data.featured || false,
         },
       };
