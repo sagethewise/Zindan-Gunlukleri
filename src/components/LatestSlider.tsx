@@ -24,28 +24,36 @@ export default function LatestSlider({ posts }: { posts: Post[] }) {
       </div>
 
       <Swiper
-        effect={'coverflow'}
-        grabCursor={true}
-        centeredSlides={true}
-        loop={true}
-        slidesPerView={3
-          
-        }
-        spaceBetween={30}
-        navigation={{
-          nextEl: '.swiper-button-next',
-          prevEl: '.swiper-button-prev',
-        }}
-        coverflowEffect={{
-          rotate: 50,
-          stretch: 0,
-          depth: 100,
-          modifier: 1,
-          slideShadows: true,
-        }}
-        modules={[EffectCoverflow, Navigation]}
-        className="w-full"
-      >
+  effect="coverflow"
+  grabCursor={true}
+  centeredSlides={true}
+  loop={true}
+  spaceBetween={30}
+  breakpoints={{
+    0: {
+      slidesPerView: 1.2, // küçük ekranlar (tekli + overflow efekti)
+    },
+    640: {
+      slidesPerView: 2, // mobil ve küçük tablet
+    },
+    1024: {
+      slidesPerView: 3, // masaüstü
+    },
+  }}
+  navigation={{
+    nextEl: '.swiper-button-next',
+    prevEl: '.swiper-button-prev',
+  }}
+  coverflowEffect={{
+    rotate: 50,
+    stretch: 0,
+    depth: 100,
+    modifier: 1,
+    slideShadows: true,
+  }}
+  modules={[EffectCoverflow, Navigation]}
+  className="w-full"
+>
         {posts.map((post) => (
           <SwiperSlide
           key={post.slug}
