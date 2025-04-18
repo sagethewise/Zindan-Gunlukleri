@@ -32,7 +32,7 @@ export default function BlogClient({ posts }: { posts: Post[] }) {
     <main className="px-4 py-8 max-w-7xl mx-auto grid gap-6">
 
       {/* 🖼️ Banner Section */}
-      <section className="relative w-full aspect-[16/9] rounded-lg overflow-hidden mb-6">
+      <section className="relative w-full h-64 md:h-80 rounded-lg overflow-hidden mb-2">
         <div
           className="absolute inset-0 bg-cover bg-center"
           style={{ backgroundImage: "url('/images/blog-banner.PNG')" }}
