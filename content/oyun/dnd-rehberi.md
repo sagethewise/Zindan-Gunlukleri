@@ -10,7 +10,7 @@ readingTime: "5 dakikalık okuma"
 category: "D&D"
 ---
 
-# World Fantasia 👋
+# World Fantasia  👋
 
 ## FRP Nedir? D&D Ne Anlama Geliyor?
 
