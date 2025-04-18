@@ -8,11 +8,9 @@ import Questionnaire from "@/components/Questionnaire";
 export default async function Page({
   params,
 }: {
-  params: {
-    slug: string;
-  };
+  params: Promise<{ slug: string }>;
 }) {
-  const { slug } = params;
+  const { slug } = await params;
 
   const post = await getPostBySlug(slug);
   if (!post) return notFound();
@@ -45,6 +43,7 @@ export default async function Page({
         {new Date(post.metadata.date).toLocaleDateString("tr-TR")} ·{" "}
         {post.metadata.readingTime}
       </p>
+
       <div className="flex flex-wrap gap-2 mb-4">
         {post.metadata.tags?.map((tag: string) => (
           <span
