@@ -1,3 +1,4 @@
+import Image from "next/image";
 
 type TeamMember = {
     name: string;
@@ -37,10 +38,12 @@ type TeamMember = {
           {team.map((member, i) => (
             <div key={i} className="bg-white dark:bg-gray-800 rounded-lg shadow p-4 text-center">
               {member.avatar && (
-                <img
+                <Image
                   src={member.avatar}
                   alt={member.name}
-                  className="w-24 h-24 mx-auto rounded-full mb-4 object-cover"
+                  width={96}
+                  height={96}
+                  className="rounded-full mb-4 object-cover"
                 />
               )}
               <h3 className="text-lg font-medium">{member.name}</h3>

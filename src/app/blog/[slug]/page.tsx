@@ -6,8 +6,14 @@ import Link from 'next/link'; // <-- Add this at the top with other imports
 import Questionnaire from '@/components/Questionnaire';
 
 
-export default async function BlogPostPage(props: { params: { slug: string } }) {
-  const { slug } = props.params; // ✅ destructuring ile safe kullanım
+interface BlogPageProps {
+  params: {
+    slug: string;
+  };
+}
+
+export default async function Page({ params }: BlogPageProps) {
+  const { slug } = params;
   const post = getPostBySlug(slug);
   if (!post) return notFound();
 
