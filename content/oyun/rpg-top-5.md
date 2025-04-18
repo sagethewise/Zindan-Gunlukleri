@@ -1,7 +1,7 @@
 ---
 title: "Top 5 Fantasy RPGs of 2025"
 date: "2025-04-01"
-excerpt: "Explore immersive worlds and epic storytelling with these standout RPGs."
+summary: " Top 5 Oyun"
 tags: ["RPG", "Games"]
 slug: "top-5"
 coverImage: ""
