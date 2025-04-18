@@ -1,4 +1,4 @@
-import { ReactNode } from "react";
+
 
 // src/lib/types.ts
 export interface PostMetadata {
@@ -15,7 +15,7 @@ export type Post = {
   slug: string;
   content: string;
   metadata: {
-    summary: ReactNode;
+    summary: string;
     title: string;
     date: string;
     tags?: string[];

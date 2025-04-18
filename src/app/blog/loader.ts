@@ -19,13 +19,14 @@ function readPostsFrom(dir: string, type: 'oyun' | 'build'): Post[] {
       slug,
       content,
       metadata: {
+        summary: data.summary || "",  
         title: data.title,
         date: data.date,
         tags: data.tags || [],
         category: data.category || '',
         coverImage: data.coverImage || '',
         readingTime: data.readingTime || '',
-        type, // <-- bu eklenmiş hali
+        type: type === "build" ? "oyun" : type
       },
     };
   });
