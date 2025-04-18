@@ -31,7 +31,7 @@ export function getAllPosts(): Post[] {
           coverImage: data.coverImage || '',
           readingTime: data.readingTime || '',
           type: dir === 'gundem' ? 'gundem' : 'oyun',
-          summary: undefined,
+          summary: typeof data.summary === "string" ? data.summary : "",
             featured: data.featured || false,
         },
       });
