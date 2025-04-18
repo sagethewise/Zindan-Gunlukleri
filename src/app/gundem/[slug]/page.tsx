@@ -5,17 +5,22 @@ import Link from 'next/link';
 import Image from "next/image";
 
 
-export default async function GundemPostPage({ params }: { params: { slug: string } }) {
-  const post = getPostBySlug(params.slug);
+export default async function Page({
+  params,
+}: {
+  params: Promise<{ slug: string }>;
+}) {
+  const { slug } = await params;
 
+  const post = await getPostBySlug(slug);
   if (!post) return notFound();
 
   const contentHtml = await markdownToHtml(post.content);
 
   return (
     <main className="max-w-3xl mx-auto px-6 py-20">
-        <Link href="/blog" className="text-sm text-green-600 hover:underline mb-6 inline-block">
-    ← Blog&apos;a Dön
+        <Link href="/gundem" className="text-sm text-green-600 hover:underline mb-6 inline-block">
+    ← Gündem&apos;e Dön
   </Link>
       {post.metadata.coverImage && (
         <Image
