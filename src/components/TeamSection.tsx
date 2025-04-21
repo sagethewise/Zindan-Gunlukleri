@@ -15,17 +15,17 @@ const team: TeamMember[] = [
   {
     name: "Gülçi",
     role: "Video Editörü & Hikâye Yazarı",
-    avatar: "/avatars/gülçi.png",
+    avatar: "/images/gülçi.png",
   },
   {
     name: "Mufux",
     role: "Lore Danışmanı & Karakter Tasarımcısı",
-    avatar: "/avatars/mufux.png",
+    avatar: "/images/mufux.png",
   },
   {
     name: "Sabyricon",
     role: "Müzik Danışmanı & Para Babası",
-    avatar: "/avatars/sabyricon.png",
+    avatar: "/images/sabyricon.png",
   },
 ];
 
