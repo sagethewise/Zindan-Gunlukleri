@@ -21,7 +21,7 @@ export default function HomePage() {
     <main className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8 space-y-12">
       
       {/* 🖼️ Banner Section */}
-      <section className="relative w-full aspect-[16/9] rounded-xl overflow-hidden">
+      <section className="relative w-full h-64 md:h-80 rounded-lg overflow-hidden mb-2">
         <div
           className="absolute inset-0 bg-cover bg-center"
           style={{ backgroundImage: "url('/images/homepage.jpg')" }}
