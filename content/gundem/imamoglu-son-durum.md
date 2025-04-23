@@ -6,7 +6,7 @@ summary: "Son gelişmeler burada..."
 category: "Adalet"
 tags: ["İstanbul", "Belediye"]
 coverImage: '/images/imamoglu.webp'
-readingTime: '3 dakika'
+readingTime: '10 dakika'
 ---
   
 
