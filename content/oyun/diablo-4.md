@@ -3,8 +3,8 @@ title: "Diablo 4"
 date: "2025-04-05"
 featured: true
 summary: "Diablo İnceleme."
-tags: ["RPG", "battle.net", "Oyun"]
-slug: "diablo"
+tags: ["RPG", "battle.net", "Oyun, hacknslash"]
+slug: "diablo-4"
 coverImage: "/images/diablo4.jpg"
 readingTime: "5 dakikalık okuma"
 category: "Oyun"
