@@ -3,7 +3,7 @@ title: "Adaletin Sessiz Çığlığı"
 date: "2025-04-12"
 featured: true
 summary: "Hukuk, bir toplumun temelidir. Adalet duygusu zedelenirse, devletle birey arasındaki güven sarsılır. Ne yazık ki Türkiye, uzun zamandır bu temel ilkeyi kaybetmiş durumda. Hukuk sistemi, yürütmeyi denetlemek yerine onun gölgesinde hareket ediyor. Anayasa Mahkemesi kararlarının uygulanmadığı, Avrupa İnsan Hakları Mahkemesi kararlarının yok sayıldığı, yerel mahkemelerin iktidar talimatlarıyla karar verdiği bir düzende yaşıyoruz."
-category: "Siyaset"
+category: "Adalet"
 tags: ["Adalet", "Türkiye", "Demokrasi", "İnsan Hakları", "Gündem"]
 coverImage: "/images/themis.webp"
 readingTime: "10 dakikalık okuma"
