@@ -46,17 +46,17 @@ export default function BlogClient({ posts }: { posts: Post[] }) {
 </section>
 
       {/* Filters - sticky bar */}
-      <div className="mb-2 sticky top-[76px] z-30 bg-white/80  border-gray-200">
+      <div className="mb-2 sticky top-[76px] z-30 bg-white/80 backdrop-blur border-b border-gray-200">
         <div className="max-w-7xl mx-auto px-4 py-4">
           <div className="mb-2 flex flex-wrap justify-center gap-2">
             {allCategories.map((cat, index) => (
               <button
                 key={`cat-${cat}-${index}`}
-                onClick={() => setActiveCategory(cat === activeCategory ? null : cat || null)}
+                onClick={() => setActiveCategory(cat === activeCategory ? null : (cat ?? null))}
                 className={`px-4 py-1 text-sm font-medium rounded-full transition ${
                   cat === activeCategory
                     ? "bg-green-700 text-white"
-                    : "bg-gray-100 text-gray-800 hover:bg-green-100 "
+                    : "bg-gray-100 text-gray-800 hover:bg-green-100"
                 }`}
               >
                 {cat}
@@ -71,7 +71,7 @@ export default function BlogClient({ posts }: { posts: Post[] }) {
                 className={`px-3 py-1 text-sm rounded-full border transition ${
                   tag === activeTag
                     ? "bg-green-600 text-white"
-                    : "border-gray-300 text-gray-600 hover:bg-green-50 dark:border-gray-600 dark:text-gray-200 dark:hover:bg-green-800"
+                    : "border-gray-300 text-gray-600 hover:bg-green-50"
                 }`}
               >
                 #{tag}
