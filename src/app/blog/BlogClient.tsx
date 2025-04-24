@@ -88,7 +88,7 @@ export default function BlogClient({ posts }: { posts: Post[] }) {
       <select
         value={sortOrder}
         onChange={(e) => setSortOrder(e.target.value as 'newest' | 'oldest')}
-        className="text-sm px-3 py-2 border border-gray-300 rounded-md bg-white dark:bg-gray-800 dark:text-white"
+        className="text-sm px-3 py-2 border border-gray-300 rounded-md bg-white"
       >
         <option value="newest">🆕 En Yeni</option>
         <option value="oldest">📜 En Eski</option>
