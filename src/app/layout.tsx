@@ -2,6 +2,7 @@ import './globals.css';
 import { ReactNode } from 'react';
 import Header from '@/components/Header';
 import Footer from '@/components/Footer';
+import { Analytics } from "@vercel/analytics/react"
 
 export const metadata = {
   title: 'Zindan Günlükleri',
@@ -13,6 +14,7 @@ export default function RootLayout({ children }: { children: ReactNode }) {
     <html lang="en" suppressHydrationWarning>
       <body>
   <Header />
+  <Analytics/>
   {children}
   <Footer />
       </body>
