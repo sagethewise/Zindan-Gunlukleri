@@ -6,6 +6,7 @@ import { Post } from './types';
 export function getAllPosts(): Post[] {
   const contentDirs = ['oyun', 'gundem'];
   const allPosts: Post[] = [];
+  console.log(allPosts.map(p => `${p.metadata.date} - ${p.slug}`));
 
   for (const dir of contentDirs) {
     const fullPath = path.join(process.cwd(), 'content', dir);
@@ -38,7 +39,14 @@ export function getAllPosts(): Post[] {
     }
   }
 
-  return allPosts.sort((a, b) => Date.parse(b.metadata.date) - Date.parse(a.metadata.date));
+  return allPosts.sort((a, b) => {
+    const dateA = Date.parse(a.metadata.date || '');
+    const dateB = Date.parse(b.metadata.date || '');
+    if (isNaN(dateA)) return 1;
+    if (isNaN(dateB)) return -1;
+    return dateB - dateA;
+  });
+  
 }
 
 export function getPostBySlug(slug: string): Post | null {

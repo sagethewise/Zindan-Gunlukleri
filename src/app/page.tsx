@@ -1,25 +1,19 @@
 import { getAllPosts } from '@/lib/posts';
 import LatestSlider from '@/components/LatestSlider';
+import { Post } from '@/lib/types';
 
-export default function HomePage() {
-  const allPosts = getAllPosts();
+export const revalidate = 60; // 60 saniyede bir revalidate et
 
-  const featuredPosts = allPosts
+export default async function HomePage() {
+  const posts: Post[] = getAllPosts(); // çünkü local dosyadan synchronous geliyor
+
+  const featuredPosts = posts
     .filter((post) => post.metadata.featured)
-    .sort(
-      (a, b) =>
-        new Date(b.metadata.date).getTime() - new Date(a.metadata.date).getTime()
-    )
+    .sort((a, b) => new Date(b.metadata.date).getTime() - new Date(a.metadata.date).getTime())
     .slice(0, 5);
-
-  console.log("🧾 Tüm Postlar:", allPosts.map(p => ({
-    title: p.metadata.title,
-    featured: p.metadata.featured
-  })));
 
   return (
     <main className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8 space-y-12">
-      
       {/* 🖼️ Banner Section */}
       <section className="relative w-full h-64 md:h-80 rounded-lg overflow-hidden mb-2">
         <div
@@ -33,7 +27,6 @@ export default function HomePage() {
       <section className="relative z-20">
         <LatestSlider posts={featuredPosts} />
       </section>
-      
     </main>
   );
 }

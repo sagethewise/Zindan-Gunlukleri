@@ -1,6 +1,7 @@
 ---
-title: "The Elder Scrolls IV: Oblivion Tanıtımı"
+title: "The Elder Scrolls IV: Oblivion Remastered Tanıtımı"
 date: "2025-04-23"
+featured: true
 summary: "Bethesda'nın efsanevi RPG oyunu **Oblivion**, 2025 yılında modern grafiklerle ve yenilenmiş sistemlerle karşımıza çıktı! Bu remastered versiyon, hem nostalji yaşamak isteyen veteran oyunculara hem de yeni keşfedenlere büyüleyici bir deneyim sunuyor."
 category: "Oyun"
 tags: ["PoE", "RPG", "oyun"]

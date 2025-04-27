@@ -1,6 +1,7 @@
 ---
 title: "Path of Exile Başlangıç Rehberi"
 date: "2025-04-10"
+featured: true
 summary: "RPG dünyasına hızlı bir giriş yapmak isteyenler için Path of Exile rehberi."
 category: "Oyun"
 tags: ["PoE", "ARPG", "oyun", "hacknslash"]

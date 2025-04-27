@@ -1,6 +1,7 @@
 ---
 title: "The Elder Scrolls IV: Oblivion Tanıtımı"
 date: "2025-04-23"
+featured: true
 summary: "The Elder Scrolls IV: Oblivion_**, Bethesda Game Studios tarafından geliştirilen ve 2006 yılında yayımlanan, RPG türünün mihenk taşlarından biridir. Elder Scrolls serisinin üçüncü oyunu olan **Morrowind**’in ardından gelmiş, beşinci oyun olan **Skyrim**’den önce çıkmıştır."
 category: "Oyun"
 tags: ["PoE", "RPG", "oyun"]
