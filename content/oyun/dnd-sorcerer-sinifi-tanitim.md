@@ -180,7 +180,7 @@ category: "D&D"
 - Normalde "1 action" süren bir büyüyü **1 bonus action** ile yapmanı sağlar.
 - Aynı turda büyü + saldırı veya iki büyü kombinasyonu yapmak mümkün olur (ancak ikinci büyü sadece cantrip olabilir).
 #### **Subtle Spell:** 
-- Büyüyü **komponent (konuşma veya el hareketi)** olmadan yaparsın.
+- Büyüyü **konuşma veya el hareketi** olmadan yaparsın. 
 - Sessiz veya görünmeden büyü yapmak için kullanılır. (Özellikle büyü yasaklı ortamlarda.)
 ####  **Twinned Spell:** 
 - Hedefi tek bir yaratık olan bir büyüyü **aynı anda iki yaratığa** yönlendirirsin.
