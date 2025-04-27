@@ -13,22 +13,23 @@ category: "D&D"
 ## ❤️ Hit Points
 - **Hit Die:** 1d6 per Sorcerer level
 - **Starting Hit Points:** 6 + Constitution modifier
-- **Hit Points at Higher Levels:** 1d6 (or 4) + Constitution modifier per Sorcerer level after 1st
+- **Hit Points at Higher Levels:** 1. seviyeden sonra her bir seviye atlamada 1d6 (or 4) + Constitution modifier
 ---
 
 ## 🛡️ Proficiencies
-- **Armor:** None
+- **Armor:** -
 - **Weapons:** Daggers, darts, slings, quarterstaffs, light crossbows
-- **Tools:** None
+- **Tools:** -
 - **Saving Throws:** Constitution, Charisma
-- **Skills:** Choose two from Arcana, Deception, Insight, Intimidation, Persuasion, Religion
+- **Skills:** *"Arcana, Deception, Insight, Intimidation, Persuasion, Religion"* seçeneklerinden 2 tanesini seçin
 ---
 
 ## 🎒 Equipment
-- Light crossbow and 20 bolts or any simple weapon
-- Component pouch or arcane focus
-- Dungeoneer's pack or explorer's pack
-- Two daggers
+- Bir light crossbow ve 20 bolt veya herhangi bir simple weapon
+- Bir component pouch veya bir arcane focus
+- Bir dungeoneer's pack veya bir explorer's pack
+- İki dagger
+
 ---
 ## 🪄 Class Features
 
