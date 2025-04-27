@@ -8,17 +8,17 @@ type TeamMember = {
 
 const team: TeamMember[] = [
   {
-    name: "Aslı",
+    name: "Renee",
     role: "Dungeon Master & Oyuncu",
     image: "/images/asli.jpeg",
   },
   {
-    name: "Gülçi",
+    name: "Gülçüyow",
     role: "Video Editörü & Hikâye Yazarı",
     image: "/images/gülçi.png",
   },
   {
-    name: "Mufux",
+    name: "Mufuks",
     role: "Lore Danışmanı & Karakter Tasarımcısı",
     image: "/images/mufux.png",
   },

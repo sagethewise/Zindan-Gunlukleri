@@ -190,6 +190,17 @@ category: "D&D"
 
 ## 📜 Sorcerer Spell List
 
+Sorcerer büyüleri genellikle doğrudan etki, elemental hasar ve koruma üstüne kurulu.
+Büyülerin tamamı Charisma modifiyeri ile çalışır. Spellcasting ana yeteneğin Charisma’dır.
+
+Sorcerer, büyülerini bilme sistemiyle yönetir:
+
+Büyüleri ezberler (prepared değil), belli sayıda büyü bilir ve slotlarla kullanır.
+
+Büyü öğrenimi karakter seviyesiyle sınırlıdır (önceden verilen tabloda vardı).
+
+Şimdi kitapta yazdığı gibi, seviye seviye büyüleri net bir liste halinde vereceğim:
+
 ### ✨ Cantrips
 - Acid Splash, Blade Ward, Chill Touch, Dancing Lights, Fire Bolt, Friends, Light, Mage Hand, Mending, Message, Minor Illusion, Poison Spray, Prestidigitation, Ray of Frost, Shocking Grasp, True Strike
 
@@ -219,3 +230,88 @@ category: "D&D"
 
 ### 🕰️ 9th-Level
 - Gate, Meteor Swarm, Power Word Kill, Time Stop, Wish
+
+---
+
+## 🎯 Sorcerer Büyü Stili Özeti
+
+Sorcerer büyüleri birkaç ana hatta toplanır.
+Oyunda Sorcerer şöyle bir "rol" oynar:
+
+### 🚀 Patlayıcı Hasar (Burst Damage)
+Sorcerer’ın en bilinen tarafı: kısa sürede yüksek hasar vermek.
+
+Özellikle:
+
+Fireball (3rd-level): 20-foot yarıçapında dev bir patlama, yüksek alan hasarı.
+
+Lightning Bolt (3rd-level): Doğrusal hasar, dar koridorlarda inanılmaz etkilidir.
+
+Meteor Swarm (9th-level): Oyundaki en yüksek patlayıcı büyü. Tek atışta savaş bitebilir.
+
+> Klasik Sorcerer oynanışı:
+→ Alanı temizlemek için büyü at, sonra kaç.
+→ Hızlı sonuç almak istersin. Uzun uzun dövüşmezsin.
+
+### 🌀 Kontrol ve Kaos
+Sorcerer saf hasar makinesi değildir.
+Bazı büyüler kontrol, kargaşa yaratma ve düşmanları etkisiz bırakma odaklıdır.
+
+Özellikle:
+
+Hold Person (2nd-level): Düşmanı felç ederek onu savunmasız hale getirir.
+
+Hypnotic Pattern (3rd-level): Çok geniş bir alanı etkiler, rakipleri büyülenmiş gibi yere çökertir.
+
+Banishment (4th-level): Özellikle ekstra planar düşmanları direkt savaştan çıkarır.
+
+> Oyun tarzı:
+→ Kritik anda rakibi devre dışı bırak.
+→ Zor savaşları kolaylaştır.
+
+### ⚡ Mobilite ve Hız
+Sorcerer hayatta kalmak için hareket kabiliyetine ihtiyaç duyar.
+Çünkü:
+
+AC düşük. (Barbar gibi tank değilsin.)
+
+Hit point az. (Fighter gibi dayağa dayanamazsın.)
+
+Özellikle:
+
+Misty Step (2nd-level): Bonus action ile 30 feet ışınlanmak. Savaştan kaçış için harika.
+
+Fly (3rd-level): Uçarak yakın dövüşçülerden kurtulursun.
+
+Teleport (7th-level): Partiyi hızlıca başka yere taşırsın.
+
+> Oyun tarzı:
+→ Her zaman hareket etmeye hazır ol.
+→ "Sabit kalırsan ölürsün" mentalitesi.
+
+### 🧙‍♂️ Büyü Gücünü Kişiselleştirme
+Metamagic sistemi sayesinde Sorcerer, büyülerini "özelleştirme" şansına sahiptir.
+Bu onu diğer büyücülerden (Wizard, Warlock) ayırır.
+
+Özellikle:
+
+Quickened Spell: Normalde 1 action büyüyü 1 bonus action’a çevirir. Aynı turda iki büyük hareket yapabilirsin.
+
+Twinned Spell: Tek hedefli büyüleri çift hedefe uygularsın. (Örneğin iki kişiye Haste!)
+
+> Oyun tarzı:
+→ Büyülerini durumlara göre şekillendir.
+→ "Standart büyü at" değil, "doğru büyüyü doğru anda at."
+
+### 🔥 Dayanıklılık ve Savunma
+Sorcerer büyüleri doğrudan savunmaya çok odaklı değildir, ama birkaç kritik büyüsü vardır:
+
+Shield (1st-level): +5 AC anlık olarak, saldırıyı kaçırdırabilir.
+
+Globe of Invulnerability (6th-level): Alt seviye büyüleri engelleyen koruyucu alan.
+
+Counterspell (3rd-level): Başka bir büyücünün büyüsünü direkt iptal etme.
+
+> Oyun tarzı:
+→ Büyüye karşı büyü.
+→ Savunma yapmak zorunda kalırsan, anlık ve sert ol.
