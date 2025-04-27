@@ -3,7 +3,7 @@ import { getPostBySlug } from "@/lib/posts";
 import { markdownToHtml } from "@/lib/markdownToHtml";
 import { notFound } from "next/navigation";
 import Link from "next/link";
-import Questionnaire from "@/components/Questionnaire";
+import Questionnairednd from "@/components/Questionnairednd";
 
 export default async function Page({
   params,
@@ -59,7 +59,7 @@ export default async function Page({
         <div dangerouslySetInnerHTML={{ __html: contentHtml }} />
       </article>
 
-      <Questionnaire />
+      <Questionnairednd />
     </main>
   );
 }
