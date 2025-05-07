@@ -19,7 +19,7 @@ slug: "gazze"
 ---
 ## 🕯️ Bir Rakam Değil, Bir Çığlık: 52.000 Ölü
 
-Birleşmiş Milletler’in verilerine göre 2023 Ekim’inden bu yana Gazze’de en az 52.567 insan hayatını kaybetti.Bunlardan yaklaşık 27 bini çocuk. Bu sayı, tüm Avrupa’da bir ilkokul neslinin yok olması demek.Yaralı sayısı 118.610. Ama bu sadece fiziksel yaralar. Psikolojik yıkımın ölçüsü yok.
+Birleşmiş Milletler’in verilerine göre 2023 Ekim’inden bu yana Gazze’de en az **52.567** insan hayatını kaybetti.Bunlardan yaklaşık **27 bini çocuk**. Bu sayı, tüm Avrupa’da bir ilkokul neslinin yok olması demek.Yaralı sayısı 118.610. Ama bu sadece fiziksel yaralar. Psikolojik yıkımın ölçüsü yok.
 
 ---
 
@@ -42,17 +42,17 @@ Birleşmiş Milletler’in verilerine göre 2023 Ekim’inden bu yana Gazze’de
 
 Cenevre Sözleşmeleri, sivillerin savaş sırasında yerinden edilmesini, aç bırakılmasını, hedef alınmasını açıkça yasaklar.Bu bağlamda:
 
-- Zorla göç ettirme = savaş suçu
+- **Zorla göç ettirme** = savaş suçu
 
-- Kasıtlı nüfus azaltma ve hedef alma = insanlığa karşı suç
+- **Kasıtlı nüfus azaltma ve hedef alma** = insanlığa karşı suç
 
-- Sivil kampları sistematik olarak vurmak = etnik temizlik
+- **Sivil kampları sistematik olarak vurmak** = etnik temizlik
 
 Daha çarpıcı ifade etmek gerekirse:
 
 > “Bunlar rastgele değil. Bunlar bir planın parçaları.”
 
-Uluslararası Ceza Mahkemesi'nde (UCM), Güney Afrika’nın sunduğu “soykırım teşebbüsü” davası devam ediyor.İlk bulgular, İsrail’in sivilleri kasıtlı olarak sistematik şekilde hedef aldığına işaret ediyor.
+Uluslararası Ceza Mahkemesi'nde (UCM), Güney Afrika’nın sunduğu **“soykırım teşebbüsü”** davası devam ediyor.İlk bulgular, İsrail’in sivilleri kasıtlı olarak sistematik şekilde hedef aldığına işaret ediyor.
 
 ---
 ## 📺 Ana Akım Medya: Gerçeğin Sessiz Tanığı mı, Beyazlatıcısı mı?
@@ -68,7 +68,7 @@ Oysa ortada eşit iki taraf yok.Biri kuşatılmış, elektriği kesilmiş, aç b
 ---
 ## 🗺️ Tarihle Yüzleşme: Bu, Nakba'nın Devamıdır
 
-Gazze’de bugün yaşananlar, 1948'deki Nakba'nın devamı.O zaman da binlerce Filistinli evlerinden sürüldü, öldürüldü, mülksüzleştirildi.Bugün onların torunları, yeni bir Nakba’yla —belki de bir son— karşı karşıya.
+Gazze’de bugün yaşananlar, 1948'deki Nakba'nın devamı.O zaman da binlerce Filistinli evlerinden sürüldü, öldürüldü, mülksüzleştirildi.Bugün onların torunları, yeni bir Nakba’yla —**belki de bir son ile** — karşı karşıya.
 
 “Onlara kuzeye gidin dediler. Sonra güneye. Şimdi güneyi bombalıyorlar.”—Save the Children Gazze saha raporundan
 
@@ -88,9 +88,9 @@ Bu da uluslararası hukuk mekanizmalarının, ahlaki değil, jeopolitik hesaplar
 
 ### 🟥 İnsan Hakları İzleme Örgütü (HRW)
 
-HRW, İsrail’in uygulamalarını “zorla yerinden etme ve etnik temizlik” düzeyinde değerlendirdi.
+HRW, İsrail’in uygulamalarını **“zorla yerinden etme ve etnik temizlik”** düzeyinde değerlendirdi.
 
-Ayrıca, İsrail’in “güvenli bölge” söyleminin, sivil hedeflerin kasıtlı olarak manipülasyonla bombalanmasına zemin hazırladığına dikkat çekti.
+Ayrıca, İsrail’in *“güvenli bölge”* söyleminin, sivil hedeflerin **kasıtlı** olarak *manipülasyonla bombalanmasına* zemin hazırladığına dikkat çekti.
 
 ### 🇹🇷 Türkiye: Öfke Sokağa, Sessizlik Zirveye Taşınıyor
 
@@ -100,11 +100,11 @@ Türkiye'de kamuoyu öfkeli. Her gün yeni protestolar düzenleniyor, özellikle
 - Cumhurbaşkanı Erdoğan sert açıklamalar yapıyor: “İsrail terör devletidir.”
 
 Ancak:  
-- ❌ Diplomatik ilişkiler devam ediyor  
-- ❌ Ekonomik yaptırımlar uygulanmıyor  
-- ❌ Anlaşmalar askıya alınmadı
+- ❌ **Diplomatik ilişkiler devam ediyor** 
+- ❌ **Ekonomik yaptırımlar uygulanmıyor**  
+- ❌ **Anlaşmalar askıya alınmadı**
 
-" ***Ne İsrail’le diplomatik ilişkiler askıya alındı, ne ekonomik yaptırımlar gündeme geldi, ne de Mavi Marmara sonrası imzalanan anlaşmalar askıya alındı.***"
+"***Ne İsrail’le diplomatik ilişkiler askıya alındı, ne ekonomik yaptırımlar gündeme geldi, ne de Mavi Marmara sonrası imzalanan anlaşmalar askıya alındı.***"
 
 > “Türkiye'nin öfkesi sokakta, ama Ankara suskun.”  
 > —İnsan hakları aktivisti Rojda E. (Ankara, 2025)
@@ -112,7 +112,7 @@ Ancak:
 
 ## 📣 Son Söz: Tarafsızlık Maskesiyle Kayıtsızlık Normalleştiriliyor
 
-Gazetecilik gerçekleri söylemekse, işte gerçek:Gazze’de insanlar, göz göre göre öldürülüyor.
+Gazetecilik gerçekleri söylemekse, işte gerçek: Gazze’de insanlar, göz göre göre öldürülüyor.
 
 Bu savaş değil. Bu, bir halkı haritadan silme teşebbüsüdür.
 

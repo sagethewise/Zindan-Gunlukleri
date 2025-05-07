@@ -2,7 +2,7 @@
 
 import Link from "next/link";
 import { FaInstagram, FaYoutube } from "react-icons/fa";
-import { SiBluesky } from "react-icons/si";
+
 
 const Footer = () => {
   return (
