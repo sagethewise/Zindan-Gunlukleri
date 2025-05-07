@@ -34,7 +34,7 @@ const Footer = () => {
           </label>
           <div className="flex gap-4 text-xl text-gray-500">
             <Link
-              href="https://instagram.com"
+              href="https://www.instagram.com/zindan_gunlukleri/"
               target="_blank"
               rel="noopener noreferrer"
               className="hover:text-brand"
@@ -49,14 +49,7 @@ const Footer = () => {
             >
               <FaYoutube />
             </Link>
-            <Link
-              href="https://bsky.app"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="hover:text-brand"
-            >
-              <SiBluesky />
-            </Link>
+
           </div>
         </div>
       </div>
