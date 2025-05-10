@@ -20,12 +20,12 @@ const team: TeamMember[] = [
   {
     name: "Mufuks",
     role: "Karakter Tasarımı & Lore Master",
-    image: "/images/Mufuks.png",
+    image: "/images/mufuks.png",
   },
   {
     name: "Sabyricon",
     role: "Müzik Danışmanı & Bodyguard",
-    image: "/images/Sabyricon.png",
+    image: "/images/sabyricon.png",
   },
 ];
 
