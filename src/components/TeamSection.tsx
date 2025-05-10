@@ -9,23 +9,23 @@ type TeamMember = {
 const team: TeamMember[] = [
   {
     name: "Renee",
-    role: "Dungeon Master & Oyuncu",
-    image: "/images/asli.jpeg",
+    role: "Oyuncu & Wild Sorcerer",
+    image: "/images/renee.png",
   },
   {
     name: "Gülçüyow",
-    role: "Video Editörü & Hikâye Yazarı",
-    image: "/images/gülçi.png",
+    role: "Hikâye Yazarı & Bard ",
+    image: "/images/Gülçüyow.png",
   },
   {
     name: "Mufuks",
-    role: "Lore Danışmanı & Karakter Tasarımcısı",
-    image: "/images/mufux.png",
+    role: "Karakter Tasarımı & Lore Master",
+    image: "/images/Mufuks.png",
   },
   {
     name: "Sabyricon",
-    role: "Müzik Danışmanı & Para Babası",
-    image: "/images/sabyricon.png",
+    role: "Müzik Danışmanı & Bodyguard",
+    image: "/images/Sabyricon.png",
   },
 ];
 
