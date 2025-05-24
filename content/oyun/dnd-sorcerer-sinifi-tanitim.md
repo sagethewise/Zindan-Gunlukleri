@@ -184,7 +184,7 @@ category: "D&D"
 - Sessiz veya görünmeden büyü yapmak için kullanılır. (Özellikle büyü yasaklı ortamlarda.)
 ####  **Twinned Spell:** 
 - Hedefi tek bir yaratık olan bir büyüyü **aynı anda iki yaratığa** yönlendirirsin.
-- İkincil hedef için spell slot harcamazsın, sadece sorcery points harcarsın.
+-  , sadece sorcery points harcarsın.
 - Çok etkili büyülerle (örneğin Haste, Polymorph) çok güçlü hale gelir.
 ---
 

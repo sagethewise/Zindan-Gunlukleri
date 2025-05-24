@@ -14,7 +14,7 @@ const team: TeamMember[] = [
   },
   {
     name: "Gülçüyow",
-    role: "Hikâye Yazarı & Bard ",
+    role: "Hikâye Yazarı & Bard/Rogue ",
     image: "/images/Gülçüyow.png",
   },
   {
@@ -24,7 +24,7 @@ const team: TeamMember[] = [
   },
   {
     name: "Sabyricon",
-    role: "Müzik Danışmanı & Bodyguard",
+    role: "Müzik Danışmanı & Fighter",
     image: "/images/sabyricon.png",
   },
 ];

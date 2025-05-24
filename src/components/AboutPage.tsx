@@ -7,17 +7,22 @@ import TeamSection from "./TeamSection";
 
 export default function AboutPage() {
   return (
-    <main className="max-w-6xl mx-auto px-4 py-12 text-gray-800 ">
+    <main className="max-w-4xl mx-auto px-2 py-6 text-gray-800 ">
       {/* 🖼️ Banner Section */}
-      <section className="relative w-full h-64 md:h-80 rounded-lg overflow-hidden mb-12">
-        {/* Background image */}
-        <div
-          className="absolute inset-0 bg-cover bg-center"
-          style={{ backgroundImage: "url('/images/dungeon-dairies.png')" }}
+      <section className="w-full h-64 md:h-80 flex items-center justify-center mb-0 rounded-lg overflow-hidden bg-no-repeat bg-center bg-contain"
+         style={{ backgroundImage: "url('/images/1920x260.png')" }}>
+        {/* Tüm alanı kaplayan tıklanabilir katman */}
+        <Link
+          href="https://www.youtube.com/@gg_asli"     /* kanal URL’i */
+          target="_blank"
+          rel="noopener noreferrer"
+          aria-label="Zindan Günlükleri YouTube kanalına git"
+          className="absolute inset-0 z-10 cursor-pointer"
         />
+        {/* İsterseniz üzerine ekstra metin / buton ekleyebilirsiniz */}
 
         {/* Dark overlay */}
-        <div className="absolute inset-0 bg-gradient-to-t from-white/40 via-white/20 to-transparent backdrop-sm z-10" />
+        {/* <div className="absolute inset-0 bg-gradient-to-t from-white/40 via-white/20 to-transparent backdrop-sm z-10" />*/}
       </section>
 
       <h1 className="text-4xl font-bold mb-6">🧙‍♂️ Hakkımızda</h1>
@@ -37,7 +42,7 @@ export default function AboutPage() {
         🎲 FRP rehberleri, <br />
         📚 oyun dünyasına dair analizler, <br />
         🧩 sistem önerileri, <br />
-        ve 🧵 kampanya fikirleri bulacaksınız.
+        ve 🧵 Quest fikirleri bulacaksınız.
       </p>
       <h2 className="text-2xl font-semibold mt-10 mb-4">
         🎥 YouTube&apos;da Bizimle Derinlere Dal
