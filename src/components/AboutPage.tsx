@@ -9,19 +9,22 @@ export default function AboutPage() {
   return (
     <main className="max-w-4xl mx-auto px-2 py-6 text-gray-800 ">
       {/* 🖼️ Banner Section */}
-      <section className="w-full h-64 md:h-80 flex items-center justify-center mb-0 rounded-lg overflow-hidden bg-no-repeat bg-center bg-contain"
-         style={{ backgroundImage: "url('/images/1920x260.png')" }}>
-        {/* Tüm alanı kaplayan tıklanabilir katman */}
-        <Link
-          href="https://www.youtube.com/@gg_asli"     /* kanal URL’i */
-          target="_blank"
-          rel="noopener noreferrer"
-          aria-label="Zindan Günlükleri YouTube kanalına git"
-          className="absolute inset-0 z-10 cursor-pointer"
-        />
-        {/* İsterseniz üzerine ekstra metin / buton ekleyebilirsiniz */}
-
-        {/* Dark overlay */}
+<section
+  className="relative   /* <-- eklendi */
+             w-full h-64 md:h-80 flex items-center justify-center
+             mb-0 rounded-lg overflow-hidden
+             bg-no-repeat bg-center bg-contain"
+  style={{ backgroundImage: "url('/images/1920x260.png')" }}
+>
+  {/* Sadece banner alanını tıklanabilir yapar */}
+  <Link
+    href="https://www.youtube.com/@gg_asli"
+    target="_blank"
+    rel="noopener noreferrer"
+    aria-label="Zindan Günlükleri YouTube kanalına git"
+    className="absolute inset-0 cursor-pointer"
+  />
+             {/* Dark overlay */}
         {/* <div className="absolute inset-0 bg-gradient-to-t from-white/40 via-white/20 to-transparent backdrop-sm z-10" />*/}
       </section>
 
