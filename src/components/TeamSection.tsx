@@ -30,20 +30,24 @@ const team: TeamMember[] = [
 ];
 
 export default function TeamSection() {
-  return (
+return (
     <div className="w-full flex justify-center px-4">
       <div className="w-full max-w-6xl bg-white rounded-lg p-6 space-y-5">
         <h2 className="text-2xl font-semibold mb-5 text-center">👥 Yowbalamlar</h2>
+
         <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-8">
           {team.map((member, i) => (
-            <div key={i} className="bg-white rounded-lg shadow p-4 text-center">
+            <div
+              key={i}
+              className="bg-white rounded-lg shadow p-4 flex flex-col items-center text-center"
+            >
               {member.image && (
                 <Image
                   src={member.image}
                   alt={member.name}
                   width={96}
-                  height={128}
-                  className="rounded-full mb-4 object-cover"
+                  height={96}
+                  className="rounded-full mb-4 mx-auto object-cover"
                 />
               )}
               <h3 className="text-lg font-medium text-gray-800">{member.name}</h3>
