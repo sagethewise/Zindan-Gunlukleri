@@ -17,9 +17,10 @@ const Footer = () => {
             <Link href="/about" className="hover:text-brand transition">
               Hakkımızda
             </Link>
-            <Link href="/blog" className="hover:text-brand transition">
+            <Link href="/oyun" className="hover:text-brand transition">
               Oyun
             </Link>
+            <Link href="/videolar" className="text-gray-700 hover:text-green-600">Video</Link>
             <Link href="/gundem" className="hover:text-brand transition">
               Gündem
             </Link>

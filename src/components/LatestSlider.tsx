@@ -57,7 +57,7 @@ export default function LatestSlider({ posts }: { posts: Post[] }) {
             key={post.slug}
             className="w-[320px] h-[420px] relative group bg-white shadow-md rounded-2xl overflow-hidden"
           >
-            <Link href={`/blog/${post.slug}`} className="block w-full h-full relative">
+            <Link href={`/oyun/${post.slug}`} className="block w-full h-full relative">
               <div className="relative w-full h-52 overflow-hidden">
                 <Image
                   src={post.metadata.coverImage || '/images/default.jpg'}

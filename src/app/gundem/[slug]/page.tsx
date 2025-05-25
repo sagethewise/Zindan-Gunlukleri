@@ -20,7 +20,7 @@ export default async function Page({
   return (
     <main className="max-w-3xl mx-auto px-6 py-20">
         <Link href="/gundem" className="text-sm text-green-600 hover:underline mb-6 inline-block">
-    ← Gündem&apos;e Dön
+    ← Gündem Sayfasına Dön
   </Link>
       {post.metadata.coverImage && (
         <Image

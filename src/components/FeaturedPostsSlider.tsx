@@ -21,7 +21,7 @@ export default function FeaturedPostsSlider({ posts }: { posts: Post[] }) {
       <div ref={sliderRef} className="keen-slider">
         {posts.map((post) => (
           <div key={post.slug} className="keen-slider__slide bg-white dark:bg-gray-900 rounded-lg shadow overflow-hidden group">
-            <Link href={`/blog/${post.slug}`} className="block">
+            <Link href={`/oyun/${post.slug}`} className="block">
               <div className="relative w-full h-48">
                 <Image
                   src={post.metadata.coverImage || "/images/default.jpg"}

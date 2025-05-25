@@ -20,10 +20,10 @@ export default async function Page({
   return (
     <main className="max-w-3xl mx-auto px-6 py-20">
       <Link
-        href="/blog"
+        href="/oyun"
         className="text-sm text-green-600 hover:underline mb-6 inline-block"
       >
-        ← Blog&apos;a Dön
+        ← Oyun Sayfasına Dön
       </Link>
 
       {post.metadata.coverImage && (

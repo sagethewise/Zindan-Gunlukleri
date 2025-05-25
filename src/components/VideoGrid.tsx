@@ -13,7 +13,7 @@ export default function VideoGrid({ videos }: { videos: VideoItem[] }) {
           key={video.id}
           href={`https://www.youtube.com/watch?v=${video.id}`}
           target="_blank"
-          className="bg-white dark:bg-gray-900 rounded-lg overflow-hidden shadow hover:shadow-md transition flex flex-col"
+          className="bg-green-100 rounded-lg overflow-hidden shadow hover:shadow-md transition flex flex-col"
         >
           <div className="relative w-full aspect-video">
             <Image
@@ -32,9 +32,9 @@ export default function VideoGrid({ videos }: { videos: VideoItem[] }) {
                 YouTube
               </span>
             </div>
-            <h3 className="text-[13px] font-medium text-gray-900 dark:text-white line-clamp-2 leading-tight">
-              {video.title}
-            </h3>
+<h3 className="text-[13px] font-medium text-green-900 line-clamp-2 leading-tight">
+  {video.title}
+</h3>
             <p className="text-[11px] text-gray-500 flex items-center gap-1">
               <FaCalendarAlt className="text-[10px]" />
               {new Date(video.date).toLocaleDateString("tr-TR", {

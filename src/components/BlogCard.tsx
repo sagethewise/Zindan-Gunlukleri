@@ -14,7 +14,7 @@ interface BlogCardProps {
 }
 
 const BlogCard = ({ post, index = 0, className = '' }: BlogCardProps) => {
-  const linkPrefix = post.metadata.type === 'gundem' ? 'gundem' : 'blog';
+  const linkPrefix = post.metadata.type === 'gundem' ? 'gundem' : 'oyun';
 
   return (
     <motion.article
