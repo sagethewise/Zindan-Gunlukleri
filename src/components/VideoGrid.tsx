@@ -25,7 +25,7 @@ export default function VideoGrid({ videos }: { videos: VideoItem[] }) {
           </div>
           <div className="p-3 flex flex-col gap-1">
             <div className="flex gap-2 mb-1">
-              <span className="bg-gray-200 text-gray-800 text-[10px] px-2 py-0.5 rounded-full">
+              <span className="bg-gray-200 text-gray-900 text-[10px] px-2 py-0.5 rounded-full">
                 {video.category}
               </span>
               <span className="bg-red-600 text-white text-[10px] px-2 py-0.5 rounded-full">
