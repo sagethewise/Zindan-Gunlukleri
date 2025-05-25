@@ -6,10 +6,6 @@ import Link from "next/link";
 import { FaPlay } from "react-icons/fa";
 import { VideoItem } from "@/lib/youtube";
 
-const isNew = (dateStr: string) => {
-  const days = (Date.now() - new Date(dateStr).getTime()) / (1000 * 60 * 60 * 24);
-  return days <= 3;
-};
 
 const categories = ["Hepsi", "DnD", "BG3", "Diablo"];
 
@@ -35,7 +31,7 @@ const filtered: VideoItem[] = [...videos]
         </div>
         <Link
           href="/videolar"
-          className="text-sm text-red-600 font-semibold hover:underline"
+          className="text-sm text-green-800 font-semibold hover:underline"
         >
           Tümünü Gör →
         </Link>
@@ -68,12 +64,6 @@ const filtered: VideoItem[] = [...videos]
               target="_blank"
               className="relative rounded-xl overflow-hidden group aspect-video shadow-md hover:shadow-lg transition"
             >
-              {/* Yeni etiketi */}
-              {isNew(video.date) && (
-                <span className="absolute top-2 left-2 bg-green-500 text-white text-xs px-2 py-0.5 rounded-full z-20 shadow">
-                  Yeni
-                </span>
-              )}
 
               <Image
                 src={`https://img.youtube.com/vi/${video.id}/hqdefault.jpg`}
@@ -109,7 +99,7 @@ const filtered: VideoItem[] = [...videos]
               href={`https://www.youtube.com/watch?v=${video.id}`}
               key={video.id}
               target="_blank"
-              className="flex items-center gap-3 p-3 rounded-lg bg-white dark:bg-gray-900 shadow hover:shadow-md transition"
+              className="flex items-center gap-3 p-3 rounded-lg bg-green-100 shadow hover:shadow-md transition"
             >
               <Image
                 src={`https://img.youtube.com/vi/${video.id}/hqdefault.jpg`}
@@ -119,14 +109,14 @@ const filtered: VideoItem[] = [...videos]
                 className="rounded-md object-cover"
               />
               <div className="flex-1">
-                <p className="text-sm font-medium text-gray-800 dark:text-white line-clamp-1">
+                <p className="text-sm font-medium text-green-950 line-clamp-1">
                   {video.title}
                 </p>
-                <p className="text-xs text-gray-600 dark:text-gray-400 line-clamp-1">
+                <p className="text-xs text-green-900 line-clamp-1">
                   {video.description}
                 </p>
               </div>
-              <FaPlay className="text-gray-500 dark:text-white text-sm" />
+              <FaPlay className="text-gray-500 text-sm" />
             </Link>
           ))}
         </div>

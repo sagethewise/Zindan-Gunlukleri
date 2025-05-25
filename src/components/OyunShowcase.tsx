@@ -24,7 +24,7 @@ export default function OyunShowcase({ posts }: { posts: Post[] }) {
         </div>
         <Link
           href="/oyun"
-          className="text-sm text-green-600 font-semibold hover:underline"
+          className="text-sm text-purple-900 font-semibold hover:underline"
         >
           Tümünü Gör →
         </Link>
@@ -32,42 +32,44 @@ export default function OyunShowcase({ posts }: { posts: Post[] }) {
 
       <div className="flex flex-col md:flex-row gap-6">
         {/* Sol: Kartlar */}
-        <div className="grid sm:grid-cols-2 gap-4 flex-1">
-          {featured.map((post) => (
-            <Link
-              key={post.slug}
-              href={`/oyun/${post.slug}`}
-              className="bg-white dark:bg-gray-900 rounded-lg overflow-hidden shadow hover:shadow-md transition flex flex-col"
+<div className="grid sm:grid-cols-2 gap-4 flex-1">
+  {featured.map((post) => (
+    <Link
+      key={post.slug}
+      href={`/oyun/${post.slug}`}
+      className="relative rounded-xl overflow-hidden group aspect-video shadow-md hover:shadow-lg transition"
+    >
+      <Image
+        src={post.metadata.coverImage || "/images/default.jpg"}
+        alt={post.metadata.title}
+        fill
+        className="object-cover group-hover:scale-105 transition-transform"
+      />
+
+      <div className="absolute inset-0 bg-black/50 p-4 flex flex-col justify-end">
+        <div className="flex gap-2 mb-2 flex-wrap">
+          {(post.metadata.tags ?? []).slice(0, 2).map((tag) => (
+            <span
+              key={tag}
+              className="bg-white text-xs text-gray-900 px-2 py-0.5 rounded-full"
             >
-              <div className="p-3 flex flex-col gap-1">
-                <div className="flex gap-2 mb-1">
-                  {(post.metadata.tags ?? []).slice(0, 2).map((tag) => (
-                    <span
-                      key={tag}
-                      className="bg-gray-200 text-gray-800 text-[10px] px-2 py-0.5 rounded-full"
-                    >
-                      #{tag}
-                    </span>
-                  ))}
-                </div>
-                <h3 className="text-[13px] font-medium text-gray-900 dark:text-white line-clamp-2 leading-tight">
-                  {post.metadata.title}
-                </h3>
-                <p className="text-[11px] text-gray-500 flex items-center gap-1">
-                  <FaCalendarAlt className="text-[10px]" />
-                  {new Date(post.metadata.date).toLocaleDateString("tr-TR", {
-                    year: "numeric",
-                    month: "short",
-                    day: "numeric",
-                  })}
-                </p>
-                <p className="text-[11px] text-gray-500 line-clamp-2">
-                  {post.metadata.summary}
-                </p>
-              </div>
-            </Link>
+              #{tag}
+            </span>
           ))}
+          <span className="bg-green-600 text-xs text-white px-2 py-0.5 rounded-full">
+            Oyun
+          </span>
         </div>
+        <h3 className="text-white text-sm font-semibold line-clamp-2">
+          {post.metadata.title}
+        </h3>
+        <p className="text-gray-200 text-xs line-clamp-2">
+          {post.metadata.summary}
+        </p>
+      </div>
+    </Link>
+  ))}
+</div>
 
         {/* Sağ: Başlık listesi */}
         <div className="flex flex-col gap-3 w-full md:w-80 shrink-0">
@@ -75,7 +77,7 @@ export default function OyunShowcase({ posts }: { posts: Post[] }) {
             <Link
               key={post.slug}
               href={`/oyun/${post.slug}`}
-              className="flex items-center gap-3 p-3 rounded-lg bg-white dark:bg-gray-900 shadow hover:shadow-md transition"
+              className="flex items-center gap-3 p-3 rounded-lg bg-purple-100 shadow hover:shadow-md transition"
             >
               {post.metadata.coverImage && (
                 <Image
@@ -87,14 +89,14 @@ export default function OyunShowcase({ posts }: { posts: Post[] }) {
                 />
               )}
               <div className="flex-1">
-                <p className="text-sm font-medium text-gray-800 dark:text-white line-clamp-1">
+                <p className="text-sm font-medium text-purple-950 line-clamp-1">
                   {post.metadata.title}
                 </p>
-                <p className="text-xs text-gray-600 dark:text-gray-400 line-clamp-1">
+                <p className="text-xs text-purple-900 line-clamp-1">
                   {post.metadata.summary}
                 </p>
               </div>
-              <FaCalendarAlt className="text-gray-500 dark:text-white text-sm" />
+              <FaCalendarAlt className="text-gray-400  text-sm" />
             </Link>
           ))}
         </div>
