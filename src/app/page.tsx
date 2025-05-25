@@ -2,7 +2,7 @@ import { fetchYouTubeVideos } from "@/lib/youtube";
 import HeroBanner from "@/components/HeroBanner";
 import YouTubeShowcase from "@/components/YouTubeShowcase";
 import FooterBanner from "@/components/FooterBanner";
-import OyunShowcase from "@/components/OyunShowcase"; // ✅ doğru olan bu
+import OyunShowcase from "@/components/OyunShowcase";
 import { getAllPosts } from "@/lib/posts";
 
 export default async function HomePage() {
