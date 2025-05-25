@@ -4,7 +4,7 @@ import { useState } from 'react';
 import { Post } from '@/lib/types';
 import BlogCard from '@/components/BlogCard';
 import { AnimatePresence, motion } from 'framer-motion';
-
+import Image from "next/image";
 
 export default function GundemClient({ posts }: { posts: Post[] }) {
   const [activeTag, setActiveTag] = useState<string | null>(null);
@@ -34,13 +34,15 @@ export default function GundemClient({ posts }: { posts: Post[] }) {
       {/* 🖼️ Banner */}
      
      
-      <section className="relative w-full h-64 md:h-80 rounded-lg overflow-hidden mb-2">
-        <div
-          className="absolute inset-0 bg-cover bg-center"
-          style={{ backgroundImage: "url('/images/news.jpg')" }}
-        />
-        <div className="absolute inset-0 bg-white/20 backdrop-sm z-10" />
-      </section>
+      <section className="relative w-full rounded-lg overflow-hidden mb-2">
+      <Image
+          src="/images/gündem.png"
+          alt="Blog Banner"
+          width={1440}
+          height={600}
+          priority
+          className="object-cover object-center"
+        /> </section>
 
       {/* Filters */}
       <div className="mb-2 sticky top-[76px] z-30 bg-white/80 backdrop-blur border-b border-gray-200">

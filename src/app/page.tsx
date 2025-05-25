@@ -1,6 +1,7 @@
 import { getAllPosts } from '@/lib/posts';
 import LatestSlider from '@/components/LatestSlider';
 import { Post } from '@/lib/types';
+import Image from "next/image";
 
 export const revalidate = 60; // 60 saniyede bir revalidate et
 
@@ -13,15 +14,17 @@ export default async function HomePage() {
     .slice(0, 5);
 
   return (
-    <main className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8 space-y-12">
+    <main className="px-4 py-8 max-w-7xl mx-auto grid gap-6">
       {/* 🖼️ Banner Section */}
-      <section className="relative w-full h-64 md:h-80 rounded-lg overflow-hidden mb-2">
-        <div
-          className="absolute inset-0 bg-cover bg-center"
-          style={{ backgroundImage: "url('/images/homepage.jpg')" }}
-        />
-        <div className="absolute inset-0 bg-gradient-to-t from-white/40 via-white/20 to-transparent backdrop-sm z-10" />
-      </section>
+      <section className="relative w-full rounded-lg overflow-hidden mb-2">
+       <Image
+           src="/images/homepage.png"
+           alt="Blog Banner"
+           width={1440}
+           height={600}
+           priority
+           className="object-cover object-center"
+         /></section>
 
       {/* ⭐ Featured Slider */}
       <section className="relative z-20">

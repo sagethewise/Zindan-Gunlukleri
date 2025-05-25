@@ -36,7 +36,7 @@ export default function BlogClient({ posts }: { posts: Post[] }) {
       
       <section className="relative w-full rounded-lg overflow-hidden mb-2">
   <Image
-    src="/images/blog-banner.PNG"
+    src="/images/oyun.png"
     alt="Blog Banner"
     width={1440}
     height={600}

@@ -3,19 +3,23 @@
 import Link from "next/link";
 import YouTubeEmbed from "./YouTubeEmbed";
 import TeamSection from "./TeamSection";
+import Image from "next/image";
 //import ContactForm from "./ContactForm";
 
 export default function AboutPage() {
   return (
-    <main className="max-w-4xl mx-auto px-2 py-6 text-gray-800 ">
+    <main className="px-4 py-8 max-w-7xl mx-auto grid gap-6">
       {/* 🖼️ Banner Section */}
 <section
-  className="relative   /* <-- eklendi */
-             w-full h-64 md:h-80 flex items-center justify-center
-             mb-0 rounded-lg overflow-hidden
-             bg-no-repeat bg-center bg-contain"
-  style={{ backgroundImage: "url('/images/1920x260.png')" }}
->
+  className="relative w-full rounded-lg overflow-hidden mb-2">
+    <Image
+               src="/images/1920x260.png"
+               alt="Blog Banner"
+               width={1440}
+               height={600}
+               priority
+               className="object-cover object-center"
+             />
   {/* Sadece banner alanını tıklanabilir yapar */}
   <Link
     href="https://www.youtube.com/@gg_asli"
