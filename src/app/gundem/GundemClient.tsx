@@ -42,7 +42,9 @@ export default function GundemClient({ posts }: { posts: Post[] }) {
           height={600}
           priority
           className="object-cover object-center"
-        /> </section>
+        /> 
+        <h1 className="text-4xl font-bold mt-6 text-white"> Gündem</h1>
+        </section>
 
       {/* Filters */}
       <div className="mb-2 sticky top-[76px] z-30 bg-white/80 backdrop-blur border-b border-gray-200">

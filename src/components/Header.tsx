@@ -13,8 +13,10 @@ const Header = () => {
       <div className="w-full md:max-w-7xl mx-auto px-4 py-4 flex items-center justify-between">
         {/* Logo */}
         <div className="flex items-center space-x-2">
-          <Image src="/logo.svg" alt="Pheonix Logo" width={32} height={32} />
-          <span className="font-bold text-lg text-gray-800">Zindan Günlükleri</span>
+          <Link href="/" className="flex items-center gap-2">
+        <Image src="/logo.svg" alt="Zindan Günlükleri" width={32} height={32} />
+        <span className="font-bold text-lg text-gray-900">Zindan Günlükleri</span>
+      </Link>
         </div>
 
         {/* Hamburger menu (mobil) */}
@@ -28,6 +30,7 @@ const Header = () => {
         <nav className="hidden md:flex space-x-6 text-sm md:text-base font-medium">
           <Link href="/" className="text-gray-700 hover:text-green-600">Anasayfa</Link>
           <Link href="/blog" className="text-gray-700 hover:text-green-600">Oyun</Link>
+          <Link href="/videolar" className="text-gray-700 hover:text-green-600">Video</Link>
           <Link href="/gundem" className="text-gray-700 hover:text-green-600">Gündem</Link>
           <Link href="/about" className="text-gray-700 hover:text-green-600">Hakkımızda</Link>
           <Link href="/contact" className="text-gray-700 hover:text-green-600">İletişim</Link>
