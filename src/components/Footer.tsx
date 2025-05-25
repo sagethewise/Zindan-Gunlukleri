@@ -7,7 +7,7 @@ import { FaInstagram, FaYoutube } from "react-icons/fa";
 const Footer = () => {
   return (
     <footer className="mt-24 bg-gray-50 border-t border-gray-200 py-10 px-6 text-sm text-gray-600">
-      <div className="max-w-6xl mx-auto flex flex-col md:flex-row md:items-start justify-between gap-8">
+      <div className="w-full md:max-w-6xl mx-auto flex flex-col md:flex-row md:items-start justify-between gap-8">
         {/* 📘 Explore */}
         <div className="flex flex-col gap-3">
           <label htmlFor="explore" className="font-semibold text-brand text-base">
