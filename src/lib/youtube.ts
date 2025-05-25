@@ -35,7 +35,13 @@ export async function fetchYouTubeVideos(
   if (!apiKey || !playlistId) {
     throw new Error("YouTube API key veya ilgili playlist ID eksik.");
   }
-
+  // ✅ GÜVENLİ ORTAM KONTROLÜ (HATALI ENV OLMASIN DİYE)
+  if (!apiKey || !playlistId) {
+    if (process.env.NODE_ENV === "production") {
+      throw new Error("YouTube API key veya ilgili playlist ID eksik.");
+    }
+    return []; // local geliştirmede hata yerine boş dizi dön
+  }
   const res = await fetch(
     `https://www.googleapis.com/youtube/v3/playlistItems?part=snippet&maxResults=10&playlistId=${playlistId}&key=${apiKey}`
   );
