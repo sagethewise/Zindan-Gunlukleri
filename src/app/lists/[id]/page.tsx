@@ -46,10 +46,9 @@ export default async function SharedListPage({ params }: { params: { id: string 
             {/* TierListLoader'a veriyi ve 'isReadOnly' prop'unu gönderiyoruz.
               `list.list_data` bizim JSONB sütunumuzdan gelen asıl liste verisidir.
             */}
-            <TierListLoader 
-                listToShow={list.list_data} 
-                isReadOnly={true} 
-            />
+<TierListLoader />
+
+
         </main>
     );
 }

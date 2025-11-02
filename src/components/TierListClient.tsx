@@ -24,7 +24,15 @@ function GameCard({ game, onClick }: { game: TierGame; onClick: () => void }) {
   const style = transform ? { transform: `translate3d(${transform.x}px, ${transform.y}px, 0)` } : undefined;
   return (
     <div ref={setNodeRef} style={style} {...listeners} {...attributes} onClick={onClick} className="p-1 bg-white rounded-md shadow-sm cursor-grab active:cursor-grabbing z-10 hover:ring-2 hover:ring-blue-500 transition-shadow">
-      <div className="relative w-20 h-24"><Image src={game.imageUrl || '/images/default.jpg'} alt={game.name} fill className="object-cover rounded" sizes="80px" /></div>
+      <div className="relative w-20 h-24">
+        <Image
+  src={game.imageUrl || "/images/default.jpg"}
+  alt={game.name}
+  fill
+  sizes="80px"
+  className="object-cover rounded"
+  unoptimized
+/></div>
     </div>
   );
 }

@@ -1,6 +1,5 @@
 // app/tier-list/page.tsx
 
-import { initialGames } from '@/lib/tier-list-data';
 // YENİ: Artık doğrudan TierListLoader'ı import ediyoruz.
 import TierListLoader from '@/components/TierListLoader';
 
@@ -20,7 +19,8 @@ export default function TierListPage() {
       </section>
 
       {/* Artık dinamik import yerine doğrudan Loader komponentimizi çağırıyoruz. */}
-      <TierListLoader initialGames={initialGames} />
+      <TierListLoader />
+
 
     </main>
   );
