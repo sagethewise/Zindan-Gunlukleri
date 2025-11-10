@@ -1,205 +1,317 @@
 "use client";
-import { useRouter, useSearchParams } from "next/navigation";
-import { useMemo, useState } from "react";
-import { Search } from "lucide-react";
 
-const SEASONS = ["11", "10", "9", "8"];
-const MODES = [
-  { key: "endgame", label: "Endgame" },
-  { key: "leveling", label: "Leveling" },
-];
-const CLASSES = [
-  { key: "barbarian", label: "Barbarian", icon: "/icons/barbarian.png" },
-  { key: "druid", label: "Druid", icon: "/icons/druid.png" },
-  { key: "necromancer", label: "Necromancer", icon: "/icons/necromancer.png" },
-  { key: "rogue", label: "Rogue", icon: "/icons/rogue.png" },
-  { key: "sorcerer", label: "Sorcerer", icon: "/icons/sorcerer.png" },
-  { key: "spiritborn", label: "Spiritborn", icon: "/icons/spiritborn.png" }, // varsa
-];
+import { useEffect, useMemo, useState } from "react";
+import Link from "next/link";
+import { useSearchParams, useRouter } from "next/navigation";
 
-export type BuildItem = {
+// API'nin döndürdüğü satır tipi
+type BuildRow = {
   id: string;
+  slug: string;
   title: string;
-  pit?: number; // “Pit 140”
-  class: string;
-  icons: string[]; // skill/aspect küçük ikon URL’leri
-  author?: string;
-  season: string;
-  mode: "leveling" | "endgame";
+  author: string | null;
+  season: number | null;
+  mode: "endgame" | "leveling";
+  class_key:
+    | "barbarian"
+    | "druid"
+    | "necromancer"
+    | "rogue"
+    | "sorcerer"
+    | "spiritborn"
+    | "unknown";
+  pit: number | null;
+  is_meta: boolean;
+  score: number;
+  icon_urls: string[] | null;
+  updated_at: string;
 };
 
-export default function BuildShell({
-  initialBuilds,
-}: {
-  initialBuilds: BuildItem[];
-}) {
-  const router = useRouter();
-  const q = useSearchParams();
+type ApiResp = {
+  items: BuildRow[];
+  page: number;
+  limit: number;
+  total: number;
+};
 
-  const [season, setSeason] = useState(q.get("season") || "11");
-  const [mode, setMode] = useState<"leveling" | "endgame">(() => {
-    const m = q.get("mode");
-    return m === "leveling" || m === "endgame" ? m : "endgame";
+const CLASSES: BuildRow["class_key"][] = [
+  "barbarian",
+  "druid",
+  "necromancer",
+  "rogue",
+  "sorcerer",
+  "spiritborn",
+];
+
+// küçük yardımcı: query string kur
+function qs(obj: Record<string, string | number | undefined>) {
+  const p = new URLSearchParams();
+  Object.entries(obj).forEach(([k, v]) => {
+    if (v !== undefined && v !== "" && v !== null) p.set(k, String(v));
   });
-  const [cls, setCls] = useState(q.get("class") || "");
-  const [search, setSearch] = useState(q.get("search") || "");
+  return p.toString();
+}
 
-  // URL senkronu
-  const push = (params: Record<string, string>) => {
-    const merged = new URLSearchParams(q.toString());
-    Object.entries(params).forEach(([k, v]) =>
-      v ? merged.set(k, v) : merged.delete(k)
-    );
-    router.push(`/builds?${merged.toString()}`);
-  };
+export default function BuildShell() {
+  const sp = useSearchParams();
+  const router = useRouter();
 
-  const filtered = useMemo(() => {
-    return initialBuilds.filter((b) => {
-      if (season && b.season !== season) return false;
-      if (mode && b.mode !== mode) return false;
-      if (cls && b.class !== cls) return false;
-      if (search && !b.title.toLowerCase().includes(search.toLowerCase()))
-        return false;
-      return true;
+  // URL state
+  const [season, setSeason] = useState<string>(sp.get("season") ?? "");
+  const [mode, setMode] = useState<string>(sp.get("mode") ?? "endgame");
+  const [classKey, setClassKey] = useState<string>(sp.get("class_key") ?? "");
+  const [search, setSearch] = useState<string>(sp.get("search") ?? "");
+  const [page, setPage] = useState<number>(Number(sp.get("page") ?? 1));
+
+  // data state
+  const [data, setData] = useState<BuildRow[]>([]);
+  const [total, setTotal] = useState<number>(0);
+  const [limit] = useState<number>(24);
+  const [loading, setLoading] = useState<boolean>(false);
+  const [err, setErr] = useState<string | null>(null);
+
+  // URL değiştiğinde form state’i güncelle (tarayıcı geri/ileri uyumu)
+  useEffect(() => {
+    setSeason(sp.get("season") ?? "");
+    setMode(sp.get("mode") ?? "endgame");
+    setClassKey(sp.get("class_key") ?? "");
+    setSearch(sp.get("search") ?? "");
+    setPage(Number(sp.get("page") ?? 1));
+  }, [sp]);
+
+  // debounce arama
+  const [debouncedSearch, setDebouncedSearch] = useState(search);
+  useEffect(() => {
+    const t = setTimeout(() => setDebouncedSearch(search), 350);
+    return () => clearTimeout(t);
+  }, [search]);
+
+  // fetch URL
+  const fetchUrl = useMemo(() => {
+    const query = qs({
+      season: season || undefined,
+      mode: mode || undefined,
+      class_key: classKey || undefined,
+      search: debouncedSearch || undefined,
+      limit,
+      page,
     });
-  }, [initialBuilds, season, mode, cls, search]);
+    return `/api/builds?${query}`;
+  }, [season, mode, classKey, debouncedSearch, limit, page]);
+
+  // veri çek
+  useEffect(() => {
+    let alive = true;
+    setLoading(true);
+    setErr(null);
+    fetch(fetchUrl, { next: { revalidate: 60 } })
+      .then(async (r) => {
+        if (!r.ok) throw new Error((await r.json()).error ?? "Fetch failed");
+        return (r.json() as Promise<ApiResp>);
+      })
+      .then((json) => {
+        if (!alive) return;
+        setData(json.items);
+        setTotal(json.total);
+      })
+      .catch((e) => {
+        if (!alive) return;
+        setErr(e?.message ?? "Unknown error");
+      })
+      .finally(() => alive && setLoading(false));
+    return () => {
+      alive = false;
+    };
+  }, [fetchUrl]);
+
+  // URL'ye yazan submit
+  function pushState(nextPage?: number) {
+    const query = qs({
+      season: season || undefined,
+      mode: mode || undefined,
+      class_key: classKey || undefined,
+      search: search || undefined,
+      page: nextPage ?? page,
+    });
+    router.push(`/builds?${query}`);
+  }
+
+  const totalPages = Math.max(1, Math.ceil(total / limit));
 
   return (
-    <div className="grid grid-cols-12 gap-4">
-      {/* Sidebar */}
-      <aside className="col-span-12 md:col-span-3 bg-zinc-900 rounded-xl p-3 md:p-4">
-        <h2 className="text-lg font-semibold mb-3">Classes</h2>
-        <ul className="space-y-1">
-          {CLASSES.map((c) => {
-            const active = cls === c.key;
-            return (
-              <li key={c.key}>
-                <button
-                  onClick={() => {
-                    const next = active ? "" : c.key;
-                    setCls(next);
-                    push({ class: next });
-                  }}
-                  className={`w-full flex items-center gap-3 px-3 py-2 rounded-lg hover:bg-zinc-800 transition ${
-                    active ? "bg-zinc-800 ring-1 ring-zinc-700" : ""
-                  }`}
-                >
-                  {/* yerel iconları /public/icons/* içine koy */}
-                  <img src={c.icon} alt={c.label} width={20} height={20} />
-                  <span>{c.label}</span>
-                  <span className="ml-auto w-4 h-4 rounded border border-zinc-600 bg-zinc-800/50" />
-                </button>
-              </li>
-            );
-          })}
-        </ul>
-      </aside>
+    <div className="mx-auto max-w-6xl px-4 py-8 space-y-6">
+      {/* Kahraman */}
+      <section className="text-center bg-zinc-900 text-white rounded-2xl py-10">
+        <h1 className="text-3xl md:text-5xl font-extrabold">🔥 BuildFırını</h1>
+        <p className="text-zinc-300 mt-2">
+          İngilizce terimler, Türkçe açıklamalarla Diablo IV build arşivi.
+        </p>
+      </section>
 
-      {/* Content */}
-      <section className="col-span-12 md:col-span-9">
-        {/* Top bar: Season + Search + Tabs */}
-        <div className="flex flex-col md:flex-row md:items-center gap-3 mb-4">
-          <div className="flex items-center gap-2">
-            <label className="text-sm opacity-70">Season</label>
-            <select
-              value={season}
-              onChange={(e) => {
-                setSeason(e.target.value);
-                push({ season: e.target.value });
-              }}
-              className="bg-zinc-900 border border-zinc-700 rounded-lg px-2 py-1"
-            >
-              {SEASONS.map((s) => (
-                <option key={s} value={s}>
-                  {s}
-                </option>
-              ))}
-            </select>
-          </div>
+      {/* Filtreler */}
+      <form
+        onSubmit={(e) => {
+          e.preventDefault();
+          setPage(1);
+          pushState(1);
+        }}
+        className="grid gap-3 md:grid-cols-5"
+      >
+        <input
+          placeholder="Ara: whirlwind, speedfarm…"
+          className="border rounded px-3 py-2 md:col-span-2"
+          value={search}
+          onChange={(e) => {
+            setSearch(e.target.value);
+            setPage(1);
+          }}
+        />
+        <select
+          className="border rounded px-3 py-2"
+          value={classKey}
+          onChange={(e) => {
+            setClassKey(e.target.value);
+            setPage(1);
+          }}
+        >
+          <option value="">Class (all)</option>
+          {CLASSES.map((c) => (
+            <option key={c} value={c}>
+              {c}
+            </option>
+          ))}
+        </select>
+        <select
+          className="border rounded px-3 py-2"
+          value={mode}
+          onChange={(e) => {
+            setMode(e.target.value);
+            setPage(1);
+          }}
+        >
+          <option value="endgame">endgame</option>
+          <option value="leveling">leveling</option>
+        </select>
+        <input
+          inputMode="numeric"
+          placeholder="Season"
+          className="border rounded px-3 py-2"
+          value={season}
+          onChange={(e) => {
+            setSeason(e.target.value.replace(/\D/g, ""));
+            setPage(1);
+          }}
+        />
 
-          <div className="relative flex-1">
-            <Search className="absolute left-3 top-1/2 -translate-y-1/2 w-4 h-4 opacity-70" />
-            <input
-              value={search}
-              onChange={(e) => {
-                setSearch(e.target.value);
-                push({ search: e.target.value });
-              }}
-              placeholder="Search by build or skill…"
-              className="w-full bg-zinc-900 border border-zinc-700 rounded-lg pl-9 pr-3 py-2"
+        <button className="md:col-span-5 rounded bg-black text-white px-4 py-2">
+          Filtrele
+        </button>
+      </form>
+
+      {/* Meta bandı */}
+      <div className="rounded-xl border bg-amber-50 text-amber-900 px-4 py-3">
+        <strong>Meta Builds</strong> öncelikli listelenir (pit → score →
+        alfabetik).
+      </div>
+
+      {/* Liste */}
+      {loading ? (
+        <div className="grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
+          {Array.from({ length: 9 }).map((_, i) => (
+            <div
+              key={i}
+              className="h-32 rounded-2xl border animate-pulse bg-gray-100"
             />
+          ))}
+        </div>
+      ) : err ? (
+        <p className="text-red-600">Hata: {err}</p>
+      ) : (
+        <>
+          <div className="flex items-center justify-between">
+            <h2 className="text-xl font-bold">Sonuçlar</h2>
+            <span className="text-sm text-gray-500">
+              {total} sonuç • {page}/{totalPages}
+            </span>
           </div>
 
-          <div className="flex items-center gap-2">
-            {MODES.map((m) => (
-              <button
-                key={m.key}
-                onClick={() => {
-                  setMode(m.key as "leveling" | "endgame");
-                  push({ mode: m.key });
-                }}
-                className={`px-3 py-1.5 rounded-lg border text-sm ${
-                  mode === m.key
-                    ? "bg-zinc-800 border-zinc-600"
-                    : "border-zinc-800 hover:border-zinc-700"
-                }`}
+          <div className="grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
+            {data.map((b) => (
+              <Link
+                key={b.id}
+                href={`/builds/${b.class_key}/${b.slug}`}
+                className="block rounded-2xl border bg-white p-4 hover:shadow-lg transition"
               >
-                {m.label}
-              </button>
+                <div className="flex items-start justify-between gap-3">
+                  <h3 className="text-lg font-semibold">{b.title}</h3>
+                  <span className="text-[10px] uppercase tracking-wider px-2 py-1 rounded bg-gray-100">
+                    {b.class_key}
+                  </span>
+                </div>
+
+                {/* küçük rozet ikonları */}
+                {!!(b.icon_urls?.length) && (
+                  <div className="mt-2 flex gap-1 flex-wrap">
+                    {b.icon_urls.slice(0, 8).map((url, i) => (
+                      <img
+                        key={`${b.id}-icon-${i}`}
+                        src={url}
+                        alt=""
+                        className="h-5 w-5 rounded"
+                        loading="lazy"
+                      />
+                    ))}
+                  </div>
+                )}
+
+                {/* meta satırı */}
+                <div className="mt-3 text-xs text-gray-600 flex items-center gap-3">
+                  {b.is_meta && (
+                    <span className="px-2 py-0.5 rounded bg-amber-100 text-amber-900">
+                      META
+                    </span>
+                  )}
+                  {typeof b.pit === "number" && <span>Pit {b.pit}</span>}
+                  <span>
+                    {new Date(b.updated_at).toLocaleDateString("tr-TR")}
+                  </span>
+                </div>
+              </Link>
             ))}
           </div>
-        </div>
 
-        {/* Section header (Meta Builds) */}
-        <div className="bg-zinc-900 rounded-lg px-3 py-2 mb-3 text-sm font-medium">
-          Meta Builds
-        </div>
-
-        {/* Build list */}
-        <div className="space-y-3">
-          {filtered.map((b) => (
-            <a
-              key={b.id}
-              href={`/builds/${b.season}/${b.mode}/${b.class}/${b.id}`}
-              className="flex items-center justify-between bg-zinc-900 hover:bg-zinc-800 rounded-xl p-4 transition"
-            >
-              <div className="flex items-center gap-3">
-                <div className="w-8 h-8 rounded bg-zinc-800 grid place-items-center">
-                  {/* sınıf ikonunu da gösterebilirsin */}
-                  <span className="text-xs capitalize">{b.class[0]}</span>
-                </div>
-                <div>
-                  <div className="font-semibold hover:underline">{b.title}</div>
-                  <div className="text-xs opacity-70">
-                    {b.author ? `by ${b.author} • ` : ""}
-                    Season {b.season} • {b.mode === "endgame" ? "Endgame" : "Leveling"}
-                    {typeof b.pit === "number" ? ` • Pit ${b.pit}` : ""}
-                  </div>
-                </div>
-              </div>
-              <div className="flex items-center gap-2">
-                {b.icons.slice(0, 8).map((i, idx) => (
-                  <img
-                    key={idx}
-                    src={i}
-                    alt="skill"
-                    width={28}
-                    height={28}
-                    className="rounded"
-                  />
-                ))}
-                <span className="ml-2 opacity-60">›</span>
-              </div>
-            </a>
-          ))}
-
-          {!filtered.length && (
-            <div className="text-sm opacity-70 px-2 py-8 text-center">
-              Bu filtrelerle eşleşen build bulunamadı.
+          {/* pagination */}
+          {totalPages > 1 && (
+            <div className="flex items-center justify-center gap-2 pt-4">
+              <button
+                disabled={page <= 1}
+                onClick={() => {
+                  const next = Math.max(1, page - 1);
+                  setPage(next);
+                  pushState(next);
+                }}
+                className="rounded border px-3 py-1 disabled:opacity-50"
+              >
+                ← Prev
+              </button>
+              <span className="text-sm text-gray-600">
+                {page} / {totalPages}
+              </span>
+              <button
+                disabled={page >= totalPages}
+                onClick={() => {
+                  const next = Math.min(totalPages, page + 1);
+                  setPage(next);
+                  pushState(next);
+                }}
+                className="rounded border px-3 py-1 disabled:opacity-50"
+              >
+                Next →
+              </button>
             </div>
           )}
-        </div>
-      </section>
+        </>
+      )}
     </div>
   );
 }
