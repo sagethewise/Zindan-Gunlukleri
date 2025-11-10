@@ -1,5 +1,4 @@
 // src/components/TierListClient.tsx
-
 "use client";
 
 import { useState, useEffect, FormEvent } from 'react';
@@ -9,6 +8,7 @@ import Image from 'next/image';
 import { createClientComponentClient } from '@supabase/auth-helpers-nextjs';
 import { Session } from '@supabase/supabase-js';
 import { useRouter } from 'next/navigation';
+import type { TierItems } from './TierListLoader'; // 👈 yeni
 
 const Tiers = {
   S: "bg-red-500",
@@ -26,13 +26,14 @@ function GameCard({ game, onClick }: { game: TierGame; onClick: () => void }) {
     <div ref={setNodeRef} style={style} {...listeners} {...attributes} onClick={onClick} className="p-1 bg-white rounded-md shadow-sm cursor-grab active:cursor-grabbing z-10 hover:ring-2 hover:ring-blue-500 transition-shadow">
       <div className="relative w-20 h-24">
         <Image
-  src={game.imageUrl || "/images/default.jpg"}
-  alt={game.name}
-  fill
-  sizes="80px"
-  className="object-cover rounded"
-  unoptimized
-/></div>
+          src={game.imageUrl || "/images/default.jpg"}
+          alt={game.name}
+          fill
+          sizes="80px"
+          className="object-cover rounded"
+          unoptimized
+        />
+      </div>
     </div>
   );
 }
@@ -49,71 +50,78 @@ function TierRow({ id, games, label, color, handleCardClick }: { id: TierId; gam
   );
 }
 
-// GÜNCELLEME: initialGames prop'u kaldırıldı.
-export default function TierListClient() {
-  const [items, setItems] = useState<Record<TierId, TierGame[]>>({ 
-    S: [], A: [], B: [], C: [], D: [], unranked: [] 
-  });
-
+// 🆕 Prop'ları kabul et
+export default function TierListClient({
+  listData,
+  isReadOnly = false,
+}: {
+  listData?: TierItems;
+  isReadOnly?: boolean;
+}) {
+  // Eğer listData geldiyse onunla başla; yoksa boş state
+  const [items, setItems] = useState<TierItems>(listData ?? { S: [], A: [], B: [], C: [], D: [], unranked: [] });
   const [newGameName, setNewGameName] = useState('');
   const [newGameImageUrl, setNewGameImageUrl] = useState('');
   const [session, setSession] = useState<Session | null>(null);
   const [isSaving, setIsSaving] = useState(false);
   const router = useRouter();
 
-  // GÜNCELLEME: useEffect'in mantığı değiştirildi.
+  // Başlangıç yükleme: Eğer listData gelmişse sadece onu göster; yoksa eski mantık (localStorage + /api/games)
   useEffect(() => {
-    // 1. Önce localStorage'dan kaydettiğimiz sıralamayı yükleyelim.
+    if (listData) {
+      setItems(listData);
+      return; // read-only veya preset mod
+    }
+
+    // 1) LocalStorage'dan yükle
     const savedItems = localStorage.getItem('tierListState');
     if (savedItems) {
       setItems(JSON.parse(savedItems));
     }
 
-    // 2. Sonra havuzu doldurmak için veritabanından tüm oyunları çekelim.
+    // 2) Havuzu veritabanından doldur
     const fetchGames = async () => {
-        try {
-            const response = await fetch('/api/games');
-            if (!response.ok) throw new Error('Oyunlar veritabanından çekilemedi.');
-            
-            const allGamesFromDB = await response.json();
-            
-            // 3. Sıralanmış oyunları havuzda tekrar göstermemek için birleştirme yapalım.
-            setItems(currentItems => {
-                const rankedGameIds = new Set(
-                    Object.values(currentItems)
-                        .flat()
-                        .filter(Boolean)
-                        .map(game => game.id)
-                );
+      try {
+        const response = await fetch('/api/games');
+        if (!response.ok) throw new Error('Oyunlar veritabanından çekilemedi.');
 
-                const newUnrankedGames = allGamesFromDB.filter(
-                    (game: TierGame) => !rankedGameIds.has(game.id)
-                );
+        const allGamesFromDB = await response.json();
 
-                return { ...currentItems, unranked: newUnrankedGames };
-            });
-        } catch (error) {
-            console.error(error);
-        }
+        setItems(currentItems => {
+          const rankedGameIds = new Set(
+            Object.values(currentItems)
+              .flat()
+              .filter(Boolean)
+              .map(game => game.id)
+          );
+
+          const newUnrankedGames = allGamesFromDB.filter(
+            (game: TierGame) => !rankedGameIds.has(game.id)
+          );
+
+          return { ...currentItems, unranked: newUnrankedGames };
+        });
+      } catch (error) {
+        console.error(error);
+      }
     };
 
     fetchGames();
-    
-    // Oturum bilgisini alma mantığı aynı kalıyor
+
     const supabase = createClientComponentClient();
     supabase.auth.getSession().then(({ data: { session } }) => setSession(session));
     const { data: { subscription } } = supabase.auth.onAuthStateChange((_, session) => setSession(session));
     return () => subscription.unsubscribe();
-  }, []);
+  }, [listData]);
 
-  // Yaptığımız sıralamaları anlık olarak localStorage'a kaydetmeye devam et
+  // Sadece edit modunda localStorage'a yaz (read-only'de gerek yok)
   useEffect(() => {
-    // Başlangıçtaki boş state'i kaydetmemek için kontrol
+    if (isReadOnly) return;
     const totalGames = Object.values(items).flat().length;
     if (totalGames > 0) {
-        localStorage.setItem('tierListState', JSON.stringify(items));
+      localStorage.setItem('tierListState', JSON.stringify(items));
     }
-  }, [items]);
+  }, [items, isReadOnly]);
 
   const sensors = useSensors(useSensor(PointerSensor, { activationConstraint: { distance: 10 } }));
   const { setNodeRef: unrankedContainerRef } = useDroppable({ id: 'unranked' });
@@ -123,28 +131,28 @@ export default function TierListClient() {
     if (!newGameName.trim()) return;
 
     try {
-        const response = await fetch('/api/games', {
-            method: 'POST',
-            headers: { 'Content-Type': 'application/json' },
-            body: JSON.stringify({ name: newGameName, imageUrl: newGameImageUrl || '/images/default.jpg' }),
-        });
-        if (!response.ok) throw new Error("Oyun eklenemedi. Giriş yapmış olmalısınız.");
-        const newGame = await response.json();
-        setItems(prev => ({ ...prev, unranked: [newGame, ...prev.unranked] }));
-        setNewGameName('');
-        setNewGameImageUrl('');
+      const response = await fetch('/api/games', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({ name: newGameName, imageUrl: newGameImageUrl || '/images/default.jpg' }),
+      });
+      if (!response.ok) throw new Error("Oyun eklenemedi. Giriş yapmış olmalısınız.");
+      const newGame = await response.json();
+      setItems(prev => ({ ...prev, unranked: [newGame, ...prev.unranked] }));
+      setNewGameName('');
+      setNewGameImageUrl('');
     } catch (error) {
-        alert((error as Error).message);
+      alert((error as Error).message);
     }
   };
 
-  // GÜNCELLEME: resetList fonksiyonu artık initialGames'e bağımlı değil.
   const resetList = () => {
     const allGamesInList = Object.values(items).flat().filter(Boolean);
     setItems({ S: [], A: [], B: [], C: [], D: [], unranked: allGamesInList });
   };
 
   const handleCardClick = (clickedGame: TierGame, sourceTierId: TierId) => {
+    if (isReadOnly) return; // 🆕 read-only iken tıklama işlemi yok
     if (sourceTierId === 'unranked') return;
     setItems(prev => ({
       ...prev,
@@ -154,6 +162,7 @@ export default function TierListClient() {
   };
 
   const handleDragEnd = (event: DragEndEvent) => {
+    if (isReadOnly) return; // 🆕 read-only iken sürükleme yok
     const { active, over } = event;
     if (!over) return;
     const activeId = active.id.toString();
@@ -172,74 +181,78 @@ export default function TierListClient() {
       };
     });
   };
-  
- const handleSaveList = async () => {
+
+  const handleSaveList = async () => {
     if (!session) {
-        alert('Listeyi kaydetmek için lütfen giriş yapın.');
-        router.push('/login');
-        return;
+      alert('Listeyi kaydetmek için lütfen giriş yapın.');
+      router.push('/login');
+      return;
     }
-    
+
     const listName = prompt("Lütfen listeniz için bir isim girin:", "Benim Tier Listem");
-    
-    if (!listName) return; // Kullanıcı iptal ederse işlemi durdur.
+    if (!listName) return;
 
-    setIsSaving(true); // Yükleme durumunu başlat (Buton 'Kaydediliyor...' olacak)
+    setIsSaving(true);
     try {
-        const response = await fetch('/api/lists', {
-            method: 'POST',
-            headers: { 'Content-Type': 'application/json' },
-            body: JSON.stringify({ listName: listName, listData: items }),
-        });
+      const response = await fetch('/api/lists', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({ listName, listData: items }),
+      });
 
-        if (!response.ok) {
-            const errorData = await response.json();
-            throw new Error(errorData.error || 'Liste kaydedilemedi.');
-        }
+      if (!response.ok) {
+        const errorData = await response.json();
+        throw new Error(errorData.error || 'Liste kaydedilemedi.');
+      }
 
-        const savedList = await response.json();
-        
-        // alert() ve console.log() yerine, kullanıcıyı yeni say_faya yönlendir
-        router.push(`/lists/${savedList.id}`);
-
+      const savedList = await response.json();
+      router.push(`/lists/${savedList.id}`);
     } catch (error) {
-        alert((error as Error).message);
-        setIsSaving(false); // Hata durumunda da yükleme durumunu kapat
-    } 
-    // Not: Başarılı olunca yönlendirme olacağı için `finally` bloğuna gerek kalmadı.
+      alert((error as Error).message);
+      setIsSaving(false);
+    }
   };
 
   return (
     <>
-      <form onSubmit={handleAddGame} className="max-w-2xl mx-auto mb-8 p-4 bg-gray-50 rounded-lg shadow">
-        <h4 className="text-lg font-semibold mb-2">Genel Havuza Oyun Ekle</h4>
-        <div className="flex flex-col md:flex-row gap-4">
+      {/* Edit formu sadece read-only DEĞİLSE görünsün */}
+      {!isReadOnly && (
+        <form onSubmit={handleAddGame} className="max-w-2xl mx-auto mb-8 p-4 bg-gray-50 rounded-lg shadow">
+          <h4 className="text-lg font-semibold mb-2">Genel Havuza Oyun Ekle</h4>
+          <div className="flex flex-col md:flex-row gap-4">
             <input type="text" value={newGameName} onChange={(e) => setNewGameName(e.target.value)} placeholder="Oyun Adı" className="flex-1 p-2 border rounded-md" required />
             <input type="text" value={newGameImageUrl} onChange={(e) => setNewGameImageUrl(e.target.value)} placeholder="Resim URL'si (Opsiyonel)" className="flex-1 p-2 border rounded-md" />
             <button type="submit" className="px-6 py-2 text-white bg-green-600 rounded-md hover:bg-green-700 disabled:bg-gray-500" disabled={!session}>Ekle</button>
-        </div>
-      </form>
+          </div>
+        </form>
+      )}
 
       <DndContext sensors={sensors} onDragEnd={handleDragEnd} collisionDetection={closestCorners}>
         <div className="max-w-6xl mx-auto bg-white rounded-lg shadow-xl overflow-hidden my-10 border border-gray-200">
           {Object.entries(Tiers).map(([id, color]) => (
             <TierRow key={id} id={id as TierId} games={items[id as TierId] || []} label={id} color={color} handleCardClick={handleCardClick} />
           ))}
-          <div className="p-4 bg-gray-800 flex justify-between items-center">
-            <h3 className="text-xl font-bold text-white">Derecelendirilecek Oyunlar</h3>
-            <div className="flex gap-x-2">
+
+          {/* Alt kontrol paneli: read-only iken gizle */}
+          {!isReadOnly && (
+            <div className="p-4 bg-gray-800 flex justify-between items-center">
+              <h3 className="text-xl font-bold text-white">Derecelendirilecek Oyunlar</h3>
+              <div className="flex gap-x-2">
                 <button onClick={handleSaveList} disabled={isSaving || !session} className="px-4 py-2 text-sm font-medium text-white bg-green-600 rounded-md hover:bg-green-700 disabled:bg-gray-500 disabled:cursor-not-allowed transition-colors">
-                    {isSaving ? 'Kaydediliyor...' : 'Listeyi Kaydet'}
+                  {isSaving ? 'Kaydediliyor...' : 'Listeyi Kaydet'}
                 </button>
                 <button onClick={resetList} className="px-4 py-2 text-sm font-medium text-white bg-red-600 rounded-md hover:bg-red-700">Listeyi Sıfırla</button>
-            </div>
-          </div>
-          <div className="bg-gray-800 px-4 pb-4">
-              <div ref={unrankedContainerRef} className="min-h-[140px] p-2 bg-gray-700 rounded-md flex flex-wrap items-start gap-2">
-                  {items.unranked?.map(game => (
-                    game && <GameCard key={game.id} game={game} onClick={() => handleCardClick(game, 'unranked')} />
-                  ))}
               </div>
+            </div>
+          )}
+
+          {/* Unranked alanı */}
+          <div className="bg-gray-800 px-4 pb-4">
+            <div ref={unrankedContainerRef} className="min-h-[140px] p-2 bg-gray-700 rounded-md flex flex-wrap items-start gap-2">
+              {items.unranked?.map(game => (
+                game && <GameCard key={game.id} game={game} onClick={() => handleCardClick(game, 'unranked')} />
+              ))}
+            </div>
           </div>
         </div>
       </DndContext>

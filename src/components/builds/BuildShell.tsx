@@ -3,6 +3,7 @@
 import { useEffect, useMemo, useState } from "react";
 import Link from "next/link";
 import { useSearchParams, useRouter } from "next/navigation";
+import Image from "next/image";
 
 // API'nin döndürdüğü satır tipi
 type BuildRow = {
@@ -253,13 +254,7 @@ export default function BuildShell() {
                 {!!(b.icon_urls?.length) && (
                   <div className="mt-2 flex gap-1 flex-wrap">
                     {b.icon_urls.slice(0, 8).map((url, i) => (
-                      <img
-                        key={`${b.id}-icon-${i}`}
-                        src={url}
-                        alt=""
-                        className="h-5 w-5 rounded"
-                        loading="lazy"
-                      />
+                   <Image key={i} src={url} alt="" width={20} height={20} className="rounded" /> 
                     ))}
                   </div>
                 )}
