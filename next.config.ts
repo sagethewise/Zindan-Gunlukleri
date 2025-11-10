@@ -26,8 +26,6 @@ const nextConfig: NextConfig = {
       },
     ],
   },
-    // ⚙️ Workspace uyarısını susturur:
-  outputFileTracingRoot: "C:\\Users\\Renee\\Desktop\\Web-Design\\pheonix-site",
 };
 
 export default nextConfig;
