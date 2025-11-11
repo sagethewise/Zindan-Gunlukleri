@@ -4,6 +4,7 @@ import { markdownToHtml } from "@/lib/markdownToHtml";
 import { notFound } from "next/navigation";
 import Link from "next/link";
 import Questionnairednd from "@/components/Questionnairednd";
+import StickyToc from "@/components/StickyToc"; // ⬅️ eklendi
 
 export default async function Page({
   params,
@@ -18,7 +19,7 @@ export default async function Page({
   const contentHtml = await markdownToHtml(post.content);
 
   return (
-    <main className="max-w-3xl mx-auto px-6 py-20">
+    <main className="mx-auto px-6 py-20 max-w-3xl lg:max-w-6xl">
       <Link
         href="/oyun"
         className="text-sm text-green-600 hover:underline mb-6 inline-block"
@@ -30,9 +31,10 @@ export default async function Page({
         <Image
           src={post.metadata.coverImage}
           alt={post.metadata.title}
-          width={800}
-          height={400}
+          width={1200}
+          height={630}
           className="rounded-xl mb-6 object-cover"
+          priority
         />
       )}
 
@@ -44,7 +46,7 @@ export default async function Page({
         {post.metadata.readingTime}
       </p>
 
-      <div className="flex flex-wrap gap-2 mb-4">
+      <div className="flex flex-wrap gap-2 mb-8">
         {post.metadata.tags?.map((tag: string) => (
           <span
             key={tag}
@@ -55,9 +57,14 @@ export default async function Page({
         ))}
       </div>
 
-      <article className="markdown-body">
-        <div dangerouslySetInnerHTML={{ __html: contentHtml }} />
-      </article>
+{/* 📘 Article + Sticky TOC (sağda) */}
+<div className="grid grid-cols-1 lg:grid-cols-[1fr_280px] gap-12">
+  <article className="markdown-body">
+    <div dangerouslySetInnerHTML={{ __html: contentHtml }} />
+  </article>
+
+  <StickyToc />
+</div>
 
       <Questionnairednd />
     </main>

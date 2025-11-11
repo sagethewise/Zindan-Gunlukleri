@@ -54,6 +54,13 @@ body {
   font-size: 1.2rem;
 }
 
+/* rehype-autolink-headings wrap ettiyse linklere ufak görünürlük */
+.anchor-link {
+  text-decoration: none;
+}
+.anchor-link:hover {
+  text-decoration: underline;
+}
 .markdown-body {
   font-family: system-ui, sans-serif;
   line-height: 1.75;
@@ -77,12 +84,14 @@ body {
   margin-top: 1.5rem;
   font-weight: 600;
   color: #166534; /* brand-dark */
+  scroll-margin-top: 96px; /* header yüksekliğine göre ayarla (top-24 ~ 96px) */
 }
 
 .markdown-body h3 {
   font-size: 1.25rem;
   margin-top: 1rem;
   font-weight: 600;
+  scroll-margin-top: 96px; /* header yüksekliğine göre ayarla (top-24 ~ 96px) */
 }
 
 .markdown-body p {
