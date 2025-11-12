@@ -20,7 +20,7 @@ export default async function VideosPage() {
           priority
           className="object-cover object-center"
         /> 
-        <h1 className="text-4xl font-bold mt-6 text-white"> Videolar</h1>
+        <h1 className="text-4xl font-bold mt-6 text-green-400"> Videolar</h1>
         
       </section>
 

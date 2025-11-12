@@ -43,7 +43,7 @@ export default function GundemClient({ posts }: { posts: Post[] }) {
           priority
           className="object-cover object-center"
         /> 
-        <h1 className="text-4xl font-bold mt-6 text-white"> Gündem</h1>
+        <h1 className="text-4xl font-bold mt-6 text-orange-400"> Gündem</h1>
         </section>
 
       {/* Filters */}

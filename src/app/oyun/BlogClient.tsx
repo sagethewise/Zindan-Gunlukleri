@@ -43,7 +43,7 @@ export default function BlogClient({ posts }: { posts: Post[] }) {
     priority
     className="object-cover object-center"
   />
-  <h1 className="text-4xl font-bold mt-6 text-white"> Oyunlar</h1>
+  <h1 className="text-4xl font-bold mt-6 text-purple-400"> Oyunlar</h1>
 </section>
 
       {/* Filters - sticky bar */}
