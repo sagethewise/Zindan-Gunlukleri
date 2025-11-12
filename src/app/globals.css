@@ -88,3 +88,15 @@ body {
 .markdown-body th { background-color: #f9fafb; font-weight: 600; color: #1f2937; }
 .markdown-body tr:nth-child(even) { background-color: #f3f4f6; }
 .markdown-body tr:hover { background-color: #e5e7eb; transition: background-color 0.2s; }
+
+/* Frosted-glass bar */
+.glass {
+  background: rgba(255, 255, 255, 0.55);
+  backdrop-filter: saturate(160%) blur(12px);
+  -webkit-backdrop-filter: saturate(160%) blur(12px); /* iOS */
+  border: 1px solid rgba(255, 255, 255, 0.6);
+  box-shadow:
+    0 8px 24px rgba(16, 24, 40, 0.08),
+    inset 0 1px 0 rgba(255, 255, 255, 0.4);
+  border-radius: 14px;
+}

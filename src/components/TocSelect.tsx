@@ -33,11 +33,11 @@ export default function TocSelect() {
   };
 
   return (
-    <div className="flex items-center gap-2">
+    <div className="flex items-center gap-2 ">
       <label htmlFor="toc-select" className="text-sm text-gray-600 shrink-0">İçindekiler:</label>
       <select
         id="toc-select"
-        className="w-full rounded-lg border border-gray-300 bg-white px-3 py-2 text-sm"
+        className="w-full rounded-lg border glass border-gray-100px-3 py-2 text-sm"
         value={value}
         onChange={(e) => onChange(e.target.value)}
       >

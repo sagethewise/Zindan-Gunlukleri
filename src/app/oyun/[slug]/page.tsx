@@ -76,6 +76,7 @@ export default async function Page({
           </div>
 
           {/* Mobil/Tablet: sticky TOC bar (desktop'ta gizli) */}
+          
 <MobileTocBar />
 
           <article className="markdown-body max-w-none leading-relaxed [&>*+*]:mt-6">

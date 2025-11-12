@@ -52,7 +52,7 @@ export default function MobileTocBar() {
         <div className="mx-auto max-w-screen-xl px-4">
           <div
             ref={barRef}
-            className="w-full bg-white border border-gray-200 rounded-lg px-3 py-2 shadow-sm"
+            className="w-full bg-white border glass border-gray-200 rounded-lg px-3 py-2 shadow-sm"
           >
             <TocSelect />
           </div>
