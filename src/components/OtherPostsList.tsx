@@ -18,7 +18,6 @@ type PostItem = {
 export default function OtherPostsList({
   posts = [],
   currentSlug,
-  title = "Diğer Yazılar",
 }: {
   posts?: PostItem[];
   currentSlug: string;
@@ -27,7 +26,7 @@ export default function OtherPostsList({
   if (!posts || posts.length === 0) {
     return (
       <div className="sticky top-24 h-fit">
-        <h3 className="text-lg font-semibold mb-4">{title}</h3>
+        
         <p className="text-sm text-gray-500">Benzer içerik bulunamadı.</p>
       </div>
     );
@@ -35,7 +34,7 @@ export default function OtherPostsList({
 
   return (
     <div className="sticky top-24 h-fit">
-      <h3 className="text-lg font-semibold mb-4">{title}</h3>
+      
       <ul className="space-y-4">
         {posts.map((p) => {
           const isActive = p.slug === currentSlug;
