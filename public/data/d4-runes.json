@@ -1,0 +1,760 @@
+[
+  {
+    "slug": "ahu",
+    "name_en": "Ahu",
+    "name_tr": null,
+    "description_en": null,
+    "description_tr": null,
+    "rune_type": "Ritual",
+    "tags": null,
+    "data": {
+      "name": "Ahu",
+      "type": "Ritual",
+      "rarity": "Legendary",
+      "gain": 15,
+      "bonus": "Lucky Hit: Up to a 100% chance against non-Healthy enemies."
+    }
+  },
+  {
+    "slug": "bac",
+    "name_en": "Bac",
+    "name_tr": null,
+    "description_en": null,
+    "description_tr": null,
+    "rune_type": "Ritual",
+    "tags": null,
+    "data": {
+      "name": "Bac",
+      "type": "Ritual",
+      "rarity": "Legendary",
+      "gain": 50,
+      "bonus": "Travel 5 meters."
+    }
+  },
+  {
+    "slug": "cem",
+    "name_en": "Cem",
+    "name_tr": null,
+    "description_en": null,
+    "description_tr": null,
+    "rune_type": "Ritual",
+    "tags": null,
+    "data": {
+      "name": "Cem",
+      "type": "Ritual",
+      "rarity": "Magic",
+      "gain": 75,
+      "bonus": "Cast Evade."
+    }
+  },
+  {
+    "slug": "cir",
+    "name_en": "Cir",
+    "name_tr": null,
+    "description_en": null,
+    "description_tr": null,
+    "rune_type": "Ritual",
+    "tags": null,
+    "data": {
+      "name": "Cir",
+      "type": "Ritual",
+      "rarity": "Magic",
+      "gain": 300,
+      "bonus": "Cast 5 Skills then become exhausted for 3 seconds."
+    }
+  },
+  {
+    "slug": "feo",
+    "name_en": "Feo",
+    "name_tr": null,
+    "description_en": null,
+    "description_tr": null,
+    "rune_type": "Ritual",
+    "tags": null,
+    "data": {
+      "name": "Feo",
+      "type": "Ritual",
+      "rarity": "Rare",
+      "gain": 1000,
+      "bonus": "Become Injured or Crowd Controlled (Cooldown: 10 seconds)."
+    }
+  },
+  {
+    "slug": "igni",
+    "name_en": "Igni",
+    "name_tr": null,
+    "description_en": null,
+    "description_tr": null,
+    "rune_type": "Ritual",
+    "tags": null,
+    "data": {
+      "name": "Igni",
+      "type": "Ritual",
+      "rarity": "Legendary",
+      "gain": 25,
+      "extra": "Up to 500 Offering",
+      "bonus": "Stores offering every 0.3 seconds. Cast a non-Basic Skill to gain the stored offering."
+    }
+  },
+  {
+    "slug": "lith",
+    "name_en": "Lith",
+    "name_tr": null,
+    "description_en": null,
+    "description_tr": null,
+    "rune_type": "Ritual",
+    "tags": null,
+    "data": {
+      "name": "Lith",
+      "type": "Ritual",
+      "rarity": "Legendary",
+      "gain": 25,
+      "bonus": "Stand still while fighting for 0.3 seconds."
+    }
+  },
+  {
+    "slug": "moni",
+    "name_en": "Moni",
+    "name_tr": null,
+    "description_en": null,
+    "description_tr": null,
+    "rune_type": "Ritual",
+    "tags": null,
+    "data": {
+      "name": "Moni",
+      "type": "Ritual",
+      "rarity": "Magic",
+      "gain": 100,
+      "bonus": "Cast 2 Mobility or Macabre Skills."
+    }
+  },
+  {
+    "slug": "nagu",
+    "name_en": "Nagu",
+    "name_tr": null,
+    "description_en": null,
+    "description_tr": null,
+    "rune_type": "Ritual",
+    "tags": null,
+    "data": {
+      "name": "Nagu",
+      "type": "Ritual",
+      "rarity": "Legendary",
+      "gain": 100,
+      "bonus": "Maintain at least 1 active Summon for 5 seconds, gaining offering for each up to 6 Summon."
+    }
+  },
+  {
+    "slug": "neo",
+    "name_en": "Neo",
+    "name_tr": null,
+    "description_en": null,
+    "description_tr": null,
+    "rune_type": "Ritual",
+    "tags": null,
+    "data": {
+      "name": "Neo",
+      "type": "Ritual",
+      "rarity": "Rare",
+      "gain": 200,
+      "bonus": "Deal damage after not taking any within 2 seconds. (Resets if Invulnerable.)"
+    }
+  },
+  {
+    "slug": "noc",
+    "name_en": "Noc",
+    "name_tr": null,
+    "description_en": null,
+    "description_tr": null,
+    "rune_type": "Ritual",
+    "tags": null,
+    "data": {
+      "name": "Noc",
+      "type": "Ritual",
+      "rarity": "Rare",
+      "gain": 10,
+      "bonus": "Inflict a Crowd Control. Gain double offering if it isn't a Slow or a Chill."
+    }
+  },
+  {
+    "slug": "poc",
+    "name_en": "Poc",
+    "name_tr": null,
+    "description_en": null,
+    "description_tr": null,
+    "rune_type": "Ritual",
+    "tags": null,
+    "data": {
+      "name": "Poc",
+      "type": "Ritual",
+      "rarity": "Rare",
+      "gain": 5,
+      "bonus": "Spend 5% of your Maximum Resource."
+    }
+  },
+  {
+    "slug": "tam",
+    "name_en": "Tam",
+    "name_tr": null,
+    "description_en": null,
+    "description_tr": null,
+    "rune_type": "Ritual",
+    "tags": null,
+    "data": {
+      "name": "Tam",
+      "type": "Ritual",
+      "rarity": "Legendary",
+      "gain": 25,
+      "bonus": "Cast a non-Channeled Core Skill."
+    }
+  },
+  {
+    "slug": "xol",
+    "name_en": "Xol",
+    "name_tr": null,
+    "description_en": null,
+    "description_tr": null,
+    "rune_type": "Ritual",
+    "tags": null,
+    "data": {
+      "name": "Xol",
+      "type": "Ritual",
+      "rarity": "Legendary",
+      "gain": 150,
+      "bonus": "Invoke power from another Class."
+    }
+  },
+  {
+    "slug": "yax",
+    "name_en": "Yax",
+    "name_tr": null,
+    "description_en": null,
+    "description_tr": null,
+    "rune_type": "Ritual",
+    "tags": null,
+    "data": {
+      "name": "Yax",
+      "type": "Ritual",
+      "rarity": "Magic",
+      "gain": 200,
+      "bonus": "Drink a Healing Potion."
+    }
+  },
+  {
+    "slug": "yul",
+    "name_en": "Yul",
+    "name_tr": null,
+    "description_en": null,
+    "description_tr": null,
+    "rune_type": "Ritual",
+    "tags": null,
+    "data": {
+      "name": "Yul",
+      "type": "Ritual",
+      "rarity": "Legendary",
+      "gain": 50,
+      "bonus": "Cast a Skill with a Cooldown."
+    }
+  },
+  {
+    "slug": "zan",
+    "name_en": "Zan",
+    "name_tr": null,
+    "description_en": null,
+    "description_tr": null,
+    "rune_type": "Ritual",
+    "tags": null,
+    "data": {
+      "name": "Zan",
+      "type": "Ritual",
+      "rarity": "Magic",
+      "gain": 150,
+      "bonus": "Cast an Ultimate Skill."
+    }
+  },
+  {
+    "slug": "ceh",
+    "name_en": "Ceh",
+    "name_tr": null,
+    "description_en": null,
+    "description_tr": null,
+    "rune_type": "Invocation",
+    "tags": null,
+    "data": {
+      "name": "Ceh",
+      "type": "Invocation",
+      "rarity": "Magic",
+      "requires": 100,
+      "overflow": "Summon Multiple Wolves",
+      "cooldown": 1,
+      "bonus": "Summon a Spirit Wolf to attack enemies for 8 seconds."
+    }
+  },
+  {
+    "slug": "chac",
+    "name_en": "Chac",
+    "name_tr": null,
+    "description_en": null,
+    "description_tr": null,
+    "rune_type": "Invocation",
+    "tags": null,
+    "data": {
+      "name": "Chac",
+      "type": "Invocation",
+      "rarity": "Rare",
+      "requires": 20,
+      "overflow": "Spawn more",
+      "bonus": "Invoke the Druid's Lightning Bolt, striking a nearby enemy."
+    }
+  },
+  {
+    "slug": "eom",
+    "name_en": "Eom",
+    "name_tr": null,
+    "description_en": null,
+    "description_tr": null,
+    "rune_type": "Invocation",
+    "tags": null,
+    "data": {
+      "name": "Eom",
+      "type": "Invocation",
+      "rarity": "Legendary",
+      "requires": 100,
+      "overflow": "Further Reduced Cooldowns",
+      "cooldown": 1,
+      "bonus": "Reduce your active Cooldowns by 0.1 seconds."
+    }
+  },
+  {
+    "slug": "gar",
+    "name_en": "Gar",
+    "name_tr": null,
+    "description_en": null,
+    "description_tr": null,
+    "rune_type": "Invocation",
+    "tags": null,
+    "data": {
+      "name": "Gar",
+      "type": "Invocation",
+      "rarity": "Magic",
+      "requires": 25,
+      "overflow": "Gain Multiple Stacks",
+      "cooldown": 1,
+      "bonus": "Gain 2.5% Critical Strike Chance for 5 seconds, up to 25%."
+    }
+  },
+  {
+    "slug": "jah",
+    "name_en": "Jah",
+    "name_tr": null,
+    "description_en": null,
+    "description_tr": null,
+    "rune_type": "Invocation",
+    "tags": null,
+    "data": {
+      "name": "Jah",
+      "type": "Invocation",
+      "rarity": "Legendary",
+      "requires": 250,
+      "overflow": "Store Excess Offering",
+      "cooldown": 2,
+      "bonus": "Replace your next Evade with the Sorcerer's Teleport, blinking further, dealing damage, and becoming Unstoppable."
+    }
+  },
+  {
+    "slug": "kry",
+    "name_en": "Kry",
+    "name_tr": null,
+    "description_en": null,
+    "description_tr": null,
+    "rune_type": "Invocation",
+    "tags": null,
+    "data": {
+      "name": "Kry",
+      "type": "Invocation",
+      "rarity": "Rare",
+      "requires": 300,
+      "overflow": "Increased size",
+      "cooldown": 3,
+      "bonus": "Invoke the Spiritborn's Vortex, dealing damage and Pulling In enemies."
+    }
+  },
+  {
+    "slug": "lac",
+    "name_en": "Lac",
+    "name_tr": null,
+    "description_en": null,
+    "description_tr": null,
+    "rune_type": "Invocation",
+    "tags": null,
+    "data": {
+      "name": "Lac",
+      "type": "Invocation",
+      "rarity": "Rare",
+      "requires": 400,
+      "overflow": "Increased Duration",
+      "cooldown": 1,
+      "bonus": "Invoke the Barbarian's Challenging Shout, reducing your damage taken for 3 seconds."
+    }
+  },
+  {
+    "slug": "lum",
+    "name_en": "Lum",
+    "name_tr": null,
+    "description_en": null,
+    "description_tr": null,
+    "rune_type": "Invocation",
+    "tags": null,
+    "data": {
+      "name": "Lum",
+      "type": "Invocation",
+      "rarity": "Magic",
+      "requires": 5,
+      "overflow": "Increased Resource Restored",
+      "cooldown": 1,
+      "bonus": "Restore 3.5 Primary Resource."
+    }
+  },
+  {
+    "slug": "mot",
+    "name_en": "Mot",
+    "name_tr": null,
+    "description_en": null,
+    "description_tr": null,
+    "rune_type": "Invocation",
+    "tags": null,
+    "data": {
+      "name": "Mot",
+      "type": "Invocation",
+      "rarity": "Rare",
+      "requires": 150,
+      "overflow": "Gain Multiple Shadows",
+      "cooldown": 1,
+      "bonus": "Gain a shadow from the Rogue's Dark Shroud, reducing damage taken per shadow."
+    }
+  },
+  {
+    "slug": "ner",
+    "name_en": "Ner",
+    "name_tr": null,
+    "description_en": null,
+    "description_tr": null,
+    "rune_type": "Invocation",
+    "tags": null,
+    "data": {
+      "name": "Ner",
+      "type": "Invocation",
+      "rarity": "Rare",
+      "requires": 600,
+      "overflow": "Increased Duration",
+      "cooldown": 6,
+      "bonus": "Invoke the Rogue's Countering Concealment, gaining Dodge Chance, Movement Speed, Unstoppable, and Stealth."
+    }
+  },
+  {
+    "slug": "ohm",
+    "name_en": "Ohm",
+    "name_tr": null,
+    "description_en": null,
+    "description_tr": null,
+    "rune_type": "Invocation",
+    "tags": null,
+    "data": {
+      "name": "Ohm",
+      "type": "Invocation",
+      "rarity": "Legendary",
+      "requires": 600,
+      "overflow": "Increased Duration",
+      "cooldown": 2,
+      "bonus": "Invoke the Barbarian's War Cry, increasing your damage dealt by x15% for 6 seconds."
+    }
+  },
+  {
+    "slug": "qax",
+    "name_en": "Qax",
+    "name_tr": null,
+    "description_en": null,
+    "description_tr": null,
+    "rune_type": "Invocation",
+    "tags": null,
+    "data": {
+      "name": "Qax",
+      "type": "Invocation",
+      "rarity": "Rare",
+      "requires": 400,
+      "overflow": "Further Increased Damage",
+      "cooldown": 1,
+      "bonus": "Casting a Skill other than a Basic or Defensive spends all your Primary Resource to increase your damage up to 100% for 1 second."
+    }
+  },
+  {
+    "slug": "qua",
+    "name_en": "Qua",
+    "name_tr": null,
+    "description_en": null,
+    "description_tr": null,
+    "rune_type": "Invocation",
+    "tags": null,
+    "data": {
+      "name": "Qua",
+      "type": "Invocation",
+      "rarity": "Magic",
+      "requires": 50,
+      "overflow": "Increased Duration",
+      "cooldown": 1,
+      "bonus": "Gain 10% Movement Speed for 5 seconds, up to 50%."
+    }
+  },
+  {
+    "slug": "que",
+    "name_en": "Que",
+    "name_tr": null,
+    "description_en": null,
+    "description_tr": null,
+    "rune_type": "Invocation",
+    "tags": null,
+    "data": {
+      "name": "Que",
+      "type": "Invocation",
+      "rarity": "Rare",
+      "requires": 300,
+      "overflow": "Increased Duration",
+      "cooldown": 1,
+      "bonus": "Invoke the Druid's Earthen Bulwark, granting yourself a Barrier."
+    }
+  },
+  {
+    "slug": "tal",
+    "name_en": "Tal",
+    "name_tr": null,
+    "description_en": null,
+    "description_tr": null,
+    "rune_type": "Invocation",
+    "tags": null,
+    "data": {
+      "name": "Tal",
+      "type": "Invocation",
+      "rarity": "Magic",
+      "requires": 30,
+      "overflow": "Increased Swarms Spawned",
+      "cooldown": 1,
+      "bonus": "Invoke 1 of the Spiritborn's Pestilent Swarm, dealing damage to enemies."
+    }
+  },
+  {
+    "slug": "teb",
+    "name_en": "Teb",
+    "name_tr": null,
+    "description_en": null,
+    "description_tr": null,
+    "rune_type": "Invocation",
+    "tags": null,
+    "data": {
+      "name": "Teb",
+      "type": "Invocation",
+      "rarity": "Magic",
+      "requires": 100,
+      "overflow": "Increase damage by 1% per Offering",
+      "cooldown": 1,
+      "bonus": "Invoke the Necromancer's Abhorrent Iron Maiden, counterattacking damage from enemies and Healing you when they die."
+    }
+  },
+  {
+    "slug": "tec",
+    "name_en": "Tec",
+    "name_tr": null,
+    "description_en": null,
+    "description_tr": null,
+    "rune_type": "Invocation",
+    "tags": null,
+    "data": {
+      "name": "Tec",
+      "type": "Invocation",
+      "rarity": "Magic",
+      "requires": 50,
+      "overflow": "Increased Size",
+      "cooldown": 1,
+      "bonus": "Invoke the Barbarian's Earthquake, dealing damage to enemies within."
+    }
+  },
+  {
+    "slug": "thul",
+    "name_en": "Thul",
+    "name_tr": null,
+    "description_en": null,
+    "description_tr": null,
+    "rune_type": "Invocation",
+    "tags": null,
+    "data": {
+      "name": "Thul",
+      "type": "Invocation",
+      "rarity": "Rare",
+      "requires": 300,
+      "overflow": "Increased Size",
+      "cooldown": 1,
+      "bonus": "Invoke the Sorcerer's Mystical Frost Nova, inflicting Freeze and Vulnerable onto enemies."
+    }
+  },
+  {
+    "slug": "ton",
+    "name_en": "Ton",
+    "name_tr": null,
+    "description_en": null,
+    "description_tr": null,
+    "rune_type": "Invocation",
+    "tags": null,
+    "data": {
+      "name": "Ton",
+      "type": "Invocation",
+      "rarity": "Magic",
+      "requires": 20,
+      "overflow": "Increased Meteorites Spawned",
+      "cooldown": 1,
+      "bonus": "Invoke the Sorcerer's Meteorites, dealing damage to enemies."
+    }
+  },
+  {
+    "slug": "tun",
+    "name_en": "Tun",
+    "name_tr": null,
+    "description_en": null,
+    "description_tr": null,
+    "rune_type": "Invocation",
+    "tags": null,
+    "data": {
+      "name": "Tun",
+      "type": "Invocation",
+      "rarity": "Magic",
+      "requires": 25,
+      "overflow": "Increased Grenades Spawned",
+      "cooldown": 1,
+      "bonus": "Invoke the Rogue's Stun Grenades, Stunning and dealing damage to enemies."
+    }
+  },
+  {
+    "slug": "tzic",
+    "name_en": "Tzic",
+    "name_tr": null,
+    "description_en": null,
+    "description_tr": null,
+    "rune_type": "Invocation",
+    "tags": null,
+    "data": {
+      "name": "Tzic",
+      "type": "Invocation",
+      "rarity": "Rare",
+      "requires": 200,
+      "overflow": "Increase damage by 1% per Offering",
+      "cooldown": 1,
+      "bonus": "Invoke the Spiritborn's Concussive Stomp, dealing damage and Knocking Down enemies."
+    }
+  },
+  {
+    "slug": "vex",
+    "name_en": "Vex",
+    "name_tr": null,
+    "description_en": null,
+    "description_tr": null,
+    "rune_type": "Invocation",
+    "tags": null,
+    "data": {
+      "name": "Vex",
+      "type": "Invocation",
+      "rarity": "Legendary",
+      "requires": 100,
+      "overflow": "More Skill ranks, up to 3.",
+      "cooldown": 5,
+      "bonus": "Gain +1 to Skills for 10 seconds."
+    }
+  },
+  {
+    "slug": "wat",
+    "name_en": "Wat",
+    "name_tr": null,
+    "description_en": null,
+    "description_tr": null,
+    "rune_type": "Invocation",
+    "tags": null,
+    "data": {
+      "name": "Wat",
+      "type": "Invocation",
+      "rarity": "Rare",
+      "requires": 100,
+      "overflow": "Increase Duration",
+      "cooldown": 1,
+      "bonus": "Invoke the Necromancer's Horrid Decrepify, Slowing enemies, reducing their damage, and letting you Execute them."
+    }
+  },
+  {
+    "slug": "xal",
+    "name_en": "Xal",
+    "name_tr": null,
+    "description_en": null,
+    "description_tr": null,
+    "rune_type": "Invocation",
+    "tags": null,
+    "data": {
+      "name": "Xal",
+      "type": "Invocation",
+      "rarity": "Rare",
+      "requires": 300,
+      "overflow": "Gain More Maximum Life",
+      "cooldown": 3,
+      "bonus": "Gain 20% Maximum Life for 6 seconds."
+    }
+  },
+  {
+    "slug": "xan",
+    "name_en": "Xan",
+    "name_tr": null,
+    "description_en": null,
+    "description_tr": null,
+    "rune_type": "Invocation",
+    "tags": null,
+    "data": {
+      "name": "Xan",
+      "type": "Invocation",
+      "rarity": "Legendary",
+      "requires": 300,
+      "overflow": "Increase Duration",
+      "cooldown": 1,
+      "bonus": "Your next attack will cause your hits to be a guaranteed Critical Strike and Overpower for 0.35 seconds."
+    }
+  },
+  {
+    "slug": "yom",
+    "name_en": "Yom",
+    "name_tr": null,
+    "description_en": null,
+    "description_tr": null,
+    "rune_type": "Invocation",
+    "tags": null,
+    "data": {
+      "name": "Yom",
+      "type": "Invocation",
+      "rarity": "Legendary",
+      "requires": 500,
+      "overflow": "Increase Stun Duration",
+      "cooldown": 5,
+      "bonus": "Invoke the Druid's Petrify Skill, Stunning enemies, restoring Primary Resource."
+    }
+  },
+  {
+    "slug": "zec",
+    "name_en": "Zec",
+    "name_tr": null,
+    "description_en": null,
+    "description_tr": null,
+    "rune_type": "Invocation",
+    "tags": null,
+    "data": {
+      "name": "Zec",
+      "type": "Invocation",
+      "rarity": "Rare",
+      "requires": 100,
+      "overflow": "Further Reduced Cooldown",
+      "cooldown": 1,
+      "bonus": "Reduce your active Ultimate Cooldown by 1 second."
+    }
+  }
+]

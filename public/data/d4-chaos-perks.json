@@ -1,0 +1,722 @@
+[
+  {
+    "slug": "a-beast-cornered",
+    "name_en": "A Beast Cornered",
+    "name_tr": null,
+    "description_en": "For every 10% Life you are missing, you gain x20% increased damage and 5% damage reduction.\nEach resource you spend also drains a 0.2% of your Maximum Life to refund 40% of the total resources spent. This cannot reduce you to below 10% Life.",
+    "description_tr": null,
+    "category": null,
+    "tags": null,
+    "data": {
+      "name": "A Beast Cornered",
+      "rarity": "Unique",
+      "filters": [
+        "Damage Reduction"
+      ],
+      "description": [
+        "For every 10% Life you are missing, you gain x20% increased damage and 5% damage reduction.",
+        "Each resource you spend also drains a 0.2% of your Maximum Life to refund 40% of the total resources spent. This cannot reduce you to below 10% Life."
+      ]
+    }
+  },
+  {
+    "slug": "accelerating-chaos",
+    "name_en": "Accelerating Chaos",
+    "name_tr": null,
+    "description_en": "Lucky Hit: Damaging an enemy has up to a 10% chance to trigger a Chaotic Burst on the enemy, dealing 400% damage.\nYour Chaotic Bursts that hit an enemy reduce a random active Cooldown by 0.5 seconds.",
+    "description_tr": null,
+    "category": null,
+    "tags": null,
+    "data": {
+      "name": "Accelerating Chaos",
+      "rarity": "Magic",
+      "filters": [
+        "Lucky Hit",
+        "Cooldown"
+      ],
+      "description": [
+        "Lucky Hit: Damaging an enemy has up to a 10% chance to trigger a Chaotic Burst on the enemy, dealing 400% damage.",
+        "Your Chaotic Bursts that hit an enemy reduce a random active Cooldown by 0.5 seconds."
+      ]
+    }
+  },
+  {
+    "slug": "advanced-techniques",
+    "name_en": "Advanced Techniques",
+    "name_tr": null,
+    "description_en": "Your base Core Skill ranks increase their Mana Cost or Cooldown by 10% and further increase their damage by x20%.",
+    "description_tr": null,
+    "category": null,
+    "tags": null,
+    "data": {
+      "name": "Advanced Techniques",
+      "class": "Sorcerer",
+      "rarity": "Rare",
+      "filters": [
+        "Core Skill"
+      ],
+      "description": [
+        "Your base Core Skill ranks increase their Mana Cost or Cooldown by 10% and further increase their damage by x20%."
+      ]
+    }
+  },
+  {
+    "slug": "alacrity",
+    "name_en": "Alacrity",
+    "name_tr": null,
+    "description_en": "Your Basic Skills gain +30% increased Attack Speed, their dash range is increased by 50% and their 3rd attack now happens every 2nd attack.",
+    "description_tr": null,
+    "category": null,
+    "tags": null,
+    "data": {
+      "name": "Alacrity",
+      "class": "Spiritborn",
+      "rarity": "Magic",
+      "filters": [
+        "Attack Speed",
+        "Basic Skill"
+      ],
+      "description": [
+        "Your Basic Skills gain +30% increased Attack Speed, their dash range is increased by 50% and their 3rd attack now happens every 2nd attack."
+      ]
+    }
+  },
+  {
+    "slug": "alter-the-balance",
+    "name_en": "Alter the Balance",
+    "name_tr": null,
+    "description_en": "Your base Core Skills are now empowered as Ultimate Skills, cost no Essence, but have a 20 second Cooldown.\nYour base Ultimate Skills are now altered to also be Core Skills and have no Cooldown, but cost 50 Essence.",
+    "description_tr": null,
+    "category": null,
+    "tags": null,
+    "data": {
+      "name": "Alter the Balance",
+      "class": "Necromancer",
+      "rarity": "Unique",
+      "filters": [
+        "Core Skill",
+        "Ultimate"
+      ],
+      "description": [
+        "Your base Core Skills are now empowered as Ultimate Skills, cost no Essence, but have a 20 second Cooldown.",
+        "Your base Ultimate Skills are now altered to also be Core Skills and have no Cooldown, but cost 50 Essence."
+      ]
+    }
+  },
+  {
+    "slug": "alternating-alterations",
+    "name_en": "Alternating Alterations",
+    "name_tr": null,
+    "description_en": "Casting a Core Skill empowers your next non-Channeled Cast of a different Core Skill, refunding 50% of its Resource cost and increasing its damage by x60%.",
+    "description_tr": null,
+    "category": null,
+    "tags": null,
+    "data": {
+      "name": "Alternating Alterations",
+      "rarity": "Rare",
+      "filters": [
+        "Core Skill"
+      ],
+      "description": [
+        "Casting a Core Skill empowers your next non-Channeled Cast of a different Core Skill, refunding 50% of its Resource cost and increasing its damage by x60%."
+      ]
+    }
+  },
+  {
+    "slug": "back-off",
+    "name_en": "Back Off!",
+    "name_tr": null,
+    "description_en": "When Casting a Skill, it deals 30% reduced damage to enemies who are Close to you when you Cast and x200% increased damage to all other enemies.",
+    "description_tr": null,
+    "category": null,
+    "tags": null,
+    "data": {
+      "name": "Back Off!",
+      "class": "Spiritborn",
+      "rarity": "Legendary",
+      "description": [
+        "When Casting a Skill, it deals 30% reduced damage to enemies who are Close to you when you Cast and x200% increased damage to all other enemies."
+      ]
+    }
+  },
+  {
+    "slug": "brawn-over-brains",
+    "name_en": "Brawn Over Brains",
+    "name_tr": null,
+    "description_en": "Gain the following:\nx200% Maximum Life\n+100% Healing Received\nx125% Overpower Damage\nHowever, your Maximum Resistances are reduced by 25%, and your damage reduction from Armor is capped at 60%.",
+    "description_tr": null,
+    "category": null,
+    "tags": null,
+    "data": {
+      "name": "Brawn Over Brains",
+      "rarity": "Unique",
+      "filters": [
+        "Maximum Life",
+        "Overpower"
+      ],
+      "description": [
+        "Gain the following:",
+        "x200% Maximum Life",
+        "+100% Healing Received",
+        "x125% Overpower Damage",
+        "However, your Maximum Resistances are reduced by 25%, and your damage reduction from Armor is capped at 60%."
+      ]
+    }
+  },
+  {
+    "slug": "chaos-unleashed",
+    "name_en": "Chaos Unleashed",
+    "name_tr": null,
+    "description_en": "Killing an enemy generates 2 stacks of Chaos and dealing direct damage to a boss generates 5 stacks of Chaos. At 100 stacks, unleash a salvo of 9 Chaotic Bursts, dealing 500% of your highest damage type.\nYour Chaotic Bursts gain +30% Critical Strike Chance, and deal x200% increased damage.",
+    "description_tr": null,
+    "category": null,
+    "tags": null,
+    "data": {
+      "name": "Chaos Unleashed",
+      "rarity": "Unique",
+      "description": [
+        "Killing an enemy generates 2 stacks of Chaos and dealing direct damage to a boss generates 5 stacks of Chaos. At 100 stacks, unleash a salvo of 9 Chaotic Bursts, dealing 500% of your highest damage type.",
+        "Your Chaotic Bursts gain +30% Critical Strike Chance, and deal x200% increased damage."
+      ]
+    }
+  },
+  {
+    "slug": "chaotic-cooldowns",
+    "name_en": "Chaotic Cooldowns",
+    "name_tr": null,
+    "description_en": "Casting a Skill with a Cooldown will randomly set its Cooldown between 2 seconds and its base Cooldown. You no longer benefit from Cooldown Reduction.\nUsing a Cooldown unleashes a Chaotic Burst, dealing 500% damage of your highest damage type.",
+    "description_tr": null,
+    "category": null,
+    "tags": null,
+    "data": {
+      "name": "Chaotic Cooldowns",
+      "rarity": "Legendary",
+      "filters": [
+        "Cooldown"
+      ],
+      "description": [
+        "Casting a Skill with a Cooldown will randomly set its Cooldown between 2 seconds and its base Cooldown. You no longer benefit from Cooldown Reduction.",
+        "Using a Cooldown unleashes a Chaotic Burst, dealing 500% damage of your highest damage type."
+      ]
+    }
+  },
+  {
+    "slug": "chaotic-grenades",
+    "name_en": "Chaotic Grenades",
+    "name_tr": null,
+    "description_en": "Your Stun Grenades also trigger a Chaotic Burst, dealing 200% Physical Damage. When you drop Stun Grenades, you drop 1 more.\nChaotic Bursts generate 5 Energy if they hit an enemy.",
+    "description_tr": null,
+    "category": null,
+    "tags": null,
+    "data": {
+      "name": "Chaotic Grenades",
+      "class": "Rogue",
+      "rarity": "Legendary",
+      "description": [
+        "Your Stun Grenades also trigger a Chaotic Burst, dealing 200% Physical Damage. When you drop Stun Grenades, you drop 1 more.",
+        "Chaotic Bursts generate 5 Energy if they hit an enemy."
+      ]
+    }
+  },
+  {
+    "slug": "combined-strikes",
+    "name_en": "Combined Strikes",
+    "name_tr": null,
+    "description_en": "Your base Core Skills hit additional times in a larger area for x40% increased damage, but also have a 10 second cooldown.\nYour Basic Skill's 3rd attack resets the cooldown on your Core Skills.",
+    "description_tr": null,
+    "category": null,
+    "tags": null,
+    "data": {
+      "name": "Combined Strikes",
+      "class": "Spiritborn",
+      "rarity": "Rare",
+      "filters": [
+        "Core Skill",
+        "Basic Skill"
+      ],
+      "description": [
+        "Your base Core Skills hit additional times in a larger area for x40% increased damage, but also have a 10 second cooldown.",
+        "Your Basic Skill's 3rd attack resets the cooldown on your Core Skills."
+      ]
+    }
+  },
+  {
+    "slug": "convocation-of-spirits",
+    "name_en": "Convocation of Spirits",
+    "name_tr": null,
+    "description_en": "Casting a Non-ultimate Skill has a 1% chance to invoke the Spirits of that Skill's types which deal x400% increased damage.\nThis chance is increased by 1% of your Ultimate Skill Damage, up to 10%.\nYour Ultimate Skills benefits from all of their Upgrades.",
+    "description_tr": null,
+    "category": null,
+    "tags": null,
+    "data": {
+      "name": "Convocation of Spirits",
+      "class": "Spiritborn",
+      "rarity": "Unique",
+      "description": [
+        "Casting a Non-ultimate Skill has a 1% chance to invoke the Spirits of that Skill's types which deal x400% increased damage.",
+        "This chance is increased by 1% of your Ultimate Skill Damage, up to 10%.",
+        "Your Ultimate Skills benefits from all of their Upgrades."
+      ]
+    }
+  },
+  {
+    "slug": "crazy-brew",
+    "name_en": "Crazy Brew",
+    "name_tr": null,
+    "description_en": "Your Healing Potion is infused with the power of Chaos, granting you 100% Resource Cost Reduction, +80% increased Attack Speed and +80% increased Movement Speed for 5 seconds. Your Healing Potion has a 15 second Cooldown and you can drink it at full Life.\nCooldown is affected by Cooldown Reduction.",
+    "description_tr": null,
+    "category": null,
+    "tags": null,
+    "data": {
+      "name": "Crazy Brew",
+      "rarity": "Legendary",
+      "filters": [
+        "Movement Speed",
+        "Resource Cost",
+        "Attack Speed"
+      ],
+      "description": [
+        "Your Healing Potion is infused with the power of Chaos, granting you 100% Resource Cost Reduction, +80% increased Attack Speed and +80% increased Movement Speed for 5 seconds. Your Healing Potion has a 15 second Cooldown and you can drink it at full Life.",
+        "Cooldown is affected by Cooldown Reduction."
+      ]
+    }
+  },
+  {
+    "slug": "deafening-chorus",
+    "name_en": "Deafening Chorus",
+    "name_tr": null,
+    "description_en": "Your equipped Shouts are now always active with x50% increased effect, but your Maximum Current Fury is reduced by 20% per Shout equipped.",
+    "description_tr": null,
+    "category": null,
+    "tags": null,
+    "data": {
+      "name": "Deafening Chorus",
+      "class": "Barbarian",
+      "rarity": "Legendary",
+      "description": [
+        "Your equipped Shouts are now always active with x50% increased effect, but your Maximum Current Fury is reduced by 20% per Shout equipped."
+      ]
+    }
+  },
+  {
+    "slug": "decimating-desecration",
+    "name_en": "Decimating Desecration",
+    "name_tr": null,
+    "description_en": "Your Damage Over Time effects have a chance equal to your Critical Strike Chance to deal x100% increased damage.",
+    "description_tr": null,
+    "category": null,
+    "tags": null,
+    "data": {
+      "name": "Decimating Desecration",
+      "class": "Necromancer",
+      "rarity": "Rare",
+      "filters": [
+        "Damage Over Time",
+        "Critical Strike Chance"
+      ],
+      "description": [
+        "Your Damage Over Time effects have a chance equal to your Critical Strike Chance to deal x100% increased damage."
+      ]
+    }
+  },
+  {
+    "slug": "defile-the-dead",
+    "name_en": "Defile the Dead",
+    "name_tr": null,
+    "description_en": "You can consume each Corpse twice. Consuming at Corpse creates a Chaotic Burst, dealing 400% Shadow damage.\nConsuming 10 Corpses grants you Unstoppable for 2 seconds.",
+    "description_tr": null,
+    "category": null,
+    "tags": null,
+    "data": {
+      "name": "Defile the Dead",
+      "class": "Necromancer",
+      "rarity": "Legendary",
+      "description": [
+        "You can consume each Corpse twice. Consuming at Corpse creates a Chaotic Burst, dealing 400% Shadow damage.",
+        "Consuming 10 Corpses grants you Unstoppable for 2 seconds."
+      ]
+    }
+  },
+  {
+    "slug": "dual-threat",
+    "name_en": "Dual Threat",
+    "name_tr": null,
+    "description_en": "Casting a Basic Skill also uses another equipped Basic Skill at the target, dealing 80% of normal damage.",
+    "description_tr": null,
+    "category": null,
+    "tags": null,
+    "data": {
+      "name": "Dual Threat",
+      "class": "Barbarian",
+      "rarity": "Magic",
+      "filters": [
+        "Basic Skill"
+      ],
+      "description": [
+        "Casting a Basic Skill also uses another equipped Basic Skill at the target, dealing 80% of normal damage."
+      ]
+    }
+  },
+  {
+    "slug": "enervated-strikes",
+    "name_en": "Enervated Strikes",
+    "name_tr": null,
+    "description_en": "You no longer passively generate Energy.\nYour Core Skills deal x150% increased damage.",
+    "description_tr": null,
+    "category": null,
+    "tags": null,
+    "data": {
+      "name": "Enervated Strikes",
+      "class": "Rogue",
+      "rarity": "Rare",
+      "description": [
+        "You no longer passively generate Energy.",
+        "Your Core Skills deal x150% increased damage."
+      ]
+    }
+  },
+  {
+    "slug": "erupting-chaos",
+    "name_en": "Erupting Chaos",
+    "name_tr": null,
+    "description_en": "Chaotic Bursts randomly erupt around you, dealing 400% damage of your highest damage type.\nYour Chaotic Bursts additonally deal 100% of their initial damage over 4 seconds.",
+    "description_tr": null,
+    "category": null,
+    "tags": null,
+    "data": {
+      "name": "Erupting Chaos",
+      "rarity": "Rare",
+      "description": [
+        "Chaotic Bursts randomly erupt around you, dealing 400% damage of your highest damage type.",
+        "Your Chaotic Bursts additonally deal 100% of their initial damage over 4 seconds."
+      ]
+    }
+  },
+  {
+    "slug": "explosive-combinations",
+    "name_en": "Explosive Combinations",
+    "name_tr": null,
+    "description_en": "Casting a Basic Skill increases your damage by x20% for 5 seconds up to 3 times.",
+    "description_tr": null,
+    "category": null,
+    "tags": null,
+    "data": {
+      "name": "Explosive Combinations",
+      "class": "Sorcerer",
+      "rarity": "Magic",
+      "filters": [
+        "Basic Skill"
+      ],
+      "description": [
+        "Casting a Basic Skill increases your damage by x20% for 5 seconds up to 3 times."
+      ]
+    }
+  },
+  {
+    "slug": "grim-reapers",
+    "name_en": "Grim Reapers",
+    "name_tr": null,
+    "description_en": "Your Skeleton Warriors' attacks have a 25% chance to use Reap dealing 150% of normal damage instead of their regular attacks.",
+    "description_tr": null,
+    "category": null,
+    "tags": null,
+    "data": {
+      "name": "Grim Reapers",
+      "class": "Necromancer",
+      "rarity": "Magic",
+      "description": [
+        "Your Skeleton Warriors' attacks have a 25% chance to use Reap dealing 150% of normal damage instead of their regular attacks."
+      ]
+    }
+  },
+  {
+    "slug": "hit-and-run",
+    "name_en": "Hit and Run",
+    "name_tr": null,
+    "description_en": "Every 15 meters you move grants you x70% increased damage for 5 seconds. This bonus stacks, but does not refresh.\nIf this bonus is not active, you deal 30% reduced damage.",
+    "description_tr": null,
+    "category": null,
+    "tags": null,
+    "data": {
+      "name": "Hit and Run",
+      "class": "Rogue",
+      "rarity": "Unique",
+      "description": [
+        "Every 15 meters you move grants you x70% increased damage for 5 seconds. This bonus stacks, but does not refresh.",
+        "If this bonus is not active, you deal 30% reduced damage."
+      ]
+    }
+  },
+  {
+    "slug": "invigorating-attacks",
+    "name_en": "Invigorating Attacks",
+    "name_tr": null,
+    "description_en": "Every 5 seconds, your next Basic Skill generates an additional 100% of your Maximum Primary Resource when Cast, but your Basic Skills deal 30% reduced damage.",
+    "description_tr": null,
+    "category": null,
+    "tags": null,
+    "data": {
+      "name": "Invigorating Attacks",
+      "rarity": "Magic",
+      "filters": [
+        "Basic Skill"
+      ],
+      "description": [
+        "Every 5 seconds, your next Basic Skill generates an additional 100% of your Maximum Primary Resource when Cast, but your Basic Skills deal 30% reduced damage."
+      ]
+    }
+  },
+  {
+    "slug": "mana-infused-conjurations",
+    "name_en": "Mana Infused Conjurations",
+    "name_tr": null,
+    "description_en": "Your Conjurations are empowered and deal x30% increased damage but each one drains 5 Mana per second.\nIce Blades attacks burst in an area around the target.\nLightning Spear hits have a 10% chance to spawn static Ball Lightnings.\nFamiliar leaves damaging ground after its attack.\nHydra periodically creates Firewalls towards its target.",
+    "description_tr": null,
+    "category": null,
+    "tags": null,
+    "data": {
+      "name": "Mana Infused Conjurations",
+      "class": "Sorcerer",
+      "rarity": "Legendary",
+      "description": [
+        "Your Conjurations are empowered and deal x30% increased damage but each one drains 5 Mana per second.",
+        "Ice Blades attacks burst in an area around the target.",
+        "Lightning Spear hits have a 10% chance to spawn static Ball Lightnings.",
+        "Familiar leaves damaging ground after its attack.",
+        "Hydra periodically creates Firewalls towards its target."
+      ]
+    }
+  },
+  {
+    "slug": "mana-shield",
+    "name_en": "Mana Shield",
+    "name_tr": null,
+    "description_en": "You have 99% reduced Maximum Life but any damage you would take is dealt to your Mana before your Life. If you have not taken damage in the last 2 seconds, your Mana Regeneration is increased by +5,000%.\nYou gain 400% increased Maximum Mana and each point of Intelligence increases your Maximum Mana by 1.",
+    "description_tr": null,
+    "category": null,
+    "tags": null,
+    "data": {
+      "name": "Mana Shield",
+      "class": "Sorcerer",
+      "rarity": "Unique",
+      "description": [
+        "You have 99% reduced Maximum Life but any damage you would take is dealt to your Mana before your Life. If you have not taken damage in the last 2 seconds, your Mana Regeneration is increased by +5,000%.",
+        "You gain 400% increased Maximum Mana and each point of Intelligence increases your Maximum Mana by 1."
+      ]
+    }
+  },
+  {
+    "slug": "marred-guard",
+    "name_en": "Marred Guard",
+    "name_tr": null,
+    "description_en": "You can no longer be healed above 50% Life.\nYou gain 10% Maximum Resistance to All Elements, x20% Armor, and 100% increased Barrier and Fortify Generation.",
+    "description_tr": null,
+    "category": null,
+    "tags": null,
+    "data": {
+      "name": "Marred Guard",
+      "rarity": "Legendary",
+      "filters": [
+        "Resistance",
+        "Armor",
+        "Barrier",
+        "Fortify"
+      ],
+      "description": [
+        "You can no longer be healed above 50% Life.",
+        "You gain 10% Maximum Resistance to All Elements, x20% Armor, and 100% increased Barrier and Fortify Generation."
+      ]
+    }
+  },
+  {
+    "slug": "overabundance",
+    "name_en": "Overabundance",
+    "name_tr": null,
+    "description_en": "Every 100 Spirit you generate above your Maximum increases your damage by x100% for 5 seconds. This bonus stacks up to 3 times, but does not refresh.",
+    "description_tr": null,
+    "category": null,
+    "tags": null,
+    "data": {
+      "name": "Overabundance",
+      "class": "Druid",
+      "rarity": "Magic",
+      "description": [
+        "Every 100 Spirit you generate above your Maximum increases your damage by x100% for 5 seconds. This bonus stacks up to 3 times, but does not refresh."
+      ]
+    }
+  },
+  {
+    "slug": "power-siphon",
+    "name_en": "Power Siphon",
+    "name_tr": null,
+    "description_en": "Your Core Skills deal 100% increased damage, but also reduce your Maximum Current Resource by 20 for 6 seconds. This reduction stacks but does not refresh.",
+    "description_tr": null,
+    "category": null,
+    "tags": null,
+    "data": {
+      "name": "Power Siphon",
+      "rarity": "Rare",
+      "filters": [
+        "Core Skill"
+      ],
+      "description": [
+        "Your Core Skills deal 100% increased damage, but also reduce your Maximum Current Resource by 20 for 6 seconds. This reduction stacks but does not refresh."
+      ]
+    }
+  },
+  {
+    "slug": "purge-the-infected",
+    "name_en": "Purge the Infected",
+    "name_tr": null,
+    "description_en": "Your Core Skills also apply 200% of their Base damage as Poisoning over 4 seconds. Dealing direct damage to a Poisoned enemy spends 5 Spirit to be a guaranteed Critical Strike that deal x60% increase damage.",
+    "description_tr": null,
+    "category": null,
+    "tags": null,
+    "data": {
+      "name": "Purge the Infected",
+      "class": "Druid",
+      "rarity": "Rare",
+      "filters": [
+        "Core Skill",
+        "Poison",
+        "Critical Strike"
+      ],
+      "description": [
+        "Your Core Skills also apply 200% of their Base damage as Poisoning over 4 seconds. Dealing direct damage to a Poisoned enemy spends 5 Spirit to be a guaranteed Critical Strike that deal x60% increase damage."
+      ]
+    }
+  },
+  {
+    "slug": "raging-chaos",
+    "name_en": "Raging Chaos",
+    "name_tr": null,
+    "description_en": "While you are not Healthy, you are Berserking and your Core Skills deal Fire damage and an additional Chaotic Burst of 200% Fire damage.",
+    "description_tr": null,
+    "category": null,
+    "tags": null,
+    "data": {
+      "name": "Raging Chaos",
+      "class": "Barbarian",
+      "rarity": "Rare",
+      "filters": [
+        "Core Skill"
+      ],
+      "description": [
+        "While you are not Healthy, you are Berserking and your Core Skills deal Fire damage and an additional Chaotic Burst of 200% Fire damage."
+      ]
+    }
+  },
+  {
+    "slug": "savagery",
+    "name_en": "Savagery",
+    "name_tr": null,
+    "description_en": "Your Companion Skills are altered to also be Core Skills and your Companions grow in size.\nGain x80% Summon Damage.",
+    "description_tr": null,
+    "category": null,
+    "tags": null,
+    "data": {
+      "name": "Savagery",
+      "class": "Druid",
+      "rarity": "Unique",
+      "filters": [
+        "Core Skill",
+        "Summon"
+      ],
+      "description": [
+        "Your Companion Skills are altered to also be Core Skills and your Companions grow in size.",
+        "Gain x80% Summon Damage."
+      ]
+    }
+  },
+  {
+    "slug": "single-minded-fury",
+    "name_en": "Single-Minded Fury",
+    "name_tr": null,
+    "description_en": "If you only have one Arsenal Weapon type equipped, gain the following:\n+50% Overpower Chance\n+300% Increased Bleed Duration\nx150% Maximum Life\nx300% Increased Damage",
+    "description_tr": null,
+    "category": null,
+    "tags": null,
+    "data": {
+      "name": "Single-Minded Fury",
+      "class": "Barbarian",
+      "rarity": "Unique",
+      "filters": [
+        "Overpower",
+        "Maximum Life",
+        "Bleed"
+      ],
+      "description": [
+        "If you only have one Arsenal Weapon type equipped, gain the following:",
+        "+50% Overpower Chance",
+        "+300% Increased Bleed Duration",
+        "x150% Maximum Life",
+        "x300% Increased Damage"
+      ]
+    }
+  },
+  {
+    "slug": "unpredictable-alchemy",
+    "name_en": "Unpredictable Alchemy",
+    "name_tr": null,
+    "description_en": "Imbuements flow wildly, Imbuing every Basic Skill Cast with a random Imbuement. Imbued Skills deal x60% increased damage.",
+    "description_tr": null,
+    "category": null,
+    "tags": null,
+    "data": {
+      "name": "Unpredictable Alchemy",
+      "class": "Rogue",
+      "rarity": "Magic",
+      "filters": [
+        "Basic Skill"
+      ],
+      "description": [
+        "Imbuements flow wildly, Imbuing every Basic Skill Cast with a random Imbuement. Imbued Skills deal x60% increased damage."
+      ]
+    }
+  },
+  {
+    "slug": "unstable-power",
+    "name_en": "Unstable Power",
+    "name_tr": null,
+    "description_en": "Chaotic magics erupt from your Basic Skills, making them guaranteed to Critically Strike and Overpower for 100% increased damage, but the power is unstable, giving them a 3 second Cooldown.",
+    "description_tr": null,
+    "category": null,
+    "tags": null,
+    "data": {
+      "name": "Unstable Power",
+      "rarity": "Magic",
+      "filters": [
+        "Critical Strike",
+        "Overpower"
+      ],
+      "description": [
+        "Chaotic magics erupt from your Basic Skills, making them guaranteed to Critically Strike and Overpower for 100% increased damage, but the power is unstable, giving them a 3 second Cooldown."
+      ]
+    }
+  },
+  {
+    "slug": "wild-transformations",
+    "name_en": "Wild Transformations",
+    "name_tr": null,
+    "description_en": "Shapeshifting into a new form uses a free Skill and grants an additional bonus for 5 seconds:\nWerewolf uses Blood Howl, 20% Critical Strike Damage\nWerebear uses Debilitating Roar. 10% Damage Reduction\nHuman uses Cyclone Armor, 20% Attack Speed",
+    "description_tr": null,
+    "category": null,
+    "tags": null,
+    "data": {
+      "name": "Wild Transformations",
+      "class": "Druid",
+      "rarity": "Legendary",
+      "filters": [
+        "Critical Strike Damage",
+        "Damage Reduction",
+        "Attack Speed"
+      ],
+      "description": [
+        "Shapeshifting into a new form uses a free Skill and grants an additional bonus for 5 seconds:",
+        "Werewolf uses Blood Howl, 20% Critical Strike Damage",
+        "Werebear uses Debilitating Roar. 10% Damage Reduction",
+        "Human uses Cyclone Armor, 20% Attack Speed"
+      ]
+    }
+  }
+]

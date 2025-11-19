@@ -1,0 +1,5872 @@
+[
+  {
+    "slug": "ambidextrous",
+    "name_en": "Ambidextrous",
+    "name_tr": null,
+    "diablo_class": "Barbarian",
+    "class_key": "barbarian",
+    "rarity": "Rare",
+    "radius": null,
+    "tags": null,
+    "description_en": null,
+    "description_tr": null,
+    "data": {
+      "name": "Ambidextrous",
+      "rarity": "Rare",
+      "class": "Barbarian",
+      "bonus": [
+        "Grants + {value} bonus to all Magic nodes within range."
+      ],
+      "additional_bonus": [
+        "You deal x8% increased damage while Weilding One-Handed Weapons."
+      ],
+      "legendary_bonus": [
+        "Increase damage by x {legendary_value} ."
+      ],
+      "legendary_value": 0.104,
+      "requirements_amount": [
+        40
+      ],
+      "requirements_stat": [
+        "Strength"
+      ],
+      "value": 25,
+      "scaling": 2.5,
+      "max_value": 2.725,
+      "stat_name": "Special",
+      "stat_scaling": "Magic"
+    }
+  },
+  {
+    "slug": "bloodfeeder",
+    "name_en": "Bloodfeeder",
+    "name_tr": null,
+    "diablo_class": "Barbarian",
+    "class_key": "barbarian",
+    "rarity": "Rare",
+    "radius": null,
+    "tags": [
+      "Bleed"
+    ],
+    "description_en": null,
+    "description_tr": null,
+    "data": {
+      "name": "Bloodfeeder",
+      "rarity": "Rare",
+      "class": "Barbarian",
+      "filters": [
+        "Bleed"
+      ],
+      "bonus": [
+        "For every 5 Dexterity purchased within range, you deal + {value} increased damage to Bleeding targets."
+      ],
+      "additional_bonus": [
+        "You have +10% increased Critical Strike Chance against Bleeding enemies."
+      ],
+      "legendary_bonus": [
+        "Increase damage by x {legendary_value} ."
+      ],
+      "legendary_value": 0.104,
+      "requirements_amount": [
+        25
+      ],
+      "requirements_stat": [
+        "Dexterity"
+      ],
+      "value": 2,
+      "scaling": 0.1485,
+      "max_value": 0.13,
+      "stat_name": "Damage to Bleeding Enemies",
+      "stat_scaling": "Dexterity"
+    }
+  },
+  {
+    "slug": "brawl",
+    "name_en": "Brawl",
+    "name_tr": null,
+    "diablo_class": "Barbarian",
+    "class_key": "barbarian",
+    "rarity": "Rare",
+    "radius": null,
+    "tags": null,
+    "description_en": null,
+    "description_tr": null,
+    "data": {
+      "name": "Brawl",
+      "rarity": "Rare",
+      "class": "Barbarian",
+      "bonus": [
+        "Grants + {value} bonus to all Rare nodes within range."
+      ],
+      "additional_bonus": [
+        "Brawling Skills deal x25% increased damage."
+      ],
+      "legendary_bonus": [
+        "Increase Brawling skill damage by x {legendary_value} ."
+      ],
+      "legendary_value": 0.18,
+      "requirements_amount": [
+        25
+      ],
+      "requirements_stat": [
+        "Willpower"
+      ],
+      "value": 25,
+      "scaling": 1.9495,
+      "max_value": 2.725,
+      "stat_name": "Special",
+      "stat_scaling": "Physical"
+    }
+  },
+  {
+    "slug": "challenger",
+    "name_en": "Challenger",
+    "name_tr": null,
+    "diablo_class": "Barbarian",
+    "class_key": "barbarian",
+    "rarity": "Rare",
+    "radius": null,
+    "tags": [
+      "Elite"
+    ],
+    "description_en": null,
+    "description_tr": null,
+    "data": {
+      "name": "Challenger",
+      "rarity": "Rare",
+      "class": "Barbarian",
+      "filters": [
+        "Elite"
+      ],
+      "bonus": [
+        "Grants + {value} bonus to all Normal nodes within range."
+      ],
+      "additional_bonus": [
+        "You deal x10 increased damage to Elites."
+      ],
+      "legendary_bonus": [
+        "Increase damage to Elites by x {legendary_value} ."
+      ],
+      "legendary_value": 0.142,
+      "requirements_amount": [
+        40
+      ],
+      "requirements_stat": [
+        "Strength"
+      ],
+      "value": 20,
+      "scaling": 0.8081,
+      "max_value": 1.000019,
+      "stat_name": "Special",
+      "stat_scaling": "Normal"
+    }
+  },
+  {
+    "slug": "cleaver",
+    "name_en": "Cleaver",
+    "name_tr": null,
+    "diablo_class": "Barbarian",
+    "class_key": "barbarian",
+    "rarity": "Rare",
+    "radius": null,
+    "tags": null,
+    "description_en": null,
+    "description_tr": null,
+    "data": {
+      "name": "Cleaver",
+      "rarity": "Rare",
+      "class": "Barbarian",
+      "bonus": [
+        "For every 5 Strength purchased within range, you deal + {value} increased damage while wielding an Axe."
+      ],
+      "additional_bonus": [
+        "While wielding an Axe, you deal x12% increased Critical Strike Damage."
+      ],
+      "legendary_bonus": [
+        "Increase damage by x {legendary_value} ."
+      ],
+      "legendary_value": 0.104,
+      "requirements_amount": [
+        40
+      ],
+      "requirements_stat": [
+        "Strength"
+      ],
+      "value": 1.32,
+      "scaling": 0.099,
+      "max_value": 0.11121,
+      "stat_name": "Damage with Axe",
+      "stat_scaling": "Strength"
+    }
+  },
+  {
+    "slug": "crusher",
+    "name_en": "Crusher",
+    "name_tr": null,
+    "diablo_class": "Barbarian",
+    "class_key": "barbarian",
+    "rarity": "Rare",
+    "radius": null,
+    "tags": [
+      "Overpower"
+    ],
+    "description_en": null,
+    "description_tr": null,
+    "data": {
+      "name": "Crusher",
+      "rarity": "Rare",
+      "class": "Barbarian",
+      "filters": [
+        "Overpower"
+      ],
+      "bonus": [
+        "For every 5 Strength purchased within range, you deal + {value} increased damage while wielding a Mace."
+      ],
+      "additional_bonus": [
+        "While wielding a Mace, you deal x20% increased Overpower damage."
+      ],
+      "legendary_bonus": [
+        "Increase damage by x {legendary_value} ."
+      ],
+      "legendary_value": 0.104,
+      "requirements_amount": [
+        40
+      ],
+      "requirements_stat": [
+        "Strength"
+      ],
+      "value": 1.3,
+      "scaling": 0.0745,
+      "max_value": 0.087,
+      "stat_name": "Damage with Mace",
+      "stat_scaling": "Strength"
+    }
+  },
+  {
+    "slug": "disembowel",
+    "name_en": "Disembowel",
+    "name_tr": null,
+    "diablo_class": "Barbarian",
+    "class_key": "barbarian",
+    "rarity": "Rare",
+    "radius": null,
+    "tags": [
+      "Bleed"
+    ],
+    "description_en": null,
+    "description_tr": null,
+    "data": {
+      "name": "Disembowel",
+      "rarity": "Rare",
+      "class": "Barbarian",
+      "filters": [
+        "Bleed"
+      ],
+      "bonus": [
+        "For every 5 Willpower purchased within range, you deal + {value} increased Bleeding damage."
+      ],
+      "additional_bonus": [
+        "Killing a Bleeding enemy has a 10% chance to reduce the Cooldowns of your Non-Ultimate active Cooldowns by 1 second."
+      ],
+      "legendary_bonus": [
+        "Increase damage by x {legendary_value} ."
+      ],
+      "legendary_value": 0.104,
+      "requirements_amount": [
+        25
+      ],
+      "requirements_stat": [
+        "Willpower"
+      ],
+      "value": 2,
+      "scaling": 0.1485,
+      "max_value": 0.167015,
+      "stat_name": "Physical Damage Over Time",
+      "stat_scaling": "Willpower"
+    }
+  },
+  {
+    "slug": "dominate",
+    "name_en": "Dominate",
+    "name_tr": null,
+    "diablo_class": "Barbarian",
+    "class_key": "barbarian",
+    "rarity": "Rare",
+    "radius": null,
+    "tags": [
+      "Overpower"
+    ],
+    "description_en": null,
+    "description_tr": null,
+    "data": {
+      "name": "Dominate",
+      "rarity": "Rare",
+      "class": "Barbarian",
+      "filters": [
+        "Overpower"
+      ],
+      "bonus": [
+        "For every 5 Willpower purchased within range, you deal + {value} increased Overpower damage."
+      ],
+      "additional_bonus": [
+        "Every 12 seconds, your next attack will Overpower."
+      ],
+      "legendary_bonus": [
+        "You deal x {legendary_value} increased Overpower Damage."
+      ],
+      "legendary_value": 0.2,
+      "requirements_amount": [
+        25
+      ],
+      "requirements_stat": [
+        "Willpower"
+      ],
+      "value": 3,
+      "scaling": 0.29695,
+      "max_value": 0.3239805,
+      "stat_name": "Overpower Damage",
+      "stat_scaling": "Willpower"
+    }
+  },
+  {
+    "slug": "executioner",
+    "name_en": "Executioner",
+    "name_tr": null,
+    "diablo_class": "Barbarian",
+    "class_key": "barbarian",
+    "rarity": "Rare",
+    "radius": null,
+    "tags": [
+      "Healthy",
+      "Injured"
+    ],
+    "description_en": null,
+    "description_tr": null,
+    "data": {
+      "name": "Executioner",
+      "rarity": "Rare",
+      "class": "Barbarian",
+      "filters": [
+        "Healthy",
+        "Injured"
+      ],
+      "bonus": [
+        "For every 5 Strength purchased within range, you deal + {value} increased damage while wielding a Polearm."
+      ],
+      "additional_bonus": [
+        "While wielding a Polearm, you deal x15% increased damage."
+      ],
+      "legendary_bonus": [
+        "Increase damage by x {legendary_value} ."
+      ],
+      "legendary_value": 0.104,
+      "requirements_amount": [
+        40
+      ],
+      "requirements_stat": [
+        "Strength"
+      ],
+      "value": 1.3,
+      "scaling": 0.099,
+      "max_value": 0.11101000000000001,
+      "stat_name": "Damage with Polearm",
+      "stat_scaling": "Strength"
+    }
+  },
+  {
+    "slug": "exploit",
+    "name_en": "Exploit",
+    "name_tr": null,
+    "diablo_class": "Barbarian",
+    "class_key": "barbarian",
+    "rarity": "Rare",
+    "radius": null,
+    "tags": [
+      "Vulnerable"
+    ],
+    "description_en": null,
+    "description_tr": null,
+    "data": {
+      "name": "Exploit",
+      "rarity": "Rare",
+      "class": "Barbarian",
+      "filters": [
+        "Vulnerable"
+      ],
+      "bonus": [
+        "For every 5 Dexterity purchased within range, you deal + {value} increased damage to Vulnerable targets."
+      ],
+      "additional_bonus": [
+        "When an enemy is damaged by you, they become Vulnerable for 3 seconds. This cannot happen more than once every 20 seconds per enemy."
+      ],
+      "legendary_bonus": [
+        "Increase damage to Vulnerable targets by x {legendary_value} ."
+      ],
+      "legendary_value": 0.104,
+      "requirements_amount": [
+        25
+      ],
+      "requirements_stat": [
+        "Dexterity"
+      ],
+      "value": 2,
+      "scaling": 0.1111,
+      "max_value": 0.12998900000000002,
+      "stat_name": "Vulnerable Damage",
+      "stat_scaling": "Dexterity"
+    }
+  },
+  {
+    "slug": "imbiber",
+    "name_en": "Imbiber",
+    "name_tr": null,
+    "diablo_class": "Barbarian",
+    "class_key": "barbarian",
+    "rarity": "Rare",
+    "radius": null,
+    "tags": [
+      "Healthy"
+    ],
+    "description_en": null,
+    "description_tr": null,
+    "data": {
+      "name": "Imbiber",
+      "rarity": "Rare",
+      "class": "Barbarian",
+      "filters": [
+        "Healthy"
+      ],
+      "bonus": [
+        "For every 5 Willpower purchased within range, you deal + {value} increased damage while Healthy."
+      ],
+      "additional_bonus": [
+        "You gain +30% increased Potion Healing."
+      ],
+      "legendary_bonus": [
+        "Increase damage while Healthy by x {legendary_value} ."
+      ],
+      "legendary_value": 0.122,
+      "requirements_amount": [
+        25
+      ],
+      "requirements_stat": [
+        "Willpower"
+      ],
+      "value": 2.6,
+      "scaling": 0.1818,
+      "max_value": 0.161,
+      "stat_name": "Damage while Healthy",
+      "stat_scaling": "Willpower"
+    }
+  },
+  {
+    "slug": "ire",
+    "name_en": "Ire",
+    "name_tr": null,
+    "diablo_class": "Barbarian",
+    "class_key": "barbarian",
+    "rarity": "Rare",
+    "radius": null,
+    "tags": [
+      "Berserking"
+    ],
+    "description_en": null,
+    "description_tr": null,
+    "data": {
+      "name": "Ire",
+      "rarity": "Rare",
+      "class": "Barbarian",
+      "filters": [
+        "Berserking"
+      ],
+      "bonus": [
+        "For every 5 Strength purchased within range, you deal + {value} increased damage while Berserking."
+      ],
+      "additional_bonus": [
+        "While Berserking, you take 10% reduced damage from Elites."
+      ],
+      "legendary_bonus": [
+        "You deal x {legendary_value} increased damage to Close enemies."
+      ],
+      "legendary_value": 0.122,
+      "requirements_amount": [
+        40
+      ],
+      "requirements_stat": [
+        "Strength"
+      ],
+      "value": 1.3,
+      "scaling": 0.099,
+      "max_value": 0.087,
+      "stat_name": "Damage while Berserking",
+      "stat_scaling": "Strength"
+    }
+  },
+  {
+    "slug": "marshal",
+    "name_en": "Marshal",
+    "name_tr": null,
+    "diablo_class": "Barbarian",
+    "class_key": "barbarian",
+    "rarity": "Rare",
+    "radius": null,
+    "tags": null,
+    "description_en": null,
+    "description_tr": null,
+    "data": {
+      "name": "Marshal",
+      "rarity": "Rare",
+      "class": "Barbarian",
+      "bonus": [
+        "Grants + {value} bonus to all Magic nodes within range."
+      ],
+      "additional_bonus": [
+        "After casting a Shout Skill, the active Cooldown of every other non-Shout Skill is reduced by 2 seconds."
+      ],
+      "legendary_bonus": [
+        "Increase damage by x {legendary_value} ."
+      ],
+      "legendary_value": 0.104,
+      "requirements_amount": [
+        40
+      ],
+      "requirements_stat": [
+        "Strength"
+      ],
+      "value": 25,
+      "scaling": 2.5,
+      "max_value": 2.725,
+      "stat_name": "Special",
+      "stat_scaling": "Magic"
+    }
+  },
+  {
+    "slug": "might",
+    "name_en": "Might",
+    "name_tr": null,
+    "diablo_class": "Barbarian",
+    "class_key": "barbarian",
+    "rarity": "Rare",
+    "radius": null,
+    "tags": null,
+    "description_en": null,
+    "description_tr": null,
+    "data": {
+      "name": "Might",
+      "rarity": "Rare",
+      "class": "Barbarian",
+      "bonus": [
+        "Grants + {value} bonus to all Magic nodes within range."
+      ],
+      "additional_bonus": [
+        "You deal x8% increased damage while wielding Two-Handed weapons."
+      ],
+      "legendary_bonus": [
+        "You deal x {legendary_value} increased damage to Healthy enemies."
+      ],
+      "legendary_value": 0.2,
+      "requirements_amount": [
+        40
+      ],
+      "requirements_stat": [
+        "Strength"
+      ],
+      "value": 25,
+      "scaling": 2.5,
+      "max_value": 2.725,
+      "stat_name": "Special",
+      "stat_scaling": "Magic"
+    }
+  },
+  {
+    "slug": "mortal-draw",
+    "name_en": "Mortal Draw",
+    "name_tr": null,
+    "diablo_class": "Barbarian",
+    "class_key": "barbarian",
+    "rarity": "Rare",
+    "radius": null,
+    "tags": null,
+    "description_en": null,
+    "description_tr": null,
+    "data": {
+      "name": "Mortal Draw",
+      "rarity": "Rare",
+      "class": "Barbarian",
+      "bonus": [
+        "For every 5 Dexterity purchased within range, Skills that Swap to a different weapon deal + {value} increased damage."
+      ],
+      "additional_bonus": [
+        "Swapping weapons has a 18% chance to cause the Skill's damage to Critically Strike."
+      ],
+      "legendary_bonus": [
+        "Increase damage by x {legendary_value} ."
+      ],
+      "legendary_value": 0.104,
+      "requirements_amount": [
+        25
+      ],
+      "requirements_stat": [
+        "Dexterity"
+      ],
+      "value": 2.7,
+      "scaling": 0.34695,
+      "max_value": 0.37,
+      "stat_name": "Damage with Swapped Weapons",
+      "stat_scaling": "Dexterity"
+    }
+  },
+  {
+    "slug": "revenge",
+    "name_en": "Revenge",
+    "name_tr": null,
+    "diablo_class": "Barbarian",
+    "class_key": "barbarian",
+    "rarity": "Rare",
+    "radius": null,
+    "tags": [
+      "Thorns"
+    ],
+    "description_en": null,
+    "description_tr": null,
+    "data": {
+      "name": "Revenge",
+      "rarity": "Rare",
+      "class": "Barbarian",
+      "filters": [
+        "Thorns"
+      ],
+      "bonus": [
+        "Grants + {value} bonus to all Rare nodes within range."
+      ],
+      "additional_bonus": [
+        "Dealing Thorns damage to an enemy increases all damage it takes from you by x1%, up to x15%, for 10 seconds."
+      ],
+      "legendary_bonus": [
+        "Increase damage by x {legendary_value} ."
+      ],
+      "legendary_value": 0.104,
+      "requirements_amount": [
+        25
+      ],
+      "requirements_stat": [
+        "Willpower"
+      ],
+      "value": 25,
+      "scaling": 1.9495,
+      "max_value": 2.180005,
+      "stat_name": "Special",
+      "stat_scaling": "Rare"
+    }
+  },
+  {
+    "slug": "rumble",
+    "name_en": "Rumble",
+    "name_tr": null,
+    "diablo_class": "Barbarian",
+    "class_key": "barbarian",
+    "rarity": "Rare",
+    "radius": null,
+    "tags": [
+      "Crowd Control"
+    ],
+    "description_en": null,
+    "description_tr": null,
+    "data": {
+      "name": "Rumble",
+      "rarity": "Rare",
+      "class": "Barbarian",
+      "filters": [
+        "Crowd Control"
+      ],
+      "bonus": [
+        "For every 5 Strength purchased within range, your Earthquakes deal + {value} increased damage."
+      ],
+      "additional_bonus": [
+        "You deal x3% increased damage to Bosses and Crowd Controlled enemies for each active Earthquake, up to x15%."
+      ],
+      "legendary_bonus": [
+        "Increase Earthquake damage by x {legendary_value} ."
+      ],
+      "legendary_value": 0.301,
+      "requirements_amount": [
+        40
+      ],
+      "requirements_stat": [
+        "Strength"
+      ],
+      "value": 13.2,
+      "scaling": 0.495,
+      "max_value": 0.622,
+      "stat_name": "Earthquake Damage",
+      "stat_scaling": "Strength"
+    }
+  },
+  {
+    "slug": "seething",
+    "name_en": "Seething",
+    "name_tr": null,
+    "diablo_class": "Barbarian",
+    "class_key": "barbarian",
+    "rarity": "Rare",
+    "radius": null,
+    "tags": null,
+    "description_en": null,
+    "description_tr": null,
+    "data": {
+      "name": "Seething",
+      "rarity": "Rare",
+      "class": "Barbarian",
+      "bonus": [
+        "For every 5 Strength purchased within range, you deal + {value} increased damage while wielding a Sword."
+      ],
+      "additional_bonus": [
+        "While wielding a Sword, you gain 5 Fury when you kill an enemy."
+      ],
+      "legendary_bonus": [
+        "Increase damage by x {legendary_value} ."
+      ],
+      "legendary_value": 0.104,
+      "requirements_amount": [
+        40
+      ],
+      "requirements_stat": [
+        "Strength"
+      ],
+      "value": 1.3,
+      "scaling": 0.099,
+      "max_value": 0.087,
+      "stat_name": "Damage with Sword",
+      "stat_scaling": "Strength"
+    }
+  },
+  {
+    "slug": "territorial",
+    "name_en": "Territorial",
+    "name_tr": null,
+    "diablo_class": "Barbarian",
+    "class_key": "barbarian",
+    "rarity": "Rare",
+    "radius": null,
+    "tags": [
+      "Close",
+      "Damage Reduction"
+    ],
+    "description_en": null,
+    "description_tr": null,
+    "data": {
+      "name": "Territorial",
+      "rarity": "Rare",
+      "class": "Barbarian",
+      "filters": [
+        "Close",
+        "Damage Reduction"
+      ],
+      "bonus": [
+        "For every 5 Dexterity purchased within range, you deal + {value} increased damage to Close targets."
+      ],
+      "additional_bonus": [
+        "You gain 10% Damage Reduction against Close enemies."
+      ],
+      "legendary_bonus": [
+        "Increase damage to Vulnerable targets by x {legendary_value} ."
+      ],
+      "legendary_value": 0.104,
+      "requirements_amount": [
+        25
+      ],
+      "requirements_stat": [
+        "Dexterity"
+      ],
+      "value": 2,
+      "scaling": 0.1485,
+      "max_value": 0.167015,
+      "stat_name": "Damage to Close Enemies",
+      "stat_scaling": "Dexterity"
+    }
+  },
+  {
+    "slug": "twister",
+    "name_en": "Twister",
+    "name_tr": null,
+    "diablo_class": "Barbarian",
+    "class_key": "barbarian",
+    "rarity": "Rare",
+    "radius": null,
+    "tags": null,
+    "description_en": null,
+    "description_tr": null,
+    "data": {
+      "name": "Twister",
+      "rarity": "Rare",
+      "class": "Barbarian",
+      "bonus": [
+        "For every 5 Strength purchased within range, your Dust Devils deal + {value} increased damage."
+      ],
+      "additional_bonus": [
+        "You deal x13% increased damage for 4 seconds after creating a Dust Devil."
+      ],
+      "legendary_bonus": [
+        "Increase Dust Devil damage by x {legendary_value} ."
+      ],
+      "legendary_value": 0.301,
+      "requirements_amount": [
+        40
+      ],
+      "requirements_stat": [
+        "Strength"
+      ],
+      "value": 13.2,
+      "scaling": 0.6601,
+      "max_value": 0.622,
+      "stat_name": "Dust Devil Damage",
+      "stat_scaling": "Strength"
+    }
+  },
+  {
+    "slug": "undaunted",
+    "name_en": "Undaunted",
+    "name_tr": null,
+    "diablo_class": "Barbarian",
+    "class_key": "barbarian",
+    "rarity": "Rare",
+    "radius": null,
+    "tags": [
+      "Damage Reduction"
+    ],
+    "description_en": null,
+    "description_tr": null,
+    "data": {
+      "name": "Undaunted",
+      "rarity": "Rare",
+      "class": "Barbarian",
+      "filters": [
+        "Damage Reduction"
+      ],
+      "bonus": [
+        "For every 5 Willpower purchased within range, you deal + {value} increased damage while Fortified."
+      ],
+      "additional_bonus": [
+        "You gain 10% Damage Reduction the more Fortify you have."
+      ],
+      "legendary_bonus": [
+        "Increase damage by x {legendary_value} ."
+      ],
+      "legendary_value": 0.104,
+      "requirements_amount": [
+        25
+      ],
+      "requirements_stat": [
+        "Willpower"
+      ],
+      "value": 2,
+      "scaling": 0.1111,
+      "max_value": 0.12998900000000002,
+      "stat_name": "Damage while Fortified",
+      "stat_scaling": "Willpower"
+    }
+  },
+  {
+    "slug": "weapon-master",
+    "name_en": "Weapon Master",
+    "name_tr": null,
+    "diablo_class": "Barbarian",
+    "class_key": "barbarian",
+    "rarity": "Rare",
+    "radius": null,
+    "tags": [
+      "Damage Reduction"
+    ],
+    "description_en": null,
+    "description_tr": null,
+    "data": {
+      "name": "Weapon Master",
+      "rarity": "Rare",
+      "class": "Barbarian",
+      "filters": [
+        "Damage Reduction"
+      ],
+      "bonus": [
+        "Grants + {value} bonus to all Rare nodes within range."
+      ],
+      "additional_bonus": [
+        "Hitting with a Weapon Mastery Skill reduces the active Cooldown of another random Weapon Mastery Skill by 2 seconds."
+      ],
+      "legendary_bonus": [
+        "Increase Weapon Mastery skill damage by x {legendary_value} ."
+      ],
+      "legendary_value": 0.142,
+      "requirements_amount": [
+        25
+      ],
+      "requirements_stat": [
+        "Dexterity"
+      ],
+      "value": 25,
+      "scaling": 1.9495,
+      "max_value": 2.725,
+      "stat_name": "Special",
+      "stat_scaling": "Physical"
+    }
+  },
+  {
+    "slug": "wrath",
+    "name_en": "Wrath",
+    "name_tr": null,
+    "diablo_class": "Barbarian",
+    "class_key": "barbarian",
+    "rarity": "Rare",
+    "radius": null,
+    "tags": null,
+    "description_en": null,
+    "description_tr": null,
+    "data": {
+      "name": "Wrath",
+      "rarity": "Rare",
+      "class": "Barbarian",
+      "bonus": [
+        "For every 5 Dexterity purchased within range, you deal + {value} increased Critical Strike Damage."
+      ],
+      "additional_bonus": [
+        "Skills that Critical Strike generate 3 Fury."
+      ],
+      "legendary_bonus": [
+        "Increase Critical Strike Damage by x {legendary_value} ."
+      ],
+      "legendary_value": 0.142,
+      "requirements_amount": [
+        25
+      ],
+      "requirements_stat": [
+        "Dexterity"
+      ],
+      "value": 3,
+      "scaling": 0.2222,
+      "max_value": 0.249978,
+      "stat_name": "Core Skill Damage",
+      "stat_scaling": "Dexterity"
+    }
+  },
+  {
+    "slug": "bane",
+    "name_en": "Bane",
+    "name_tr": null,
+    "diablo_class": "Druid",
+    "class_key": "druid",
+    "rarity": "Rare",
+    "radius": null,
+    "tags": [
+      "Poison"
+    ],
+    "description_en": null,
+    "description_tr": null,
+    "data": {
+      "name": "Bane",
+      "rarity": "Rare",
+      "class": "Druid",
+      "filters": [
+        "Poison"
+      ],
+      "bonus": [
+        "For every 5 Intelligence purchased within range, you deal + {value} increased Poison damage."
+      ],
+      "additional_bonus": [
+        "Poisoning damage effects have a 15% chance to deal double the amount of damage over their duration."
+      ],
+      "legendary_bonus": [
+        "Increase Poison damage by x {legendary_value} ."
+      ],
+      "legendary_value": 0.104,
+      "requirements_amount": [
+        25
+      ],
+      "requirements_stat": [
+        "Intelligence"
+      ],
+      "value": 2,
+      "scaling": 0.1485,
+      "max_value": 0.167015,
+      "stat_name": "Poison Damage",
+      "stat_scaling": "Intelligence"
+    }
+  },
+  {
+    "slug": "dominate",
+    "name_en": "Dominate",
+    "name_tr": null,
+    "diablo_class": "Druid",
+    "class_key": "druid",
+    "rarity": "Rare",
+    "radius": null,
+    "tags": [
+      "Overpower"
+    ],
+    "description_en": null,
+    "description_tr": null,
+    "data": {
+      "name": "Dominate",
+      "rarity": "Rare",
+      "class": "Druid",
+      "filters": [
+        "Overpower"
+      ],
+      "bonus": [
+        "For every 5 Intelligence purchased within range, you deal + {value} increased Overpower damage."
+      ],
+      "additional_bonus": [
+        "When you Overpower an enemy, all damage they take from you is increased by x15% for 5 seconds."
+      ],
+      "legendary_bonus": [
+        "You deal x {legendary_value} increased Overpower Damage."
+      ],
+      "legendary_value": 0.2,
+      "requirements_amount": [
+        25
+      ],
+      "requirements_stat": [
+        "Intelligence"
+      ],
+      "value": 7.9,
+      "scaling": 0.7919,
+      "max_value": 0.667,
+      "stat_name": "Overpower Damage",
+      "stat_scaling": "Intelligence"
+    }
+  },
+  {
+    "slug": "earth-and-sky",
+    "name_en": "Earth and Sky",
+    "name_tr": null,
+    "diablo_class": "Druid",
+    "class_key": "druid",
+    "rarity": "Rare",
+    "radius": null,
+    "tags": [
+      "Vulnerable"
+    ],
+    "description_en": null,
+    "description_tr": null,
+    "data": {
+      "name": "Earth and Sky",
+      "rarity": "Rare",
+      "class": "Druid",
+      "filters": [
+        "Vulnerable"
+      ],
+      "bonus": [
+        "Grants + {value} bonus to all Magic nodes within range."
+      ],
+      "additional_bonus": [
+        "Nature Magic Skills deal x18% increased damage to Crowd Controlled or Vulnerable enemies."
+      ],
+      "legendary_bonus": [
+        "Increase Nature Magic skill damage x {legendary_value} ."
+      ],
+      "legendary_value": 0.104,
+      "requirements_amount": [
+        40
+      ],
+      "requirements_stat": [
+        "Willpower"
+      ],
+      "value": 30,
+      "scaling": 3,
+      "max_value": 3.27,
+      "stat_name": "Special",
+      "stat_scaling": "Magic"
+    }
+  },
+  {
+    "slug": "electrocution",
+    "name_en": "Electrocution",
+    "name_tr": null,
+    "diablo_class": "Druid",
+    "class_key": "druid",
+    "rarity": "Rare",
+    "radius": null,
+    "tags": null,
+    "description_en": null,
+    "description_tr": null,
+    "data": {
+      "name": "Electrocution",
+      "rarity": "Rare",
+      "class": "Druid",
+      "bonus": [
+        "For every 5 Willpower purchased within range, your Lightning Bolts and Dancing Bolts deal + {value} increased damage."
+      ],
+      "additional_bonus": [
+        "Enemies damaged by your Lightning Bolts or Dancing Bolts take x20% increased damage from you for 5 seconds."
+      ],
+      "legendary_bonus": [
+        "Increase Lightning damage by x {legendary_value} ."
+      ],
+      "legendary_value": 0.104,
+      "requirements_amount": [
+        40
+      ],
+      "requirements_stat": [
+        "Willpower"
+      ],
+      "value": 13.2,
+      "scaling": 0.6601,
+      "max_value": 0.622,
+      "stat_name": "Lightning Bolts and Dancing Bolts Damage",
+      "stat_scaling": "Willpower"
+    }
+  },
+  {
+    "slug": "exploit",
+    "name_en": "Exploit",
+    "name_tr": null,
+    "diablo_class": "Druid",
+    "class_key": "druid",
+    "rarity": "Rare",
+    "radius": null,
+    "tags": [
+      "Vulnerable"
+    ],
+    "description_en": null,
+    "description_tr": null,
+    "data": {
+      "name": "Exploit",
+      "rarity": "Rare",
+      "class": "Druid",
+      "filters": [
+        "Vulnerable"
+      ],
+      "bonus": [
+        "For every 5 Dexterity purchased within range, you deal + {value} increased damage to Vulnerable targets."
+      ],
+      "additional_bonus": [
+        "When an enemy is damaged by you, they become Vulnerable for 3 seconds. This cannot happen more than once every 5 seconds per enemy."
+      ],
+      "legendary_bonus": [
+        "Increase damage to Vulnerable targets by x {legendary_value} ."
+      ],
+      "legendary_value": 0.104,
+      "requirements_amount": [
+        25
+      ],
+      "requirements_stat": [
+        "Dexterity"
+      ],
+      "value": 2,
+      "scaling": 0.1111,
+      "max_value": 0.12998900000000002,
+      "stat_name": "Vulnerable Damage",
+      "stat_scaling": "Dexterity"
+    }
+  },
+  {
+    "slug": "fang-and-claw",
+    "name_en": "Fang and Claw",
+    "name_tr": null,
+    "diablo_class": "Druid",
+    "class_key": "druid",
+    "rarity": "Rare",
+    "radius": null,
+    "tags": [
+      "Close"
+    ],
+    "description_en": null,
+    "description_tr": null,
+    "data": {
+      "name": "Fang and Claw",
+      "rarity": "Rare",
+      "class": "Druid",
+      "filters": [
+        "Close"
+      ],
+      "bonus": [
+        "Grants + {value} bonus to all Magic nodes within range."
+      ],
+      "additional_bonus": [
+        "While in Werewolf or Werebear form, Close enemies take x12% increased damage from you."
+      ],
+      "legendary_bonus": [
+        "Increase damage while Shapeshifted by x {legendary_value} ."
+      ],
+      "legendary_value": 0.104,
+      "requirements_amount": [
+        40
+      ],
+      "requirements_stat": [
+        "Willpower"
+      ],
+      "value": 30,
+      "scaling": 3,
+      "max_value": 3.27,
+      "stat_name": "Special",
+      "stat_scaling": "Magic"
+    }
+  },
+  {
+    "slug": "fulminate",
+    "name_en": "Fulminate",
+    "name_tr": null,
+    "diablo_class": "Druid",
+    "class_key": "druid",
+    "rarity": "Rare",
+    "radius": null,
+    "tags": [
+      "Healthy",
+      "Injured",
+      "Lightning"
+    ],
+    "description_en": null,
+    "description_tr": null,
+    "data": {
+      "name": "Fulminate",
+      "rarity": "Rare",
+      "class": "Druid",
+      "filters": [
+        "Healthy",
+        "Injured",
+        "Lightning"
+      ],
+      "bonus": [
+        "For every 5 Dexterity purchased within range, you deal + {value} increased Lightning damage."
+      ],
+      "additional_bonus": [
+        "You deal x12% increased Lightning damage to both Healthy and Injured enemies."
+      ],
+      "legendary_bonus": [
+        "Increase Lightning damage by x {legendary_value} ."
+      ],
+      "legendary_value": 0.104,
+      "requirements_amount": [
+        25
+      ],
+      "requirements_stat": [
+        "Dexterity"
+      ],
+      "value": 2,
+      "scaling": 0.1485,
+      "max_value": 0.167015,
+      "stat_name": "Lightning Damage",
+      "stat_scaling": "Dexterity"
+    }
+  },
+  {
+    "slug": "guzzler",
+    "name_en": "Guzzler",
+    "name_tr": null,
+    "diablo_class": "Druid",
+    "class_key": "druid",
+    "rarity": "Rare",
+    "radius": null,
+    "tags": [
+      "Healthy"
+    ],
+    "description_en": null,
+    "description_tr": null,
+    "data": {
+      "name": "Guzzler",
+      "rarity": "Rare",
+      "class": "Druid",
+      "filters": [
+        "Healthy"
+      ],
+      "bonus": [
+        "For every 5 Intelligence purchased within range, you deal + {value} increased damage while Healthy."
+      ],
+      "additional_bonus": [
+        "You gain x3% increased damage and 5% increased Potion Healing for each missing Healing Potion."
+      ],
+      "legendary_bonus": [
+        "Increase damage while Healthy by x {legendary_value} ."
+      ],
+      "legendary_value": 0.122,
+      "requirements_amount": [
+        25
+      ],
+      "requirements_stat": [
+        "Intelligence"
+      ],
+      "value": 2.6,
+      "scaling": 0.1818,
+      "max_value": 0.161,
+      "stat_name": "Damage while Healthy",
+      "stat_scaling": "Intelligence"
+    }
+  },
+  {
+    "slug": "headhunter",
+    "name_en": "Headhunter",
+    "name_tr": null,
+    "diablo_class": "Druid",
+    "class_key": "druid",
+    "rarity": "Rare",
+    "radius": null,
+    "tags": [
+      "Elite"
+    ],
+    "description_en": null,
+    "description_tr": null,
+    "data": {
+      "name": "Headhunter",
+      "rarity": "Rare",
+      "class": "Druid",
+      "filters": [
+        "Elite"
+      ],
+      "bonus": [
+        "Grants + {value} bonus to all Normal nodes within range."
+      ],
+      "additional_bonus": [
+        "You deal x10 increased damage to Elites."
+      ],
+      "legendary_bonus": [
+        "Increase damage by x {legendary_value} ."
+      ],
+      "legendary_value": 0.104,
+      "requirements_amount": [
+        40
+      ],
+      "requirements_stat": [
+        "Willpower"
+      ],
+      "value": 20,
+      "scaling": 0.8081,
+      "max_value": 1.000019,
+      "stat_name": "Special",
+      "stat_scaling": "Normal"
+    }
+  },
+  {
+    "slug": "human",
+    "name_en": "Human",
+    "name_tr": null,
+    "diablo_class": "Druid",
+    "class_key": "druid",
+    "rarity": "Rare",
+    "radius": null,
+    "tags": [
+      "Damage Reduction"
+    ],
+    "description_en": null,
+    "description_tr": null,
+    "data": {
+      "name": "Human",
+      "rarity": "Rare",
+      "class": "Druid",
+      "filters": [
+        "Damage Reduction"
+      ],
+      "bonus": [
+        "For every 5 Willpower purchased within range, you deal + {value} increased damage while in Human form."
+      ],
+      "additional_bonus": [
+        "12% increased damage and Damage Reduction while in Human form."
+      ],
+      "legendary_bonus": [
+        "Increase Nature Magic skill damage x {legendary_value} ."
+      ],
+      "legendary_value": 0.104,
+      "requirements_amount": [
+        40
+      ],
+      "requirements_stat": [
+        "Willpower"
+      ],
+      "value": 2,
+      "scaling": 0.1485,
+      "max_value": 0.167015,
+      "stat_name": "Damage while in Human Form",
+      "stat_scaling": "Willpower"
+    }
+  },
+  {
+    "slug": "keeper",
+    "name_en": "Keeper",
+    "name_tr": null,
+    "diablo_class": "Druid",
+    "class_key": "druid",
+    "rarity": "Rare",
+    "radius": null,
+    "tags": [
+      "Companion"
+    ],
+    "description_en": null,
+    "description_tr": null,
+    "data": {
+      "name": "Keeper",
+      "rarity": "Rare",
+      "class": "Druid",
+      "filters": [
+        "Companion"
+      ],
+      "bonus": [
+        "Grants + {value} bonus to all Rare nodes within range."
+      ],
+      "additional_bonus": [
+        "You and your Companions deal x15% increased Non-Physical damage."
+      ],
+      "legendary_bonus": [
+        "Increase Non-Physical damage by x {legendary_value} ."
+      ],
+      "legendary_value": 0.104,
+      "requirements_amount": [
+        25
+      ],
+      "requirements_stat": [
+        "Intelligence"
+      ],
+      "value": 25,
+      "scaling": 1.9495,
+      "max_value": 2.725,
+      "stat_name": "Special",
+      "stat_scaling": "Rare"
+    }
+  },
+  {
+    "slug": "outmatch",
+    "name_en": "Outmatch",
+    "name_tr": null,
+    "diablo_class": "Druid",
+    "class_key": "druid",
+    "rarity": "Rare",
+    "radius": null,
+    "tags": null,
+    "description_en": null,
+    "description_tr": null,
+    "data": {
+      "name": "Outmatch",
+      "rarity": "Rare",
+      "class": "Druid",
+      "bonus": [
+        "Grants + {value} bonus to all Rare nodes within range."
+      ],
+      "additional_bonus": [
+        "You deal x15% increased Physical damage to Non-Elites and Bosses."
+      ],
+      "legendary_bonus": [
+        "Increase damage by x {legendary_value} ."
+      ],
+      "legendary_value": 0.104,
+      "requirements_amount": [
+        25
+      ],
+      "requirements_stat": [
+        "Dexterity"
+      ],
+      "value": 25,
+      "scaling": 1.9495,
+      "max_value": 2.725,
+      "stat_name": "Special",
+      "stat_scaling": "Rare"
+    }
+  },
+  {
+    "slug": "poise",
+    "name_en": "Poise",
+    "name_tr": null,
+    "diablo_class": "Druid",
+    "class_key": "druid",
+    "rarity": "Rare",
+    "radius": null,
+    "tags": [
+      "Barrier"
+    ],
+    "description_en": null,
+    "description_tr": null,
+    "data": {
+      "name": "Poise",
+      "rarity": "Rare",
+      "class": "Druid",
+      "filters": [
+        "Barrier"
+      ],
+      "bonus": [
+        "Grants + {value} bonus to all Rare nodes within range."
+      ],
+      "additional_bonus": [
+        "You have a 30% chance when Shapeshifting to gain a Barrier that absorbs 15% of your Maximum Life in damage for 6 seconds."
+      ],
+      "legendary_bonus": [
+        "Increase damage by x {legendary_value} ."
+      ],
+      "legendary_value": 0.104,
+      "requirements_amount": [
+        25
+      ],
+      "requirements_stat": [
+        "Dexterity"
+      ],
+      "value": 25,
+      "scaling": 1.9495,
+      "max_value": 2.725,
+      "stat_name": "Special",
+      "stat_scaling": "Rare"
+    }
+  },
+  {
+    "slug": "protector",
+    "name_en": "Protector",
+    "name_tr": null,
+    "diablo_class": "Druid",
+    "class_key": "druid",
+    "rarity": "Rare",
+    "radius": null,
+    "tags": [
+      "Damage Reduction",
+      "Barrier"
+    ],
+    "description_en": null,
+    "description_tr": null,
+    "data": {
+      "name": "Protector",
+      "rarity": "Rare",
+      "class": "Druid",
+      "filters": [
+        "Damage Reduction",
+        "Barrier"
+      ],
+      "bonus": [
+        "Grants + {value} bonus to all Rare nodes within range."
+      ],
+      "additional_bonus": [
+        "You gain 15% Damage Reduction while you have an active Barrier."
+      ],
+      "legendary_bonus": [
+        "Increase damage by x {legendary_value} ."
+      ],
+      "legendary_value": 0.104,
+      "requirements_amount": [
+        25
+      ],
+      "requirements_stat": [
+        "Intelligence"
+      ],
+      "value": 25,
+      "scaling": 1.9495,
+      "max_value": 2.725,
+      "stat_name": "Special",
+      "stat_scaling": "Rare"
+    }
+  },
+  {
+    "slug": "shapeshifter",
+    "name_en": "Shapeshifter",
+    "name_tr": null,
+    "diablo_class": "Druid",
+    "class_key": "druid",
+    "rarity": "Rare",
+    "radius": null,
+    "tags": null,
+    "description_en": null,
+    "description_tr": null,
+    "data": {
+      "name": "Shapeshifter",
+      "rarity": "Rare",
+      "class": "Druid",
+      "bonus": [
+        "Grants + {value} bonus to all Rare nodes within range."
+      ],
+      "additional_bonus": [
+        "Shapeshifting increases Critical Strike chance and Critical Strike Damage by 10% for 2 seconds."
+      ],
+      "legendary_bonus": [
+        "Increase Critical Strike Damage by x {legendary_value} ."
+      ],
+      "legendary_value": 0.142,
+      "requirements_amount": [
+        25
+      ],
+      "requirements_stat": [
+        "Dexterity"
+      ],
+      "value": 25,
+      "scaling": 1.9495,
+      "max_value": 2.725,
+      "stat_name": "Special",
+      "stat_scaling": "Rare"
+    }
+  },
+  {
+    "slug": "spirit",
+    "name_en": "Spirit",
+    "name_tr": null,
+    "diablo_class": "Druid",
+    "class_key": "druid",
+    "rarity": "Rare",
+    "radius": null,
+    "tags": null,
+    "description_en": null,
+    "description_tr": null,
+    "data": {
+      "name": "Spirit",
+      "rarity": "Rare",
+      "class": "Druid",
+      "bonus": [
+        "For every 5 Dexterity purchased within range, you deal + {value} increased Critical Strike Damage."
+      ],
+      "additional_bonus": [
+        "Critical Strikes increase the damage an enemy takes from you by x3% for 20 seconds, up to x15%."
+      ],
+      "legendary_bonus": [
+        "Increase Critical Strike Damage by x {legendary_value} ."
+      ],
+      "legendary_value": 0.142,
+      "requirements_amount": [
+        25
+      ],
+      "requirements_stat": [
+        "Dexterity"
+      ],
+      "value": 4,
+      "scaling": 0.39595,
+      "max_value": 0.334,
+      "stat_name": "Critical Strike Damage",
+      "stat_scaling": "Dexterity"
+    }
+  },
+  {
+    "slug": "tectonic",
+    "name_en": "Tectonic",
+    "name_tr": null,
+    "diablo_class": "Druid",
+    "class_key": "druid",
+    "rarity": "Rare",
+    "radius": null,
+    "tags": null,
+    "description_en": null,
+    "description_tr": null,
+    "data": {
+      "name": "Tectonic",
+      "rarity": "Rare",
+      "class": "Druid",
+      "bonus": [
+        "For every 5 Dexterity purchased within range, your Earth Skills gains + {value} Critical Strike Damage."
+      ],
+      "additional_bonus": [
+        "15% damage to Crowd Controlled Enemies."
+      ],
+      "legendary_bonus": [
+        "Increase Earth skill damage by x {legendary_value} ."
+      ],
+      "legendary_value": 0.104,
+      "requirements_amount": [
+        25
+      ],
+      "requirements_stat": [
+        "Dexterity"
+      ],
+      "value": 3,
+      "scaling": 0.29695,
+      "max_value": 0.25,
+      "stat_name": "Earth Skill Damage",
+      "stat_scaling": "Dexterity"
+    }
+  },
+  {
+    "slug": "territorial",
+    "name_en": "Territorial",
+    "name_tr": null,
+    "diablo_class": "Druid",
+    "class_key": "druid",
+    "rarity": "Rare",
+    "radius": null,
+    "tags": [
+      "Damage Reduction",
+      "Close"
+    ],
+    "description_en": null,
+    "description_tr": null,
+    "data": {
+      "name": "Territorial",
+      "rarity": "Rare",
+      "class": "Druid",
+      "filters": [
+        "Damage Reduction",
+        "Close"
+      ],
+      "bonus": [
+        "For every 5 Dexterity purchased within range, you deal + {value} increased damage to Close targets."
+      ],
+      "additional_bonus": [
+        "You gain 15% Damage Reduction against Close enemies."
+      ],
+      "legendary_bonus": [
+        "Increase damage to Vulnerable targets by x {legendary_value} ."
+      ],
+      "legendary_value": 0.104,
+      "requirements_amount": [
+        25
+      ],
+      "requirements_stat": [
+        "Dexterity"
+      ],
+      "value": 2,
+      "scaling": 0.1485,
+      "max_value": 0.167015,
+      "stat_name": "Damage to Close Enemies",
+      "stat_scaling": "Dexterity"
+    }
+  },
+  {
+    "slug": "tracker",
+    "name_en": "Tracker",
+    "name_tr": null,
+    "diablo_class": "Druid",
+    "class_key": "druid",
+    "rarity": "Rare",
+    "radius": null,
+    "tags": [
+      "Poison"
+    ],
+    "description_en": null,
+    "description_tr": null,
+    "data": {
+      "name": "Tracker",
+      "rarity": "Rare",
+      "class": "Druid",
+      "filters": [
+        "Poison"
+      ],
+      "bonus": [
+        "For every 5 Dexterity purchased within range, you deal + {value} increased damage to Poisoned targets."
+      ],
+      "additional_bonus": [
+        "Poisoning damage effects last x40% longer."
+      ],
+      "legendary_bonus": [
+        "Increase damage by x {legendary_value} ."
+      ],
+      "legendary_value": 0.104,
+      "requirements_amount": [
+        25
+      ],
+      "requirements_stat": [
+        "Dexterity"
+      ],
+      "value": 2,
+      "scaling": 0.1485,
+      "max_value": 0.167015,
+      "stat_name": "Damage to Poisoned Enemies",
+      "stat_scaling": "Dexterity"
+    }
+  },
+  {
+    "slug": "undaunted",
+    "name_en": "Undaunted",
+    "name_tr": null,
+    "diablo_class": "Druid",
+    "class_key": "druid",
+    "rarity": "Rare",
+    "radius": null,
+    "tags": [
+      "Damage Reduction",
+      "Fortify"
+    ],
+    "description_en": null,
+    "description_tr": null,
+    "data": {
+      "name": "Undaunted",
+      "rarity": "Rare",
+      "class": "Druid",
+      "filters": [
+        "Damage Reduction",
+        "Fortify"
+      ],
+      "bonus": [
+        "For every 5 Intelligence purchased within range, you deal + {value} increased damage while Fortified."
+      ],
+      "additional_bonus": [
+        "You gain up to 10% Damage Reduction the more Fortify you have."
+      ],
+      "legendary_bonus": [
+        "Increase damage by x {legendary_value} ."
+      ],
+      "legendary_value": 0.104,
+      "requirements_amount": [
+        25
+      ],
+      "requirements_stat": [
+        "Intelligence"
+      ],
+      "value": 2,
+      "scaling": 0.1485,
+      "max_value": 0.167015,
+      "stat_name": "Damage while Fortified",
+      "stat_scaling": "Intelligence"
+    }
+  },
+  {
+    "slug": "werebear",
+    "name_en": "Werebear",
+    "name_tr": null,
+    "diablo_class": "Druid",
+    "class_key": "druid",
+    "rarity": "Rare",
+    "radius": null,
+    "tags": [
+      "Damage Reduction"
+    ],
+    "description_en": null,
+    "description_tr": null,
+    "data": {
+      "name": "Werebear",
+      "rarity": "Rare",
+      "class": "Druid",
+      "filters": [
+        "Damage Reduction"
+      ],
+      "bonus": [
+        "For every 5 Willpower purchased within range, you deal + {value} increased damage while in Werebear form."
+      ],
+      "additional_bonus": [
+        "You gain 15% Damage Reduction while in Werebear form."
+      ],
+      "legendary_bonus": [
+        "Increase damage while in Werebear form by x {legendary_value} ."
+      ],
+      "legendary_value": 0.104,
+      "requirements_amount": [
+        40
+      ],
+      "requirements_stat": [
+        "Willpower"
+      ],
+      "value": 2,
+      "scaling": 0.1485,
+      "max_value": 0.167015,
+      "stat_name": "Damage while in Werebear Form",
+      "stat_scaling": "Willpower"
+    }
+  },
+  {
+    "slug": "werewolf",
+    "name_en": "Werewolf",
+    "name_tr": null,
+    "diablo_class": "Druid",
+    "class_key": "druid",
+    "rarity": "Rare",
+    "radius": null,
+    "tags": [
+      "Damage Reduction"
+    ],
+    "description_en": null,
+    "description_tr": null,
+    "data": {
+      "name": "Werewolf",
+      "rarity": "Rare",
+      "class": "Druid",
+      "filters": [
+        "Damage Reduction"
+      ],
+      "bonus": [
+        "For every 5 Willpower purchased within range, you deal + {value} increased damage while in Werewolf form."
+      ],
+      "additional_bonus": [
+        "You gain 15% Damage Reduction while in Werewolf form."
+      ],
+      "legendary_bonus": [
+        "Increase damage while in Werewolf form by x {legendary_value} ."
+      ],
+      "legendary_value": 0.104,
+      "requirements_amount": [
+        40
+      ],
+      "requirements_stat": [
+        "Willpower"
+      ],
+      "value": 1.32,
+      "scaling": 0.099,
+      "max_value": 0.166,
+      "stat_name": "Damage while in Werewolf Form",
+      "stat_scaling": "Willpower"
+    }
+  },
+  {
+    "slug": "wilds",
+    "name_en": "Wilds",
+    "name_tr": null,
+    "diablo_class": "Druid",
+    "class_key": "druid",
+    "rarity": "Rare",
+    "radius": null,
+    "tags": [
+      "Companion"
+    ],
+    "description_en": null,
+    "description_tr": null,
+    "data": {
+      "name": "Wilds",
+      "rarity": "Rare",
+      "class": "Druid",
+      "filters": [
+        "Companion"
+      ],
+      "bonus": [
+        "For every 5 Intelligence within range, Companion Skills deal + {value} increased damage."
+      ],
+      "additional_bonus": [
+        "The Passive portion of Companion Skills deal x130% increased damage."
+      ],
+      "legendary_bonus": [
+        "Increase Critical Strike Damage by x {legendary_value} ."
+      ],
+      "legendary_value": 0.142,
+      "requirements_amount": [
+        25
+      ],
+      "requirements_stat": [
+        "Intelligence"
+      ],
+      "value": 5,
+      "scaling": 0.49495,
+      "max_value": 0.417,
+      "stat_name": "Companion Skill Damage",
+      "stat_scaling": "Intelligence"
+    }
+  },
+  {
+    "slug": "abyssal",
+    "name_en": "Abyssal",
+    "name_tr": null,
+    "diablo_class": "Necromancer",
+    "class_key": "necromancer",
+    "rarity": "Rare",
+    "radius": null,
+    "tags": [
+      "Minion",
+      "Damage Reduction"
+    ],
+    "description_en": null,
+    "description_tr": null,
+    "data": {
+      "name": "Abyssal",
+      "rarity": "Rare",
+      "class": "Necromancer",
+      "filters": [
+        "Minion",
+        "Damage Reduction"
+      ],
+      "bonus": [
+        "Grants + {value} bonus to all Rare nodes within range."
+      ],
+      "additional_bonus": [
+        "You deal x10% increased Non-Physical damage."
+      ],
+      "legendary_bonus": [
+        "Increase Non-Physical damage by x {legendary_value} ."
+      ],
+      "legendary_value": 0.104,
+      "requirements_amount": [
+        25
+      ],
+      "requirements_stat": [
+        "Dexterity"
+      ],
+      "value": 25,
+      "scaling": 1.5,
+      "max_value": 2.725,
+      "stat_name": "Special",
+      "stat_scaling": "Non-Physical"
+    }
+  },
+  {
+    "slug": "amplify",
+    "name_en": "Amplify",
+    "name_tr": null,
+    "diablo_class": "Necromancer",
+    "class_key": "necromancer",
+    "rarity": "Rare",
+    "radius": null,
+    "tags": [
+      "Curse",
+      "Minion"
+    ],
+    "description_en": null,
+    "description_tr": null,
+    "data": {
+      "name": "Amplify",
+      "rarity": "Rare",
+      "class": "Necromancer",
+      "filters": [
+        "Curse",
+        "Minion"
+      ],
+      "bonus": [
+        "Grants + {value} bonus to all Magic nodes within range."
+      ],
+      "additional_bonus": [
+        "Enemies affected by Curse Skills take x10% increased damage from you and your Minions."
+      ],
+      "legendary_bonus": [
+        "Increase damage by x {legendary_value} ."
+      ],
+      "legendary_value": 0.104,
+      "requirements_amount": [
+        40
+      ],
+      "requirements_stat": [
+        "Intelligence"
+      ],
+      "value": 30,
+      "scaling": 3,
+      "max_value": 3.27,
+      "stat_name": "Special",
+      "stat_scaling": "Magic"
+    }
+  },
+  {
+    "slug": "blood-drinker",
+    "name_en": "Blood-drinker",
+    "name_tr": null,
+    "diablo_class": "Necromancer",
+    "class_key": "necromancer",
+    "rarity": "Rare",
+    "radius": null,
+    "tags": [
+      "Fortify",
+      "Blood Orb"
+    ],
+    "description_en": null,
+    "description_tr": null,
+    "data": {
+      "name": "Blood-drinker",
+      "rarity": "Rare",
+      "class": "Necromancer",
+      "filters": [
+        "Fortify",
+        "Blood Orb"
+      ],
+      "bonus": [
+        "Grants + {value} bonus to all Magic nodes within range."
+      ],
+      "additional_bonus": [
+        "Blood Orbs Fortify you for 10% of your Maximum Life."
+      ],
+      "legendary_bonus": [
+        "Increase damage by x {legendary_value} ."
+      ],
+      "legendary_value": 0.104,
+      "requirements_amount": [
+        40
+      ],
+      "requirements_stat": [
+        "Intelligence"
+      ],
+      "value": 30,
+      "scaling": 3,
+      "max_value": 3.27,
+      "stat_name": "Special",
+      "stat_scaling": "Magic"
+    }
+  },
+  {
+    "slug": "control",
+    "name_en": "Control",
+    "name_tr": null,
+    "diablo_class": "Necromancer",
+    "class_key": "necromancer",
+    "rarity": "Rare",
+    "radius": null,
+    "tags": [
+      "Slow",
+      "Minion",
+      "Chill",
+      "Stun",
+      "Freeze"
+    ],
+    "description_en": null,
+    "description_tr": null,
+    "data": {
+      "name": "Control",
+      "rarity": "Rare",
+      "class": "Necromancer",
+      "filters": [
+        "Slow",
+        "Minion",
+        "Chill",
+        "Stun",
+        "Freeze"
+      ],
+      "bonus": [
+        "For every 5 Intelligence purchased within range, you deal + {value} increased damage to Crowd Controlled targets."
+      ],
+      "additional_bonus": [
+        "You and your Minions deal x20% increased damage to Crowd Controlled targets."
+      ],
+      "legendary_bonus": [
+        "Increase damage to Crowd Controlled targets by x {legendary_value} ."
+      ],
+      "legendary_value": 0.142,
+      "requirements_amount": [
+        40
+      ],
+      "requirements_stat": [
+        "Intelligence"
+      ],
+      "value": 2,
+      "scaling": 0.1485,
+      "max_value": 0.167015,
+      "stat_name": "Damage to Crowd Controlled Enemies",
+      "stat_scaling": "Intelligence"
+    }
+  },
+  {
+    "slug": "corporeal",
+    "name_en": "Corporeal",
+    "name_tr": null,
+    "diablo_class": "Necromancer",
+    "class_key": "necromancer",
+    "rarity": "Rare",
+    "radius": null,
+    "tags": [
+      "Minion",
+      "Damage Reduction"
+    ],
+    "description_en": null,
+    "description_tr": null,
+    "data": {
+      "name": "Corporeal",
+      "rarity": "Rare",
+      "class": "Necromancer",
+      "filters": [
+        "Minion",
+        "Damage Reduction"
+      ],
+      "bonus": [
+        "Grants + {value} bonus to all Magic nodes within range."
+      ],
+      "additional_bonus": [
+        "You and your Minions deal x10% increased Physical damage and you gain 1% Movement Speed for each active Minion."
+      ],
+      "legendary_bonus": [
+        "Increase Physical damage by x {legendary_value} ."
+      ],
+      "legendary_value": 0.104,
+      "requirements_amount": [
+        40
+      ],
+      "requirements_stat": [
+        "Intelligence"
+      ],
+      "value": 30,
+      "scaling": 3,
+      "max_value": 3.27,
+      "stat_name": "Special",
+      "stat_scaling": "Physical"
+    }
+  },
+  {
+    "slug": "darkness",
+    "name_en": "Darkness",
+    "name_tr": null,
+    "diablo_class": "Necromancer",
+    "class_key": "necromancer",
+    "rarity": "Rare",
+    "radius": null,
+    "tags": [
+      "Minion",
+      "Damage Reduction"
+    ],
+    "description_en": null,
+    "description_tr": null,
+    "data": {
+      "name": "Darkness",
+      "rarity": "Rare",
+      "class": "Necromancer",
+      "filters": [
+        "Minion",
+        "Damage Reduction"
+      ],
+      "bonus": [
+        "For every 5 Intelligence purchased within range, you deal + {value} increased Shadow damage."
+      ],
+      "additional_bonus": [
+        "Whenever you or your Minions deal Shadow damage to an enemy, that enemy deals 2% reduced damage, up to 10%, for 5 seconds."
+      ],
+      "legendary_bonus": [
+        "Increase Shadow damage by x {legendary_value} ."
+      ],
+      "legendary_value": 0.104,
+      "requirements_amount": [
+        40
+      ],
+      "requirements_stat": [
+        "Intelligence"
+      ],
+      "value": 1.32,
+      "scaling": 0.099,
+      "max_value": 0.11121,
+      "stat_name": "Shadow Damage",
+      "stat_scaling": "Intelligence"
+    }
+  },
+  {
+    "slug": "deadraiser",
+    "name_en": "Deadraiser",
+    "name_tr": null,
+    "diablo_class": "Necromancer",
+    "class_key": "necromancer",
+    "rarity": "Rare",
+    "radius": null,
+    "tags": [
+      "Minion",
+      "Damage Reduction"
+    ],
+    "description_en": null,
+    "description_tr": null,
+    "data": {
+      "name": "Deadraiser",
+      "rarity": "Rare",
+      "class": "Necromancer",
+      "filters": [
+        "Minion",
+        "Damage Reduction"
+      ],
+      "bonus": [
+        "Paragon nodes within range gain + {value} bonus to their Minion damage and damage reduction modifiers."
+      ],
+      "additional_bonus": [
+        "Whenever your Minions deal damage to an enemy, that enemy takes 1% increased damage from you and your Minions, up to 15%, for 10 seconds."
+      ],
+      "legendary_bonus": [
+        "Increase damage by x {legendary_value} ."
+      ],
+      "legendary_value": 0.104,
+      "requirements_amount": [
+        40
+      ],
+      "requirements_stat": [
+        "Intelligence"
+      ],
+      "value": 20,
+      "scaling": 2,
+      "max_value": 2.18,
+      "stat_name": "Special",
+      "stat_scaling": "Minion"
+    }
+  },
+  {
+    "slug": "desecration",
+    "name_en": "Desecration",
+    "name_tr": null,
+    "diablo_class": "Necromancer",
+    "class_key": "necromancer",
+    "rarity": "Rare",
+    "radius": null,
+    "tags": [
+      "Shadow Damage"
+    ],
+    "description_en": null,
+    "description_tr": null,
+    "data": {
+      "name": "Desecration",
+      "rarity": "Rare",
+      "class": "Necromancer",
+      "filters": [
+        "Shadow Damage"
+      ],
+      "bonus": [
+        "For every 5 Willpower purchased within range, your Desecrated Ground deals + {value} increased damage."
+      ],
+      "additional_bonus": [
+        "While standing in your Desecrated Ground, you deal x20% increased Shadow Damage."
+      ],
+      "legendary_bonus": [
+        "Increase Desecrated Ground damage by x {legendary_value} ."
+      ],
+      "legendary_value": 0.18,
+      "requirements_amount": [
+        25
+      ],
+      "requirements_stat": [
+        "Willpower"
+      ],
+      "value": 19.8,
+      "scaling": 0.9899,
+      "max_value": 0.933,
+      "stat_name": "Desecrated Ground Damage",
+      "stat_scaling": "Willpower"
+    }
+  },
+  {
+    "slug": "dominate",
+    "name_en": "Dominate",
+    "name_tr": null,
+    "diablo_class": "Necromancer",
+    "class_key": "necromancer",
+    "rarity": "Rare",
+    "radius": null,
+    "tags": [
+      "Overpower",
+      "Minion"
+    ],
+    "description_en": null,
+    "description_tr": null,
+    "data": {
+      "name": "Dominate",
+      "rarity": "Rare",
+      "class": "Necromancer",
+      "filters": [
+        "Overpower",
+        "Minion"
+      ],
+      "bonus": [
+        "For every 5 Willpower purchased within range, you deal + {value} increased Overpower damage."
+      ],
+      "additional_bonus": [
+        "When you Overpower an enemy, all damage they take from you and your Minions is increased by x12% for 5 seconds."
+      ],
+      "legendary_bonus": [
+        "You deal x {legendary_value} increased Overpower Damage."
+      ],
+      "legendary_value": 0.2,
+      "requirements_amount": [
+        25
+      ],
+      "requirements_stat": [
+        "Willpower"
+      ],
+      "value": 3,
+      "scaling": 0.29695,
+      "max_value": 0.3239805,
+      "stat_name": "Overpower Damage",
+      "stat_scaling": "Willpower"
+    }
+  },
+  {
+    "slug": "eliminator",
+    "name_en": "Eliminator",
+    "name_tr": null,
+    "diablo_class": "Necromancer",
+    "class_key": "necromancer",
+    "rarity": "Rare",
+    "radius": null,
+    "tags": [
+      "Elite"
+    ],
+    "description_en": null,
+    "description_tr": null,
+    "data": {
+      "name": "Eliminator",
+      "rarity": "Rare",
+      "class": "Necromancer",
+      "filters": [
+        "Elite"
+      ],
+      "bonus": [
+        "Grants + {value} bonus to all Normal nodes within range."
+      ],
+      "additional_bonus": [
+        "You deal x10 increased damage to Elites."
+      ],
+      "legendary_bonus": [
+        "Increase damage to Elites by x {legendary_value} ."
+      ],
+      "legendary_value": 0.142,
+      "requirements_amount": [
+        40
+      ],
+      "requirements_stat": [
+        "Intelligence"
+      ],
+      "value": 20,
+      "scaling": 0.8081,
+      "max_value": 1.000019,
+      "stat_name": "Special",
+      "stat_scaling": "Normal"
+    }
+  },
+  {
+    "slug": "essence",
+    "name_en": "Essence",
+    "name_tr": null,
+    "diablo_class": "Necromancer",
+    "class_key": "necromancer",
+    "rarity": "Rare",
+    "radius": null,
+    "tags": [
+      "Core",
+      "Healthy"
+    ],
+    "description_en": null,
+    "description_tr": null,
+    "data": {
+      "name": "Essence",
+      "rarity": "Rare",
+      "class": "Necromancer",
+      "filters": [
+        "Core",
+        "Healthy"
+      ],
+      "bonus": [
+        "For every 5 Dexterity purchased within range, you deal + {value} increased Critical Strike Damage."
+      ],
+      "additional_bonus": [
+        "Critical Strikes deal x22% increased damage to enemies that are not Healthy."
+      ],
+      "legendary_bonus": [
+        "Increase Critical Strike Damage by x {legendary_value} ."
+      ],
+      "legendary_value": 0.142,
+      "requirements_amount": [
+        25
+      ],
+      "requirements_stat": [
+        "Dexterity"
+      ],
+      "value": 4,
+      "scaling": 0.39595,
+      "max_value": 0.334,
+      "stat_name": "Core Skill Damage",
+      "stat_scaling": "Dexterity"
+    }
+  },
+  {
+    "slug": "exhumation",
+    "name_en": "Exhumation",
+    "name_tr": null,
+    "diablo_class": "Necromancer",
+    "class_key": "necromancer",
+    "rarity": "Rare",
+    "radius": null,
+    "tags": [
+      "Corpse",
+      "Fortify"
+    ],
+    "description_en": null,
+    "description_tr": null,
+    "data": {
+      "name": "Exhumation",
+      "rarity": "Rare",
+      "class": "Necromancer",
+      "filters": [
+        "Corpse",
+        "Fortify"
+      ],
+      "bonus": [
+        "For every 5 Intelligence purchased within range, your Corpse skills deal + {value} increased damage."
+      ],
+      "additional_bonus": [
+        "Consuming a Corpse Fortifies you for 4% of your Maximum Life and grants 4% Damage Reduction for 4 seconds."
+      ],
+      "legendary_bonus": [
+        "Increase damage while Healthy by x {legendary_value} ."
+      ],
+      "legendary_value": 0.122,
+      "requirements_amount": [
+        40
+      ],
+      "requirements_stat": [
+        "Intelligence"
+      ],
+      "value": 3.3,
+      "scaling": 0.26415,
+      "max_value": 0.229,
+      "stat_name": "Corpse Skill Damage",
+      "stat_scaling": "Intelligence"
+    }
+  },
+  {
+    "slug": "exploit",
+    "name_en": "Exploit",
+    "name_tr": null,
+    "diablo_class": "Necromancer",
+    "class_key": "necromancer",
+    "rarity": "Rare",
+    "radius": null,
+    "tags": [
+      "Vulnerable"
+    ],
+    "description_en": null,
+    "description_tr": null,
+    "data": {
+      "name": "Exploit",
+      "rarity": "Rare",
+      "class": "Necromancer",
+      "filters": [
+        "Vulnerable"
+      ],
+      "bonus": [
+        "For every 5 Dexterity purchased within range, you deal + {value} increased damage to Vulnerable targets."
+      ],
+      "additional_bonus": [
+        "Dealing damage to a Vulnerable enemy increases your damage by x1% for 6 seconds, up to x10%."
+      ],
+      "legendary_bonus": [
+        "Increase damage to Vulnerable targets by x {legendary_value} ."
+      ],
+      "legendary_value": 0.104,
+      "requirements_amount": [
+        25
+      ],
+      "requirements_stat": [
+        "Dexterity"
+      ],
+      "value": 2,
+      "scaling": 0.1111,
+      "max_value": 0.12998900000000002,
+      "stat_name": "Vulnerable Damage",
+      "stat_scaling": "Dexterity"
+    }
+  },
+  {
+    "slug": "golem",
+    "name_en": "Golem",
+    "name_tr": null,
+    "diablo_class": "Necromancer",
+    "class_key": "necromancer",
+    "rarity": "Rare",
+    "radius": null,
+    "tags": [
+      "Minion"
+    ],
+    "description_en": null,
+    "description_tr": null,
+    "data": {
+      "name": "Golem",
+      "rarity": "Rare",
+      "class": "Necromancer",
+      "filters": [
+        "Minion"
+      ],
+      "bonus": [
+        "For every 5 Willpower purchased within range, Golems gain + {value} increased damage."
+      ],
+      "additional_bonus": [
+        "Golems gain x25% increased Damage."
+      ],
+      "legendary_bonus": [
+        "Increase damage by x {legendary_value} ."
+      ],
+      "legendary_value": 0.104,
+      "requirements_amount": [
+        25
+      ],
+      "requirements_stat": [
+        "Willpower"
+      ],
+      "value": 4,
+      "scaling": 0.39595,
+      "max_value": 0.334,
+      "stat_name": "Golem Damage",
+      "stat_scaling": "Willpower"
+    }
+  },
+  {
+    "slug": "gravekeeper",
+    "name_en": "Gravekeeper",
+    "name_tr": null,
+    "diablo_class": "Necromancer",
+    "class_key": "necromancer",
+    "rarity": "Rare",
+    "radius": null,
+    "tags": [
+      "Corpse"
+    ],
+    "description_en": null,
+    "description_tr": null,
+    "data": {
+      "name": "Gravekeeper",
+      "rarity": "Rare",
+      "class": "Necromancer",
+      "filters": [
+        "Corpse"
+      ],
+      "bonus": [
+        "Grants + {value} bonus to all Rare nodes within range."
+      ],
+      "additional_bonus": [
+        "You deal x3% increased damage, up to x18%, for every Close Corpse."
+      ],
+      "legendary_bonus": [
+        "You deal x {legendary_value} increased damage to Healthy enemies."
+      ],
+      "legendary_value": 0.2,
+      "requirements_amount": [
+        25
+      ],
+      "requirements_stat": [
+        "Dexterity"
+      ],
+      "value": 25,
+      "scaling": 1.9495,
+      "max_value": 2.725,
+      "stat_name": "Special",
+      "stat_scaling": "Rare"
+    }
+  },
+  {
+    "slug": "imbiber",
+    "name_en": "Imbiber",
+    "name_tr": null,
+    "diablo_class": "Necromancer",
+    "class_key": "necromancer",
+    "rarity": "Rare",
+    "radius": null,
+    "tags": [
+      "Healthy",
+      "Heal"
+    ],
+    "description_en": null,
+    "description_tr": null,
+    "data": {
+      "name": "Imbiber",
+      "rarity": "Rare",
+      "class": "Necromancer",
+      "filters": [
+        "Healthy",
+        "Heal"
+      ],
+      "bonus": [
+        "For every 5 Willpower purchased within range, you deal + {value} increased damage while Healthy."
+      ],
+      "additional_bonus": [
+        "You gain +30% increased Potion Healing."
+      ],
+      "legendary_bonus": [
+        "Increase damage while Healthy by x {legendary_value} ."
+      ],
+      "legendary_value": 0.122,
+      "requirements_amount": [
+        25
+      ],
+      "requirements_stat": [
+        "Willpower"
+      ],
+      "value": 2.6,
+      "scaling": 0.1818,
+      "max_value": 0.161,
+      "stat_name": "Damage while Healthy",
+      "stat_scaling": "Willpower"
+    }
+  },
+  {
+    "slug": "mage",
+    "name_en": "Mage",
+    "name_tr": null,
+    "diablo_class": "Necromancer",
+    "class_key": "necromancer",
+    "rarity": "Rare",
+    "radius": null,
+    "tags": [
+      "Minion",
+      "Resistance"
+    ],
+    "description_en": null,
+    "description_tr": null,
+    "data": {
+      "name": "Mage",
+      "rarity": "Rare",
+      "class": "Necromancer",
+      "filters": [
+        "Minion",
+        "Resistance"
+      ],
+      "bonus": [
+        "For every 5 Intelligence purchased within range, Skeleton Mages deal + {value} increased damage."
+      ],
+      "additional_bonus": [
+        "Minions gain +35% increased Resistance to All Elements."
+      ],
+      "legendary_bonus": [
+        "Increase damage by x {legendary_value} ."
+      ],
+      "legendary_value": 0.104,
+      "requirements_amount": [
+        40
+      ],
+      "requirements_stat": [
+        "Intelligence"
+      ],
+      "value": 2.6,
+      "scaling": 0.26415,
+      "max_value": 0.222,
+      "stat_name": "Skeleton Mage Damage",
+      "stat_scaling": "Intelligence"
+    }
+  },
+  {
+    "slug": "revenge",
+    "name_en": "Revenge",
+    "name_tr": null,
+    "diablo_class": "Necromancer",
+    "class_key": "necromancer",
+    "rarity": "Rare",
+    "radius": null,
+    "tags": [
+      "Minion",
+      "Thorns"
+    ],
+    "description_en": null,
+    "description_tr": null,
+    "data": {
+      "name": "Revenge",
+      "rarity": "Rare",
+      "class": "Necromancer",
+      "filters": [
+        "Minion",
+        "Thorns"
+      ],
+      "bonus": [
+        "Grants + {value} bonus to all Rare nodes within range."
+      ],
+      "additional_bonus": [
+        "Thorns damage increases all damage an enemy takes from you and your Minions by x1%, up to x10%, for 10 seconds."
+      ],
+      "legendary_bonus": [
+        "Increase damage by x {legendary_value} ."
+      ],
+      "legendary_value": 0.104,
+      "requirements_amount": [
+        25
+      ],
+      "requirements_stat": [
+        "Willpower"
+      ],
+      "value": 25,
+      "scaling": 1.9495,
+      "max_value": 2.725,
+      "stat_name": "Special",
+      "stat_scaling": "Rare"
+    }
+  },
+  {
+    "slug": "sacrificial",
+    "name_en": "Sacrificial",
+    "name_tr": null,
+    "diablo_class": "Necromancer",
+    "class_key": "necromancer",
+    "rarity": "Rare",
+    "radius": null,
+    "tags": [
+      "Minion"
+    ],
+    "description_en": null,
+    "description_tr": null,
+    "data": {
+      "name": "Sacrificial",
+      "rarity": "Rare",
+      "class": "Necromancer",
+      "filters": [
+        "Minion"
+      ],
+      "bonus": [
+        "Grants + {value} bonus to all Magic nodes within range."
+      ],
+      "additional_bonus": [
+        "You deal x10% increased damage while you have no active Minions."
+      ],
+      "legendary_bonus": [
+        "Increase damage by x {legendary_value} ."
+      ],
+      "legendary_value": 0.104,
+      "requirements_amount": [
+        40
+      ],
+      "requirements_stat": [
+        "Intelligence"
+      ],
+      "value": 30,
+      "scaling": 3,
+      "max_value": 3.27,
+      "stat_name": "Special",
+      "stat_scaling": "Magic"
+    }
+  },
+  {
+    "slug": "scourge",
+    "name_en": "Scourge",
+    "name_tr": null,
+    "diablo_class": "Necromancer",
+    "class_key": "necromancer",
+    "rarity": "Rare",
+    "radius": null,
+    "tags": [
+      "Minion"
+    ],
+    "description_en": null,
+    "description_tr": null,
+    "data": {
+      "name": "Scourge",
+      "rarity": "Rare",
+      "class": "Necromancer",
+      "filters": [
+        "Minion"
+      ],
+      "bonus": [
+        "For every 5 Intelligence purchased within range, you deal + {value} increased Corrupting damage."
+      ],
+      "additional_bonus": [
+        "You and your Minions deal x10% increased damage to Corrupted enemies."
+      ],
+      "legendary_bonus": [
+        "Increase damage by x {legendary_value} ."
+      ],
+      "legendary_value": 0.104,
+      "requirements_amount": [
+        40
+      ],
+      "requirements_stat": [
+        "Intelligence"
+      ],
+      "value": 1.3,
+      "scaling": 0.1323,
+      "max_value": 0.111,
+      "stat_name": "Shadow Damage Over Time",
+      "stat_scaling": "Intelligence"
+    }
+  },
+  {
+    "slug": "territorial",
+    "name_en": "Territorial",
+    "name_tr": null,
+    "diablo_class": "Necromancer",
+    "class_key": "necromancer",
+    "rarity": "Rare",
+    "radius": null,
+    "tags": [
+      "Close",
+      "Damage Reduction"
+    ],
+    "description_en": null,
+    "description_tr": null,
+    "data": {
+      "name": "Territorial",
+      "rarity": "Rare",
+      "class": "Necromancer",
+      "filters": [
+        "Close",
+        "Damage Reduction"
+      ],
+      "bonus": [
+        "For every 5 Dexterity purchased within range, you deal + {value} increased damage to Close targets."
+      ],
+      "additional_bonus": [
+        "You gain 10% Damage Reduction against Close enemies."
+      ],
+      "legendary_bonus": [
+        "Increase damage to Vulnerable targets by x {legendary_value} ."
+      ],
+      "legendary_value": 0.104,
+      "requirements_amount": [
+        25
+      ],
+      "requirements_stat": [
+        "Dexterity"
+      ],
+      "value": 2,
+      "scaling": 0.1485,
+      "max_value": 0.167015,
+      "stat_name": "Damage to Close Enemies",
+      "stat_scaling": "Dexterity"
+    }
+  },
+  {
+    "slug": "undaunted",
+    "name_en": "Undaunted",
+    "name_tr": null,
+    "diablo_class": "Necromancer",
+    "class_key": "necromancer",
+    "rarity": "Rare",
+    "radius": null,
+    "tags": [
+      "Fortify",
+      "Damage Reduction"
+    ],
+    "description_en": null,
+    "description_tr": null,
+    "data": {
+      "name": "Undaunted",
+      "rarity": "Rare",
+      "class": "Necromancer",
+      "filters": [
+        "Fortify",
+        "Damage Reduction"
+      ],
+      "bonus": [
+        "For every 5 Willpower purchased within range, you deal + {value} increased damage while Fortified."
+      ],
+      "additional_bonus": [
+        "You gain up to 15% Damage Reduction the more Fortify you have."
+      ],
+      "legendary_bonus": [
+        "Increase damage by x {legendary_value} ."
+      ],
+      "legendary_value": 0.104,
+      "requirements_amount": [
+        25
+      ],
+      "requirements_stat": [
+        "Willpower"
+      ],
+      "value": 2,
+      "scaling": 0.1485,
+      "max_value": 0.13,
+      "stat_name": "Damage while Fortified",
+      "stat_scaling": "Willpower"
+    }
+  },
+  {
+    "slug": "warrior",
+    "name_en": "Warrior",
+    "name_tr": null,
+    "diablo_class": "Necromancer",
+    "class_key": "necromancer",
+    "rarity": "Rare",
+    "radius": null,
+    "tags": [
+      "Minion"
+    ],
+    "description_en": null,
+    "description_tr": null,
+    "data": {
+      "name": "Warrior",
+      "rarity": "Rare",
+      "class": "Necromancer",
+      "filters": [
+        "Minion"
+      ],
+      "bonus": [
+        "For every 5 Dexterity purchased within range, Skeletal Warriors deal + {value} increased damage."
+      ],
+      "additional_bonus": [
+        "Minions gain +30% increased Armor."
+      ],
+      "legendary_bonus": [
+        "Increase damage by x {legendary_value} ."
+      ],
+      "legendary_value": 0.104,
+      "requirements_amount": [
+        25
+      ],
+      "requirements_stat": [
+        "Dexterity"
+      ],
+      "value": 4,
+      "scaling": 0.39595,
+      "max_value": 0.334,
+      "stat_name": "Skeleton Warrior Damage",
+      "stat_scaling": "Dexterity"
+    }
+  },
+  {
+    "slug": "ambush",
+    "name_en": "Ambush",
+    "name_tr": null,
+    "diablo_class": "Rogue",
+    "class_key": "rogue",
+    "rarity": "Rare",
+    "radius": null,
+    "tags": [
+      "Trap"
+    ],
+    "description_en": null,
+    "description_tr": null,
+    "data": {
+      "name": "Ambush",
+      "rarity": "Rare",
+      "class": "Rogue",
+      "filters": [
+        "Trap"
+      ],
+      "bonus": [
+        "For every 5 Strength purchased within range, you deal + {value} increased damage to targets affected by Trap Skills."
+      ],
+      "additional_bonus": [
+        "Enemies affected by Trap Skills take x12% increased damage from you."
+      ],
+      "legendary_bonus": [
+        "Increase Trap skill damage by {legendary_value} ."
+      ],
+      "legendary_value": 0.18,
+      "requirements_amount": [
+        25
+      ],
+      "requirements_stat": [
+        "Strength"
+      ],
+      "value": 2,
+      "scaling": 0.1485,
+      "max_value": 0.167015,
+      "stat_name": "Damage to Enemies Affected by Trap Skills",
+      "stat_scaling": "Strength"
+    }
+  },
+  {
+    "slug": "bane",
+    "name_en": "Bane",
+    "name_tr": null,
+    "diablo_class": "Rogue",
+    "class_key": "rogue",
+    "rarity": "Rare",
+    "radius": null,
+    "tags": [
+      "Poison"
+    ],
+    "description_en": null,
+    "description_tr": null,
+    "data": {
+      "name": "Bane",
+      "rarity": "Rare",
+      "class": "Rogue",
+      "filters": [
+        "Poison"
+      ],
+      "bonus": [
+        "For every 5 Strength purchased within range, you deal + {value} increased Poison damage."
+      ],
+      "additional_bonus": [
+        "Poisoning damage effects have a 15% chance to deal double the amount of damage over their duration."
+      ],
+      "legendary_bonus": [
+        "Increase Poison damage by x {legendary_value} ."
+      ],
+      "legendary_value": 0.104,
+      "requirements_amount": [
+        25
+      ],
+      "requirements_stat": [
+        "Strength"
+      ],
+      "value": 2,
+      "scaling": 0.1485,
+      "max_value": 0.167015,
+      "stat_name": "Poison Damage",
+      "stat_scaling": "Strength"
+    }
+  },
+  {
+    "slug": "canny",
+    "name_en": "Canny",
+    "name_tr": null,
+    "diablo_class": "Rogue",
+    "class_key": "rogue",
+    "rarity": "Rare",
+    "radius": null,
+    "tags": [
+      "Non-Physical"
+    ],
+    "description_en": null,
+    "description_tr": null,
+    "data": {
+      "name": "Canny",
+      "rarity": "Rare",
+      "class": "Rogue",
+      "filters": [
+        "Non-Physical"
+      ],
+      "bonus": [
+        "For every 5 Intelligence purchased within range, you deal + {value} increased Non-physical damage."
+      ],
+      "additional_bonus": [
+        "Non-Physical damage increases all the Non-Physical damage an enemy takes from you by x1%, up to x15%, for 15 seconds."
+      ],
+      "legendary_bonus": [
+        "Increase Non-Physical damage by x {legendary_value} ."
+      ],
+      "legendary_value": 0.104,
+      "requirements_amount": [
+        25
+      ],
+      "requirements_stat": [
+        "Intelligence"
+      ],
+      "value": 2,
+      "scaling": 0.1485,
+      "max_value": 0.167015,
+      "stat_name": "Non-Physical Damage",
+      "stat_scaling": "Intelligence"
+    }
+  },
+  {
+    "slug": "chip",
+    "name_en": "Chip",
+    "name_tr": null,
+    "diablo_class": "Rogue",
+    "class_key": "rogue",
+    "rarity": "Rare",
+    "radius": null,
+    "tags": null,
+    "description_en": null,
+    "description_tr": null,
+    "data": {
+      "name": "Chip",
+      "rarity": "Rare",
+      "class": "Rogue",
+      "bonus": [
+        "For every 5 Dexterity purchased within range, you deal + {value} increased Physical damage."
+      ],
+      "additional_bonus": [
+        "Physical damage increases the damage an enemy takes from you by x1%, up to x15%, for 15 seconds."
+      ],
+      "legendary_bonus": [
+        "Increase Physical damage by x {legendary_value} ."
+      ],
+      "legendary_value": 0.104,
+      "requirements_amount": [
+        40
+      ],
+      "requirements_stat": [
+        "Dexterity"
+      ],
+      "value": 2,
+      "scaling": 0.1485,
+      "max_value": 0.167015,
+      "stat_name": "Physical Damage",
+      "stat_scaling": "Dexterity"
+    }
+  },
+  {
+    "slug": "closer",
+    "name_en": "Closer",
+    "name_tr": null,
+    "diablo_class": "Rogue",
+    "class_key": "rogue",
+    "rarity": "Rare",
+    "radius": null,
+    "tags": [
+      "Damage Reduction"
+    ],
+    "description_en": null,
+    "description_tr": null,
+    "data": {
+      "name": "Closer",
+      "rarity": "Rare",
+      "class": "Rogue",
+      "filters": [
+        "Damage Reduction"
+      ],
+      "bonus": [
+        "For every 5 Dexterity purchased within range, Cutthroat Skills deal + {value} increased damage."
+      ],
+      "additional_bonus": [
+        "While wielding a Melee weapon, you take 10% reduced damage."
+      ],
+      "legendary_bonus": [
+        "You deal x {legendary_value} increased damage to Close enemies."
+      ],
+      "legendary_value": 0.122,
+      "requirements_amount": [
+        40
+      ],
+      "requirements_stat": [
+        "Dexterity"
+      ],
+      "value": 1.3,
+      "scaling": 0.1323,
+      "max_value": 0.111,
+      "stat_name": "Cutthroat Skill Damage",
+      "stat_scaling": "Dexterity"
+    }
+  },
+  {
+    "slug": "combat",
+    "name_en": "Combat",
+    "name_tr": null,
+    "diablo_class": "Rogue",
+    "class_key": "rogue",
+    "rarity": "Rare",
+    "radius": null,
+    "tags": null,
+    "description_en": null,
+    "description_tr": null,
+    "data": {
+      "name": "Combat",
+      "rarity": "Rare",
+      "class": "Rogue",
+      "bonus": [
+        "For every 5 Intelligence purchased within range, you deal + {value} increased Critical Strike Damage."
+      ],
+      "additional_bonus": [
+        "Skills that Critically Strike restore 12% of their Energy cost."
+      ],
+      "legendary_bonus": [
+        "Increase Critical Strike Damage by x {legendary_value} ."
+      ],
+      "legendary_value": 0.142,
+      "requirements_amount": [
+        25
+      ],
+      "requirements_stat": [
+        "Intelligence"
+      ],
+      "value": 4,
+      "scaling": 0.39595,
+      "max_value": 0.334,
+      "stat_name": "Core Skill Damage",
+      "stat_scaling": "Intelligence"
+    }
+  },
+  {
+    "slug": "control",
+    "name_en": "Control",
+    "name_tr": null,
+    "diablo_class": "Rogue",
+    "class_key": "rogue",
+    "rarity": "Rare",
+    "radius": null,
+    "tags": [
+      "Slow",
+      "Chill",
+      "Stun",
+      "Freeze"
+    ],
+    "description_en": null,
+    "description_tr": null,
+    "data": {
+      "name": "Control",
+      "rarity": "Rare",
+      "class": "Rogue",
+      "filters": [
+        "Slow",
+        "Chill",
+        "Stun",
+        "Freeze"
+      ],
+      "bonus": [
+        "For every 5 Intelligence purchased within range, you deal + {value} increased damage to Crowd Controlled targets."
+      ],
+      "additional_bonus": [
+        "You deal x10% increased damage to Slowed or Chilled enemies or, instead, x20% increased damage to Stunned or Frozen enemies."
+      ],
+      "legendary_bonus": [
+        "Increase damage to Crowd Controlled targets by x {legendary_value} ."
+      ],
+      "legendary_value": 0.142,
+      "requirements_amount": [
+        25
+      ],
+      "requirements_stat": [
+        "Intelligence"
+      ],
+      "value": 3,
+      "scaling": 0.29695,
+      "max_value": 0.25,
+      "stat_name": "Damage to Crowd Controlled Enemies",
+      "stat_scaling": "Intelligence"
+    }
+  },
+  {
+    "slug": "devious",
+    "name_en": "Devious",
+    "name_tr": null,
+    "diablo_class": "Rogue",
+    "class_key": "rogue",
+    "rarity": "Rare",
+    "radius": null,
+    "tags": null,
+    "description_en": null,
+    "description_tr": null,
+    "data": {
+      "name": "Devious",
+      "rarity": "Rare",
+      "class": "Rogue",
+      "bonus": [
+        "Grants + {value} bonus to all Magic nodes within range."
+      ],
+      "additional_bonus": [
+        "When you hit an enemy with an attack that applies a Crowd Control effect, they take x2%, up to x10%, increased damage from you for 20 seconds."
+      ],
+      "legendary_bonus": [
+        "Increase damage to Crowd Controlled targets by x {legendary_value} ."
+      ],
+      "legendary_value": 0.142,
+      "requirements_amount": [
+        40
+      ],
+      "requirements_stat": [
+        "Dexterity"
+      ],
+      "value": 30,
+      "scaling": 3,
+      "max_value": 3.27,
+      "stat_name": "Special",
+      "stat_scaling": "Magic"
+    }
+  },
+  {
+    "slug": "diminish",
+    "name_en": "Diminish",
+    "name_tr": null,
+    "diablo_class": "Rogue",
+    "class_key": "rogue",
+    "rarity": "Rare",
+    "radius": null,
+    "tags": [
+      "Vulnerable"
+    ],
+    "description_en": null,
+    "description_tr": null,
+    "data": {
+      "name": "Diminish",
+      "rarity": "Rare",
+      "class": "Rogue",
+      "filters": [
+        "Vulnerable"
+      ],
+      "bonus": [
+        "Grants + {value} bonus to all Rare nodes within range."
+      ],
+      "additional_bonus": [
+        "You take 15% reduced Physical damage from Vulnerable enemies."
+      ],
+      "legendary_bonus": [
+        "Increase damage to Vulnerable targets by x {legendary_value} ."
+      ],
+      "legendary_value": 0.104,
+      "requirements_amount": [
+        25
+      ],
+      "requirements_stat": [
+        "Strength"
+      ],
+      "value": 25,
+      "scaling": 1.9495,
+      "max_value": 2.725,
+      "stat_name": "Special",
+      "stat_scaling": "Rare"
+    }
+  },
+  {
+    "slug": "efficacy",
+    "name_en": "Efficacy",
+    "name_tr": null,
+    "diablo_class": "Rogue",
+    "class_key": "rogue",
+    "rarity": "Rare",
+    "radius": null,
+    "tags": [
+      "Imbuement"
+    ],
+    "description_en": null,
+    "description_tr": null,
+    "data": {
+      "name": "Efficacy",
+      "rarity": "Rare",
+      "class": "Rogue",
+      "filters": [
+        "Imbuement"
+      ],
+      "bonus": [
+        "Grants + {value} bonus to all Rare nodes within range."
+      ],
+      "additional_bonus": [
+        "Imbuement Skill effects have x20% increased potency."
+      ],
+      "legendary_bonus": [
+        "Increase Non-Physical damage by x {legendary_value} ."
+      ],
+      "legendary_value": 0.104,
+      "requirements_amount": [
+        25
+      ],
+      "requirements_stat": [
+        "Intelligence"
+      ],
+      "value": 25,
+      "scaling": 1.9495,
+      "max_value": 2.725,
+      "stat_name": "Special",
+      "stat_scaling": "Rare"
+    }
+  },
+  {
+    "slug": "exploit",
+    "name_en": "Exploit",
+    "name_tr": null,
+    "diablo_class": "Rogue",
+    "class_key": "rogue",
+    "rarity": "Rare",
+    "radius": null,
+    "tags": [
+      "Vulnerable"
+    ],
+    "description_en": null,
+    "description_tr": null,
+    "data": {
+      "name": "Exploit",
+      "rarity": "Rare",
+      "class": "Rogue",
+      "filters": [
+        "Vulnerable"
+      ],
+      "bonus": [
+        "For every 5 Strength purchased within range, you deal + {value} increased damage to Vulnerable targets."
+      ],
+      "additional_bonus": [
+        "When an enemy is damaged by you, they become Vulnerable for 3 seconds. This cannot happen more than once every 20 seconds per enemy."
+      ],
+      "legendary_bonus": [
+        "Increase damage to Vulnerable targets by x {legendary_value} ."
+      ],
+      "legendary_value": 0.104,
+      "requirements_amount": [
+        25
+      ],
+      "requirements_stat": [
+        "Strength"
+      ],
+      "value": 2,
+      "scaling": 0.1111,
+      "max_value": 0.12998900000000002,
+      "stat_name": "Vulnerable Damage",
+      "stat_scaling": "Strength"
+    }
+  },
+  {
+    "slug": "explosive",
+    "name_en": "Explosive",
+    "name_tr": null,
+    "diablo_class": "Rogue",
+    "class_key": "rogue",
+    "rarity": "Rare",
+    "radius": null,
+    "tags": [
+      "Grenade",
+      "Stun",
+      "Damage Reduction"
+    ],
+    "description_en": null,
+    "description_tr": null,
+    "data": {
+      "name": "Explosive",
+      "rarity": "Rare",
+      "class": "Rogue",
+      "filters": [
+        "Grenade",
+        "Stun",
+        "Damage Reduction"
+      ],
+      "bonus": [
+        "For every 5 Dexterity purchased within range, your Stun Grenades deal + {value} increased damage."
+      ],
+      "additional_bonus": [
+        "You gain x15 Damage Reduction for 2 seconds after dropping a Stun Grenade."
+      ],
+      "legendary_bonus": [
+        "Increase Stun Grenade damage by {legendary_value} ."
+      ],
+      "legendary_value": 0.301,
+      "requirements_amount": [
+        40
+      ],
+      "requirements_stat": [
+        "Dexterity"
+      ],
+      "value": 13.2,
+      "scaling": 0.6601,
+      "max_value": 0.622,
+      "stat_name": "Stun Grenades Damage",
+      "stat_scaling": "Dexterity"
+    }
+  },
+  {
+    "slug": "fluidity",
+    "name_en": "Fluidity",
+    "name_tr": null,
+    "diablo_class": "Rogue",
+    "class_key": "rogue",
+    "rarity": "Rare",
+    "radius": null,
+    "tags": null,
+    "description_en": null,
+    "description_tr": null,
+    "data": {
+      "name": "Fluidity",
+      "rarity": "Rare",
+      "class": "Rogue",
+      "bonus": [
+        "Grants + {value} bonus to all Magic nodes within range."
+      ],
+      "additional_bonus": [
+        "When you cast an Agility Skill, you deal x10% increased damage and gain x15% increased Energy Regeneration for 6 seconds."
+      ],
+      "legendary_bonus": [
+        "Increase damage by x {legendary_value} ."
+      ],
+      "legendary_value": 0.104,
+      "requirements_amount": [
+        40
+      ],
+      "requirements_stat": [
+        "Dexterity"
+      ],
+      "value": 30,
+      "scaling": 3,
+      "max_value": 3.27,
+      "stat_name": "Special",
+      "stat_scaling": "Magic"
+    }
+  },
+  {
+    "slug": "frostfeeder",
+    "name_en": "Frostfeeder",
+    "name_tr": null,
+    "diablo_class": "Rogue",
+    "class_key": "rogue",
+    "rarity": "Rare",
+    "radius": null,
+    "tags": [
+      "Chill"
+    ],
+    "description_en": null,
+    "description_tr": null,
+    "data": {
+      "name": "Frostfeeder",
+      "rarity": "Rare",
+      "class": "Rogue",
+      "filters": [
+        "Chill"
+      ],
+      "bonus": [
+        "For every 5 Dexterity purchased within range, you deal + {value} increased damage to Chilled targets."
+      ],
+      "additional_bonus": [
+        "You gain x20% increased Chill effect."
+      ],
+      "legendary_bonus": [
+        "Increase damage to Chilled or Frozen targets by x {legendary_value} ."
+      ],
+      "legendary_value": 0.142,
+      "requirements_amount": [
+        40
+      ],
+      "requirements_stat": [
+        "Dexterity"
+      ],
+      "value": 2,
+      "scaling": 0.1485,
+      "max_value": 0.167015,
+      "stat_name": "Damage to Chilled Enemies",
+      "stat_scaling": "Dexterity"
+    }
+  },
+  {
+    "slug": "headhunter",
+    "name_en": "Headhunter",
+    "name_tr": null,
+    "diablo_class": "Rogue",
+    "class_key": "rogue",
+    "rarity": "Rare",
+    "radius": null,
+    "tags": [
+      "Elite"
+    ],
+    "description_en": null,
+    "description_tr": null,
+    "data": {
+      "name": "Headhunter",
+      "rarity": "Rare",
+      "class": "Rogue",
+      "filters": [
+        "Elite"
+      ],
+      "bonus": [
+        "Grants + {value} bonus to all Normal nodes within range."
+      ],
+      "additional_bonus": [
+        "You deal x10 increased damage to Elites."
+      ],
+      "legendary_bonus": [
+        "Increase damage by x {legendary_value} ."
+      ],
+      "legendary_value": 0.104,
+      "requirements_amount": [
+        40
+      ],
+      "requirements_stat": [
+        "Dexterity"
+      ],
+      "value": 20,
+      "scaling": 0.8081,
+      "max_value": 1.000019,
+      "stat_name": "Special",
+      "stat_scaling": "Normal"
+    }
+  },
+  {
+    "slug": "infusion",
+    "name_en": "Infusion",
+    "name_tr": null,
+    "diablo_class": "Rogue",
+    "class_key": "rogue",
+    "rarity": "Rare",
+    "radius": null,
+    "tags": [
+      "Imbuement"
+    ],
+    "description_en": null,
+    "description_tr": null,
+    "data": {
+      "name": "Infusion",
+      "rarity": "Rare",
+      "class": "Rogue",
+      "filters": [
+        "Imbuement"
+      ],
+      "bonus": [
+        "For every 5 Intelligence purchased within range, Skills that are Imbued deal + {value} increased damage."
+      ],
+      "additional_bonus": [
+        "Casting an Imbuement Skill reduces the active Cooldown of another random Imbuement Skill by 1 seconds."
+      ],
+      "legendary_bonus": [
+        "Increase Non-Physical damage by x {legendary_value} ."
+      ],
+      "legendary_value": 0.104,
+      "requirements_amount": [
+        25
+      ],
+      "requirements_stat": [
+        "Intelligence"
+      ],
+      "value": 3,
+      "scaling": 0.29695,
+      "max_value": 0.25,
+      "stat_name": "Imbued Skill Damage",
+      "stat_scaling": "Intelligence"
+    }
+  },
+  {
+    "slug": "nightstalker",
+    "name_en": "Nightstalker",
+    "name_tr": null,
+    "diablo_class": "Rogue",
+    "class_key": "rogue",
+    "rarity": "Rare",
+    "radius": null,
+    "tags": [
+      "Shadow Damage",
+      "Stealth",
+      "Cooldown Reduction",
+      "Imbuement"
+    ],
+    "description_en": null,
+    "description_tr": null,
+    "data": {
+      "name": "Nightstalker",
+      "rarity": "Rare",
+      "class": "Rogue",
+      "filters": [
+        "Shadow Damage",
+        "Stealth",
+        "Cooldown Reduction",
+        "Imbuement"
+      ],
+      "bonus": [
+        "For every 5 Intelligence purchased within range, your deal + {value} increased Shadow damage."
+      ],
+      "additional_bonus": [
+        "Entering Stealth reduces the active cooldown of Shadow Imbuement by 4 seconds."
+      ],
+      "legendary_bonus": [
+        "Increase Shadow damage by x {legendary_value} ."
+      ],
+      "legendary_value": 0.104,
+      "requirements_amount": [
+        25
+      ],
+      "requirements_stat": [
+        "Intelligence"
+      ],
+      "value": 2,
+      "scaling": 0.1485,
+      "max_value": 0.167015,
+      "stat_name": "Shadow Damage",
+      "stat_scaling": "Intelligence"
+    }
+  },
+  {
+    "slug": "pride",
+    "name_en": "Pride",
+    "name_tr": null,
+    "diablo_class": "Rogue",
+    "class_key": "rogue",
+    "rarity": "Rare",
+    "radius": null,
+    "tags": [
+      "Healthy",
+      "Injured",
+      "Damage Reduction"
+    ],
+    "description_en": null,
+    "description_tr": null,
+    "data": {
+      "name": "Pride",
+      "rarity": "Rare",
+      "class": "Rogue",
+      "filters": [
+        "Healthy",
+        "Injured",
+        "Damage Reduction"
+      ],
+      "bonus": [
+        "Grants + {value} bonus to all Rare nodes within range."
+      ],
+      "additional_bonus": [
+        "You deal x13% increased Physical damage to both Healthy and Injured enemies."
+      ],
+      "legendary_bonus": [
+        "Increase damage to Elites by x {legendary_value} ."
+      ],
+      "legendary_value": 0.142,
+      "requirements_amount": [
+        25
+      ],
+      "requirements_stat": [
+        "Strength"
+      ],
+      "value": 25,
+      "scaling": 1.9495,
+      "max_value": 2.725,
+      "stat_name": "Special",
+      "stat_scaling": "Physical"
+    }
+  },
+  {
+    "slug": "ranger",
+    "name_en": "Ranger",
+    "name_tr": null,
+    "diablo_class": "Rogue",
+    "class_key": "rogue",
+    "rarity": "Rare",
+    "radius": null,
+    "tags": [
+      "Damage Reduction"
+    ],
+    "description_en": null,
+    "description_tr": null,
+    "data": {
+      "name": "Ranger",
+      "rarity": "Rare",
+      "class": "Rogue",
+      "filters": [
+        "Damage Reduction"
+      ],
+      "bonus": [
+        "For every 5 Dexterity purchased within range, Marksman Skills deal + {value} increased damage."
+      ],
+      "additional_bonus": [
+        "While wielding a Ranged weapon, you take 10% reduced damage."
+      ],
+      "legendary_bonus": [
+        "Increase Marksman skill damage by {legendary_value} ."
+      ],
+      "legendary_value": 0.104,
+      "requirements_amount": [
+        40
+      ],
+      "requirements_stat": [
+        "Dexterity"
+      ],
+      "value": 1.3,
+      "scaling": 0.1323,
+      "max_value": 0.111,
+      "stat_name": "Marksman Skill Damage",
+      "stat_scaling": "Dexterity"
+    }
+  },
+  {
+    "slug": "snare",
+    "name_en": "Snare",
+    "name_tr": null,
+    "diablo_class": "Rogue",
+    "class_key": "rogue",
+    "rarity": "Rare",
+    "radius": null,
+    "tags": [
+      "Trap"
+    ],
+    "description_en": null,
+    "description_tr": null,
+    "data": {
+      "name": "Snare",
+      "rarity": "Rare",
+      "class": "Rogue",
+      "filters": [
+        "Trap"
+      ],
+      "bonus": [
+        "For every 5 Intelligence purchased within range, Trap Skills deal + {value} increased damage."
+      ],
+      "additional_bonus": [
+        "Non-Ultimate Trap Skills have x25% increased radius."
+      ],
+      "legendary_bonus": [
+        "Increase Trap skill damage by {legendary_value} ."
+      ],
+      "legendary_value": 0.18,
+      "requirements_amount": [
+        25
+      ],
+      "requirements_stat": [
+        "Intelligence"
+      ],
+      "value": 2.6,
+      "scaling": 0.26415,
+      "max_value": 0.222,
+      "stat_name": "Trap Skill Damage",
+      "stat_scaling": "Intelligence"
+    }
+  },
+  {
+    "slug": "tracker",
+    "name_en": "Tracker",
+    "name_tr": null,
+    "diablo_class": "Rogue",
+    "class_key": "rogue",
+    "rarity": "Rare",
+    "radius": null,
+    "tags": [
+      "Poison"
+    ],
+    "description_en": null,
+    "description_tr": null,
+    "data": {
+      "name": "Tracker",
+      "rarity": "Rare",
+      "class": "Rogue",
+      "filters": [
+        "Poison"
+      ],
+      "bonus": [
+        "For every 5 Intelligence purchased within range, you deal + {value} increased damage to Poisoned targets."
+      ],
+      "additional_bonus": [
+        "Poisoning damage effects last x33.3% longer."
+      ],
+      "legendary_bonus": [
+        "Increase damage by x {legendary_value} ."
+      ],
+      "legendary_value": 0.104,
+      "requirements_amount": [
+        25
+      ],
+      "requirements_stat": [
+        "Intelligence"
+      ],
+      "value": 2,
+      "scaling": 0.1485,
+      "max_value": 0.167015,
+      "stat_name": "Damage to Poisoned Enemies",
+      "stat_scaling": "Intelligence"
+    }
+  },
+  {
+    "slug": "turf",
+    "name_en": "Turf",
+    "name_tr": null,
+    "diablo_class": "Rogue",
+    "class_key": "rogue",
+    "rarity": "Rare",
+    "radius": null,
+    "tags": [
+      "Close",
+      "Damage Reduction"
+    ],
+    "description_en": null,
+    "description_tr": null,
+    "data": {
+      "name": "Turf",
+      "rarity": "Rare",
+      "class": "Rogue",
+      "filters": [
+        "Close",
+        "Damage Reduction"
+      ],
+      "bonus": [
+        "For every 5 Strength purchased within range, you deal + {value} increased damage to Close targets."
+      ],
+      "additional_bonus": [
+        "You gain 10% Damage Reduction against Close enemies."
+      ],
+      "legendary_bonus": [
+        "You deal x {legendary_value} increased damage to Close enemies."
+      ],
+      "legendary_value": 0.122,
+      "requirements_amount": [
+        25
+      ],
+      "requirements_stat": [
+        "Strength"
+      ],
+      "value": 2,
+      "scaling": 0.1485,
+      "max_value": 0.167015,
+      "stat_name": "Damage to Close Enemies",
+      "stat_scaling": "Strength"
+    }
+  },
+  {
+    "slug": "versatility",
+    "name_en": "Versatility",
+    "name_tr": null,
+    "diablo_class": "Rogue",
+    "class_key": "rogue",
+    "rarity": "Rare",
+    "radius": null,
+    "tags": null,
+    "description_en": null,
+    "description_tr": null,
+    "data": {
+      "name": "Versatility",
+      "rarity": "Rare",
+      "class": "Rogue",
+      "bonus": [
+        "Grants + {value} bonus to all Magic nodes within range."
+      ],
+      "additional_bonus": [
+        "Non-Basic and Non-Core Skills deal x25% increased damage."
+      ],
+      "legendary_bonus": [
+        "Increase damage by x {legendary_value} ."
+      ],
+      "legendary_value": 0.104,
+      "requirements_amount": [
+        40
+      ],
+      "requirements_stat": [
+        "Dexterity"
+      ],
+      "value": 30,
+      "scaling": 3,
+      "max_value": 3.27,
+      "stat_name": "Special",
+      "stat_scaling": "Magic"
+    }
+  },
+  {
+    "slug": "adept",
+    "name_en": "Adept",
+    "name_tr": null,
+    "diablo_class": "Sorcerer",
+    "class_key": "sorcerer",
+    "rarity": "Rare",
+    "radius": null,
+    "tags": null,
+    "description_en": null,
+    "description_tr": null,
+    "data": {
+      "name": "Adept",
+      "rarity": "Rare",
+      "class": "Sorcerer",
+      "bonus": [
+        "For every 5 Intelligence within range, Mastery Skills gain + {value} increased damage."
+      ],
+      "additional_bonus": [
+        "Mastery Skills have 30% increased area."
+      ],
+      "legendary_bonus": [
+        "Increase Mastery skill damage by x {legendary_value} ."
+      ],
+      "requirements_amount": [
+        40
+      ],
+      "requirements_stat": [
+        "Intelligence"
+      ],
+      "value": 3,
+      "scaling": 0.1485,
+      "max_value": 0.252,
+      "stat_name": "Mastery Skill Damage",
+      "stat_scaling": "Intelligence"
+    }
+  },
+  {
+    "slug": "charged",
+    "name_en": "Charged",
+    "name_tr": null,
+    "diablo_class": "Sorcerer",
+    "class_key": "sorcerer",
+    "rarity": "Rare",
+    "radius": null,
+    "tags": [
+      "Crackling Energy"
+    ],
+    "description_en": null,
+    "description_tr": null,
+    "data": {
+      "name": "Charged",
+      "rarity": "Rare",
+      "class": "Sorcerer",
+      "filters": [
+        "Crackling Energy"
+      ],
+      "bonus": [
+        "For every 5 Intelligence purchased within range, Crackling Energy deals + {value} increased damage."
+      ],
+      "additional_bonus": [
+        "Picking up Crackling Energy grants you x5% increased damage for 5 seconds, up to x15%."
+      ],
+      "legendary_bonus": [
+        "Increase Lightning damage by x {legendary_value} ."
+      ],
+      "legendary_value": 0.104,
+      "requirements_amount": [
+        40
+      ],
+      "requirements_stat": [
+        "Intelligence"
+      ],
+      "value": 2.642,
+      "scaling": 0.2642,
+      "max_value": 0.2224,
+      "stat_name": "Damage with Crackling Energy",
+      "stat_scaling": "Intelligence"
+    }
+  },
+  {
+    "slug": "conjurer",
+    "name_en": "Conjurer",
+    "name_tr": null,
+    "diablo_class": "Sorcerer",
+    "class_key": "sorcerer",
+    "rarity": "Rare",
+    "radius": null,
+    "tags": null,
+    "description_en": null,
+    "description_tr": null,
+    "data": {
+      "name": "Conjurer",
+      "rarity": "Rare",
+      "class": "Sorcerer",
+      "bonus": [
+        "For every 5 Intelligence within range, Conjuration Skills gain + {value} increased damage."
+      ],
+      "additional_bonus": [
+        "Conjuration Skills have 15% increased Critical Hit Chance."
+      ],
+      "legendary_bonus": [
+        "Increase Conjuration skill damage x {legendary_value} ."
+      ],
+      "legendary_value": 0.142,
+      "requirements_amount": [
+        40
+      ],
+      "requirements_stat": [
+        "Intelligence"
+      ],
+      "value": 3,
+      "scaling": 0.2985,
+      "max_value": 0.252,
+      "stat_name": "Conjuration Skill Damage",
+      "stat_scaling": "Intelligence"
+    }
+  },
+  {
+    "slug": "control",
+    "name_en": "Control",
+    "name_tr": null,
+    "diablo_class": "Sorcerer",
+    "class_key": "sorcerer",
+    "rarity": "Rare",
+    "radius": null,
+    "tags": [
+      "Slow",
+      "Chill",
+      "Stun",
+      "Freeze"
+    ],
+    "description_en": null,
+    "description_tr": null,
+    "data": {
+      "name": "Control",
+      "rarity": "Rare",
+      "class": "Sorcerer",
+      "filters": [
+        "Slow",
+        "Chill",
+        "Stun",
+        "Freeze"
+      ],
+      "bonus": [
+        "For every 5 Dexterity purchased within range, you deal + {value} increased damage to Crowd Controlled targets."
+      ],
+      "additional_bonus": [
+        "You deal x10% increased damage to Slowed or Chilled enemies or, instead, x20% increased damage to Stunned or Frozen enemies."
+      ],
+      "legendary_bonus": [
+        "Increase damage to Crowd Controlled targets by x {legendary_value} ."
+      ],
+      "legendary_value": 0.142,
+      "requirements_amount": [
+        25
+      ],
+      "requirements_stat": [
+        "Dexterity"
+      ],
+      "value": 3,
+      "scaling": 0.29695,
+      "max_value": 0.25,
+      "stat_name": "Damage to Crowd Controlled Enemies",
+      "stat_scaling": "Dexterity"
+    }
+  },
+  {
+    "slug": "destruction",
+    "name_en": "Destruction",
+    "name_tr": null,
+    "diablo_class": "Sorcerer",
+    "class_key": "sorcerer",
+    "rarity": "Rare",
+    "radius": null,
+    "tags": null,
+    "description_en": null,
+    "description_tr": null,
+    "data": {
+      "name": "Destruction",
+      "rarity": "Rare",
+      "class": "Sorcerer",
+      "bonus": [
+        "For every 5 Dexterity purchased within range, you deal + {value} increased Critical Strike Damage."
+      ],
+      "additional_bonus": [
+        "Critical Strikes increase all damage the enemy takes from you by x2% for 10 seconds, up to x12%."
+      ],
+      "legendary_bonus": [
+        "Increase Critical Strike Damage by x {legendary_value} ."
+      ],
+      "legendary_value": 0.142,
+      "requirements_amount": [
+        25
+      ],
+      "requirements_stat": [
+        "Dexterity"
+      ],
+      "value": 4,
+      "scaling": 0.39595,
+      "max_value": 0.334,
+      "stat_name": "Core Skill Damage",
+      "stat_scaling": "Dexterity"
+    }
+  },
+  {
+    "slug": "electrocute",
+    "name_en": "Electrocute",
+    "name_tr": null,
+    "diablo_class": "Sorcerer",
+    "class_key": "sorcerer",
+    "rarity": "Rare",
+    "radius": null,
+    "tags": [
+      "Stun",
+      "Immobilize",
+      "Frozen",
+      "Damage Reduction"
+    ],
+    "description_en": null,
+    "description_tr": null,
+    "data": {
+      "name": "Electrocute",
+      "rarity": "Rare",
+      "class": "Sorcerer",
+      "filters": [
+        "Stun",
+        "Immobilize",
+        "Frozen",
+        "Damage Reduction"
+      ],
+      "bonus": [
+        "Grants + {value} bonus to all Rare nodes within range."
+      ],
+      "additional_bonus": [
+        "Your Lightning damage has a +15% increased chance to Critically Strike enemies who are Stunned, Immobilized, or Frozen."
+      ],
+      "legendary_bonus": [
+        "Increase Lightning damage by x {legendary_value} ."
+      ],
+      "legendary_value": 0.104,
+      "requirements_amount": [
+        25
+      ],
+      "requirements_stat": [
+        "Dexterity"
+      ],
+      "value": 25,
+      "scaling": 1.9495,
+      "max_value": 2.725,
+      "stat_name": "Special",
+      "stat_scaling": "Lightning"
+    }
+  },
+  {
+    "slug": "elementalist",
+    "name_en": "Elementalist",
+    "name_tr": null,
+    "diablo_class": "Sorcerer",
+    "class_key": "sorcerer",
+    "rarity": "Rare",
+    "radius": null,
+    "tags": [
+      "Damage Reduction"
+    ],
+    "description_en": null,
+    "description_tr": null,
+    "data": {
+      "name": "Elementalist",
+      "rarity": "Rare",
+      "class": "Sorcerer",
+      "filters": [
+        "Damage Reduction"
+      ],
+      "bonus": [
+        "Grants + {value} bonus to all Rare nodes within range."
+      ],
+      "additional_bonus": [
+        "Dealing Fire, Cold, or Lightning damage to an enemy increases all damage you deal to them by x5% for 10 seconds, stacking once per Element."
+      ],
+      "legendary_bonus": [
+        "Increase Non-Physical damage by x {legendary_value} ."
+      ],
+      "legendary_value": 0.104,
+      "requirements_amount": [
+        40
+      ],
+      "requirements_stat": [
+        "Intelligence"
+      ],
+      "value": 25,
+      "scaling": 1.9495,
+      "max_value": 2.725,
+      "stat_name": "Special",
+      "stat_scaling": "Non-Physical"
+    }
+  },
+  {
+    "slug": "eliminator",
+    "name_en": "Eliminator",
+    "name_tr": null,
+    "diablo_class": "Sorcerer",
+    "class_key": "sorcerer",
+    "rarity": "Rare",
+    "radius": null,
+    "tags": [
+      "Elite"
+    ],
+    "description_en": null,
+    "description_tr": null,
+    "data": {
+      "name": "Eliminator",
+      "rarity": "Rare",
+      "class": "Sorcerer",
+      "filters": [
+        "Elite"
+      ],
+      "bonus": [
+        "Grants + {value} bonus to all Normal nodes within range."
+      ],
+      "additional_bonus": [
+        "You deal x10 increased damage to Elites."
+      ],
+      "legendary_bonus": [
+        "Increase damage to Elites by x {legendary_value} ."
+      ],
+      "legendary_value": 0.142,
+      "requirements_amount": [
+        40
+      ],
+      "requirements_stat": [
+        "Intelligence"
+      ],
+      "value": 20,
+      "scaling": 0.8081,
+      "max_value": 1.000019,
+      "stat_name": "Special",
+      "stat_scaling": "Normal"
+    }
+  },
+  {
+    "slug": "enchanter",
+    "name_en": "Enchanter",
+    "name_tr": null,
+    "diablo_class": "Sorcerer",
+    "class_key": "sorcerer",
+    "rarity": "Rare",
+    "radius": null,
+    "tags": [
+      "Resistance"
+    ],
+    "description_en": null,
+    "description_tr": null,
+    "data": {
+      "name": "Enchanter",
+      "rarity": "Rare",
+      "class": "Sorcerer",
+      "filters": [
+        "Resistance"
+      ],
+      "bonus": [
+        "For every 5 Intelligence purchased within range, you deal + {value} increased Non-physical damage."
+      ],
+      "additional_bonus": [
+        "For each Skill equipped in your Enchantment Slots, gain +5% Maximum Resistance to that Skill's Element."
+      ],
+      "legendary_bonus": [
+        "Increase damage by x {legendary_value} ."
+      ],
+      "legendary_value": 0.104,
+      "requirements_amount": [
+        40
+      ],
+      "requirements_stat": [
+        "Intelligence"
+      ],
+      "value": 2,
+      "scaling": 0.1485,
+      "max_value": 0.167015,
+      "stat_name": "Non-Physical Damage",
+      "stat_scaling": "Intelligence"
+    }
+  },
+  {
+    "slug": "exploit",
+    "name_en": "Exploit",
+    "name_tr": null,
+    "diablo_class": "Sorcerer",
+    "class_key": "sorcerer",
+    "rarity": "Rare",
+    "radius": null,
+    "tags": [
+      "Vulnerable"
+    ],
+    "description_en": null,
+    "description_tr": null,
+    "data": {
+      "name": "Exploit",
+      "rarity": "Rare",
+      "class": "Sorcerer",
+      "filters": [
+        "Vulnerable"
+      ],
+      "bonus": [
+        "For every 5 Dexterity purchased within range, you deal + {value} increased damage to Vulnerable targets."
+      ],
+      "additional_bonus": [
+        "Dealing damage to a Vulnerable enemy increases your damage by x1% for 6 seconds, up to x10%."
+      ],
+      "legendary_bonus": [
+        "Increase damage to Vulnerable targets by x {legendary_value} ."
+      ],
+      "legendary_value": 0.104,
+      "requirements_amount": [
+        25
+      ],
+      "requirements_stat": [
+        "Dexterity"
+      ],
+      "value": 2,
+      "scaling": 0.1111,
+      "max_value": 0.12998900000000002,
+      "stat_name": "Vulnerable Damage",
+      "stat_scaling": "Dexterity"
+    }
+  },
+  {
+    "slug": "flamefeeder",
+    "name_en": "Flamefeeder",
+    "name_tr": null,
+    "diablo_class": "Sorcerer",
+    "class_key": "sorcerer",
+    "rarity": "Rare",
+    "radius": null,
+    "tags": [
+      "Burn"
+    ],
+    "description_en": null,
+    "description_tr": null,
+    "data": {
+      "name": "Flamefeeder",
+      "rarity": "Rare",
+      "class": "Sorcerer",
+      "filters": [
+        "Burn"
+      ],
+      "bonus": [
+        "For every 5 Dexterity purchased within range, you deal + {value} increased damage to Burning targets."
+      ],
+      "additional_bonus": [
+        "You deal x10% increased direct damage to Burning enemies."
+      ],
+      "legendary_bonus": [
+        "Increase damage by x {legendary_value} ."
+      ],
+      "legendary_value": 0.104,
+      "requirements_amount": [
+        25
+      ],
+      "requirements_stat": [
+        "Dexterity"
+      ],
+      "value": 2,
+      "scaling": 0.1485,
+      "max_value": 0.167015,
+      "stat_name": "Damage to Burning Enemies",
+      "stat_scaling": "Dexterity"
+    }
+  },
+  {
+    "slug": "cryopathy",
+    "name_en": "Cryopathy",
+    "name_tr": null,
+    "diablo_class": "Sorcerer",
+    "class_key": "sorcerer",
+    "rarity": "Rare",
+    "radius": null,
+    "tags": [
+      "Freeze",
+      "Chill"
+    ],
+    "description_en": null,
+    "description_tr": null,
+    "data": {
+      "name": "Cryopathy",
+      "rarity": "Rare",
+      "class": "Sorcerer",
+      "filters": [
+        "Freeze",
+        "Chill"
+      ],
+      "bonus": [
+        "For every 5 Willpower purchased within range, you deal + {value} increased damage to Chilled targets."
+      ],
+      "additional_bonus": [
+        "Enemies deal 15% reduced damage to you for 5 seconds after they are no longer Frozen."
+      ],
+      "legendary_bonus": [
+        "Increase Cold damage by x {legendary_value} ."
+      ],
+      "legendary_value": 0.104,
+      "requirements_amount": [
+        25
+      ],
+      "requirements_stat": [
+        "Willpower"
+      ],
+      "value": 3,
+      "scaling": 0.29695,
+      "max_value": 0.25,
+      "stat_name": "Damage to Chilled Enemies",
+      "stat_scaling": "Willpower"
+    }
+  },
+  {
+    "slug": "imbiber",
+    "name_en": "Imbiber",
+    "name_tr": null,
+    "diablo_class": "Sorcerer",
+    "class_key": "sorcerer",
+    "rarity": "Rare",
+    "radius": null,
+    "tags": [
+      "Healthy",
+      "Heal"
+    ],
+    "description_en": null,
+    "description_tr": null,
+    "data": {
+      "name": "Imbiber",
+      "rarity": "Rare",
+      "class": "Sorcerer",
+      "filters": [
+        "Healthy",
+        "Heal"
+      ],
+      "bonus": [
+        "For every 5 Willpower purchased within range, you deal + {value} increased damage while Healthy."
+      ],
+      "additional_bonus": [
+        "You gain +30% increased Potion Healing."
+      ],
+      "legendary_bonus": [
+        "Increase damage while Healthy by x {legendary_value} ."
+      ],
+      "legendary_value": 0.122,
+      "requirements_amount": [
+        25
+      ],
+      "requirements_stat": [
+        "Willpower"
+      ],
+      "value": 2.6,
+      "scaling": 0.1818,
+      "max_value": 0.161,
+      "stat_name": "Damage while Healthy",
+      "stat_scaling": "Willpower"
+    }
+  },
+  {
+    "slug": "invocation",
+    "name_en": "Invocation",
+    "name_tr": null,
+    "diablo_class": "Sorcerer",
+    "class_key": "sorcerer",
+    "rarity": "Rare",
+    "radius": null,
+    "tags": [
+      "Conjuration",
+      "Damage Reduction"
+    ],
+    "description_en": null,
+    "description_tr": null,
+    "data": {
+      "name": "Invocation",
+      "rarity": "Rare",
+      "class": "Sorcerer",
+      "filters": [
+        "Conjuration",
+        "Damage Reduction"
+      ],
+      "bonus": [
+        "For every 5 Dexterity purchased within range, your Conjuration Skills gain + {value} Critical Strike Damage."
+      ],
+      "additional_bonus": [
+        "Enemies damaged by your Conjuration Skills deal 1% reduced damage to you for 6 seconds, stacking up to 15%."
+      ],
+      "legendary_bonus": [
+        "Increase Conjuration skill damage x {legendary_value} ."
+      ],
+      "legendary_value": 0.142,
+      "requirements_amount": [
+        25
+      ],
+      "requirements_stat": [
+        "Dexterity"
+      ],
+      "value": 7.9,
+      "scaling": 0.49495,
+      "max_value": 0.447,
+      "stat_name": "Conjuration Skill Damage",
+      "stat_scaling": "Dexterity"
+    }
+  },
+  {
+    "slug": "pyromaniac",
+    "name_en": "Pyromaniac",
+    "name_tr": null,
+    "diablo_class": "Sorcerer",
+    "class_key": "sorcerer",
+    "rarity": "Rare",
+    "radius": null,
+    "tags": [
+      "Damage Reduction"
+    ],
+    "description_en": null,
+    "description_tr": null,
+    "data": {
+      "name": "Pyromaniac",
+      "rarity": "Rare",
+      "class": "Sorcerer",
+      "filters": [
+        "Damage Reduction"
+      ],
+      "bonus": [
+        "Grants + {value} bonus to all Rare nodes within range."
+      ],
+      "additional_bonus": [
+        "Every Pyromancy Skill you cast or every second you channel Incinerate increases your Fire damage by x3% for 6 seconds, up to x18%."
+      ],
+      "legendary_bonus": [
+        "Increase Fire damage by x {legendary_value} ."
+      ],
+      "legendary_value": 0.104,
+      "requirements_amount": [
+        25
+      ],
+      "requirements_stat": [
+        "Willpower"
+      ],
+      "value": 25,
+      "scaling": 1.9495,
+      "max_value": 2.725,
+      "stat_name": "Special",
+      "stat_scaling": "Fire"
+    }
+  },
+  {
+    "slug": "reinforced",
+    "name_en": "Reinforced",
+    "name_tr": null,
+    "diablo_class": "Sorcerer",
+    "class_key": "sorcerer",
+    "rarity": "Rare",
+    "radius": null,
+    "tags": [
+      "Damage Reduction",
+      "Barrier"
+    ],
+    "description_en": null,
+    "description_tr": null,
+    "data": {
+      "name": "Reinforced",
+      "rarity": "Rare",
+      "class": "Sorcerer",
+      "filters": [
+        "Damage Reduction",
+        "Barrier"
+      ],
+      "bonus": [
+        "Grants + {value} bonus to all Rare nodes within range."
+      ],
+      "additional_bonus": [
+        "You gain 15% Damage Reduction while you have an active Barrier."
+      ],
+      "legendary_bonus": [
+        "Increase damage by x {legendary_value} ."
+      ],
+      "legendary_value": 0.104,
+      "requirements_amount": [
+        25
+      ],
+      "requirements_stat": [
+        "Willpower"
+      ],
+      "value": 25,
+      "scaling": 1.9495,
+      "max_value": 2.725,
+      "stat_name": "Special",
+      "stat_scaling": "Rare"
+    }
+  },
+  {
+    "slug": "stalagmite",
+    "name_en": "Stalagmite",
+    "name_tr": null,
+    "diablo_class": "Sorcerer",
+    "class_key": "sorcerer",
+    "rarity": "Rare",
+    "radius": null,
+    "tags": null,
+    "description_en": null,
+    "description_tr": null,
+    "data": {
+      "name": "Stalagmite",
+      "rarity": "Rare",
+      "class": "Sorcerer",
+      "bonus": [
+        "For every 5 Intelligence purchased within range, your Ice Spikes deal {value} increased damage."
+      ],
+      "additional_bonus": [
+        "Your Ice Spikes gain +20% Critical Strike Chance."
+      ],
+      "legendary_bonus": [
+        "Increase Cold damage by x {legendary_value} ."
+      ],
+      "legendary_value": 0.104,
+      "requirements_amount": [
+        40
+      ],
+      "requirements_stat": [
+        "Intelligence"
+      ],
+      "value": 2,
+      "scaling": 0.1485,
+      "max_value": 0.188,
+      "stat_name": "Ice Spikes Damage",
+      "stat_scaling": "Intelligence"
+    }
+  },
+  {
+    "slug": "tactician",
+    "name_en": "Tactician",
+    "name_tr": null,
+    "diablo_class": "Sorcerer",
+    "class_key": "sorcerer",
+    "rarity": "Rare",
+    "radius": null,
+    "tags": null,
+    "description_en": null,
+    "description_tr": null,
+    "data": {
+      "name": "Tactician",
+      "rarity": "Rare",
+      "class": "Sorcerer",
+      "bonus": [
+        "Grants + {value} bonus to all Rare nodes within range."
+      ],
+      "additional_bonus": [
+        "You deal x15% increased damage for 4 seconds after casting a Defensive Skill. This duration increases by 4 seconds for each Defensive Skill not on your Action Bar."
+      ],
+      "legendary_bonus": [
+        "Increase damage by x {legendary_value} ."
+      ],
+      "legendary_value": 0.104,
+      "requirements_amount": [
+        25
+      ],
+      "requirements_stat": [
+        "Dexterity"
+      ],
+      "value": 25,
+      "scaling": 1.9495,
+      "max_value": 2.725,
+      "stat_name": "Special",
+      "stat_scaling": "Rare"
+    }
+  },
+  {
+    "slug": "territorial",
+    "name_en": "Territorial",
+    "name_tr": null,
+    "diablo_class": "Sorcerer",
+    "class_key": "sorcerer",
+    "rarity": "Rare",
+    "radius": null,
+    "tags": [
+      "Close",
+      "Damage Reduction"
+    ],
+    "description_en": null,
+    "description_tr": null,
+    "data": {
+      "name": "Territorial",
+      "rarity": "Rare",
+      "class": "Sorcerer",
+      "filters": [
+        "Close",
+        "Damage Reduction"
+      ],
+      "bonus": [
+        "For every 5 Dexterity purchased within range, you deal + {value} increased damage to Close targets."
+      ],
+      "additional_bonus": [
+        "You gain 10% Damage Reduction against Close enemies."
+      ],
+      "legendary_bonus": [
+        "Increase damage to Vulnerable targets by x {legendary_value} ."
+      ],
+      "legendary_value": 0.104,
+      "requirements_amount": [
+        25
+      ],
+      "requirements_stat": [
+        "Dexterity"
+      ],
+      "value": 2,
+      "scaling": 0.1485,
+      "max_value": 0.167015,
+      "stat_name": "Damage to Close Enemies",
+      "stat_scaling": "Dexterity"
+    }
+  },
+  {
+    "slug": "torch",
+    "name_en": "Torch",
+    "name_tr": null,
+    "diablo_class": "Sorcerer",
+    "class_key": "sorcerer",
+    "rarity": "Rare",
+    "radius": null,
+    "tags": [
+      "Burn"
+    ],
+    "description_en": null,
+    "description_tr": null,
+    "data": {
+      "name": "Torch",
+      "rarity": "Rare",
+      "class": "Sorcerer",
+      "filters": [
+        "Burn"
+      ],
+      "bonus": [
+        "For every 5 Willpower purchased within range, you deal + {value} increased Burning damage."
+      ],
+      "additional_bonus": [
+        "You deal x2.5% increased damage per Nearby Burning enemy, up to x25%."
+      ],
+      "legendary_bonus": [
+        "Increase damage by x {legendary_value} ."
+      ],
+      "legendary_value": 0.104,
+      "requirements_amount": [
+        25
+      ],
+      "requirements_stat": [
+        "Willpower"
+      ],
+      "value": 2,
+      "scaling": 0.1485,
+      "max_value": 0.167015,
+      "stat_name": "Fire Damage Over Time",
+      "stat_scaling": "Willpower"
+    }
+  },
+  {
+    "slug": "unleash",
+    "name_en": "Unleash",
+    "name_tr": null,
+    "diablo_class": "Sorcerer",
+    "class_key": "sorcerer",
+    "rarity": "Rare",
+    "radius": null,
+    "tags": [
+      "Mana Regeneration"
+    ],
+    "description_en": null,
+    "description_tr": null,
+    "data": {
+      "name": "Unleash",
+      "rarity": "Rare",
+      "class": "Sorcerer",
+      "filters": [
+        "Mana Regeneration"
+      ],
+      "bonus": [
+        "Grants + {value} bonus to all Magic nodes within range."
+      ],
+      "additional_bonus": [
+        "After spending 50 Mana, you deal x8% increased damage and gain x25% increased Mana Regeneration for 3 seconds."
+      ],
+      "legendary_bonus": [
+        "Increase damage by x {legendary_value} ."
+      ],
+      "legendary_value": 0.104,
+      "requirements_amount": [
+        40
+      ],
+      "requirements_stat": [
+        "Intelligence"
+      ],
+      "value": 30,
+      "scaling": 3,
+      "max_value": 3.27,
+      "stat_name": "Special",
+      "stat_scaling": "Magic"
+    }
+  },
+  {
+    "slug": "warding",
+    "name_en": "Warding",
+    "name_tr": null,
+    "diablo_class": "Sorcerer",
+    "class_key": "sorcerer",
+    "rarity": "Rare",
+    "radius": null,
+    "tags": null,
+    "description_en": null,
+    "description_tr": null,
+    "data": {
+      "name": "Warding",
+      "rarity": "Rare",
+      "class": "Sorcerer",
+      "bonus": [
+        "Grants + {value} bonus to all Rare nodes within range."
+      ],
+      "additional_bonus": [
+        "You take reduced damage the less Mana you have, up to 25%."
+      ],
+      "legendary_bonus": [
+        "Increase Non-Physical damage by x {legendary_value} ."
+      ],
+      "legendary_value": 0.104,
+      "requirements_amount": [
+        25
+      ],
+      "requirements_stat": [
+        "Willpower"
+      ],
+      "value": 25,
+      "scaling": 1.9495,
+      "max_value": 2.725,
+      "stat_name": "Special",
+      "stat_scaling": "Rare"
+    }
+  },
+  {
+    "slug": "winter",
+    "name_en": "Winter",
+    "name_tr": null,
+    "diablo_class": "Sorcerer",
+    "class_key": "sorcerer",
+    "rarity": "Rare",
+    "radius": null,
+    "tags": [
+      "Chill",
+      "Damage Reduction"
+    ],
+    "description_en": null,
+    "description_tr": null,
+    "data": {
+      "name": "Winter",
+      "rarity": "Rare",
+      "class": "Sorcerer",
+      "filters": [
+        "Chill",
+        "Damage Reduction"
+      ],
+      "bonus": [
+        "Grants + {value} bonus to all Rare nodes within range."
+      ],
+      "additional_bonus": [
+        "Whenever you Chill or Freeze an enemy, you deal x4% increased Cold damage for 10 seconds, up to x18%."
+      ],
+      "legendary_bonus": [
+        "Increase damage to Crowd Controlled targets by x {legendary_value} ."
+      ],
+      "legendary_value": 0.142,
+      "requirements_amount": [
+        25
+      ],
+      "requirements_stat": [
+        "Dexterity"
+      ],
+      "value": 25,
+      "scaling": 1.9495,
+      "max_value": 2.725,
+      "stat_name": "Special",
+      "stat_scaling": "Cold"
+    }
+  },
+  {
+    "slug": "bane",
+    "name_en": "Bane",
+    "name_tr": null,
+    "diablo_class": "Spiritborn",
+    "class_key": "spiritborn",
+    "rarity": "Rare",
+    "radius": null,
+    "tags": [
+      "Poison"
+    ],
+    "description_en": null,
+    "description_tr": null,
+    "data": {
+      "name": "Bane",
+      "rarity": "Rare",
+      "class": "Spiritborn",
+      "filters": [
+        "Poison"
+      ],
+      "bonus": [
+        "For every 5 Strength purchased within range, you deal + {value} increased Poison damage."
+      ],
+      "additional_bonus": [
+        "Poisoning damage effects have a 15% chance to deal double the amount of damage over their duration."
+      ],
+      "legendary_bonus": [
+        "Increase Poison damage by x {legendary_value} ."
+      ],
+      "legendary_value": 0.104,
+      "requirements_amount": [
+        25
+      ],
+      "requirements_stat": [
+        "Strength"
+      ],
+      "value": 2,
+      "scaling": 0.1485,
+      "max_value": 0.167015,
+      "stat_name": "Poison Damage",
+      "stat_scaling": "Strength"
+    }
+  },
+  {
+    "slug": "canny",
+    "name_en": "Canny",
+    "name_tr": null,
+    "diablo_class": "Spiritborn",
+    "class_key": "spiritborn",
+    "rarity": "Rare",
+    "radius": null,
+    "tags": [
+      "Non-Physical"
+    ],
+    "description_en": null,
+    "description_tr": null,
+    "data": {
+      "name": "Canny",
+      "rarity": "Rare",
+      "class": "Spiritborn",
+      "filters": [
+        "Non-Physical"
+      ],
+      "bonus": [
+        "For every 5 Intelligence purchased within range, you deal + {value} increased Non-physical damage."
+      ],
+      "additional_bonus": [
+        "Non-Physical damage increases all the Non-Physical damage an enemy takes from you by x1%, up to x10%, for 15 seconds."
+      ],
+      "legendary_bonus": [
+        "Increase Non-Physical damage by x {legendary_value} ."
+      ],
+      "legendary_value": 0.104,
+      "requirements_amount": [
+        25
+      ],
+      "requirements_stat": [
+        "Intelligence"
+      ],
+      "value": 2,
+      "scaling": 0.1485,
+      "max_value": 0.167015,
+      "stat_name": "Non-Physical Damage",
+      "stat_scaling": "Intelligence"
+    }
+  },
+  {
+    "slug": "colossal",
+    "name_en": "Colossal",
+    "name_tr": null,
+    "diablo_class": "Spiritborn",
+    "class_key": "spiritborn",
+    "rarity": "Rare",
+    "radius": null,
+    "tags": [
+      "Gorilla"
+    ],
+    "description_en": null,
+    "description_tr": null,
+    "data": {
+      "name": "Colossal",
+      "rarity": "Rare",
+      "class": "Spiritborn",
+      "filters": [
+        "Gorilla"
+      ],
+      "bonus": [
+        "For every 5 Strength purchased within range, you deal + {value} increased damage with Gorilla Skills."
+      ],
+      "additional_bonus": [
+        "You deal x2% increased damage for each stack of Resolve you have."
+      ],
+      "legendary_bonus": [
+        "You deal x {legendary_value} increased damage to Close enemies."
+      ],
+      "legendary_value": 0.122,
+      "requirements_amount": [
+        25
+      ],
+      "requirements_stat": [
+        "Strength"
+      ],
+      "value": 2,
+      "scaling": 0.1485,
+      "max_value": 0.167015,
+      "stat_name": "Gorilla Damage",
+      "stat_scaling": "Strength"
+    }
+  },
+  {
+    "slug": "consumption",
+    "name_en": "Consumption",
+    "name_tr": null,
+    "diablo_class": "Spiritborn",
+    "class_key": "spiritborn",
+    "rarity": "Rare",
+    "radius": null,
+    "tags": null,
+    "description_en": null,
+    "description_tr": null,
+    "data": {
+      "name": "Consumption",
+      "rarity": "Rare",
+      "class": "Spiritborn",
+      "bonus": [
+        "For every 5 Intelligence purchased within range, your Pestilence Swarms deal + {value} increased damage."
+      ],
+      "additional_bonus": [
+        "You deal x2% increased damage for each active Pestilent Swarm and Touch of Death swarm."
+      ],
+      "legendary_bonus": [
+        "Increase Poison damage by x {legendary_value} ."
+      ],
+      "legendary_value": 0.104,
+      "requirements_amount": [
+        25
+      ],
+      "requirements_stat": [
+        "Intelligence"
+      ],
+      "value": 5,
+      "scaling": 0.297,
+      "max_value": 0.34403,
+      "stat_name": "Pestilent Swarms Damage",
+      "stat_scaling": "Intelligence"
+    }
+  },
+  {
+    "slug": "exploit",
+    "name_en": "Exploit",
+    "name_tr": null,
+    "diablo_class": "Spiritborn",
+    "class_key": "spiritborn",
+    "rarity": "Rare",
+    "radius": null,
+    "tags": [
+      "Vulnerable"
+    ],
+    "description_en": null,
+    "description_tr": null,
+    "data": {
+      "name": "Exploit",
+      "rarity": "Rare",
+      "class": "Spiritborn",
+      "filters": [
+        "Vulnerable"
+      ],
+      "bonus": [
+        "For every 5 Strength purchased within range, you deal + {value} increased damage to Vulnerable targets."
+      ],
+      "additional_bonus": [
+        "When an enemy is damaged by you, they become Vulnerable for 3 seconds. This cannot happen more than once every 20 seconds per enemy."
+      ],
+      "legendary_bonus": [
+        "Increase damage to Vulnerable targets by x {legendary_value} ."
+      ],
+      "legendary_value": 0.104,
+      "requirements_amount": [
+        25
+      ],
+      "requirements_stat": [
+        "Strength"
+      ],
+      "value": 2,
+      "scaling": 0.1111,
+      "max_value": 0.12998900000000002,
+      "stat_name": "Vulnerable Damage",
+      "stat_scaling": "Strength"
+    }
+  },
+  {
+    "slug": "fester",
+    "name_en": "Fester",
+    "name_tr": null,
+    "diablo_class": "Spiritborn",
+    "class_key": "spiritborn",
+    "rarity": "Rare",
+    "radius": null,
+    "tags": [
+      "Centipede"
+    ],
+    "description_en": null,
+    "description_tr": null,
+    "data": {
+      "name": "Fester",
+      "rarity": "Rare",
+      "class": "Spiritborn",
+      "filters": [
+        "Centipede"
+      ],
+      "bonus": [
+        "For every 5 Dexterity purchased within range, you deal + {value} increased damage with Centipede Skills."
+      ],
+      "additional_bonus": [
+        "Your Centipede Skills deal x15% increased damage to Crowd Controlled enemies."
+      ],
+      "legendary_bonus": [
+        "Increase Poison damage by x {legendary_value} ."
+      ],
+      "legendary_value": 0.104,
+      "requirements_amount": [
+        40
+      ],
+      "requirements_stat": [
+        "Dexterity"
+      ],
+      "value": 2,
+      "scaling": 0.1485,
+      "max_value": 0.167015,
+      "stat_name": "Centipede Skill Damage",
+      "stat_scaling": "Dexterity"
+    }
+  },
+  {
+    "slug": "fitness",
+    "name_en": "Fitness",
+    "name_tr": null,
+    "diablo_class": "Spiritborn",
+    "class_key": "spiritborn",
+    "rarity": "Rare",
+    "radius": null,
+    "tags": [
+      "Critical Strike"
+    ],
+    "description_en": null,
+    "description_tr": null,
+    "data": {
+      "name": "Fitness",
+      "rarity": "Rare",
+      "class": "Spiritborn",
+      "filters": [
+        "Critical Strike"
+      ],
+      "bonus": [
+        "For every 5 Dexterity purchased within range, you deal + {value} increased Critical Strike Damage."
+      ],
+      "additional_bonus": [
+        "Skills that Critically Strike generate 3 Vigor."
+      ],
+      "legendary_bonus": [
+        "Increase Critical Strike Damage by x {legendary_value} ."
+      ],
+      "legendary_value": 0.142,
+      "requirements_amount": [
+        40
+      ],
+      "requirements_stat": [
+        "Dexterity"
+      ],
+      "value": 2,
+      "scaling": 0.1485,
+      "max_value": 0.167015
+    }
+  },
+  {
+    "slug": "fulminate",
+    "name_en": "Fulminate",
+    "name_tr": null,
+    "diablo_class": "Spiritborn",
+    "class_key": "spiritborn",
+    "rarity": "Rare",
+    "radius": null,
+    "tags": [
+      "Healthy",
+      "Injured",
+      "Lightning"
+    ],
+    "description_en": null,
+    "description_tr": null,
+    "data": {
+      "name": "Fulminate",
+      "rarity": "Rare",
+      "class": "Spiritborn",
+      "filters": [
+        "Healthy",
+        "Injured",
+        "Lightning"
+      ],
+      "bonus": [
+        "For every 5 Intelligence purchased within range, you deal + {value} increased Lightning damage."
+      ],
+      "additional_bonus": [
+        "You deal x12% increased Lightning damage to both Healthy and Injured enemies."
+      ],
+      "legendary_bonus": [
+        "Increase Lightning damage by x {legendary_value} ."
+      ],
+      "legendary_value": 0.104,
+      "requirements_amount": [
+        25
+      ],
+      "requirements_stat": [
+        "Dexterity"
+      ],
+      "value": 2,
+      "scaling": 0.1485,
+      "max_value": 0.167015,
+      "stat_name": "Lightning Damage",
+      "stat_scaling": "Intelligence"
+    }
+  },
+  {
+    "slug": "guzzler",
+    "name_en": "Guzzler",
+    "name_tr": null,
+    "diablo_class": "Spiritborn",
+    "class_key": "spiritborn",
+    "rarity": "Rare",
+    "radius": null,
+    "tags": [
+      "Healthy"
+    ],
+    "description_en": null,
+    "description_tr": null,
+    "data": {
+      "name": "Guzzler",
+      "rarity": "Rare",
+      "class": "Spiritborn",
+      "filters": [
+        "Healthy"
+      ],
+      "bonus": [
+        "For every 5 Intelligence purchased within range, you deal + {value} increased damage while Healthy."
+      ],
+      "additional_bonus": [
+        "You gain +30% increased Potion Healing."
+      ],
+      "legendary_bonus": [
+        "Increase damage while Healthy by x {legendary_value} ."
+      ],
+      "legendary_value": 0.122,
+      "requirements_amount": [
+        25
+      ],
+      "requirements_stat": [
+        "Intelligence"
+      ],
+      "value": 2.6,
+      "scaling": 0.1818,
+      "max_value": 0.161,
+      "stat_name": "Damage while Healthy",
+      "stat_scaling": "Intelligence"
+    }
+  },
+  {
+    "slug": "headhunter",
+    "name_en": "Headhunter",
+    "name_tr": null,
+    "diablo_class": "Spiritborn",
+    "class_key": "spiritborn",
+    "rarity": "Rare",
+    "radius": null,
+    "tags": [
+      "Elite"
+    ],
+    "description_en": null,
+    "description_tr": null,
+    "data": {
+      "name": "Headhunter",
+      "rarity": "Rare",
+      "class": "Spiritborn",
+      "filters": [
+        "Elite"
+      ],
+      "bonus": [
+        "Grants + {value} bonus to all Normal nodes within range."
+      ],
+      "additional_bonus": [
+        "You deal x10 increased damage to Elites."
+      ],
+      "legendary_bonus": [
+        "Increase damage by x {legendary_value} ."
+      ],
+      "legendary_value": 0.104,
+      "requirements_amount": [
+        40
+      ],
+      "requirements_stat": [
+        "Dexterity"
+      ],
+      "value": 20,
+      "scaling": 0.8081,
+      "max_value": 1.000019,
+      "stat_name": "Special",
+      "stat_scaling": "Normal"
+    }
+  },
+  {
+    "slug": "hone",
+    "name_en": "Hone",
+    "name_tr": null,
+    "diablo_class": "Spiritborn",
+    "class_key": "spiritborn",
+    "rarity": "Rare",
+    "radius": null,
+    "tags": [
+      "Jaguar"
+    ],
+    "description_en": null,
+    "description_tr": null,
+    "data": {
+      "name": "Hone",
+      "rarity": "Rare",
+      "class": "Spiritborn",
+      "filters": [
+        "Jaguar"
+      ],
+      "bonus": [
+        "For every 5 Strength purchased within range, you deal + {value} increased damage with Jaguar Skills."
+      ],
+      "additional_bonus": [
+        "Dealing damage with your Jaguar Skills increases your Critical Strike Chance by +1% for 6 seconds, up to +10%."
+      ],
+      "legendary_bonus": [
+        "Increase Critical Strike Damage by x {legendary_value} ."
+      ],
+      "legendary_value": 0.142,
+      "requirements_amount": [
+        25
+      ],
+      "requirements_stat": [
+        "Strength"
+      ],
+      "value": 2,
+      "scaling": 0.1485,
+      "max_value": 0.167015,
+      "stat_name": "Jaguar Skill Damage",
+      "stat_scaling": "Strength"
+    }
+  },
+  {
+    "slug": "hubris",
+    "name_en": "Hubris",
+    "name_tr": null,
+    "diablo_class": "Spiritborn",
+    "class_key": "spiritborn",
+    "rarity": "Rare",
+    "radius": null,
+    "tags": [
+      "Thorns"
+    ],
+    "description_en": null,
+    "description_tr": null,
+    "data": {
+      "name": "Hubris",
+      "rarity": "Rare",
+      "class": "Spiritborn",
+      "filters": [
+        "Thorns"
+      ],
+      "bonus": [
+        "Grants + {value} bonus to all Magic nodes within range."
+      ],
+      "additional_bonus": [
+        "You gain up to 3,000 Thorns based on your Dodge Bonus."
+      ],
+      "legendary_bonus": [
+        "Increase damage to Vulnerable targets by x {legendary_value} ."
+      ],
+      "legendary_value": 0.104,
+      "requirements_amount": [
+        25
+      ],
+      "requirements_stat": [
+        "Strength"
+      ],
+      "value": 30,
+      "scaling": 3,
+      "max_value": 3.27,
+      "stat_name": "Special",
+      "stat_scaling": "Magic"
+    }
+  },
+  {
+    "slug": "innate",
+    "name_en": "Innate",
+    "name_tr": null,
+    "diablo_class": "Spiritborn",
+    "class_key": "spiritborn",
+    "rarity": "Rare",
+    "radius": null,
+    "tags": [
+      "Damage Reduction",
+      "Incarnate"
+    ],
+    "description_en": null,
+    "description_tr": null,
+    "data": {
+      "name": "Innate",
+      "rarity": "Rare",
+      "class": "Spiritborn",
+      "filters": [
+        "Damage Reduction",
+        "Incarnate"
+      ],
+      "bonus": [
+        "For every 5 Strength purchased within range, you deal + {value} increased damage with Incarnate Skills."
+      ],
+      "additional_bonus": [
+        "Casting an Incarnate Skill grants you x15% Damage Reduction for 7 seconds."
+      ],
+      "legendary_bonus": [
+        "Increase damage by x {legendary_value} ."
+      ],
+      "legendary_value": 0.104,
+      "requirements_amount": [
+        25
+      ],
+      "requirements_stat": [
+        "Strength"
+      ],
+      "value": 2,
+      "scaling": 0.1485,
+      "max_value": 0.167015,
+      "stat_name": "Incarnate Skill Damage",
+      "stat_scaling": "Strength"
+    }
+  },
+  {
+    "slug": "jagged-plume",
+    "name_en": "Jagged Plume",
+    "name_tr": null,
+    "diablo_class": "Spiritborn",
+    "class_key": "spiritborn",
+    "rarity": "Rare",
+    "radius": null,
+    "tags": [
+      "Movement Speed"
+    ],
+    "description_en": null,
+    "description_tr": null,
+    "data": {
+      "name": "Jagged Plume",
+      "rarity": "Rare",
+      "class": "Spiritborn",
+      "filters": [
+        "Movement Speed"
+      ],
+      "bonus": [
+        "For every 5 Dexterity purchased within range, you gain {value} Spirit Feather potency."
+      ],
+      "additional_bonus": [
+        "Spawning a Storm Feather grants you x3% increased damage and 5% increased Movement Speed for 5 seconds, stacking up to 5 times."
+      ],
+      "legendary_bonus": [
+        "Increase Lightning damage by x {legendary_value} ."
+      ],
+      "legendary_value": 0.104,
+      "requirements_amount": [
+        40
+      ],
+      "requirements_stat": [
+        "Dexterity"
+      ],
+      "value": 2,
+      "scaling": 0.1485,
+      "max_value": 0.167015,
+      "stat_name": "Spirit Feather Potency",
+      "stat_scaling": "Dexterity"
+    }
+  },
+  {
+    "slug": "menagerist",
+    "name_en": "Menagerist",
+    "name_tr": null,
+    "diablo_class": "Spiritborn",
+    "class_key": "spiritborn",
+    "rarity": "Rare",
+    "radius": null,
+    "tags": [
+      "Gorilla",
+      "Jaguar",
+      "Centipede",
+      "Eagle"
+    ],
+    "description_en": null,
+    "description_tr": null,
+    "data": {
+      "name": "Menagerist",
+      "rarity": "Rare",
+      "class": "Spiritborn",
+      "filters": [
+        "Gorilla",
+        "Jaguar",
+        "Centipede",
+        "Eagle"
+      ],
+      "bonus": [
+        "Grants + {value} bonus to all Magic nodes within range."
+      ],
+      "additional_bonus": [
+        "Dealing damage with your Gorilla, Jaguar, Eagle, or Centipede Skills increases all damage you deal by x4% for 10 seconds, stacking once per Spirit."
+      ],
+      "legendary_bonus": [
+        "Increase Incarnate skill damage by x {legendary_value} ."
+      ],
+      "legendary_value": 0.104,
+      "requirements_amount": [
+        40
+      ],
+      "requirements_stat": [
+        "Dexterity"
+      ],
+      "value": 25,
+      "scaling": 2.5,
+      "max_value": 2.725,
+      "stat_name": "Special",
+      "stat_scaling": "Magic"
+    }
+  },
+  {
+    "slug": "outmatch",
+    "name_en": "Outmatch",
+    "name_tr": null,
+    "diablo_class": "Spiritborn",
+    "class_key": "spiritborn",
+    "rarity": "Rare",
+    "radius": null,
+    "tags": [
+      "Non-Elite",
+      "Boss"
+    ],
+    "description_en": null,
+    "description_tr": null,
+    "data": {
+      "name": "Outmatch",
+      "rarity": "Rare",
+      "class": "Spiritborn",
+      "filters": [
+        "Non-Elite",
+        "Boss"
+      ],
+      "bonus": [
+        "Grants + {value} bonus to all Rare nodes within range."
+      ],
+      "additional_bonus": [
+        "You deal x15% increased Physical damage to Non-Elites and Bosses."
+      ],
+      "legendary_bonus": [
+        "Increase damage while Healthy by x {legendary_value} ."
+      ],
+      "legendary_value": 0.122,
+      "requirements_amount": [
+        25
+      ],
+      "requirements_stat": [
+        "Strength"
+      ],
+      "value": 25,
+      "scaling": 1.9495,
+      "max_value": 2.725,
+      "stat_name": "Special",
+      "stat_scaling": "Rare"
+    }
+  },
+  {
+    "slug": "revenge",
+    "name_en": "Revenge",
+    "name_tr": null,
+    "diablo_class": "Spiritborn",
+    "class_key": "spiritborn",
+    "rarity": "Rare",
+    "radius": null,
+    "tags": [
+      "Thorns"
+    ],
+    "description_en": null,
+    "description_tr": null,
+    "data": {
+      "name": "Revenge",
+      "rarity": "Rare",
+      "class": "Spiritborn",
+      "filters": [
+        "Thorns"
+      ],
+      "bonus": [
+        "Grants + {value} bonus to all Rare nodes within range."
+      ],
+      "additional_bonus": [
+        "Dealing Thorns damage to an enemy increases all damage it takes from you by x1%, up to x15%, for 10 seconds."
+      ],
+      "legendary_bonus": [
+        "Increase damage by x {legendary_value} ."
+      ],
+      "legendary_value": 0.104,
+      "requirements_amount": [
+        25
+      ],
+      "requirements_stat": [
+        "Intelligence"
+      ],
+      "value": 25,
+      "scaling": 1.9495,
+      "max_value": 2.18,
+      "stat_name": "Special",
+      "stat_scaling": "Rare"
+    }
+  },
+  {
+    "slug": "ritual",
+    "name_en": "Ritual",
+    "name_tr": null,
+    "diablo_class": "Spiritborn",
+    "class_key": "spiritborn",
+    "rarity": "Rare",
+    "radius": null,
+    "tags": [
+      "Damage Reduction"
+    ],
+    "description_en": null,
+    "description_tr": null,
+    "data": {
+      "name": "Ritual",
+      "rarity": "Rare",
+      "class": "Spiritborn",
+      "filters": [
+        "Damage Reduction"
+      ],
+      "bonus": [
+        "For every 5 Intelligence purchased within range, you gain {value} Mystic Circle potency."
+      ],
+      "additional_bonus": [
+        "While standing in a Mystic Circle you deal x10% increased damage and take x10% reduced damage."
+      ],
+      "legendary_bonus": [
+        "Increase damage by x {legendary_value} ."
+      ],
+      "legendary_value": 0.104,
+      "requirements_amount": [
+        25
+      ],
+      "requirements_stat": [
+        "Intelligence"
+      ],
+      "value": 2,
+      "scaling": 0.0273,
+      "max_value": 0.0236,
+      "stat_name": "Mystic Circle Potency",
+      "stat_scaling": "Intelligence"
+    }
+  },
+  {
+    "slug": "spirit",
+    "name_en": "Spirit",
+    "name_tr": null,
+    "diablo_class": "Spiritborn",
+    "class_key": "spiritborn",
+    "rarity": "Rare",
+    "radius": null,
+    "tags": [
+      "Critical Strike"
+    ],
+    "description_en": null,
+    "description_tr": null,
+    "data": {
+      "name": "Spirit",
+      "rarity": "Rare",
+      "class": "Spiritborn",
+      "filters": [
+        "Critical Strike"
+      ],
+      "bonus": [
+        "For every 5 Dexterity purchased within range, you deal + {value} increased Critical Strike Damage."
+      ],
+      "additional_bonus": [
+        "Critical Strikes increase the damage an enemy takes from you by x3% for 20 seconds, up to x15%."
+      ],
+      "legendary_bonus": [
+        "Increase damage to Elites by x {legendary_value} ."
+      ],
+      "legendary_value": 0.142,
+      "requirements_amount": [
+        40
+      ],
+      "requirements_stat": [
+        "Dexterity"
+      ],
+      "value": 2.6,
+      "scaling": 0.198,
+      "max_value": 0.22202000000000002,
+      "stat_name": "Critical Strike Damage",
+      "stat_scaling": "Dexterity"
+    }
+  },
+  {
+    "slug": "talon",
+    "name_en": "Talon",
+    "name_tr": null,
+    "diablo_class": "Spiritborn",
+    "class_key": "spiritborn",
+    "rarity": "Rare",
+    "radius": null,
+    "tags": [
+      "Eagle"
+    ],
+    "description_en": null,
+    "description_tr": null,
+    "data": {
+      "name": "Talon",
+      "rarity": "Rare",
+      "class": "Spiritborn",
+      "filters": [
+        "Eagle"
+      ],
+      "bonus": [
+        "For every 5 Dexterity purchased within range, you deal + {value} increased damage with Eagle Skills."
+      ],
+      "additional_bonus": [
+        "Your Eagle Skills deal x15% increased Critical Strike Damage."
+      ],
+      "legendary_bonus": [
+        "Increase Lightning damage by x {legendary_value} ."
+      ],
+      "legendary_value": 0.104,
+      "requirements_amount": [
+        40
+      ],
+      "requirements_stat": [
+        "Dexterity"
+      ],
+      "value": 2,
+      "scaling": 0.1485,
+      "max_value": 0.167015,
+      "stat_name": "Eagle Skill Damage",
+      "stat_scaling": "Dexterity"
+    }
+  },
+  {
+    "slug": "turf",
+    "name_en": "Turf",
+    "name_tr": null,
+    "diablo_class": "Spiritborn",
+    "class_key": "spiritborn",
+    "rarity": "Rare",
+    "radius": null,
+    "tags": [
+      "Close",
+      "Damage Reduction"
+    ],
+    "description_en": null,
+    "description_tr": null,
+    "data": {
+      "name": "Turf",
+      "rarity": "Rare",
+      "class": "Spiritborn",
+      "filters": [
+        "Close",
+        "Damage Reduction"
+      ],
+      "bonus": [
+        "For every 5 Strength purchased within range, you deal + {value} increased damage to Close targets."
+      ],
+      "additional_bonus": [
+        "You gain 10% Damage Reduction against Close enemies."
+      ],
+      "legendary_bonus": [
+        "You deal x {legendary_value} increased damage to Close enemies."
+      ],
+      "legendary_value": 0.122,
+      "requirements_amount": [
+        25
+      ],
+      "requirements_stat": [
+        "Strength"
+      ],
+      "value": 2,
+      "scaling": 0.1485,
+      "max_value": 0.167015,
+      "stat_name": "Damage to Close Enemies",
+      "stat_scaling": "Strength"
+    }
+  },
+  {
+    "slug": "wildfire",
+    "name_en": "Wildfire",
+    "name_tr": null,
+    "diablo_class": "Spiritborn",
+    "class_key": "spiritborn",
+    "rarity": "Rare",
+    "radius": null,
+    "tags": [
+      "Fire"
+    ],
+    "description_en": null,
+    "description_tr": null,
+    "data": {
+      "name": "Wildfire",
+      "rarity": "Rare",
+      "class": "Spiritborn",
+      "filters": [
+        "Fire"
+      ],
+      "bonus": [
+        "For every 5 Dexterity purchased within range, you deal + {value} increased Fire damage."
+      ],
+      "additional_bonus": [
+        "Lucky Hit: Damaging enemies with direct Fire damage has up a 30% chance to reduce one of your active Cooldowns by 0.5 seconds."
+      ],
+      "legendary_bonus": [
+        "Increase Fire damage by x {legendary_value} ."
+      ],
+      "legendary_value": 0.104,
+      "requirements_amount": [
+        40
+      ],
+      "requirements_stat": [
+        "Dexterity"
+      ],
+      "value": 2,
+      "scaling": 0.1485,
+      "max_value": 0.167015,
+      "stat_name": "Fire Damage",
+      "stat_scaling": "Dexterity"
+    }
+  }
+]

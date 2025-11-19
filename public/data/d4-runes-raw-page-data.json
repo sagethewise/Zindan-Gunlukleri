@@ -1,0 +1,740 @@
+{
+  "componentChunkName": "component---src-templates-runes-js",
+  "path": "/database/runes/",
+  "result": {
+    "pageContext": {
+      "runes": [
+        {
+          "name": "Ahu",
+          "type": "Ritual",
+          "rarity": "Legendary",
+          "gain": 15,
+          "bonus": "Lucky Hit: Up to a 100% chance against non-Healthy enemies."
+        },
+        {
+          "name": "Bac",
+          "type": "Ritual",
+          "rarity": "Legendary",
+          "gain": 50,
+          "bonus": "Travel 5 meters."
+        },
+        {
+          "name": "Cem",
+          "type": "Ritual",
+          "rarity": "Magic",
+          "gain": 75,
+          "bonus": "Cast Evade."
+        },
+        {
+          "name": "Cir",
+          "type": "Ritual",
+          "rarity": "Magic",
+          "gain": 300,
+          "bonus": "Cast 5 Skills then become exhausted for 3 seconds."
+        },
+        {
+          "name": "Feo",
+          "type": "Ritual",
+          "rarity": "Rare",
+          "gain": 1000,
+          "bonus": "Become Injured or Crowd Controlled (Cooldown: 10 seconds)."
+        },
+        {
+          "name": "Igni",
+          "type": "Ritual",
+          "rarity": "Legendary",
+          "gain": 25,
+          "extra": "Up to 500 Offering",
+          "bonus": "Stores offering every 0.3 seconds. Cast a non-Basic Skill to gain the stored offering."
+        },
+        {
+          "name": "Lith",
+          "type": "Ritual",
+          "rarity": "Legendary",
+          "gain": 25,
+          "bonus": "Stand still while fighting for 0.3 seconds."
+        },
+        {
+          "name": "Moni",
+          "type": "Ritual",
+          "rarity": "Magic",
+          "gain": 100,
+          "bonus": "Cast 2 Mobility or Macabre Skills."
+        },
+        {
+          "name": "Nagu",
+          "type": "Ritual",
+          "rarity": "Legendary",
+          "gain": 100,
+          "bonus": "Maintain at least 1 active Summon for 5 seconds, gaining offering for each up to 6 Summon."
+        },
+        {
+          "name": "Neo",
+          "type": "Ritual",
+          "rarity": "Rare",
+          "gain": 200,
+          "bonus": "Deal damage after not taking any within 2 seconds. (Resets if Invulnerable.)"
+        },
+        {
+          "name": "Noc",
+          "type": "Ritual",
+          "rarity": "Rare",
+          "gain": 10,
+          "bonus": "Inflict a Crowd Control. Gain double offering if it isn't a Slow or a Chill."
+        },
+        {
+          "name": "Poc",
+          "type": "Ritual",
+          "rarity": "Rare",
+          "gain": 5,
+          "bonus": "Spend 5% of your Maximum Resource."
+        },
+        {
+          "name": "Tam",
+          "type": "Ritual",
+          "rarity": "Legendary",
+          "gain": 25,
+          "bonus": "Cast a non-Channeled Core Skill."
+        },
+        {
+          "name": "Xol",
+          "type": "Ritual",
+          "rarity": "Legendary",
+          "gain": 150,
+          "bonus": "Invoke power from another Class."
+        },
+        {
+          "name": "Yax",
+          "type": "Ritual",
+          "rarity": "Magic",
+          "gain": 200,
+          "bonus": "Drink a Healing Potion."
+        },
+        {
+          "name": "Yul",
+          "type": "Ritual",
+          "rarity": "Legendary",
+          "gain": 50,
+          "bonus": "Cast a Skill with a Cooldown."
+        },
+        {
+          "name": "Zan",
+          "type": "Ritual",
+          "rarity": "Magic",
+          "gain": 150,
+          "bonus": "Cast an Ultimate Skill."
+        },
+        {
+          "name": "Ceh",
+          "type": "Invocation",
+          "rarity": "Magic",
+          "requires": 100,
+          "overflow": "Summon Multiple Wolves",
+          "cooldown": 1,
+          "bonus": "Summon a Spirit Wolf to attack enemies for 8 seconds."
+        },
+        {
+          "name": "Chac",
+          "type": "Invocation",
+          "rarity": "Rare",
+          "requires": 20,
+          "overflow": "Spawn more",
+          "bonus": "Invoke the Druid's Lightning Bolt, striking a nearby enemy."
+        },
+        {
+          "name": "Eom",
+          "type": "Invocation",
+          "rarity": "Legendary",
+          "requires": 100,
+          "overflow": "Further Reduced Cooldowns",
+          "cooldown": 1,
+          "bonus": "Reduce your active Cooldowns by 0.1 seconds."
+        },
+        {
+          "name": "Gar",
+          "type": "Invocation",
+          "rarity": "Magic",
+          "requires": 25,
+          "overflow": "Gain Multiple Stacks",
+          "cooldown": 1,
+          "bonus": "Gain 2.5% Critical Strike Chance for 5 seconds, up to 25%."
+        },
+        {
+          "name": "Jah",
+          "type": "Invocation",
+          "rarity": "Legendary",
+          "requires": 250,
+          "overflow": "Store Excess Offering",
+          "cooldown": 2,
+          "bonus": "Replace your next Evade with the Sorcerer's Teleport, blinking further, dealing damage, and becoming Unstoppable."
+        },
+        {
+          "name": "Kry",
+          "type": "Invocation",
+          "rarity": "Rare",
+          "requires": 300,
+          "overflow": "Increased size",
+          "cooldown": 3,
+          "bonus": "Invoke the Spiritborn's Vortex, dealing damage and Pulling In enemies."
+        },
+        {
+          "name": "Lac",
+          "type": "Invocation",
+          "rarity": "Rare",
+          "requires": 400,
+          "overflow": "Increased Duration",
+          "cooldown": 1,
+          "bonus": "Invoke the Barbarian's Challenging Shout, reducing your damage taken for 3 seconds."
+        },
+        {
+          "name": "Lum",
+          "type": "Invocation",
+          "rarity": "Magic",
+          "requires": 5,
+          "overflow": "Increased Resource Restored",
+          "cooldown": 1,
+          "bonus": "Restore 3.5 Primary Resource."
+        },
+        {
+          "name": "Mot",
+          "type": "Invocation",
+          "rarity": "Rare",
+          "requires": 150,
+          "overflow": "Gain Multiple Shadows",
+          "cooldown": 1,
+          "bonus": "Gain a shadow from the Rogue's Dark Shroud, reducing damage taken per shadow."
+        },
+        {
+          "name": "Ner",
+          "type": "Invocation",
+          "rarity": "Rare",
+          "requires": 600,
+          "overflow": "Increased Duration",
+          "cooldown": 6,
+          "bonus": "Invoke the Rogue's Countering Concealment, gaining Dodge Chance, Movement Speed, Unstoppable, and Stealth."
+        },
+        {
+          "name": "Ohm",
+          "type": "Invocation",
+          "rarity": "Legendary",
+          "requires": 600,
+          "overflow": "Increased Duration",
+          "cooldown": 2,
+          "bonus": "Invoke the Barbarian's War Cry, increasing your damage dealt by x15% for 6 seconds."
+        },
+        {
+          "name": "Qax",
+          "type": "Invocation",
+          "rarity": "Rare",
+          "requires": 400,
+          "overflow": "Further Increased Damage",
+          "cooldown": 1,
+          "bonus": "Casting a Skill other than a Basic or Defensive spends all your Primary Resource to increase your damage up to 100% for 1 second."
+        },
+        {
+          "name": "Qua",
+          "type": "Invocation",
+          "rarity": "Magic",
+          "requires": 50,
+          "overflow": "Increased Duration",
+          "cooldown": 1,
+          "bonus": "Gain 10% Movement Speed for 5 seconds, up to 50%."
+        },
+        {
+          "name": "Que",
+          "type": "Invocation",
+          "rarity": "Rare",
+          "requires": 300,
+          "overflow": "Increased Duration",
+          "cooldown": 1,
+          "bonus": "Invoke the Druid's Earthen Bulwark, granting yourself a Barrier."
+        },
+        {
+          "name": "Tal",
+          "type": "Invocation",
+          "rarity": "Magic",
+          "requires": 30,
+          "overflow": "Increased Swarms Spawned",
+          "cooldown": 1,
+          "bonus": "Invoke 1 of the Spiritborn's Pestilent Swarm, dealing damage to enemies."
+        },
+        {
+          "name": "Teb",
+          "type": "Invocation",
+          "rarity": "Magic",
+          "requires": 100,
+          "overflow": "Increase damage by 1% per Offering",
+          "cooldown": 1,
+          "bonus": "Invoke the Necromancer's Abhorrent Iron Maiden, counterattacking damage from enemies and Healing you when they die."
+        },
+        {
+          "name": "Tec",
+          "type": "Invocation",
+          "rarity": "Magic",
+          "requires": 50,
+          "overflow": "Increased Size",
+          "cooldown": 1,
+          "bonus": "Invoke the Barbarian's Earthquake, dealing damage to enemies within."
+        },
+        {
+          "name": "Thul",
+          "type": "Invocation",
+          "rarity": "Rare",
+          "requires": 300,
+          "overflow": "Increased Size",
+          "cooldown": 1,
+          "bonus": "Invoke the Sorcerer's Mystical Frost Nova, inflicting Freeze and Vulnerable onto enemies."
+        },
+        {
+          "name": "Ton",
+          "type": "Invocation",
+          "rarity": "Magic",
+          "requires": 20,
+          "overflow": "Increased Meteorites Spawned",
+          "cooldown": 1,
+          "bonus": "Invoke the Sorcerer's Meteorites, dealing damage to enemies."
+        },
+        {
+          "name": "Tun",
+          "type": "Invocation",
+          "rarity": "Magic",
+          "requires": 25,
+          "overflow": "Increased Grenades Spawned",
+          "cooldown": 1,
+          "bonus": "Invoke the Rogue's Stun Grenades, Stunning and dealing damage to enemies."
+        },
+        {
+          "name": "Tzic",
+          "type": "Invocation",
+          "rarity": "Rare",
+          "requires": 200,
+          "overflow": "Increase damage by 1% per Offering",
+          "cooldown": 1,
+          "bonus": "Invoke the Spiritborn's Concussive Stomp, dealing damage and Knocking Down enemies."
+        },
+        {
+          "name": "Vex",
+          "type": "Invocation",
+          "rarity": "Legendary",
+          "requires": 100,
+          "overflow": "More Skill ranks, up to 3.",
+          "cooldown": 5,
+          "bonus": "Gain +1 to Skills for 10 seconds."
+        },
+        {
+          "name": "Wat",
+          "type": "Invocation",
+          "rarity": "Rare",
+          "requires": 100,
+          "overflow": "Increase Duration",
+          "cooldown": 1,
+          "bonus": "Invoke the Necromancer's Horrid Decrepify, Slowing enemies, reducing their damage, and letting you Execute them."
+        },
+        {
+          "name": "Xal",
+          "type": "Invocation",
+          "rarity": "Rare",
+          "requires": 300,
+          "overflow": "Gain More Maximum Life",
+          "cooldown": 3,
+          "bonus": "Gain 20% Maximum Life for 6 seconds."
+        },
+        {
+          "name": "Xan",
+          "type": "Invocation",
+          "rarity": "Legendary",
+          "requires": 300,
+          "overflow": "Increase Duration",
+          "cooldown": 1,
+          "bonus": "Your next attack will cause your hits to be a guaranteed Critical Strike and Overpower for 0.35 seconds."
+        },
+        {
+          "name": "Yom",
+          "type": "Invocation",
+          "rarity": "Legendary",
+          "requires": 500,
+          "overflow": "Increase Stun Duration",
+          "cooldown": 5,
+          "bonus": "Invoke the Druid's Petrify Skill, Stunning enemies, restoring Primary Resource."
+        },
+        {
+          "name": "Zec",
+          "type": "Invocation",
+          "rarity": "Rare",
+          "requires": 100,
+          "overflow": "Further Reduced Cooldown",
+          "cooldown": 1,
+          "bonus": "Reduce your active Ultimate Cooldown by 1 second."
+        }
+      ],
+      "runesPTR": [
+        {
+          "name": "Ahu",
+          "type": "Ritual",
+          "rarity": "Legendary",
+          "gain": 15,
+          "bonus": "Lucky Hit: Up to a 100% chance against non-Healthy enemies."
+        },
+        {
+          "name": "Bac",
+          "type": "Ritual",
+          "rarity": "Legendary",
+          "gain": 50,
+          "bonus": "Travel 5 meters."
+        },
+        {
+          "name": "Cem",
+          "type": "Ritual",
+          "rarity": "Magic",
+          "gain": 75,
+          "bonus": "Cast Evade."
+        },
+        {
+          "name": "Cir",
+          "type": "Ritual",
+          "rarity": "Magic",
+          "gain": 300,
+          "bonus": "Cast 5 Skills then become exhausted for 3 seconds."
+        },
+        {
+          "name": "Feo",
+          "type": "Ritual",
+          "rarity": "Rare",
+          "gain": 1000,
+          "bonus": "Become Injured or Crowd Controlled (Cooldown: 10 seconds)."
+        },
+        {
+          "name": "Igni",
+          "type": "Ritual",
+          "rarity": "Legendary",
+          "gain": 25,
+          "extra": "Up to 500 Offering",
+          "bonus": "Stores offering every 0.3 seconds. Cast a non-Basic Skill to gain the stored offering."
+        },
+        {
+          "name": "Lith",
+          "type": "Ritual",
+          "rarity": "Legendary",
+          "gain": 25,
+          "bonus": "Stand still while fighting for 0.3 seconds."
+        },
+        {
+          "name": "Moni",
+          "type": "Ritual",
+          "rarity": "Magic",
+          "gain": 100,
+          "bonus": "Cast 2 Mobility or Macabre Skills."
+        },
+        {
+          "name": "Nagu",
+          "type": "Ritual",
+          "rarity": "Legendary",
+          "gain": 100,
+          "bonus": "Maintain at least 1 active Summon for 5 seconds, gaining offering for each up to 6 Summon."
+        },
+        {
+          "name": "Neo",
+          "type": "Ritual",
+          "rarity": "Rare",
+          "gain": 200,
+          "bonus": "Deal damage after not taking any within 2 seconds. (Resets if Invulnerable.)"
+        },
+        {
+          "name": "Noc",
+          "type": "Ritual",
+          "rarity": "Rare",
+          "gain": 10,
+          "bonus": "Inflict a Crowd Control. Gain double offering if it isn't a Slow or a Chill."
+        },
+        {
+          "name": "Poc",
+          "type": "Ritual",
+          "rarity": "Rare",
+          "gain": 5,
+          "bonus": "Spend 5% of your Maximum Resource."
+        },
+        {
+          "name": "Tam",
+          "type": "Ritual",
+          "rarity": "Legendary",
+          "gain": 25,
+          "bonus": "Cast a non-Channeled Core Skill."
+        },
+        {
+          "name": "Xol",
+          "type": "Ritual",
+          "rarity": "Legendary",
+          "gain": 150,
+          "bonus": "Invoke power from another Class."
+        },
+        {
+          "name": "Yax",
+          "type": "Ritual",
+          "rarity": "Magic",
+          "gain": 200,
+          "bonus": "Drink a Healing Potion."
+        },
+        {
+          "name": "Yul",
+          "type": "Ritual",
+          "rarity": "Legendary",
+          "gain": 50,
+          "bonus": "Cast a Skill with a Cooldown."
+        },
+        {
+          "name": "Zan",
+          "type": "Ritual",
+          "rarity": "Magic",
+          "gain": 150,
+          "bonus": "Cast an Ultimate Skill."
+        },
+        {
+          "name": "Ceh",
+          "type": "Invocation",
+          "rarity": "Magic",
+          "requires": 100,
+          "overflow": "Summon Multiple Wolves",
+          "cooldown": 1,
+          "bonus": "Summon a Spirit Wolf to attack enemies for 8 seconds."
+        },
+        {
+          "name": "Chac",
+          "type": "Invocation",
+          "rarity": "Rare",
+          "requires": 20,
+          "overflow": "Spawn more",
+          "bonus": "Invoke the Druid's Lightning Bolt, striking a nearby enemy."
+        },
+        {
+          "name": "Eom",
+          "type": "Invocation",
+          "rarity": "Legendary",
+          "requires": 100,
+          "overflow": "Further Reduced Cooldowns",
+          "cooldown": 1,
+          "bonus": "Reduce your active Cooldowns by 0.1 seconds."
+        },
+        {
+          "name": "Gar",
+          "type": "Invocation",
+          "rarity": "Magic",
+          "requires": 25,
+          "overflow": "Gain Multiple Stacks",
+          "cooldown": 1,
+          "bonus": "Gain 2.5% Critical Strike Chance for 5 seconds, up to 25%."
+        },
+        {
+          "name": "Jah",
+          "type": "Invocation",
+          "rarity": "Legendary",
+          "requires": 250,
+          "overflow": "Store Excess Offering",
+          "cooldown": 2,
+          "bonus": "Replace your next Evade with the Sorcerer's Teleport, blinking further, dealing damage, and becoming Unstoppable."
+        },
+        {
+          "name": "Kry",
+          "type": "Invocation",
+          "rarity": "Rare",
+          "requires": 300,
+          "overflow": "Increased size",
+          "cooldown": 3,
+          "bonus": "Invoke the Spiritborn's Vortex, dealing damage and Pulling In enemies."
+        },
+        {
+          "name": "Lac",
+          "type": "Invocation",
+          "rarity": "Rare",
+          "requires": 400,
+          "overflow": "Increased Duration",
+          "cooldown": 1,
+          "bonus": "Invoke the Barbarian's Challenging Shout, reducing your damage taken for 3 seconds."
+        },
+        {
+          "name": "Lum",
+          "type": "Invocation",
+          "rarity": "Magic",
+          "requires": 5,
+          "overflow": "Increased Resource Restored",
+          "cooldown": 1,
+          "bonus": "Restore 3.5 Primary Resource."
+        },
+        {
+          "name": "Mot",
+          "type": "Invocation",
+          "rarity": "Rare",
+          "requires": 150,
+          "overflow": "Gain Multiple Shadows",
+          "cooldown": 1,
+          "bonus": "Gain a shadow from the Rogue's Dark Shroud, reducing damage taken per shadow."
+        },
+        {
+          "name": "Ner",
+          "type": "Invocation",
+          "rarity": "Rare",
+          "requires": 600,
+          "overflow": "Increased Duration",
+          "cooldown": 6,
+          "bonus": "Invoke the Rogue's Countering Concealment, gaining Dodge Chance, Movement Speed, Unstoppable, and Stealth."
+        },
+        {
+          "name": "Ohm",
+          "type": "Invocation",
+          "rarity": "Legendary",
+          "requires": 600,
+          "overflow": "Increased Duration",
+          "cooldown": 2,
+          "bonus": "Invoke the Barbarian's War Cry, increasing your damage dealt by x15% for 6 seconds."
+        },
+        {
+          "name": "Qax",
+          "type": "Invocation",
+          "rarity": "Rare",
+          "requires": 400,
+          "overflow": "Further Increased Damage",
+          "cooldown": 1,
+          "bonus": "Casting a Skill other than a Basic or Defensive spends all your Primary Resource to increase your damage up to 100% for 1 second."
+        },
+        {
+          "name": "Qua",
+          "type": "Invocation",
+          "rarity": "Magic",
+          "requires": 50,
+          "overflow": "Increased Duration",
+          "cooldown": 1,
+          "bonus": "Gain 10% Movement Speed for 5 seconds, up to 50%."
+        },
+        {
+          "name": "Que",
+          "type": "Invocation",
+          "rarity": "Rare",
+          "requires": 300,
+          "overflow": "Increased Duration",
+          "cooldown": 1,
+          "bonus": "Invoke the Druid's Earthen Bulwark, granting yourself a Barrier."
+        },
+        {
+          "name": "Tal",
+          "type": "Invocation",
+          "rarity": "Magic",
+          "requires": 30,
+          "overflow": "Increased Swarms Spawned",
+          "cooldown": 1,
+          "bonus": "Invoke 1 of the Spiritborn's Pestilent Swarm, dealing damage to enemies."
+        },
+        {
+          "name": "Teb",
+          "type": "Invocation",
+          "rarity": "Magic",
+          "requires": 100,
+          "overflow": "Increase damage by 1% per Offering",
+          "cooldown": 1,
+          "bonus": "Invoke the Necromancer's Abhorrent Iron Maiden, counterattacking damage from enemies and Healing you when they die."
+        },
+        {
+          "name": "Tec",
+          "type": "Invocation",
+          "rarity": "Magic",
+          "requires": 50,
+          "overflow": "Increased Size",
+          "cooldown": 1,
+          "bonus": "Invoke the Barbarian's Earthquake, dealing damage to enemies within."
+        },
+        {
+          "name": "Thul",
+          "type": "Invocation",
+          "rarity": "Rare",
+          "requires": 300,
+          "overflow": "Increased Size",
+          "cooldown": 1,
+          "bonus": "Invoke the Sorcerer's Mystical Frost Nova, inflicting Freeze and Vulnerable onto enemies."
+        },
+        {
+          "name": "Ton",
+          "type": "Invocation",
+          "rarity": "Magic",
+          "requires": 20,
+          "overflow": "Increased Meteorites Spawned",
+          "cooldown": 1,
+          "bonus": "Invoke the Sorcerer's Meteorites, dealing damage to enemies."
+        },
+        {
+          "name": "Tun",
+          "type": "Invocation",
+          "rarity": "Magic",
+          "requires": 25,
+          "overflow": "Increased Grenades Spawned",
+          "cooldown": 1,
+          "bonus": "Invoke the Rogue's Stun Grenades, Stunning and dealing damage to enemies."
+        },
+        {
+          "name": "Tzic",
+          "type": "Invocation",
+          "rarity": "Rare",
+          "requires": 200,
+          "overflow": "Increase damage by 1% per Offering",
+          "cooldown": 1,
+          "bonus": "Invoke the Spiritborn's Concussive Stomp, dealing damage and Knocking Down enemies."
+        },
+        {
+          "name": "Vex",
+          "type": "Invocation",
+          "rarity": "Legendary",
+          "requires": 100,
+          "overflow": "More Skill ranks, up to 3.",
+          "cooldown": 5,
+          "bonus": "Gain +1 to Skills for 10 seconds."
+        },
+        {
+          "name": "Wat",
+          "type": "Invocation",
+          "rarity": "Rare",
+          "requires": 100,
+          "overflow": "Increase Duration",
+          "cooldown": 1,
+          "bonus": "Invoke the Necromancer's Horrid Decrepify, Slowing enemies, reducing their damage, and letting you Execute them."
+        },
+        {
+          "name": "Xal",
+          "type": "Invocation",
+          "rarity": "Rare",
+          "requires": 300,
+          "overflow": "Gain More Maximum Life",
+          "cooldown": 3,
+          "bonus": "Gain 20% Maximum Life for 6 seconds."
+        },
+        {
+          "name": "Xan",
+          "type": "Invocation",
+          "rarity": "Legendary",
+          "requires": 300,
+          "overflow": "Increase Duration",
+          "cooldown": 1,
+          "bonus": "Your next attack will cause your hits to be a guaranteed Critical Strike and Overpower for 0.35 seconds."
+        },
+        {
+          "name": "Yom",
+          "type": "Invocation",
+          "rarity": "Legendary",
+          "requires": 500,
+          "overflow": "Increase Stun Duration",
+          "cooldown": 5,
+          "bonus": "Invoke the Druid's Petrify Skill, Stunning enemies, restoring Primary Resource."
+        },
+        {
+          "name": "Zec",
+          "type": "Invocation",
+          "rarity": "Rare",
+          "requires": 100,
+          "overflow": "Further Reduced Cooldown",
+          "cooldown": 1,
+          "bonus": "Reduce your active Ultimate Cooldown by 1 second."
+        }
+      ]
+    }
+  },
+  "staticQueryHashes": [
+    "3649515864",
+    "63159454"
+  ]
+}

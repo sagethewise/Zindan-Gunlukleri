@@ -1,0 +1,3515 @@
+[
+  {
+    "slug": "barbarian-recovery",
+    "name_en": "Barbarian Recovery",
+    "name_tr": null,
+    "class_en": "Barbarian",
+    "class_key": "barbarian",
+    "category": "Defensive",
+    "slot": null,
+    "description_en": null,
+    "description_tr": null,
+    "tags": null,
+    "data": {
+      "name": "Barbarian Recovery",
+      "class": "Barbarian",
+      "type": "Defensive",
+      "stats": [
+        "[41.5-55%] Lunging Strike Healing",
+        "[1-2] to Raid Leader",
+        "[1-2] to Invigorating Fury"
+      ]
+    }
+  },
+  {
+    "slug": "barbarian-strategy",
+    "name_en": "Barbarian Strategy",
+    "name_tr": null,
+    "class_en": "Barbarian",
+    "class_key": "barbarian",
+    "category": "Defensive",
+    "slot": null,
+    "description_en": null,
+    "description_tr": null,
+    "tags": null,
+    "data": {
+      "name": "Barbarian Strategy",
+      "class": "Barbarian",
+      "type": "Defensive",
+      "stats": [
+        "[15.5-20%] Ground Stomp Cooldown Reduction",
+        "[8-10%] Iron Skin Cooldown Reduction",
+        "[6-8%] Challenging Shout Cooldown Reduction"
+      ]
+    }
+  },
+  {
+    "slug": "blood-endurance",
+    "name_en": "Blood Endurance",
+    "name_tr": null,
+    "class_en": "Necromancer",
+    "class_key": "necromancer",
+    "category": "Defensive",
+    "slot": null,
+    "description_en": null,
+    "description_tr": null,
+    "tags": null,
+    "data": {
+      "name": "Blood Endurance",
+      "class": "Necromancer",
+      "type": "Defensive",
+      "stats": [
+        "[52-70%] Chance for Hemorrhage to Form Blood Orbs",
+        "[21-30%] Blood Orb Healing",
+        "[10.5-15%] Blood Mist Duration",
+        "[6-8%] Blood Mist Cooldown Reduction"
+      ]
+    }
+  },
+  {
+    "slug": "frost-cage",
+    "name_en": "Frost Cage",
+    "name_tr": null,
+    "class_en": "Sorcerer",
+    "class_key": "sorcerer",
+    "category": "Defensive",
+    "slot": null,
+    "description_en": null,
+    "description_tr": null,
+    "tags": null,
+    "data": {
+      "name": "Frost Cage",
+      "class": "Sorcerer",
+      "type": "Defensive",
+      "stats": [
+        "[15.5-20%] Frost Nova Cooldown Reduction",
+        "[21-30%] Chill Slow Potency",
+        "[1-2 ] to Cold Front",
+        "[10.5-15%] Ice Armor Duration"
+      ]
+    }
+  },
+  {
+    "slug": "natural-resistance",
+    "name_en": "Natural Resistance",
+    "name_tr": null,
+    "class_en": "All",
+    "class_key": "all",
+    "category": "Defensive",
+    "slot": null,
+    "description_en": null,
+    "description_tr": null,
+    "tags": null,
+    "data": {
+      "name": "Natural Resistance",
+      "class": "All",
+      "type": "Defensive",
+      "stats": [
+        "[36.5-50%] Fire Resistance",
+        "[36.5-50%] Lightning Resistance",
+        "[36.5-50%] Cold Resistance",
+        "[36.5-50%] Poison Resistance",
+        "[36.5-50%] Shadow Resistance"
+      ]
+    }
+  },
+  {
+    "slug": "nature-magic-wall",
+    "name_en": "Nature Magic Wall",
+    "name_tr": null,
+    "class_en": "Druid",
+    "class_key": "druid",
+    "category": "Defensive",
+    "slot": null,
+    "description_en": null,
+    "description_tr": null,
+    "tags": null,
+    "data": {
+      "name": "Nature Magic Wall",
+      "class": "Druid",
+      "type": "Defensive",
+      "stats": [
+        "[15.5-20%] Cyclone Armor Cooldown Reduction",
+        "[8-10%] Earthen Bulwark Cooldown Reduction",
+        "[15.5-20%] Earthen Bulwark Duration"
+      ]
+    }
+  },
+  {
+    "slug": "necromancer-wall",
+    "name_en": "Necromancer Wall",
+    "name_tr": null,
+    "class_en": "Necromancer",
+    "class_key": "necromancer",
+    "category": "Defensive",
+    "slot": null,
+    "description_en": null,
+    "description_tr": null,
+    "tags": null,
+    "data": {
+      "name": "Necromancer Wall",
+      "class": "Necromancer",
+      "type": "Defensive",
+      "stats": [
+        "[21-30%] Damage Reduction for Your Minons",
+        "[26.5-40%] Chance for your Minion Attacks to Fortify you for 3% Maximum Life",
+        "[1-2] to Drain Vitality",
+        "[1-2] to Necrotic Carapace"
+      ]
+    }
+  },
+  {
+    "slug": "profane-cage",
+    "name_en": "Profane Cage",
+    "name_tr": null,
+    "class_en": "Necromancer",
+    "class_key": "necromancer",
+    "category": "Defensive",
+    "slot": null,
+    "description_en": null,
+    "description_tr": null,
+    "tags": null,
+    "data": {
+      "name": "Profane Cage",
+      "class": "Necromancer",
+      "type": "Defensive",
+      "stats": [
+        "[26.5-40%] Blight Chill Potency",
+        "[29-42.5%] Corpse Tendrils Duration",
+        "[1-2] to Crippling Darkness"
+      ]
+    }
+  },
+  {
+    "slug": "pyromancy-endurance",
+    "name_en": "Pyromancy Endurance",
+    "name_tr": null,
+    "class_en": "Sorcerer",
+    "class_key": "sorcerer",
+    "category": "Defensive",
+    "slot": null,
+    "description_en": null,
+    "description_tr": null,
+    "tags": null,
+    "data": {
+      "name": "Pyromancy Endurance",
+      "class": "Sorcerer",
+      "type": "Defensive",
+      "stats": [
+        "Lucky Hit: Up to a 15% Chance to Heal [172-232] Life",
+        "[10.5-15%] Flame Shield Duration",
+        "[1-2] to Warmth"
+      ]
+    }
+  },
+  {
+    "slug": "rogue-cloaking",
+    "name_en": "Rogue Cloaking",
+    "name_tr": null,
+    "class_en": "Rogue",
+    "class_key": "rogue",
+    "category": "Defensive",
+    "slot": null,
+    "description_en": null,
+    "description_tr": null,
+    "tags": null,
+    "data": {
+      "name": "Rogue Cloaking",
+      "class": "Rogue",
+      "type": "Defensive",
+      "stats": [
+        "[8-10%] Concealment Cooldown Reduction",
+        "[15.5-20%] Concealment Duration",
+        "[1-2] to Aftermath"
+      ]
+    }
+  },
+  {
+    "slug": "rogue-persistence",
+    "name_en": "Rogue Persistence",
+    "name_tr": null,
+    "class_en": "Rogue",
+    "class_key": "rogue",
+    "category": "Defensive",
+    "slot": null,
+    "description_en": null,
+    "description_tr": null,
+    "tags": null,
+    "data": {
+      "name": "Rogue Persistence",
+      "class": "Rogue",
+      "type": "Defensive",
+      "stats": [
+        "[4-6%] Maximum Life while Dark Shroud is Active",
+        "Your Potion Also Grants [0.8-1.4%] Maximum Resistances for 5 Seconds",
+        "[1-2] to Second Wind"
+      ]
+    }
+  },
+  {
+    "slug": "rogue-recovery",
+    "name_en": "Rogue Recovery",
+    "name_tr": null,
+    "class_en": "Rogue",
+    "class_key": "rogue",
+    "category": "Defensive",
+    "slot": null,
+    "description_en": null,
+    "description_tr": null,
+    "tags": null,
+    "data": {
+      "name": "Rogue Recovery",
+      "class": "Rogue",
+      "type": "Defensive",
+      "stats": [
+        "[23.5-32.5%] Flurry Healing",
+        "[1-2] to Siphoning Strikes",
+        "[1-2 ] to Mending Obscurity"
+      ]
+    }
+  },
+  {
+    "slug": "shapeshifting-endurance",
+    "name_en": "Shapeshifting Endurance",
+    "name_tr": null,
+    "class_en": "Druid",
+    "class_key": "druid",
+    "category": "Defensive",
+    "slot": null,
+    "description_en": null,
+    "description_tr": null,
+    "tags": null,
+    "data": {
+      "name": "Shapeshifting Endurance",
+      "class": "Druid",
+      "type": "Defensive",
+      "stats": [
+        "[8-10%] Blood Howl Cooldown Reduction",
+        "[6-8%] Debilitating Roar Cooldown Reduction",
+        "[10.5-15%] Debilitating Roar Duration",
+        "[1-2] to Nature's Resolve"
+      ]
+    }
+  },
+  {
+    "slug": "spiritborn-endurance",
+    "name_en": "Spiritborn Endurance",
+    "name_tr": null,
+    "class_en": "Spiritborn",
+    "class_key": "spiritborn",
+    "category": "Defensive",
+    "slot": null,
+    "description_en": null,
+    "description_tr": null,
+    "tags": null,
+    "data": {
+      "name": "Spiritborn Endurance",
+      "class": "Spiritborn",
+      "type": "Defensive",
+      "stats": [
+        "[21-30%] The Protector Barrier Generation",
+        "[21-30%] Crushing Hand Barrier Generation",
+        "[21-30%] Concussive Stomp Barrier Generation",
+        "[1-2] to Auspicious"
+      ]
+    }
+  },
+  {
+    "slug": "spiritborn-guard",
+    "name_en": "Spiritborn Guard",
+    "name_tr": null,
+    "class_en": "Spiritborn",
+    "class_key": "spiritborn",
+    "category": "Defensive",
+    "slot": null,
+    "description_en": null,
+    "description_tr": null,
+    "tags": null,
+    "data": {
+      "name": "Spiritborn Guard",
+      "class": "Spiritborn",
+      "type": "Defensive",
+      "stats": [
+        "[15.5-20%] Rock Splitter Block Chance Bonus",
+        "[26.5-40%] Armored Hide Active Duration",
+        "[1-2] to Patient Guard"
+      ]
+    }
+  },
+  {
+    "slug": "spiritborn-recovery",
+    "name_en": "Spiritborn Recovery",
+    "name_tr": null,
+    "class_en": "Spiritborn",
+    "class_key": "spiritborn",
+    "category": "Defensive",
+    "slot": null,
+    "description_en": null,
+    "description_tr": null,
+    "tags": null,
+    "data": {
+      "name": "Spiritborn Recovery",
+      "class": "Spiritborn",
+      "type": "Defensive",
+      "stats": [
+        "[21-30%] Touch of Death Healing Bonus",
+        "[1-2] to Fueled",
+        "[1-2] to Resilient"
+      ]
+    }
+  },
+  {
+    "slug": "spiritborn-resolve",
+    "name_en": "Spiritborn Resolve",
+    "name_tr": null,
+    "class_en": "Spiritborn",
+    "class_key": "spiritborn",
+    "category": "Defensive",
+    "slot": null,
+    "description_en": null,
+    "description_tr": null,
+    "tags": null,
+    "data": {
+      "name": "Spiritborn Resolve",
+      "class": "Spiritborn",
+      "type": "Defensive",
+      "stats": [
+        "[26.5-40%] Armored Hide Resolve Generation Rate",
+        "[2-3] Resolve Generated",
+        "[10.5-15%] Total Armor"
+      ]
+    }
+  },
+  {
+    "slug": "worldly-endurance",
+    "name_en": "Worldly Endurance",
+    "name_tr": null,
+    "class_en": "All",
+    "class_key": "all",
+    "category": "Defensive",
+    "slot": null,
+    "description_en": null,
+    "description_tr": null,
+    "tags": null,
+    "data": {
+      "name": "Worldly Endurance",
+      "class": "All",
+      "type": "Defensive",
+      "stats": [
+        "[103-141] Maximum Life",
+        "[10.5-15%] Total Armor",
+        "[5-7%] Dodge Chance"
+      ]
+    }
+  },
+  {
+    "slug": "barbarian-motion",
+    "name_en": "Barbarian Motion",
+    "name_tr": null,
+    "class_en": "Barbarian",
+    "class_key": "barbarian",
+    "category": "Mobility",
+    "slot": null,
+    "description_en": null,
+    "description_tr": null,
+    "tags": null,
+    "data": {
+      "name": "Barbarian Motion",
+      "class": "Barbarian",
+      "type": "Mobility",
+      "stats": [
+        "[8-12.5%] Movement Speed",
+        "[13.5-22.5%]Movement Speed for [4] Seconds After Killing an Elite",
+        "[13-17.5%] Lunging Strike Range",
+        "[8-10%] Charge Cooldown Reduction",
+        "[8-10%] Leap Cooldown Reduction"
+      ]
+    }
+  },
+  {
+    "slug": "druid-motion",
+    "name_en": "Druid Motion",
+    "name_tr": null,
+    "class_en": "Druid",
+    "class_key": "druid",
+    "category": "Mobility",
+    "slot": null,
+    "description_en": null,
+    "description_tr": null,
+    "tags": null,
+    "data": {
+      "name": "Druid Motion",
+      "class": "Druid",
+      "type": "Mobility",
+      "stats": [
+        "[8-12.5%] Movement Speed",
+        "[8-10%] Trample Cooldown Reduction",
+        "[4-6] to Digitigrade Gait"
+      ]
+    }
+  },
+  {
+    "slug": "natural-motion",
+    "name_en": "Natural Motion",
+    "name_tr": null,
+    "class_en": "All",
+    "class_key": "all",
+    "category": "Mobility",
+    "slot": null,
+    "description_en": null,
+    "description_tr": null,
+    "tags": null,
+    "data": {
+      "name": "Natural Motion",
+      "class": "All",
+      "type": "Mobility",
+      "stats": [
+        "[8-12.5%] Movement Speed",
+        "[13.5-22.5%] Movement Speed for X Seconds After Killing an Elite",
+        "[6-8%] Mobility Cooldown Reduction",
+        "[13-17.5%] Evade Cooldown Reduction"
+      ]
+    }
+  },
+  {
+    "slug": "necromancer-motion",
+    "name_en": "Necromancer Motion",
+    "name_tr": null,
+    "class_en": "Necromancer",
+    "class_key": "necromancer",
+    "category": "Mobility",
+    "slot": null,
+    "description_en": null,
+    "description_tr": null,
+    "tags": null,
+    "data": {
+      "name": "Necromancer Motion",
+      "class": "Necromancer",
+      "type": "Mobility",
+      "stats": [
+        "[8-12.5%] Movement Speed",
+        "[13.5-22.5%] Movement Speed for [4] Seconds After Killing an Elite",
+        "[29-42.5%] Movement Speed during Blood Mist"
+      ]
+    }
+  },
+  {
+    "slug": "rogue-motion",
+    "name_en": "Rogue Motion",
+    "name_tr": null,
+    "class_en": "Rogue",
+    "class_key": "rogue",
+    "category": "Mobility",
+    "slot": null,
+    "description_en": null,
+    "description_tr": null,
+    "tags": null,
+    "data": {
+      "name": "Rogue Motion",
+      "class": "Rogue",
+      "type": "Mobility",
+      "stats": [
+        "[57.5-80%] Movement Speed from Blade Shift",
+        "[2.5-4%] Movement Speed per Dark Shroud Shadow",
+        "[46.5-60%] Shadow Step Duration",
+        "[2-4] to Stutter Step"
+      ]
+    }
+  },
+  {
+    "slug": "sorcerer-motion",
+    "name_en": "Sorcerer Motion",
+    "name_tr": null,
+    "class_en": "Sorcerer",
+    "class_key": "sorcerer",
+    "category": "Mobility",
+    "slot": null,
+    "description_en": null,
+    "description_tr": null,
+    "tags": null,
+    "data": {
+      "name": "Sorcerer Motion",
+      "class": "Sorcerer",
+      "type": "Mobility",
+      "stats": [
+        "[8-12.5%] Movement Speed",
+        "[13.5-22.5%] Movement Speed for [4] Seconds After Killing an Elite",
+        "[8-10%] Teleport Cooldown Reduction",
+        "[1-2] to Conduction"
+      ]
+    }
+  },
+  {
+    "slug": "spiritborn-motion",
+    "name_en": "Spiritborn Motion",
+    "name_tr": null,
+    "class_en": "Spiritborn",
+    "class_key": "spiritborn",
+    "category": "Mobility",
+    "slot": null,
+    "description_en": null,
+    "description_tr": null,
+    "tags": null,
+    "data": {
+      "name": "Spiritborn Motion",
+      "class": "Spiritborn",
+      "type": "Mobility",
+      "stats": [
+        "[8-10%] Soar Cooldown Reduction",
+        "[2-3] Rushing Claw Charges",
+        "[1-2] to Swift"
+      ]
+    }
+  },
+  {
+    "slug": "arsenal-finesse",
+    "name_en": "Arsenal Finesse",
+    "name_tr": null,
+    "class_en": "Barbarian",
+    "class_key": "barbarian",
+    "category": "Offensive",
+    "slot": null,
+    "description_en": null,
+    "description_tr": null,
+    "tags": null,
+    "data": {
+      "name": "Arsenal Finesse",
+      "class": "Barbarian",
+      "type": "Offensive",
+      "stats": [
+        "[47-65%] Damage with Two-Handed Bludgeoning Weapons",
+        "[47-65%] Damage with Dual-Wielded Weapons",
+        "[47-65%] Damage with Two-Handed Slashing Weapons",
+        "[62.5-85%] Damage when Swapping Weapons"
+      ]
+    }
+  },
+  {
+    "slug": "berserking-finesse",
+    "name_en": "Berserking Finesse",
+    "name_tr": null,
+    "class_en": "Barbarian",
+    "class_key": "barbarian",
+    "category": "Offensive",
+    "slot": null,
+    "description_en": null,
+    "description_tr": null,
+    "tags": null,
+    "data": {
+      "name": "Berserking Finesse",
+      "class": "Barbarian",
+      "type": "Offensive",
+      "stats": [
+        "[47-65%] Damage while Berserking",
+        "[62.5-85%] Damage while Wrath of the Berserker is Active",
+        "[47-65%] Damage while War Cry is Active",
+        "[82.5-105%] Dust Devil Damage"
+      ]
+    }
+  },
+  {
+    "slug": "blood-finesse",
+    "name_en": "Blood Finesse",
+    "name_tr": null,
+    "class_en": "Necromancer",
+    "class_key": "necromancer",
+    "category": "Offensive",
+    "slot": null,
+    "description_en": null,
+    "description_tr": null,
+    "tags": null,
+    "data": {
+      "name": "Blood Finesse",
+      "class": "Necromancer",
+      "type": "Offensive",
+      "stats": [
+        "[9-11%] Blood Attack Speed",
+        "[47-65%] Blood Damage",
+        "[72.5-95%] Blood Overpower Damage",
+        "[52-70%] Damage while Fortified"
+      ]
+    }
+  },
+  {
+    "slug": "bone-finesse",
+    "name_en": "Bone Finesse",
+    "name_tr": null,
+    "class_en": "Necromancer",
+    "class_key": "necromancer",
+    "category": "Offensive",
+    "slot": null,
+    "description_en": null,
+    "description_tr": null,
+    "tags": null,
+    "data": {
+      "name": "Bone Finesse",
+      "class": "Necromancer",
+      "type": "Offensive",
+      "stats": [
+        "[47-65%] Bone Damage",
+        "[4-6%] Bone Critical Strike Chance",
+        "[57 -75%] Bone Critical Strike Damage"
+      ]
+    }
+  },
+  {
+    "slug": "conjuration-finesse",
+    "name_en": "Conjuration Finesse",
+    "name_tr": null,
+    "class_en": "Sorcerer",
+    "class_key": "sorcerer",
+    "category": "Offensive",
+    "slot": null,
+    "description_en": null,
+    "description_tr": null,
+    "tags": null,
+    "data": {
+      "name": "Conjuration Finesse",
+      "class": "Sorcerer",
+      "type": "Offensive",
+      "stats": [
+        "[82.5-105%] Hydra Damage",
+        "[82.5-105%] Ice Blades Damage",
+        "[82.5-105%] Lightning Spear Damage",
+        "[82.5-105%] Familiar Damage"
+      ]
+    }
+  },
+  {
+    "slug": "cutthroat-finesse",
+    "name_en": "Cutthroat Finesse",
+    "name_tr": null,
+    "class_en": "Rogue",
+    "class_key": "rogue",
+    "category": "Offensive",
+    "slot": null,
+    "description_en": null,
+    "description_tr": null,
+    "tags": null,
+    "data": {
+      "name": "Cutthroat Finesse",
+      "class": "Rogue",
+      "type": "Offensive",
+      "stats": [
+        "[47-65%] Cutthroat Damage",
+        "[9-11%] Cutthroat Attack Speed",
+        "[4-6%] Cutthroat Critical Strike Chance"
+      ]
+    }
+  },
+  {
+    "slug": "demolition-finesse",
+    "name_en": "Demolition Finesse",
+    "name_tr": null,
+    "class_en": "Barbarian",
+    "class_key": "barbarian",
+    "category": "Offensive",
+    "slot": null,
+    "description_en": null,
+    "description_tr": null,
+    "tags": null,
+    "data": {
+      "name": "Demolition Finesse",
+      "class": "Barbarian",
+      "type": "Offensive",
+      "stats": [
+        "[62.5-85%] Brawling Damage",
+        "[62.5-85%] Weapon Mastery Damage",
+        "[171-225%] Damage while Iron Maelstrom is Active"
+      ]
+    }
+  },
+  {
+    "slug": "eagle-finesse",
+    "name_en": "Eagle Finesse",
+    "name_tr": null,
+    "class_en": "Spiritborn",
+    "class_key": "spiritborn",
+    "category": "Offensive",
+    "slot": null,
+    "description_en": null,
+    "description_tr": null,
+    "tags": null,
+    "data": {
+      "name": "Eagle Finesse",
+      "class": "Spiritborn",
+      "type": "Offensive",
+      "stats": [
+        "[62.5-85%] Focus Damage",
+        "[26.5-40%] Storm Feather Potency",
+        "[47-65%] Eagle Damage",
+        "[47-65%] Vulnerable Damage"
+      ]
+    }
+  },
+  {
+    "slug": "earth-finesse",
+    "name_en": "Earth Finesse",
+    "name_tr": null,
+    "class_en": "Druid",
+    "class_key": "druid",
+    "category": "Offensive",
+    "slot": null,
+    "description_en": null,
+    "description_tr": null,
+    "tags": null,
+    "data": {
+      "name": "Earth Finesse",
+      "class": "Druid",
+      "type": "Offensive",
+      "stats": [
+        "[47-65%] Earth Damage",
+        "[4-6%] Earth Lucky Hit Chance",
+        "[4-6%] Earth Critical Strike Chance"
+      ]
+    }
+  },
+  {
+    "slug": "frost-finesse",
+    "name_en": "Frost Finesse",
+    "name_tr": null,
+    "class_en": "Sorcerer",
+    "class_key": "sorcerer",
+    "category": "Offensive",
+    "slot": null,
+    "description_en": null,
+    "description_tr": null,
+    "tags": null,
+    "data": {
+      "name": "Frost Finesse",
+      "class": "Sorcerer",
+      "type": "Offensive",
+      "stats": [
+        "[46.5-60%] Cold Damage",
+        "[41.5-55%] Vulnerable Damage",
+        "[67.5-90%] Damage to Frozen Enemies"
+      ]
+    }
+  },
+  {
+    "slug": "gorilla-finesse",
+    "name_en": "Gorilla Finesse",
+    "name_tr": null,
+    "class_en": "Spiritborn",
+    "class_key": "spiritborn",
+    "category": "Offensive",
+    "slot": null,
+    "description_en": null,
+    "description_tr": null,
+    "tags": null,
+    "data": {
+      "name": "Gorilla Finesse",
+      "class": "Spiritborn",
+      "type": "Offensive",
+      "stats": [
+        "[1-2] to Bastion",
+        "[62.5-85%] Defensive Damage",
+        "[47-65%] Gorilla Damage",
+        "[57.5-80%] Damage to Knocked-Down Enemies"
+      ]
+    }
+  },
+  {
+    "slug": "jaguar-finesse",
+    "name_en": "Jaguar Finesse",
+    "name_tr": null,
+    "class_en": "Spiritborn",
+    "class_key": "spiritborn",
+    "category": "Offensive",
+    "slot": null,
+    "description_en": null,
+    "description_tr": null,
+    "tags": null,
+    "data": {
+      "name": "Jaguar Finesse",
+      "class": "Spiritborn",
+      "type": "Offensive",
+      "stats": [
+        "[62.5-85%] Mobility Damage",
+        "[10-15%] Mystic Circle Potency",
+        "[47-65%] Jaguar Damage",
+        "[62.5-85%] Damage to Injured Enemies"
+      ]
+    }
+  },
+  {
+    "slug": "marksman-finesse",
+    "name_en": "Marksman Finesse",
+    "name_tr": null,
+    "class_en": "Rogue",
+    "class_key": "rogue",
+    "category": "Offensive",
+    "slot": null,
+    "description_en": null,
+    "description_tr": null,
+    "tags": null,
+    "data": {
+      "name": "Marksman Finesse",
+      "class": "Rogue",
+      "type": "Offensive",
+      "stats": [
+        "[62.5-85%] Critical Strike Damage",
+        "[46.5-60%] Marksman Damage",
+        "[4-6%] Marksman Critical Strike Chance"
+      ]
+    }
+  },
+  {
+    "slug": "natural-finesse",
+    "name_en": "Natural Finesse",
+    "name_tr": null,
+    "class_en": "All",
+    "class_key": "all",
+    "category": "Offensive",
+    "slot": null,
+    "description_en": null,
+    "description_tr": null,
+    "tags": null,
+    "data": {
+      "name": "Natural Finesse",
+      "class": "All",
+      "type": "Offensive",
+      "stats": [
+        "[36.5-50%] Damage",
+        "[47-65%] Damage to Crowd Controlled Enemies",
+        "[47-65%] Damage to Close Enemies",
+        "[62-85%] Damage to Distant Enemies"
+      ]
+    }
+  },
+  {
+    "slug": "profane-finesse",
+    "name_en": "Profane Finesse",
+    "name_tr": null,
+    "class_en": "Necromancer",
+    "class_key": "necromancer",
+    "category": "Offensive",
+    "slot": null,
+    "description_en": null,
+    "description_tr": null,
+    "tags": null,
+    "data": {
+      "name": "Profane Finesse",
+      "class": "Necromancer",
+      "type": "Offensive",
+      "stats": [
+        "[47-65%] Damage to Cursed Enemies",
+        "[62.5-85%] Macabre Damage",
+        "[82.5-105%] Iron Maiden Damage",
+        "[82.5-105%] Corpse Tendrils Damage"
+      ]
+    }
+  },
+  {
+    "slug": "pyromancy-finesse",
+    "name_en": "Pyromancy Finesse",
+    "name_tr": null,
+    "class_en": "Sorcerer",
+    "class_key": "sorcerer",
+    "category": "Offensive",
+    "slot": null,
+    "description_en": null,
+    "description_tr": null,
+    "tags": null,
+    "data": {
+      "name": "Pyromancy Finesse",
+      "class": "Sorcerer",
+      "type": "Offensive",
+      "stats": [
+        "[46.5-60%] Fire Damage",
+        "[9-11%] Pyromancy Attack Speed",
+        "[57-75%] Pyromancy Critical Strike Damage",
+        "[47-65%] Mastery Damage"
+      ]
+    }
+  },
+  {
+    "slug": "scoundrel-finesse",
+    "name_en": "Scoundrel Finesse",
+    "name_tr": null,
+    "class_en": "Rogue",
+    "class_key": "rogue",
+    "category": "Offensive",
+    "slot": null,
+    "description_en": null,
+    "description_tr": null,
+    "tags": null,
+    "data": {
+      "name": "Scoundrel Finesse",
+      "class": "Rogue",
+      "type": "Offensive",
+      "stats": [
+        "[47-65%] Damage to Poisoned Enemies",
+        "[47-65%] Damage to Trapped Enemies",
+        "[47-65%] Imbued Damage"
+      ]
+    }
+  },
+  {
+    "slug": "shadow-finesse",
+    "name_en": "Shadow Finesse",
+    "name_tr": null,
+    "class_en": "Necromancer",
+    "class_key": "necromancer",
+    "category": "Offensive",
+    "slot": null,
+    "description_en": null,
+    "description_tr": null,
+    "tags": null,
+    "data": {
+      "name": "Shadow Finesse",
+      "class": "Necromancer",
+      "type": "Offensive",
+      "stats": [
+        "[57-75%] Corruption Damage",
+        "[46.5-60%] Darkness Damage",
+        "[82.5-105%] Desecrated Ground Damage"
+      ]
+    }
+  },
+  {
+    "slug": "shapeshifting-finesse",
+    "name_en": "Shapeshifting Finesse",
+    "name_tr": null,
+    "class_en": "Druid",
+    "class_key": "druid",
+    "category": "Offensive",
+    "slot": null,
+    "description_en": null,
+    "description_tr": null,
+    "tags": null,
+    "data": {
+      "name": "Shapeshifting Finesse",
+      "class": "Druid",
+      "type": "Offensive",
+      "stats": [
+        "[72.5 -95%] Werebear Overpower Damage",
+        "[16-25%] Grizzly Rage Duration",
+        "[47-65%] Damage while Fortified"
+      ]
+    }
+  },
+  {
+    "slug": "sharpened-finesse",
+    "name_en": "Sharpened Finesse",
+    "name_tr": null,
+    "class_en": "All",
+    "class_key": "all",
+    "category": "Offensive",
+    "slot": null,
+    "description_en": null,
+    "description_tr": null,
+    "tags": null,
+    "data": {
+      "name": "Sharpened Finesse",
+      "class": "All",
+      "type": "Offensive",
+      "stats": [
+        "[47-65%] Basic Skill Damage",
+        "[47-65%] Core Skill Damage",
+        "[47-65%] Ultimate Skill Damage"
+      ]
+    }
+  },
+  {
+    "slug": "shock-finesse",
+    "name_en": "Shock Finesse",
+    "name_tr": null,
+    "class_en": "Sorcerer",
+    "class_key": "sorcerer",
+    "category": "Offensive",
+    "slot": null,
+    "description_en": null,
+    "description_tr": null,
+    "tags": null,
+    "data": {
+      "name": "Shock Finesse",
+      "class": "Sorcerer",
+      "type": "Offensive",
+      "stats": [
+        "[46.5-60%] Lightning Damage",
+        "[4-6%] Shock Critical Strike Chance",
+        "[57-75%] Shock Critical Strike Damage",
+        "[82.5-105%] Crackling Energy Damage"
+      ]
+    }
+  },
+  {
+    "slug": "slayer-s-finesse",
+    "name_en": "Slayer's Finesse",
+    "name_tr": null,
+    "class_en": "Barbarian",
+    "class_key": "barbarian",
+    "category": "Offensive",
+    "slot": null,
+    "description_en": null,
+    "description_tr": null,
+    "tags": null,
+    "data": {
+      "name": "Slayer's Finesse",
+      "class": "Barbarian",
+      "type": "Offensive",
+      "stats": [
+        "[41.5-55%] Vulnerable Damage",
+        "[62.5-85%] Damage to Injured Enemies",
+        "[57-75%] Physical Damage Over Time"
+      ]
+    }
+  },
+  {
+    "slug": "specialist-evolution",
+    "name_en": "Specialist Evolution",
+    "name_tr": null,
+    "class_en": "Rogue",
+    "class_key": "rogue",
+    "category": "Offensive",
+    "slot": null,
+    "description_en": null,
+    "description_tr": null,
+    "tags": null,
+    "data": {
+      "name": "Specialist Evolution",
+      "class": "Rogue",
+      "type": "Offensive",
+      "stats": [
+        "[26-35%] Damage per Combo Point Spent",
+        "[16-25%] Shadow Clone Duration",
+        "[26-35%] Inner Sight Duration"
+      ]
+    }
+  },
+  {
+    "slug": "storm-finesse",
+    "name_en": "Storm Finesse",
+    "name_tr": null,
+    "class_en": "Druid",
+    "class_key": "druid",
+    "category": "Offensive",
+    "slot": null,
+    "description_en": null,
+    "description_tr": null,
+    "tags": null,
+    "data": {
+      "name": "Storm Finesse",
+      "class": "Druid",
+      "type": "Offensive",
+      "stats": [
+        "[46-60%] Storm Damage",
+        "[82.5-105%] Lightning Bolt Damage",
+        "[4-6%] Storm Critical Strike Chance"
+      ]
+    }
+  },
+  {
+    "slug": "subterfuge-expertise",
+    "name_en": "Subterfuge Expertise",
+    "name_tr": null,
+    "class_en": "All",
+    "class_key": "all",
+    "category": "Offensive",
+    "slot": null,
+    "description_en": null,
+    "description_tr": null,
+    "tags": null,
+    "data": {
+      "name": "Subterfuge Expertise",
+      "class": "All",
+      "type": "Offensive",
+      "stats": [
+        "[21-30%] Damage per Dark Shroud",
+        "[82.5-105%] Damage on Next Attack After Entering Stealth",
+        "[31.5-45%] Smoke Grenade Size"
+      ]
+    }
+  },
+  {
+    "slug": "minion-finesse",
+    "name_en": "Minion Finesse",
+    "name_tr": null,
+    "class_en": "Necromancer",
+    "class_key": "necromancer",
+    "category": "Offensive",
+    "slot": null,
+    "description_en": null,
+    "description_tr": null,
+    "tags": null,
+    "data": {
+      "name": "Minion Finesse",
+      "class": "Necromancer",
+      "type": "Offensive",
+      "stats": [
+        "[47-65%] Summoning Damage",
+        "[82.5-105%] Skeletal Mages Damage",
+        "[82.5-105%] Golems Damage"
+      ]
+    }
+  },
+  {
+    "slug": "skillful-finesse",
+    "name_en": "Skillful Finesse",
+    "name_tr": null,
+    "class_en": "Rogue",
+    "class_key": "rogue",
+    "category": "Offensive",
+    "slot": null,
+    "description_en": null,
+    "description_tr": null,
+    "tags": null,
+    "data": {
+      "name": "Skillful Finesse",
+      "class": "Rogue",
+      "type": "Offensive",
+      "stats": [
+        "[62.5-85%] Agility Damage",
+        "[46.5-60%] Core Damage",
+        "[88-115%] Ultimate Damage",
+        "[82.5-105%] Stun Grenade Damage"
+      ]
+    }
+  },
+  {
+    "slug": "worldly-finesse",
+    "name_en": "Worldly Finesse",
+    "name_tr": null,
+    "class_en": "All",
+    "class_key": "all",
+    "category": "Offensive",
+    "slot": null,
+    "description_en": null,
+    "description_tr": null,
+    "tags": null,
+    "data": {
+      "name": "Worldly Finesse",
+      "class": "All",
+      "type": "Offensive",
+      "stats": [
+        "[47-65%] Critical Strike Damage",
+        "[47-65%] Vulnerable Damage",
+        "[62.5-85%] Overpower Damage"
+      ]
+    }
+  },
+  {
+    "slug": "centipede-finesse",
+    "name_en": "Centipede Finesse",
+    "name_tr": null,
+    "class_en": "Spiritborn",
+    "class_key": "spiritborn",
+    "category": "Offensive",
+    "slot": null,
+    "description_en": null,
+    "description_tr": null,
+    "tags": null,
+    "data": {
+      "name": "Centipede Finesse",
+      "class": "Spiritborn",
+      "type": "Offensive",
+      "stats": [
+        "[62.5-85%] Potency Damage",
+        "[82.5-105%] Pestilent Swarm Damage",
+        "[47-65%] Centipede Damage",
+        "[62.5-85%] Damage to Slowed Enemies"
+      ]
+    }
+  },
+  {
+    "slug": "agility-efficiency",
+    "name_en": "Agility Efficiency",
+    "name_tr": null,
+    "class_en": "Rogue",
+    "class_key": "rogue",
+    "category": "Resource",
+    "slot": null,
+    "description_en": null,
+    "description_tr": null,
+    "tags": null,
+    "data": {
+      "name": "Agility Efficiency",
+      "class": "Rogue",
+      "type": "Resource",
+      "stats": [
+        "[6-8%] Agility Cooldown Reduction",
+        "[8-10%] Shadow Step Cooldown Reduction",
+        "[16-25%] Caltrops Cooldown Reduction",
+        "[8-10%] Dash Cooldown Reduction"
+      ]
+    }
+  },
+  {
+    "slug": "brawling-efficiency",
+    "name_en": "Brawling Efficiency",
+    "name_tr": null,
+    "class_en": "Barbarian",
+    "class_key": "barbarian",
+    "category": "Resource",
+    "slot": null,
+    "description_en": null,
+    "description_tr": null,
+    "tags": null,
+    "data": {
+      "name": "Brawling Efficiency",
+      "class": "Barbarian",
+      "type": "Resource",
+      "stats": [
+        "[6-8%] Brawling Cooldown Reduction",
+        "[10.5-15%] Kick Cooldown Reduction",
+        "[8-12.5%] War Cry Cooldown Reduction"
+      ]
+    }
+  },
+  {
+    "slug": "centipede-efficiency",
+    "name_en": "Centipede Efficiency",
+    "name_tr": null,
+    "class_en": "Spiritborn",
+    "class_key": "spiritborn",
+    "category": "Resource",
+    "slot": null,
+    "description_en": null,
+    "description_tr": null,
+    "tags": null,
+    "data": {
+      "name": "Centipede Efficiency",
+      "class": "Spiritborn",
+      "type": "Resource",
+      "stats": [
+        "[21-30%] Withering Fist Resource Generation",
+        "[15.5-20%] The Devourer Cooldown Reduction",
+        "[6-8%] Potency Cooldown Reduction"
+      ]
+    }
+  },
+  {
+    "slug": "companion-efficiency",
+    "name_en": "Companion Efficiency",
+    "name_tr": null,
+    "class_en": "Druid",
+    "class_key": "druid",
+    "category": "Resource",
+    "slot": null,
+    "description_en": null,
+    "description_tr": null,
+    "tags": null,
+    "data": {
+      "name": "Companion Efficiency",
+      "class": "Druid",
+      "type": "Resource",
+      "stats": [
+        "[8-12.5%] Companion Cooldown Reduction",
+        "[23.5-32.5%] Wolves Cooldown Reduction",
+        "[10.5-15%] Poison Creeper Cooldown Reduction",
+        "[15.5-20%] Ravens Cooldown Reduction"
+      ]
+    }
+  },
+  {
+    "slug": "conjuration-efficiency",
+    "name_en": "Conjuration Efficiency",
+    "name_tr": null,
+    "class_en": "Sorcerer",
+    "class_key": "sorcerer",
+    "category": "Resource",
+    "slot": null,
+    "description_en": null,
+    "description_tr": null,
+    "tags": null,
+    "data": {
+      "name": "Conjuration Efficiency",
+      "class": "Sorcerer",
+      "type": "Resource",
+      "stats": [
+        "[23.5-32.5%] Hydra Resource Cost Reduction",
+        "[8-12.5%] Ice Blades Cooldown Reduction",
+        "[8-12.5%] Lightning Spear Cooldown Reduction",
+        "[26.5-40%] Familiar Duration"
+      ]
+    }
+  },
+  {
+    "slug": "druid-invigoration",
+    "name_en": "Druid Invigoration",
+    "name_tr": null,
+    "class_en": "Druid",
+    "class_key": "druid",
+    "category": "Resource",
+    "slot": null,
+    "description_en": null,
+    "description_tr": null,
+    "tags": null,
+    "data": {
+      "name": "Druid Invigoration",
+      "class": "Druid",
+      "type": "Resource",
+      "stats": [
+        "Casting Wrath Skills Restores [10-14] Primary Resource",
+        "Casting Ultimate Skills Restores [10-18] Primary Resource",
+        "[1-2] to Abundance"
+      ]
+    }
+  },
+  {
+    "slug": "eagle-efficiency",
+    "name_en": "Eagle Efficiency",
+    "name_tr": null,
+    "class_en": "Spiritborn",
+    "class_key": "spiritborn",
+    "category": "Resource",
+    "slot": null,
+    "description_en": null,
+    "description_tr": null,
+    "tags": null,
+    "data": {
+      "name": "Eagle Efficiency",
+      "class": "Spiritborn",
+      "type": "Resource",
+      "stats": [
+        "[21-30%] Thunderspike Resource Generation",
+        "[2-3] The Seeker Charges",
+        "[6-8%] Focus Cooldown Reduction",
+        "[2-3] Razor Wing Charges"
+      ]
+    }
+  },
+  {
+    "slug": "fitness-efficiency",
+    "name_en": "Fitness Efficiency",
+    "name_tr": null,
+    "class_en": "Spiritborn",
+    "class_key": "spiritborn",
+    "category": "Resource",
+    "slot": null,
+    "description_en": null,
+    "description_tr": null,
+    "tags": null,
+    "data": {
+      "name": "Fitness Efficiency",
+      "class": "Spiritborn",
+      "type": "Resource",
+      "stats": [
+        "[1-2] to Vigorous",
+        "[1-2] to Velocity",
+        "[1-2] to Endurance"
+      ]
+    }
+  },
+  {
+    "slug": "gorilla-efficiency",
+    "name_en": "Gorilla Efficiency",
+    "name_tr": null,
+    "class_en": "Spiritborn",
+    "class_key": "spiritborn",
+    "category": "Resource",
+    "slot": null,
+    "description_en": null,
+    "description_tr": null,
+    "tags": null,
+    "data": {
+      "name": "Gorilla Efficiency",
+      "class": "Spiritborn",
+      "type": "Resource",
+      "stats": [
+        "[21-30%] Rock Splitter Resource Generation",
+        "[15.5-20%] The Protector Cooldown Reduction",
+        "[6-8%] Defensive Cooldown Reduction"
+      ]
+    }
+  },
+  {
+    "slug": "imbuement-abundance",
+    "name_en": "Imbuement Abundance",
+    "name_tr": null,
+    "class_en": "Rogue",
+    "class_key": "rogue",
+    "category": "Utility",
+    "slot": null,
+    "description_en": null,
+    "description_tr": null,
+    "tags": null,
+    "data": {
+      "name": "Imbuement Abundance",
+      "class": "Rogue",
+      "type": "Utility",
+      "stats": [
+        "Shadow Imbue Lasts For + [1-2] Casts",
+        "Poison Imbue Lasts For + [1-2] Casts",
+        "Cold Imbue Lasts For + [1-2] Casts"
+      ]
+    }
+  },
+  {
+    "slug": "jaguar-efficiency",
+    "name_en": "Jaguar Efficiency",
+    "name_tr": null,
+    "class_en": "Spiritborn",
+    "class_key": "spiritborn",
+    "category": "Resource",
+    "slot": null,
+    "description_en": null,
+    "description_tr": null,
+    "tags": null,
+    "data": {
+      "name": "Jaguar Efficiency",
+      "class": "Spiritborn",
+      "type": "Resource",
+      "stats": [
+        "[21-30%] Thrash Resource Generation",
+        "[15.5-20%] The Hunter Cooldown Reduction",
+        "[6-8%] Incarnate Cooldown Reduction",
+        "[2-3] Counterattack Charges"
+      ]
+    }
+  },
+  {
+    "slug": "necromancer-efficiency",
+    "name_en": "Necromancer Efficiency",
+    "name_tr": null,
+    "class_en": "Necromancer",
+    "class_key": "necromancer",
+    "category": "Resource",
+    "slot": null,
+    "description_en": null,
+    "description_tr": null,
+    "tags": null,
+    "data": {
+      "name": "Necromancer Efficiency",
+      "class": "Necromancer",
+      "type": "Resource",
+      "stats": [
+        "[8-10%] Ultimate Cooldown Reduction",
+        "[16-25%] Golem Active Cooldown Reduction",
+        "[10.5-15%] Bone Spirit Cooldown Reduction",
+        "[1-2] to Rapid Ossification"
+      ]
+    }
+  },
+  {
+    "slug": "necromancer-invigoration",
+    "name_en": "Necromancer Invigoration",
+    "name_tr": null,
+    "class_en": "Necromancer",
+    "class_key": "necromancer",
+    "category": "Resource",
+    "slot": null,
+    "description_en": null,
+    "description_tr": null,
+    "tags": null,
+    "data": {
+      "name": "Necromancer Invigoration",
+      "class": "Necromancer",
+      "type": "Resource",
+      "stats": [
+        "Blood Orbs Restores [5-6] Essence",
+        "Casting Macabrre Skills Restores [15-21] Primary Resource",
+        "Casting Ultimate Skills Restores [10-18] Primary Resource"
+      ]
+    }
+  },
+  {
+    "slug": "rogue-invigoration",
+    "name_en": "Rogue Invigoration",
+    "name_tr": null,
+    "class_en": "Rogue",
+    "class_key": "rogue",
+    "category": "Resource",
+    "slot": null,
+    "description_en": null,
+    "description_tr": null,
+    "tags": null,
+    "data": {
+      "name": "Rogue Invigoration",
+      "class": "Rogue",
+      "type": "Resource",
+      "stats": [
+        "[62.5-85%] Puncture Resource Generation",
+        "[18.5-27.5%] Invigorating Strike Energy Regeneration",
+        "[1-2] to Innervation",
+        "[1-2] to Adrenaline Rush"
+      ]
+    }
+  },
+  {
+    "slug": "sorcerer-stability",
+    "name_en": "Sorcerer Stability",
+    "name_tr": null,
+    "class_en": "Sorcerer",
+    "class_key": "sorcerer",
+    "category": "Resource",
+    "slot": null,
+    "description_en": null,
+    "description_tr": null,
+    "tags": null,
+    "data": {
+      "name": "Sorcerer Stability",
+      "class": "Sorcerer",
+      "type": "Resource",
+      "stats": [
+        "[1-2] to Invigorating Conduit",
+        "[1-2] to Frigid Breeze",
+        "[1-2] to Fiery Surge"
+      ]
+    }
+  },
+  {
+    "slug": "subterfuge-efficiency",
+    "name_en": "Subterfuge Efficiency",
+    "name_tr": null,
+    "class_en": "Rogue",
+    "class_key": "rogue",
+    "category": "Resource",
+    "slot": null,
+    "description_en": null,
+    "description_tr": null,
+    "tags": null,
+    "data": {
+      "name": "Subterfuge Efficiency",
+      "class": "Rogue",
+      "type": "Resource",
+      "stats": [
+        "[8-10%] Subterfuge Cooldown Reduction",
+        "[8-12.5%] Trap Cooldown Reduction",
+        "[10.5-15%] Poison Trap Cooldown Reduction",
+        "[15.5-20%] Dark Shroud Cooldown Reduction"
+      ]
+    }
+  },
+  {
+    "slug": "ultimate-efficiency-druid",
+    "name_en": "Ultimate Efficiency - Druid",
+    "name_tr": null,
+    "class_en": "Druid",
+    "class_key": "druid",
+    "category": "Resource",
+    "slot": null,
+    "description_en": null,
+    "description_tr": null,
+    "tags": null,
+    "data": {
+      "name": "Ultimate Efficiency - Druid",
+      "class": "Druid",
+      "type": "Resource",
+      "stats": [
+        "[8-12.5%] Petrify Cooldown Reduction",
+        "[8-12.5%] Cataclysm Cooldown Reduction",
+        "[8-12.5%] Lacerate Cooldown Reduction",
+        "[8-12.5%] Grizzly Rage Cooldown Reduction"
+      ]
+    }
+  },
+  {
+    "slug": "ultimate-efficiency-barbarian",
+    "name_en": "Ultimate Efficiency - Barbarian",
+    "name_tr": null,
+    "class_en": "Barbarian",
+    "class_key": "barbarian",
+    "category": "Resource",
+    "slot": null,
+    "description_en": null,
+    "description_tr": null,
+    "tags": null,
+    "data": {
+      "name": "Ultimate Efficiency - Barbarian",
+      "class": "Barbarian",
+      "type": "Resource",
+      "stats": [
+        "Casting Ultimate Skills Restores [10-18] Primary Resource",
+        "[13.5-22.5%] Call of the Ancients Cooldown Reduction",
+        "[13.5-22.5%] Iron Maelstrom Cooldown Reduction",
+        "[10.5-15%] Wrath of the Berserker Cooldown Reduction"
+      ]
+    }
+  },
+  {
+    "slug": "ultimate-efficiency-sorcerer",
+    "name_en": "Ultimate Efficiency - Sorcerer",
+    "name_tr": null,
+    "class_en": "Sorcerer",
+    "class_key": "sorcerer",
+    "category": "Resource",
+    "slot": null,
+    "description_en": null,
+    "description_tr": null,
+    "tags": null,
+    "data": {
+      "name": "Ultimate Efficiency - Sorcerer",
+      "class": "Sorcerer",
+      "type": "Resource",
+      "stats": [
+        "Casting Ultimate Skills Restores [10- 18] Primary Resource",
+        "[8-12.5%] Deep Freeze Cooldown Reduction",
+        "[13.5-22.5%] Inferno Cooldown Reduction",
+        "[10.5-15%] Unstable Currents Cooldown Reduction"
+      ]
+    }
+  },
+  {
+    "slug": "weapon-attunement-barbarian",
+    "name_en": "Weapon Attunement - Barbarian",
+    "name_tr": null,
+    "class_en": "Barbarian",
+    "class_key": "barbarian",
+    "category": "Resource",
+    "slot": null,
+    "description_en": null,
+    "description_tr": null,
+    "tags": null,
+    "data": {
+      "name": "Weapon Attunement - Barbarian",
+      "class": "Barbarian",
+      "type": "Resource",
+      "stats": [
+        "[16-25%] Basic Resource Generation",
+        "[13-17%] Resource Generation with Two-Handed Bludgeoning Weapons",
+        "[13-17.5%] Resource Generation with Dual-Wielded Weapons",
+        "[13-17.5%] Resource Generation with Two-Handed Slashing Weapons"
+      ]
+    }
+  },
+  {
+    "slug": "weapon-attunement-necromancer",
+    "name_en": "Weapon Attunement - Necromancer",
+    "name_tr": null,
+    "class_en": "Necromancer",
+    "class_key": "necromancer",
+    "category": "Resource",
+    "slot": null,
+    "description_en": null,
+    "description_tr": null,
+    "tags": null,
+    "data": {
+      "name": "Weapon Attunement - Necromancer",
+      "class": "Necromancer",
+      "type": "Resource",
+      "stats": [
+        "[16-25%] Basic Resource Generation",
+        "[10.5-15%] Resource Generation with Two-Handed Weapons",
+        "[13-17.5%] Resource Generation while Wielding a Shield"
+      ]
+    }
+  },
+  {
+    "slug": "weapon-mastery-efficiency",
+    "name_en": "Weapon Mastery Efficiency",
+    "name_tr": null,
+    "class_en": "Barbarian",
+    "class_key": "barbarian",
+    "category": "Resource",
+    "slot": null,
+    "description_en": null,
+    "description_tr": null,
+    "tags": null,
+    "data": {
+      "name": "Weapon Mastery Efficiency",
+      "class": "Barbarian",
+      "type": "Resource",
+      "stats": [
+        "[8-12.5%] Weapon Mastery Cooldown Reduction",
+        "[10.5-15%] Death Blow Cooldown Reduction",
+        "[10.5-15%] Rupture Cooldown Reduction",
+        "[15.5-20%] Steel Grasp Cooldown Reduction"
+      ]
+    }
+  },
+  {
+    "slug": "worldly-stability",
+    "name_en": "Worldly Stability",
+    "name_tr": null,
+    "class_en": "All",
+    "class_key": "all",
+    "category": "Resource",
+    "slot": null,
+    "description_en": null,
+    "description_tr": null,
+    "tags": null,
+    "data": {
+      "name": "Worldly Stability",
+      "class": "All",
+      "type": "Resource",
+      "stats": [
+        "[8-12.5%] Resource Generation",
+        "[8-10%] Resource Cost Reduction",
+        "Lucky Hit: Up to a 15% Chance to Restore [6-12] Primary Resource"
+      ]
+    }
+  },
+  {
+    "slug": "wrath-efficiency",
+    "name_en": "Wrath Efficiency",
+    "name_tr": null,
+    "class_en": "Druid",
+    "class_key": "druid",
+    "category": "Resource",
+    "slot": null,
+    "description_en": null,
+    "description_tr": null,
+    "tags": null,
+    "data": {
+      "name": "Wrath Efficiency",
+      "class": "Druid",
+      "type": "Resource",
+      "stats": [
+        "[10.5-15%] Hurricane Cooldown Reduction",
+        "[10.5-15%] Boulder Cooldown Reduction",
+        "[10.5-15%] Rabies Cooldown Reduction"
+      ]
+    }
+  },
+  {
+    "slug": "alchemist-control",
+    "name_en": "Alchemist Control",
+    "name_tr": null,
+    "class_en": "Rogue",
+    "class_key": "rogue",
+    "category": "Utility",
+    "slot": null,
+    "description_en": null,
+    "description_tr": null,
+    "tags": null,
+    "data": {
+      "name": "Alchemist Control",
+      "class": "Rogue",
+      "type": "Utility",
+      "stats": [
+        "[1-2] to Chilling Weight",
+        "[1-2] to Shadow Crash",
+        "[13.5-22.5%] Flurry Size"
+      ]
+    }
+  },
+  {
+    "slug": "barbarian-breach",
+    "name_en": "Barbarian Breach",
+    "name_tr": null,
+    "class_en": "Barbarian",
+    "class_key": "barbarian",
+    "category": "Utility",
+    "slot": null,
+    "description_en": null,
+    "description_tr": null,
+    "tags": null,
+    "data": {
+      "name": "Barbarian Breach",
+      "class": "Barbarian",
+      "type": "Utility",
+      "stats": [
+        "[251-350%] Kick Vulnerable Duration",
+        "[1-2] to Expose Vulnerability",
+        "[1-2] to Pressure Point"
+      ]
+    }
+  },
+  {
+    "slug": "barbarian-control",
+    "name_en": "Barbarian Control",
+    "name_tr": null,
+    "class_en": "Barbarian",
+    "class_key": "barbarian",
+    "category": "Utility",
+    "slot": null,
+    "description_en": null,
+    "description_tr": null,
+    "tags": null,
+    "data": {
+      "name": "Barbarian Control",
+      "class": "Barbarian",
+      "type": "Utility",
+      "stats": [
+        "Steel Grasp Stuns for [1.1-1.5] Seconds",
+        "Upheaval Overpowers Stun for [0.9-1.3] Seconds",
+        "[1-2] to Concussion"
+      ]
+    }
+  },
+  {
+    "slug": "barbarian-innovation",
+    "name_en": "Barbarian Innovation",
+    "name_tr": null,
+    "class_en": "Barbarian",
+    "class_key": "barbarian",
+    "category": "Utility",
+    "slot": null,
+    "description_en": null,
+    "description_tr": null,
+    "tags": null,
+    "data": {
+      "name": "Barbarian Innovation",
+      "class": "Barbarian",
+      "type": "Utility",
+      "stats": [
+        "[21-30%] Earthquake Size",
+        "[29-42.5%] Frenzy Duration",
+        "[16-25%] Stun Duration"
+      ]
+    }
+  },
+  {
+    "slug": "berserking-augments",
+    "name_en": "Berserking Augments",
+    "name_tr": null,
+    "class_en": "Barbarian",
+    "class_key": "barbarian",
+    "category": "Utility",
+    "slot": null,
+    "description_en": null,
+    "description_tr": null,
+    "tags": null,
+    "data": {
+      "name": "Berserking Augments",
+      "class": "Barbarian",
+      "type": "Utility",
+      "stats": [
+        "[13.5-22.5%] Double Swing Size",
+        "[13.5-22.5%] Whirlwind Size",
+        "[31.5-45%] Berserking Duration"
+      ]
+    }
+  },
+  {
+    "slug": "bleed-innovation",
+    "name_en": "Bleed Innovation",
+    "name_tr": null,
+    "class_en": "Barbarian",
+    "class_key": "barbarian",
+    "category": "Utility",
+    "slot": null,
+    "description_en": null,
+    "description_tr": null,
+    "tags": null,
+    "data": {
+      "name": "Bleed Innovation",
+      "class": "Barbarian",
+      "type": "Utility",
+      "stats": [
+        "[13.5-22.5%] Rend Size",
+        "[21-30%] Enhanced Rupture Explosion Size",
+        "[1-2] to Hamstring"
+      ]
+    }
+  },
+  {
+    "slug": "blood-innovation",
+    "name_en": "Blood Innovation",
+    "name_tr": null,
+    "class_en": "Necromancer",
+    "class_key": "necromancer",
+    "category": "Utility",
+    "slot": null,
+    "description_en": null,
+    "description_tr": null,
+    "tags": null,
+    "data": {
+      "name": "Blood Innovation",
+      "class": "Necromancer",
+      "type": "Utility",
+      "stats": [
+        "[13.5-22.5%] Blood Surge Nova Size",
+        "[28.5-37.5%] Hemorrhage Explosion Size",
+        "[29-42.5%] Blood Lance Duration"
+      ]
+    }
+  },
+  {
+    "slug": "bone-innovation",
+    "name_en": "Bone Innovation",
+    "name_tr": null,
+    "class_en": "Necromancer",
+    "class_key": "necromancer",
+    "category": "Utility",
+    "slot": null,
+    "description_en": null,
+    "description_tr": null,
+    "tags": null,
+    "data": {
+      "name": "Bone Innovation",
+      "class": "Necromancer",
+      "type": "Utility",
+      "stats": [
+        "[16-25%] Bone Storm Duration",
+        "[26-35%] Bone Spirit Explosion Size",
+        "[29-42.5%] Bone Prison Duration"
+      ]
+    }
+  },
+  {
+    "slug": "brute-innovation",
+    "name_en": "Brute Innovation",
+    "name_tr": null,
+    "class_en": "Barbarian",
+    "class_key": "barbarian",
+    "category": "Utility",
+    "slot": null,
+    "description_en": null,
+    "description_tr": null,
+    "tags": null,
+    "data": {
+      "name": "Brute Innovation",
+      "class": "Barbarian",
+      "type": "Utility",
+      "stats": [
+        "[13.5-22.5%] Hammer of the Ancients Size",
+        "[13.5-22.5%] Upheaval Size",
+        "[13.5-22.5%] Mighty Throw Pulse Size"
+      ]
+    }
+  },
+  {
+    "slug": "centipede-innovation",
+    "name_en": "Centipede Innovation",
+    "name_tr": null,
+    "class_en": "Spiritborn",
+    "class_key": "spiritborn",
+    "category": "Utility",
+    "slot": null,
+    "description_en": null,
+    "description_tr": null,
+    "tags": null,
+    "data": {
+      "name": "Centipede Innovation",
+      "class": "Spiritborn",
+      "type": "Utility",
+      "stats": [
+        "[36.5-50%] Withering Fist Size",
+        "[36.5-50%] Stinger Size",
+        "[36.5-50%] Scourge Size"
+      ]
+    }
+  },
+  {
+    "slug": "companion-innovation",
+    "name_en": "Companion Innovation",
+    "name_tr": null,
+    "class_en": "Druid",
+    "class_key": "druid",
+    "category": "Utility",
+    "slot": null,
+    "description_en": null,
+    "description_tr": null,
+    "tags": null,
+    "data": {
+      "name": "Companion Innovation",
+      "class": "Druid",
+      "type": "Utility",
+      "stats": [
+        "[13-17.5%] Wolves Attack Speed",
+        "[18.5-27.5%] Ravens Attack Speed",
+        "[13.5-22.5%] Poison Creeper Duration",
+        "[31.5-45%] Ravens Active Size"
+      ]
+    }
+  },
+  {
+    "slug": "conjuration-fortune",
+    "name_en": "Conjuration Fortune",
+    "name_tr": null,
+    "class_en": "Sorcerer",
+    "class_key": "sorcerer",
+    "category": "Utility",
+    "slot": null,
+    "description_en": null,
+    "description_tr": null,
+    "tags": null,
+    "data": {
+      "name": "Conjuration Fortune",
+      "class": "Sorcerer",
+      "type": "Utility",
+      "stats": [
+        "[8-12.5%] Hydra Lucky Hit Chance",
+        "[8-12.5%] Ice Blade Lucky Hit Chance",
+        "[8-12.5%] Lightning Spear Lucky Hit Chance",
+        "[8-12.5%] Familiar Lucky Hit Chance"
+      ]
+    }
+  },
+  {
+    "slug": "daze-control",
+    "name_en": "Daze Control",
+    "name_tr": null,
+    "class_en": "Rogue",
+    "class_key": "rogue",
+    "category": "Utility",
+    "slot": null,
+    "description_en": null,
+    "description_tr": null,
+    "tags": null,
+    "data": {
+      "name": "Daze Control",
+      "class": "Rogue",
+      "type": "Utility",
+      "stats": [
+        "Lucky Hit: Up to a [13-17.5%] Chance to Daze for 2 Seconds",
+        "[15.5-20%] Smoke Grenade Cooldown Reduction",
+        "[28.5-37.5%] Smoke Grenade Duration"
+      ]
+    }
+  },
+  {
+    "slug": "decay-innovation",
+    "name_en": "Decay Innovation",
+    "name_tr": null,
+    "class_en": "Necromancer",
+    "class_key": "necromancer",
+    "category": "Utility",
+    "slot": null,
+    "description_en": null,
+    "description_tr": null,
+    "tags": null,
+    "data": {
+      "name": "Decay Innovation",
+      "class": "Necromancer",
+      "type": "Utility",
+      "stats": [
+        "[13.5-22.5%] Blight Size",
+        "[28.5-37.5%] Decompose Explosion Size",
+        "[16-25%] Soulrift Duration"
+      ]
+    }
+  },
+  {
+    "slug": "eagle-innovation",
+    "name_en": "Eagle Innovation",
+    "name_tr": null,
+    "class_en": "Spiritborn",
+    "class_key": "spiritborn",
+    "category": "Utility",
+    "slot": null,
+    "description_en": null,
+    "description_tr": null,
+    "tags": null,
+    "data": {
+      "name": "Eagle Innovation",
+      "class": "Spiritborn",
+      "type": "Utility",
+      "stats": [
+        "[36.5-50%] Thunderspike Size",
+        "[36.5-50%] Vortex Size",
+        "[36.5-50%] Soar Size"
+      ]
+    }
+  },
+  {
+    "slug": "elemental-control",
+    "name_en": "Elemental Control",
+    "name_tr": null,
+    "class_en": "Sorcerer",
+    "class_key": "sorcerer",
+    "category": "Utility",
+    "slot": null,
+    "description_en": null,
+    "description_tr": null,
+    "tags": null,
+    "data": {
+      "name": "Elemental Control",
+      "class": "Sorcerer",
+      "type": "Utility",
+      "stats": [
+        "[1-2] to Snap Freeze",
+        "[1-2] to Crippling Flames",
+        "[1-2] to Static Discharge"
+      ]
+    }
+  },
+  {
+    "slug": "elemental-finesse-day",
+    "name_en": "Elemental Finesse: Day",
+    "name_tr": null,
+    "class_en": "All",
+    "class_key": "all",
+    "category": "Offensive",
+    "slot": null,
+    "description_en": null,
+    "description_tr": null,
+    "tags": null,
+    "data": {
+      "name": "Elemental Finesse: Day",
+      "class": "All",
+      "type": "Offensive",
+      "stats": [
+        "[47-60%] Fire Damage",
+        "[47-60%] Physical Damage",
+        "[47-60%] Lightning Damage"
+      ]
+    }
+  },
+  {
+    "slug": "elemental-finesse-night",
+    "name_en": "Elemental Finesse: Night",
+    "name_tr": null,
+    "class_en": "All",
+    "class_key": "all",
+    "category": "Offensive",
+    "slot": null,
+    "description_en": null,
+    "description_tr": null,
+    "tags": null,
+    "data": {
+      "name": "Elemental Finesse: Night",
+      "class": "All",
+      "type": "Offensive",
+      "stats": [
+        "[47-60%] Cold Damage",
+        "[47-60%] Poison Damage",
+        "[47-60%] Shadow Damage"
+      ]
+    }
+  },
+  {
+    "slug": "execution-innovation",
+    "name_en": "Execution Innovation",
+    "name_tr": null,
+    "class_en": "Necromancer",
+    "class_key": "necromancer",
+    "category": "Utility",
+    "slot": null,
+    "description_en": null,
+    "description_tr": null,
+    "tags": null,
+    "data": {
+      "name": "Execution Innovation",
+      "class": "Necromancer",
+      "type": "Utility",
+      "stats": [
+        "[13.5-22.5%] Sever Size",
+        "[29-42.5%] Reap Duration",
+        "[31.5-45%] Skeleton Priest Effect Duration"
+      ]
+    }
+  },
+  {
+    "slug": "gorilla-innovation",
+    "name_en": "Gorilla Innovation",
+    "name_tr": null,
+    "class_en": "Spiritborn",
+    "class_key": "spiritborn",
+    "category": "Utility",
+    "slot": null,
+    "description_en": null,
+    "description_tr": null,
+    "tags": null,
+    "data": {
+      "name": "Gorilla Innovation",
+      "class": "Spiritborn",
+      "type": "Utility",
+      "stats": [
+        "[36.5-50%] Rock Splitter Size",
+        "[36.5-50%] Crushing Hand Size",
+        "[36.5-50%] Concussive Stomp Size",
+        "[26.5-40%] Armored Hide Active Thorns Bonus"
+      ]
+    }
+  },
+  {
+    "slug": "jaguar-innovation",
+    "name_en": "Jaguar Innovation",
+    "name_tr": null,
+    "class_en": "Spiritborn",
+    "class_key": "spiritborn",
+    "category": "Utility",
+    "slot": null,
+    "description_en": null,
+    "description_tr": null,
+    "tags": null,
+    "data": {
+      "name": "Jaguar Innovation",
+      "class": "Spiritborn",
+      "type": "Utility",
+      "stats": [
+        "[36.5-50%] Thrash Size",
+        "[36.5-50%] Rake Size",
+        "[26.5-40%] Ravager On Kill Duration Extension"
+      ]
+    }
+  },
+  {
+    "slug": "natural-schemes",
+    "name_en": "Natural Schemes",
+    "name_tr": null,
+    "class_en": "All",
+    "class_key": "all",
+    "category": "Utility",
+    "slot": null,
+    "description_en": null,
+    "description_tr": null,
+    "tags": null,
+    "data": {
+      "name": "Natural Schemes",
+      "class": "All",
+      "type": "Utility",
+      "stats": [
+        "[45-70] Thorns",
+        "[8-12.5%] Fortify Generation",
+        "[8-12.5%] Barrier Generation"
+      ]
+    }
+  },
+  {
+    "slug": "nature-magic-innovation",
+    "name_en": "Nature Magic Innovation",
+    "name_tr": null,
+    "class_en": "Druid",
+    "class_key": "druid",
+    "category": "Utility",
+    "slot": null,
+    "description_en": null,
+    "description_tr": null,
+    "tags": null,
+    "data": {
+      "name": "Nature Magic Innovation",
+      "class": "Druid",
+      "type": "Utility",
+      "stats": [
+        "[31.5-45%] Hurricane Size",
+        "[29-42.5%] Hurricane Duration",
+        "[31.5-45%] Cyclone Armor Active Size"
+      ]
+    }
+  },
+  {
+    "slug": "profane-innovation",
+    "name_en": "Profane Innovation",
+    "name_tr": null,
+    "class_en": "Necromancer",
+    "class_key": "necromancer",
+    "category": "Utility",
+    "slot": null,
+    "description_en": null,
+    "description_tr": null,
+    "tags": null,
+    "data": {
+      "name": "Profane Innovation",
+      "class": "Necromancer",
+      "type": "Utility",
+      "stats": [
+        "[13.5-22.5%] Corpse Explosion Size",
+        "[26.5-40%] Corpse Tendrils Size",
+        "[31.5-45%] Curse Size",
+        "[29-42.5%] Curse Duration"
+      ]
+    }
+  },
+  {
+    "slug": "rogue-innovation",
+    "name_en": "Rogue Innovation",
+    "name_tr": null,
+    "class_en": "Rogue",
+    "class_key": "rogue",
+    "category": "Utility",
+    "slot": null,
+    "description_en": null,
+    "description_tr": null,
+    "tags": null,
+    "data": {
+      "name": "Rogue Innovation",
+      "class": "Rogue",
+      "type": "Utility",
+      "stats": [
+        "[29-42.5%] Invigorating Strike Duration",
+        "Twisting Blades Returns [21-30%] Faster",
+        "[29-42.5%] Heartseeker Duration",
+        "[21-30%] Stun Grenade Size"
+      ]
+    }
+  },
+  {
+    "slug": "sorcerer-control",
+    "name_en": "Sorcerer Control",
+    "name_tr": null,
+    "class_en": "Sorcerer",
+    "class_key": "sorcerer",
+    "category": "Utility",
+    "slot": null,
+    "description_en": null,
+    "description_tr": null,
+    "tags": null,
+    "data": {
+      "name": "Sorcerer Control",
+      "class": "Sorcerer",
+      "type": "Utility",
+      "stats": [
+        "[13.5-22.5%] Immobilize Duration",
+        "[16-25%] Stun Duration",
+        "[16-25%] Freeze Duration"
+      ]
+    }
+  },
+  {
+    "slug": "sorcerer-innovation",
+    "name_en": "Sorcerer Innovation",
+    "name_tr": null,
+    "class_en": "Sorcerer",
+    "class_key": "sorcerer",
+    "category": "Utility",
+    "slot": null,
+    "description_en": null,
+    "description_tr": null,
+    "tags": null,
+    "data": {
+      "name": "Sorcerer Innovation",
+      "class": "Sorcerer",
+      "type": "Utility",
+      "stats": [
+        "[26.5-40%] Frost Nova Size",
+        "[18.5-27.5%] Blizzard Size",
+        "[36.5-50%] Teleport Nova Size"
+      ]
+    }
+  },
+  {
+    "slug": "thorn-army",
+    "name_en": "Thorn Army",
+    "name_tr": null,
+    "class_en": "Necromancer",
+    "class_key": "necromancer",
+    "category": "Utility",
+    "slot": null,
+    "description_en": null,
+    "description_tr": null,
+    "tags": null,
+    "data": {
+      "name": "Thorn Army",
+      "class": "Necromancer",
+      "type": "Utility",
+      "stats": [
+        "[9-11%] Thorns while Fortified",
+        "Minions Inherit [8-12.5%] of Your Thorns",
+        "[1-2] Spiked Armor"
+      ]
+    }
+  },
+  {
+    "slug": "thorn-body",
+    "name_en": "Thorn Body",
+    "name_tr": null,
+    "class_en": "Barbarian",
+    "class_key": "barbarian",
+    "category": "Utility",
+    "slot": null,
+    "description_en": null,
+    "description_tr": null,
+    "tags": null,
+    "data": {
+      "name": "Thorn Body",
+      "class": "Barbarian",
+      "type": "Utility",
+      "stats": [
+        "[9-11%] Thorns while Fortified",
+        "[1-2] to Outburst",
+        "[1-2] to Tough as Nails"
+      ]
+    }
+  },
+  {
+    "slug": "wasteland-innovation",
+    "name_en": "Wasteland Innovation",
+    "name_tr": null,
+    "class_en": "Barbarian",
+    "class_key": "barbarian",
+    "category": "Utility",
+    "slot": null,
+    "description_en": null,
+    "description_tr": null,
+    "tags": null,
+    "data": {
+      "name": "Wasteland Innovation",
+      "class": "Barbarian",
+      "type": "Utility",
+      "stats": [
+        "[26.5-40%] Ground Stomp Size",
+        "[31.5-45%] Leap Slam Size",
+        "[21-30%] Dust Devil Size"
+      ]
+    }
+  },
+  {
+    "slug": "worldly-fortune",
+    "name_en": "Worldly Fortune",
+    "name_tr": null,
+    "class_en": "All",
+    "class_key": "all",
+    "category": "Utility",
+    "slot": null,
+    "description_en": null,
+    "description_tr": null,
+    "tags": null,
+    "data": {
+      "name": "Worldly Fortune",
+      "class": "All",
+      "type": "Utility",
+      "stats": [
+        "[3-5%] Lucky Hit Chance",
+        "[8-12.5%] Impairment Reduction",
+        "[13-17.5%] Crowd Control Duration"
+      ]
+    }
+  },
+  {
+    "slug": "agile-augments",
+    "name_en": "Agile Augments",
+    "name_tr": null,
+    "class_en": "Rogue",
+    "class_key": "rogue",
+    "category": "Weapons",
+    "slot": null,
+    "description_en": null,
+    "description_tr": null,
+    "tags": null,
+    "data": {
+      "name": "Agile Augments",
+      "class": "Rogue",
+      "type": "Weapons",
+      "stats": [
+        "[21-30%] Chance for Flurry to Deal Double Damage",
+        "[16-25%] Chance for Dance of Knives Projectiles to Deal Double Damage",
+        "[16-25%] Chance for Dash to Deal Double Damage",
+        "[16-25%] Chance for Shadow Clone to Deal Double Damage"
+      ]
+    }
+  },
+  {
+    "slug": "assassin-augments",
+    "name_en": "Assassin Augments",
+    "name_tr": null,
+    "class_en": "Rogue",
+    "class_key": "rogue",
+    "category": "Weapons",
+    "slot": null,
+    "description_en": null,
+    "description_tr": null,
+    "tags": null,
+    "data": {
+      "name": "Assassin Augments",
+      "class": "Rogue",
+      "type": "Weapons",
+      "stats": [
+        "Shadow Step Cleaves for [15.5-20%]  Damage",
+        "[16-25%] Chance for Smoke Grenade to Deal Double Damage",
+        "[16-25%] Chance for Rain of Arrows to Deal Double Damage"
+      ]
+    }
+  },
+  {
+    "slug": "bleed-augments",
+    "name_en": "Bleed Augments",
+    "name_tr": null,
+    "class_en": "Barbarian",
+    "class_key": "barbarian",
+    "category": "Weapons",
+    "slot": null,
+    "description_en": null,
+    "description_tr": null,
+    "tags": null,
+    "data": {
+      "name": "Bleed Augments",
+      "class": "Barbarian",
+      "type": "Weapons",
+      "stats": [
+        "[1-2] to Cut to the Bone",
+        "[13-17.5%] Chance for Rend to Hit Twice",
+        "[16-25%] Chance for Rupture to Deal Double Damage"
+      ]
+    }
+  },
+  {
+    "slug": "blood-augments",
+    "name_en": "Blood Augments",
+    "name_tr": null,
+    "class_en": "Necromancer",
+    "class_key": "necromancer",
+    "category": "Weapons",
+    "slot": null,
+    "description_en": null,
+    "description_tr": null,
+    "tags": null,
+    "data": {
+      "name": "Blood Augments",
+      "class": "Necromancer",
+      "type": "Weapons",
+      "stats": [
+        "[15.5-20%] Chance for Blood Surge to Deal Double Damage",
+        "[15.5-20%] Chance for Blood Lance to Deal Double Damage",
+        "[23.5-32.5%] Chance for Hemorrhage to Hit Twice",
+        "[16-25%] Chance for Blood Wave to Deal Double Damage"
+      ]
+    }
+  },
+  {
+    "slug": "bone-augments",
+    "name_en": "Bone Augments",
+    "name_tr": null,
+    "class_en": "Necromancer",
+    "class_key": "necromancer",
+    "category": "Weapons",
+    "slot": null,
+    "description_en": null,
+    "description_tr": null,
+    "tags": null,
+    "data": {
+      "name": "Bone Augments",
+      "class": "Necromancer",
+      "type": "Weapons",
+      "stats": [
+        "[23.5-32.5%] Chance for Bone Splinters Projectiles to Cast Twice",
+        "[13-17.5%] Chance for Bone Spear Projectiles to Cast Twice",
+        "[15.5-20%] Chance for Bone Spirit to Deal Double Damage",
+        "[16-25%] Chance for Bone Storm to Deal Double Damage"
+      ]
+    }
+  },
+  {
+    "slug": "brawling-augments",
+    "name_en": "Brawling Augments",
+    "name_tr": null,
+    "class_en": "Barbarian",
+    "class_key": "barbarian",
+    "category": "Weapons",
+    "slot": null,
+    "description_en": null,
+    "description_tr": null,
+    "tags": null,
+    "data": {
+      "name": "Brawling Augments",
+      "class": "Barbarian",
+      "type": "Weapons",
+      "stats": [
+        "[16-25%] Chance for Charge to Deal Double Damage",
+        "[16-25%] Chance for Kick to Deal Double Damage",
+        "[16-25%] Chance for Leap to Deal Double Damage",
+        "[15.5-20%] Chance for Ground Stomp to Hit Twice"
+      ]
+    }
+  },
+  {
+    "slug": "centipede-augments",
+    "name_en": "Centipede Augments",
+    "name_tr": null,
+    "class_en": "Spiritborn",
+    "class_key": "spiritborn",
+    "category": "Weapons",
+    "slot": null,
+    "description_en": null,
+    "description_tr": null,
+    "tags": null,
+    "data": {
+      "name": "Centipede Augments",
+      "class": "Spiritborn",
+      "type": "Weapons",
+      "stats": [
+        "[26-35%] Chance for Withering Fist to Deal Double Damage",
+        "[13-17.5%] Chance for Stinger to Extra Hit",
+        "[16-25%] Chance for The Devourer to Deal Double Damage",
+        "[21-30%] Primary Centipede Spirit Hall Potency"
+      ]
+    }
+  },
+  {
+    "slug": "companion-augments",
+    "name_en": "Companion Augments",
+    "name_tr": null,
+    "class_en": "Druid",
+    "class_key": "druid",
+    "category": "Weapons",
+    "slot": null,
+    "description_en": null,
+    "description_tr": null,
+    "tags": null,
+    "data": {
+      "name": "Companion Augments",
+      "class": "Druid",
+      "type": "Weapons",
+      "stats": [
+        "[16-25%] Chance for Wolves to Deal Double Damage",
+        "[16-25%] Chance for Poison Creeper to Deal Double Damage",
+        "[16-25%] Chance for Ravens to Deal Double Damage"
+      ]
+    }
+  },
+  {
+    "slug": "conjuration-augments",
+    "name_en": "Conjuration Augments",
+    "name_tr": null,
+    "class_en": "Sorcerer",
+    "class_key": "sorcerer",
+    "category": "Weapons",
+    "slot": null,
+    "description_en": null,
+    "description_tr": null,
+    "tags": null,
+    "data": {
+      "name": "Conjuration Augments",
+      "class": "Sorcerer",
+      "type": "Weapons",
+      "stats": [
+        "Casted Hydras Have + [1-2] Heads",
+        "[15.5-20%] Chance for Lightning Spear to Deal Double Damage",
+        "[15.5-20%] Chance for Familiars to Hit Twice"
+      ]
+    }
+  },
+  {
+    "slug": "core-augments-barbarian",
+    "name_en": "Core Augments - Barbarian",
+    "name_tr": null,
+    "class_en": "Barbarian",
+    "class_key": "barbarian",
+    "category": "Weapons",
+    "slot": null,
+    "description_en": null,
+    "description_tr": null,
+    "tags": null,
+    "data": {
+      "name": "Core Augments - Barbarian",
+      "class": "Barbarian",
+      "type": "Weapons",
+      "stats": [
+        "[15.5-20%] Chance for Hammer of the Ancients to Deal Double Damage",
+        "[15.5-20%] Chance for Whirlwind to Deal Double Damage",
+        "[15.5-20%] Chance for Upheaval to Deal Double Damage",
+        "[13-17.5%] Chance for Double Swing to Hit Twice"
+      ]
+    }
+  },
+  {
+    "slug": "cutthroat-augments",
+    "name_en": "Cutthroat Augments",
+    "name_tr": null,
+    "class_en": "Rogue",
+    "class_key": "rogue",
+    "category": "Weapons",
+    "slot": null,
+    "description_en": null,
+    "description_tr": null,
+    "tags": null,
+    "data": {
+      "name": "Cutthroat Augments",
+      "class": "Rogue",
+      "type": "Weapons",
+      "stats": [
+        "[26-35%] Chance for Blade Shift to Deal Double Damage",
+        "Invigorating Strike Cleaves for [15.5-20%] Damage",
+        "[13-17.5%] Chance for Twisting Blades to Hit Twice"
+      ]
+    }
+  },
+  {
+    "slug": "eagle-augments",
+    "name_en": "Eagle Augments",
+    "name_tr": null,
+    "class_en": "Spiritborn",
+    "class_key": "spiritborn",
+    "category": "Weapons",
+    "slot": null,
+    "description_en": null,
+    "description_tr": null,
+    "tags": null,
+    "data": {
+      "name": "Eagle Augments",
+      "class": "Spiritborn",
+      "type": "Weapons",
+      "stats": [
+        "[26-35%] Chance for Thunderspike to Deal Double Damage",
+        "[13-17.5%] Chance for Quill Volley Projectiles to Cast Twice",
+        "[16-25%] Chance for The Seeker to Deal Double Damage",
+        "[21-30%] Primary Eagle Spirit Hall Potency"
+      ]
+    }
+  },
+  {
+    "slug": "earth-augments",
+    "name_en": "Earth Augments",
+    "name_tr": null,
+    "class_en": "Druid",
+    "class_key": "druid",
+    "category": "Weapons",
+    "slot": null,
+    "description_en": null,
+    "description_tr": null,
+    "tags": null,
+    "data": {
+      "name": "Earth Augments",
+      "class": "Druid",
+      "type": "Weapons",
+      "stats": [
+        "[23.5-32.5%] Chance for Earth Spike Projectiles to Cast Twice",
+        "[13-17.5%] Chance for Landslide Projectiles to Cast Twice",
+        "[15.5-20%] Chance for Boulder to Deal Double Damage",
+        "[13-17.5%] Chance for Stone Burst to Cast Twice"
+      ]
+    }
+  },
+  {
+    "slug": "elemental-surge-day",
+    "name_en": "Elemental Surge - Day",
+    "name_tr": null,
+    "class_en": "All",
+    "class_key": "all",
+    "category": "Weapons",
+    "slot": null,
+    "description_en": null,
+    "description_tr": null,
+    "tags": null,
+    "data": {
+      "name": "Elemental Surge - Day",
+      "class": "All",
+      "type": "Weapons",
+      "stats": [
+        "Lucky Hit: Up to a 40% Chance to Deal [900-2400] Physical Damage",
+        "Lucky Hit: Up to a 40% Chance to Deal [900-2400] Fire Damage",
+        "Lucky Hit: Up to a 40% Chance to Deal [900-2400] Lightning Damage"
+      ]
+    }
+  },
+  {
+    "slug": "elemental-surge-night",
+    "name_en": "Elemental Surge - Night",
+    "name_tr": null,
+    "class_en": "All",
+    "class_key": "all",
+    "category": "Weapons",
+    "slot": null,
+    "description_en": null,
+    "description_tr": null,
+    "tags": null,
+    "data": {
+      "name": "Elemental Surge - Night",
+      "class": "All",
+      "type": "Weapons",
+      "stats": [
+        "Lucky Hit: Up to a 40% Chance to Deal [900-2400] Cold Damage",
+        "Lucky Hit: Up to a 40% Chance to Deal [900-2400] Poison\nDamage",
+        "Lucky Hit: Up to a 40% Chance to Deal [900-2400] Shadow Damage"
+      ]
+    }
+  },
+  {
+    "slug": "forest-augments",
+    "name_en": "Forest Augments",
+    "name_tr": null,
+    "class_en": "Spiritborn",
+    "class_key": "spiritborn",
+    "category": "Weapons",
+    "slot": null,
+    "description_en": null,
+    "description_tr": null,
+    "tags": null,
+    "data": {
+      "name": "Forest Augments",
+      "class": "Spiritborn",
+      "type": "Weapons",
+      "stats": [
+        "[16-25%] Chance for Payback to Deal Double Damage",
+        "[16-25%] Chance for Concussive Stomp to Extra Hit",
+        "[1-2] to Dominant"
+      ]
+    }
+  },
+  {
+    "slug": "frost-augments",
+    "name_en": "Frost Augments",
+    "name_tr": null,
+    "class_en": "Sorcerer",
+    "class_key": "sorcerer",
+    "category": "Weapons",
+    "slot": null,
+    "description_en": null,
+    "description_tr": null,
+    "tags": null,
+    "data": {
+      "name": "Frost Augments",
+      "class": "Sorcerer",
+      "type": "Weapons",
+      "stats": [
+        "[23.5-32.5%] Chance for Frost Bolt Projectiles to Cast Twice",
+        "[13-17.5%] Chance for Frozen Orb Projectiles to Cast Twice",
+        "[13-17.5%] Chance for Ice Shards Projectiles to Cast Twice"
+      ]
+    }
+  },
+  {
+    "slug": "frost-augments-frozen",
+    "name_en": "Frost Augments - Frozen",
+    "name_tr": null,
+    "class_en": "Sorcerer",
+    "class_key": "sorcerer",
+    "category": "Weapons",
+    "slot": null,
+    "description_en": null,
+    "description_tr": null,
+    "tags": null,
+    "data": {
+      "name": "Frost Augments - Frozen",
+      "class": "Sorcerer",
+      "type": "Weapons",
+      "stats": [
+        "[15.5-20%] Chance for Blizzard to Deal Double Damage",
+        "[13.5-22.5%] Chance for Ice Spike to Deal Double Damage",
+        "[16-25%] Chance for Deep Freeze to Deal Double Damage"
+      ]
+    }
+  },
+  {
+    "slug": "furious-augments",
+    "name_en": "Furious Augments",
+    "name_tr": null,
+    "class_en": "Barbarian",
+    "class_key": "barbarian",
+    "category": "Weapons",
+    "slot": null,
+    "description_en": null,
+    "description_tr": null,
+    "tags": null,
+    "data": {
+      "name": "Furious Augments",
+      "class": "Barbarian",
+      "type": "Weapons",
+      "stats": [
+        "[23.5-32.5%] Chance for Bash to Hit Twice",
+        "[23.5-32.5%] Chance for Frenzy to Hit Twice",
+        "[26-35%] Chance for Lunging Strike to Deal Double Damage",
+        "[26-35%] Flay Duration"
+      ]
+    }
+  },
+  {
+    "slug": "gorilla-augments",
+    "name_en": "Gorilla Augments",
+    "name_tr": null,
+    "class_en": "Spiritborn",
+    "class_key": "spiritborn",
+    "category": "Weapons",
+    "slot": null,
+    "description_en": null,
+    "description_tr": null,
+    "tags": null,
+    "data": {
+      "name": "Gorilla Augments",
+      "class": "Spiritborn",
+      "type": "Weapons",
+      "stats": [
+        "[26-35%] Chance for Rock Splitter to Deal Double Damage",
+        "[13-17.5%] Chance for Crushing Hand to Extra Hit",
+        "[16-25%] Chance for The Protector to Deal Double Damage",
+        "[21-30%] Primary Gorilla Spirit Hall Potency"
+      ]
+    }
+  },
+  {
+    "slug": "jaguar-augments",
+    "name_en": "Jaguar Augments",
+    "name_tr": null,
+    "class_en": "Spiritborn",
+    "class_key": "spiritborn",
+    "category": "Weapons",
+    "slot": null,
+    "description_en": null,
+    "description_tr": null,
+    "tags": null,
+    "data": {
+      "name": "Jaguar Augments",
+      "class": "Spiritborn",
+      "type": "Weapons",
+      "stats": [
+        "[26-35%] Chance for Thrash to Deal Double Damage",
+        "[13-17.5%] Chance for Rake to Extra Hit",
+        "[16-25%] Chance for The Hunter to Deal Double Damage",
+        "[21-30%] Primary Jaguar Spirit Hall Potency"
+      ]
+    }
+  },
+  {
+    "slug": "lightning-augments",
+    "name_en": "Lightning Augments",
+    "name_tr": null,
+    "class_en": "Druid",
+    "class_key": "druid",
+    "category": "Weapons",
+    "slot": null,
+    "description_en": null,
+    "description_tr": null,
+    "tags": null,
+    "data": {
+      "name": "Lightning Augments",
+      "class": "Druid",
+      "type": "Weapons",
+      "stats": [
+        "[23.5-32.5%] Chance for Storm Strike to Hit Twice",
+        "[15.5-20%] Chance for Lightning Storm to Deal Double Damage",
+        "[16-25%] Chance for Cataclysm to Deal Double Damage"
+      ]
+    }
+  },
+  {
+    "slug": "marksman-augments-basic",
+    "name_en": "Marksman Augments - Basic",
+    "name_tr": null,
+    "class_en": "Rogue",
+    "class_key": "rogue",
+    "category": "Weapons",
+    "slot": null,
+    "description_en": null,
+    "description_tr": null,
+    "tags": null,
+    "data": {
+      "name": "Marksman Augments - Basic",
+      "class": "Rogue",
+      "type": "Weapons",
+      "stats": [
+        "[23.5-32.5%] Chance for Puncture Projectiles to Cast Twice",
+        "[23.5-32.5%] Chance for Heartseeker Projectiles to Cast Twice",
+        "[23.5-32.5%] Chance for Forceful Arrow Projectiles to Cast Twice"
+      ]
+    }
+  },
+  {
+    "slug": "marksman-augments-core",
+    "name_en": "Marksman Augments - Core",
+    "name_tr": null,
+    "class_en": "Rogue",
+    "class_key": "rogue",
+    "category": "Weapons",
+    "slot": null,
+    "description_en": null,
+    "description_tr": null,
+    "tags": null,
+    "data": {
+      "name": "Marksman Augments - Core",
+      "class": "Rogue",
+      "type": "Weapons",
+      "stats": [
+        "[13-17.5%] Chance for Barrage Projectiles to Cast Twice",
+        "[13-17.5%] Chance for Rapid Fire Projectiles to Cast Twice",
+        "[13-17.5%] Chance for Penetrating Shot Projectiles to Cast Twice"
+      ]
+    }
+  },
+  {
+    "slug": "plains-augments",
+    "name_en": "Plains Augments",
+    "name_tr": null,
+    "class_en": "Spiritborn",
+    "class_key": "spiritborn",
+    "category": "Weapons",
+    "slot": null,
+    "description_en": null,
+    "description_tr": null,
+    "tags": null,
+    "data": {
+      "name": "Plains Augments",
+      "class": "Spiritborn",
+      "type": "Weapons",
+      "stats": [
+        "[16-25%] Chance for Rushing Claw to Deal Double Damage",
+        "[15.5-20%] Chance for Ravager to Deal Double Damage",
+        "[1-2] to Furnace"
+      ]
+    }
+  },
+  {
+    "slug": "pyromancy-augments",
+    "name_en": "Pyromancy Augments",
+    "name_tr": null,
+    "class_en": "Sorcerer",
+    "class_key": "sorcerer",
+    "category": "Weapons",
+    "slot": null,
+    "description_en": null,
+    "description_tr": null,
+    "tags": null,
+    "data": {
+      "name": "Pyromancy Augments",
+      "class": "Sorcerer",
+      "type": "Weapons",
+      "stats": [
+        "[23.5-32.5%] Chance for Fire Bolt Projectiles to Cast Twice",
+        "[13-17.5%] Chance for Fireball Projectiles to Cast Twice",
+        "[15.5-20%] Chance for Meteor to Deal Double Damage"
+      ]
+    }
+  },
+  {
+    "slug": "pyromancy-augments-fiery",
+    "name_en": "Pyromancy Augments - Fiery",
+    "name_tr": null,
+    "class_en": "Sorcerer",
+    "class_key": "sorcerer",
+    "category": "Weapons",
+    "slot": null,
+    "description_en": null,
+    "description_tr": null,
+    "tags": null,
+    "data": {
+      "name": "Pyromancy Augments - Fiery",
+      "class": "Sorcerer",
+      "type": "Weapons",
+      "stats": [
+        "[15.5-20%] Chance for Incinerate to Deal Double Damage",
+        "[15.5-20%] Chance for Firewall to Deal Double Damage",
+        "[13.5-22.5%] Chance for Meteorites to Deal Double Damage"
+      ]
+    }
+  },
+  {
+    "slug": "sorcerer-innovation-fiery",
+    "name_en": "Sorcerer Innovation - Fiery",
+    "name_tr": null,
+    "class_en": "Sorcerer",
+    "class_key": "sorcerer",
+    "category": "Utility",
+    "slot": null,
+    "description_en": null,
+    "description_tr": null,
+    "tags": null,
+    "data": {
+      "name": "Sorcerer Innovation - Fiery",
+      "class": "Sorcerer",
+      "type": "Utility",
+      "stats": [
+        "[13.5-22.5%] Incinerate Size",
+        "[13.5-22.5%] Meteor Size",
+        "[18.5-27.5%] Firewall Size"
+      ]
+    }
+  },
+  {
+    "slug": "shadow-augments-decay",
+    "name_en": "Shadow Augments - Decay",
+    "name_tr": null,
+    "class_en": "Necromancer",
+    "class_key": "necromancer",
+    "category": "Weapons",
+    "slot": null,
+    "description_en": null,
+    "description_tr": null,
+    "tags": null,
+    "data": {
+      "name": "Shadow Augments - Decay",
+      "class": "Necromancer",
+      "type": "Weapons",
+      "stats": [
+        "[26-35%] Chance for Decompose to Deal Double Damage",
+        "[13-17.5%] Chance for Blight Projectiles to Cast Twice",
+        "[16-25%] Chance for Soulrift to Deal Double Damage",
+        "[16-25%] Chance for Affliction to Deal Double Damage"
+      ]
+    }
+  },
+  {
+    "slug": "shadow-augments-execution",
+    "name_en": "Shadow Augments - Execution",
+    "name_tr": null,
+    "class_en": "Necromancer",
+    "class_key": "necromancer",
+    "category": "Weapons",
+    "slot": null,
+    "description_en": null,
+    "description_tr": null,
+    "tags": null,
+    "data": {
+      "name": "Shadow Augments - Execution",
+      "class": "Necromancer",
+      "type": "Weapons",
+      "stats": [
+        "[15.5-20%] Chance for Sever to Deal Double Damage",
+        "[23.5-32.5%] Chance for Reap to Hit Twice",
+        "[16-25%] Chance for Corpse Explosion to Deal Double Damage"
+      ]
+    }
+  },
+  {
+    "slug": "shock-augments-discharge",
+    "name_en": "Shock Augments - Discharge",
+    "name_tr": null,
+    "class_en": "Sorcerer",
+    "class_key": "sorcerer",
+    "category": "Weapons",
+    "slot": null,
+    "description_en": null,
+    "description_tr": null,
+    "tags": null,
+    "data": {
+      "name": "Shock Augments - Discharge",
+      "class": "Sorcerer",
+      "type": "Weapons",
+      "stats": [
+        "[15.5-20%] Chance for Teleport to Hit Twice",
+        "[23.5-32.5%] Chance for Arc Lash to Swipe Twice",
+        "[13-17.5%] Chance for Charged Bolts Projectiles to Cast Twice"
+      ]
+    }
+  },
+  {
+    "slug": "shock-augments-surge",
+    "name_en": "Shock Augments - Surge",
+    "name_tr": null,
+    "class_en": "Sorcerer",
+    "class_key": "sorcerer",
+    "category": "Weapons",
+    "slot": null,
+    "description_en": null,
+    "description_tr": null,
+    "tags": null,
+    "data": {
+      "name": "Shock Augments - Surge",
+      "class": "Sorcerer",
+      "type": "Weapons",
+      "stats": [
+        "[23.5-32.5%] Chance for Spark Projectiles to Cast Twice",
+        "[13-17.5%] Chance for Chain Lightning to Hit Twice",
+        "[13-17.5%] Chance for Ball Lightning Projectiles to Cast Twice"
+      ]
+    }
+  },
+  {
+    "slug": "sky-augments",
+    "name_en": "Sky Augments",
+    "name_tr": null,
+    "class_en": "Spiritborn",
+    "class_key": "spiritborn",
+    "category": "Weapons",
+    "slot": null,
+    "description_en": null,
+    "description_tr": null,
+    "tags": null,
+    "data": {
+      "name": "Sky Augments",
+      "class": "Spiritborn",
+      "type": "Weapons",
+      "stats": [
+        "[16-25%] Chance for Soar to Deal Double Damage",
+        "[16-25%] Chance for Vortex to Extra Hit",
+        "[15.5-20%] Chance for Razor Wings to Deal Double Damage"
+      ]
+    }
+  },
+  {
+    "slug": "soil-augments",
+    "name_en": "Soil Augments",
+    "name_tr": null,
+    "class_en": "Spiritborn",
+    "class_key": "spiritborn",
+    "category": "Weapons",
+    "slot": null,
+    "description_en": null,
+    "description_tr": null,
+    "tags": null,
+    "data": {
+      "name": "Soil Augments",
+      "class": "Spiritborn",
+      "type": "Weapons",
+      "stats": [
+        "[21-30%] Touch of Death Swarm Duration",
+        "[26.5-40%] Scourge Poisoning Duration",
+        "[1-2] to Ravenous"
+      ]
+    }
+  },
+  {
+    "slug": "storm-augments",
+    "name_en": "Storm Augments",
+    "name_tr": null,
+    "class_en": "Druid",
+    "class_key": "druid",
+    "category": "Weapons",
+    "slot": null,
+    "description_en": null,
+    "description_tr": null,
+    "tags": null,
+    "data": {
+      "name": "Storm Augments",
+      "class": "Druid",
+      "type": "Weapons",
+      "stats": [
+        "[23.5-32.5%] Chance for Wind Shear Projectiles to Cast Twice",
+        "[13-17.5%] Chance for Tornado Projectiles to Cast Twice",
+        "[16-25%] Chance for Hurricane to Deal Double Damage"
+      ]
+    }
+  },
+  {
+    "slug": "summoning-augments",
+    "name_en": "Summoning Augments",
+    "name_tr": null,
+    "class_en": "Necromancer",
+    "class_key": "necromancer",
+    "category": "Weapons",
+    "slot": null,
+    "description_en": null,
+    "description_tr": null,
+    "tags": null,
+    "data": {
+      "name": "Summoning Augments",
+      "class": "Necromancer",
+      "type": "Weapons",
+      "stats": [
+        "[16-25%] Chance for Army of the Dead to Deal Double Damage",
+        "[15.5-20%] Chance for Skeletal Mage Attacks to Cast Twice",
+        "[15.5-20%] Chance for Skeleton Warriors to Hit Twice",
+        "[15.5-20%] Chance for Golem to Hit Twice"
+      ]
+    }
+  },
+  {
+    "slug": "trap-augments",
+    "name_en": "Trap Augments",
+    "name_tr": null,
+    "class_en": "Rogue",
+    "class_key": "rogue",
+    "category": "Weapons",
+    "slot": null,
+    "description_en": null,
+    "description_tr": null,
+    "tags": null,
+    "data": {
+      "name": "Trap Augments",
+      "class": "Rogue",
+      "type": "Weapons",
+      "stats": [
+        "[16-25%] Chance for Death Trap to Deal Double Damage",
+        "[15.5-20%] Chance for Caltrops to Consume No Charges",
+        "[29-42.5%] Poison Trap Duration"
+      ]
+    }
+  },
+  {
+    "slug": "trap-expertise",
+    "name_en": "Trap Expertise",
+    "name_tr": null,
+    "class_en": "Rogue",
+    "class_key": "rogue",
+    "category": "Utility",
+    "slot": null,
+    "description_en": null,
+    "description_tr": null,
+    "tags": null,
+    "data": {
+      "name": "Trap Expertise",
+      "class": "Rogue",
+      "type": "Utility",
+      "stats": [
+        "Traps Arm [0.4-0.6] Seconds Faster",
+        "[31.5-45%] Caltrops Size",
+        "[31.5-45%] Caltrops Duration"
+      ]
+    }
+  },
+  {
+    "slug": "wasteland-augments",
+    "name_en": "Wasteland Augments",
+    "name_tr": null,
+    "class_en": "Barbarian",
+    "class_key": "barbarian",
+    "category": "Weapons",
+    "slot": null,
+    "description_en": null,
+    "description_tr": null,
+    "tags": null,
+    "data": {
+      "name": "Wasteland Augments",
+      "class": "Barbarian",
+      "type": "Weapons",
+      "stats": [
+        "[15.5-20%] Chance for Dust Devils to Cast Twice",
+        "[15.5-20%] Chance for Earthquakes to Cast Twice",
+        "[23.5-32.5%] Earthquake Duration"
+      ]
+    }
+  },
+  {
+    "slug": "weapon-augments",
+    "name_en": "Weapon Augments",
+    "name_tr": null,
+    "class_en": "Barbarian",
+    "class_key": "barbarian",
+    "category": "Weapons",
+    "slot": null,
+    "description_en": null,
+    "description_tr": null,
+    "tags": null,
+    "data": {
+      "name": "Weapon Augments",
+      "class": "Barbarian",
+      "type": "Weapons",
+      "stats": [
+        "[16-25%] Chance for Mighty Throw to Deal Double Damage",
+        "[16-25%] Chance for Steel Grasp to Deal Double Damage",
+        "[16-25%] Chance for Death Blow to Deal Double Damage",
+        "[15.5-20%] Chance for Iron Maelstrom to Hit Twice"
+      ]
+    }
+  },
+  {
+    "slug": "werebear-augments",
+    "name_en": "Werebear Augments",
+    "name_tr": null,
+    "class_en": "Druid",
+    "class_key": "druid",
+    "category": "Weapons",
+    "slot": null,
+    "description_en": null,
+    "description_tr": null,
+    "tags": null,
+    "data": {
+      "name": "Werebear Augments",
+      "class": "Druid",
+      "type": "Weapons",
+      "stats": [
+        "[23.5-32.5%] Chance for Maul to Hit Twice",
+        "[13-17.5%] Chance for Pulverize to Hit Twice",
+        "[16-25%] Chance for Trample to Deal Double Damage"
+      ]
+    }
+  },
+  {
+    "slug": "werewolf-augments",
+    "name_en": "Werewolf Augments",
+    "name_tr": null,
+    "class_en": "Druid",
+    "class_key": "druid",
+    "category": "Weapons",
+    "slot": null,
+    "description_en": null,
+    "description_tr": null,
+    "tags": null,
+    "data": {
+      "name": "Werewolf Augments",
+      "class": "Druid",
+      "type": "Weapons",
+      "stats": [
+        "[13-17.5%] Chance for Shred to Hit Twice",
+        "[29-42.5%] Rabies Duration",
+        "[16-25%] Lacerate Duration",
+        "[26-35%] Chance for Claw to Deal Double Damage"
+      ]
+    }
+  },
+  {
+    "slug": "vehement-augments",
+    "name_en": "Vehement Augments",
+    "name_tr": null,
+    "class_en": "Barbarian",
+    "class_key": "barbarian",
+    "category": "Weapons",
+    "slot": null,
+    "description_en": null,
+    "description_tr": null,
+    "tags": null,
+    "data": {
+      "name": "Vehement Augments",
+      "class": "Barbarian",
+      "type": "Weapons",
+      "stats": [
+        "[1-2] to Warpath",
+        "[1-2] to Belligerence",
+        "[1-2] to Wallop"
+      ]
+    }
+  },
+  {
+    "slug": "werewolf-finesse",
+    "name_en": "Werewolf Finesse",
+    "name_tr": null,
+    "class_en": "Druid",
+    "class_key": "druid",
+    "category": "Offensive",
+    "slot": null,
+    "description_en": null,
+    "description_tr": null,
+    "tags": null,
+    "data": {
+      "name": "Werewolf Finesse",
+      "class": "Druid",
+      "type": "Offensive",
+      "stats": [
+        "[9-11%] Werewolf Attack Speed",
+        "[4-6%] Werewolf Critical Strike Chance",
+        "[41.5-55%] Poison Damage"
+      ]
+    }
+  },
+  {
+    "slug": "dreadful-augments",
+    "name_en": "Dreadful Augments",
+    "name_tr": null,
+    "class_en": "Necromancer",
+    "class_key": "necromancer",
+    "category": "Weapons",
+    "slot": null,
+    "description_en": null,
+    "description_tr": null,
+    "tags": null,
+    "data": {
+      "name": "Dreadful Augments",
+      "class": "Necromancer",
+      "type": "Weapons",
+      "stats": [
+        "[1-2] to Fueled by Death",
+        "[1-2] to Finality",
+        "[1-2] to Titan's Fall"
+      ]
+    }
+  },
+  {
+    "slug": "ultimate-efficiency",
+    "name_en": "Ultimate Efficiency",
+    "name_tr": null,
+    "class_en": "Rogue",
+    "class_key": "rogue",
+    "category": "Resource",
+    "slot": null,
+    "description_en": null,
+    "description_tr": null,
+    "tags": null,
+    "data": {
+      "name": "Ultimate Efficiency",
+      "class": "Rogue",
+      "type": "Resource",
+      "stats": [
+        "[13.5-22.5%] Rain of Arrows Cooldown Reduction",
+        "[13.5-22.5%] Death Trap Cooldown Reduction",
+        "[13.5-22.5%] Shadow Clone Cooldown Reduction",
+        "Casting Ultimate Skills Restores [10-18] Primary Resource"
+      ]
+    }
+  },
+  {
+    "slug": "prismatic-augments",
+    "name_en": "Prismatic Augments",
+    "name_tr": null,
+    "class_en": "Sorcerer",
+    "class_key": "sorcerer",
+    "category": "Weapons",
+    "slot": null,
+    "description_en": null,
+    "description_tr": null,
+    "tags": null,
+    "data": {
+      "name": "Prismatic Augments",
+      "class": "Sorcerer",
+      "type": "Weapons",
+      "stats": [
+        "[15.5-20%] Chance for Crackling Energy to Hit Up to 3 Additional Targets",
+        "[16-25%] Chance for Inferno to Deal Double Damage",
+        "[3-5] to Shocking Impact"
+      ]
+    }
+  },
+  {
+    "slug": "werebear-innovation",
+    "name_en": "Werebear Innovation",
+    "name_tr": null,
+    "class_en": "Druid",
+    "class_key": "druid",
+    "category": "Utility",
+    "slot": null,
+    "description_en": null,
+    "description_tr": null,
+    "tags": null,
+    "data": {
+      "name": "Werebear Innovation",
+      "class": "Druid",
+      "type": "Utility",
+      "stats": [
+        "[16-22.5%] Pulverize Size",
+        "[28.5-37.5%] Maul Size",
+        "[36.5-50%] Petrify Duration"
+      ]
+    }
+  }
+]

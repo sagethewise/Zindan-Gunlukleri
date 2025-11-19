@@ -1,0 +1,37 @@
+{
+  "leftSlots": [
+    { "slot": "Helm", "unique": "Ramaladni's Magnum Opus", "icon": "/images/items/helm.png" },
+    { "slot": "Chest Armor", "unique": "Battle Trance", "icon": "/images/items/chest_armor.png" },
+    { "slot": "Gloves", "unique": "Rage of Harrogath", "icon": "/images/items/gloves.png" },
+    { "slot": "Pants", "unique": "Hooves of the Mountain God", "icon": "/images/items/pants.png" },
+    { "slot": "Boots", "unique": "Paingorger's Gauntlets", "icon": "/images/items/boots.png" },
+    { "slot": "Bludgeoning Weapon", "unique": "Aspect of the Moonrise", "icon": "/images/items/bludgeoning_weapon.png" },
+    { "slot": "Dual-Wield Weapon 1", "unique": "Shard of Verathiel", "icon": "/images/items/dual-wield_weapon_1.png" }
+  ],
+
+  "rightSlots": [
+    { "slot": "Amulet", "unique": "Aspect of Adaptability", "icon": "/images/items/amulet.png" },
+    { "slot": "Ring 1", "unique": "Ring of Starless Skies", "icon": "/images/items/ring_1.png" },
+    { "slot": "Ring 2", "unique": "Aspect of Earthquakes", "icon": "/images/items/ring_2.png" },
+    { "slot": "Slashing Weapon", "unique": "The Grandfather", "icon": "/images/items/slashing_weapon.png" },
+    { "slot": "Dual-Wield Weapon 2", "unique": "Sabre of Tsasgal", "icon": "/images/items/dual-wield_weapon_2.png" }
+  ],
+
+  "chaosPerks": ["red", "blue", "blue", "red"],
+
+  "runes": [
+    { "name": "Igni", "icon": "/images/runes/moni.png" },
+    { "name": "Tec", "icon": "/images/runes/tec.png" },
+    { "name": "Moni", "icon": "/images/runes/cir.png" },
+    { "name": "Qax", "icon": "/images/runes/gar.png" }
+  ],
+
+  "skills": [
+    { "name": "Lunging Strike", "icon": "/images/builds/barbarian/lunging-strike.png" },
+    { "name": "Whirlwind", "icon": "/images/builds/barbarian/whirlwind.png" },
+    { "name": "Rallying Cry", "icon": "/images/builds/barbarian/rallying-cry.png" },
+    { "name": "War Cry", "icon": "/images/builds/barbarian/war-cry.png" },
+    { "name": "Challenging Shout", "icon": "/images/builds/barbarian/challenging-shout.png" },
+    { "name": "Wrath of the Berserker", "icon": "/images/builds/barbarian/wrath-of-the-berserker.png" }
+  ]
+}

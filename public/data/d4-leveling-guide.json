@@ -1,0 +1,1921 @@
+[
+  {
+    "slug": "rake-spiritborn",
+    "title_en": "Rake",
+    "title_tr": null,
+    "diablo_class": "Spiritborn",
+    "class_key": "spiritborn",
+    "season": 10,
+    "difficulty": null,
+    "tags": null,
+    "description_en": null,
+    "description_tr": null,
+    "data": {
+      "name": "Rake",
+      "tier": 1,
+      "season": 10,
+      "cc": "Rob2628",
+      "class": "Spiritborn",
+      "content": "Endgame",
+      "pit": 140,
+      "buildid": "68a736a8-9cd2-43ee-8536-6c7402e35328",
+      "skills": [
+        {
+          "name": "Rake"
+        },
+        {
+          "name": "Armored Hide"
+        },
+        {
+          "name": "Concussive Stomp"
+        },
+        {
+          "name": "The Protector"
+        },
+        {
+          "name": "Scourge"
+        },
+        {
+          "name": "Thunderspike"
+        }
+      ]
+    }
+  },
+  {
+    "slug": "pulverize-druid",
+    "title_en": "Pulverize",
+    "title_tr": null,
+    "diablo_class": "Druid",
+    "class_key": "druid",
+    "season": 10,
+    "difficulty": null,
+    "tags": null,
+    "description_en": null,
+    "description_tr": null,
+    "data": {
+      "name": "Pulverize",
+      "tier": 1,
+      "season": 10,
+      "cc": "Rob2628",
+      "class": "Druid",
+      "content": "Endgame",
+      "pit": 135,
+      "buildid": "89bf3385-55f0-4574-be22-16e8f865caf7",
+      "skills": [
+        {
+          "name": "Debilitating Roar"
+        },
+        {
+          "name": ""
+        },
+        {
+          "name": "Cyclone Armor"
+        },
+        {
+          "name": "Grizzly Rage"
+        },
+        {
+          "name": "Claw"
+        },
+        {
+          "name": "Pulverize"
+        }
+      ]
+    }
+  },
+  {
+    "slug": "ravens-druid",
+    "title_en": "Ravens",
+    "title_tr": null,
+    "diablo_class": "Druid",
+    "class_key": "druid",
+    "season": 10,
+    "difficulty": null,
+    "tags": null,
+    "description_en": null,
+    "description_tr": null,
+    "data": {
+      "name": "Ravens",
+      "tier": 1,
+      "season": 10,
+      "cc": "Rob2628",
+      "class": "Druid",
+      "content": "Endgame",
+      "pit": 130,
+      "buildid": "e6ca4b40-b46b-47c9-9592-62e5eff707c8",
+      "skills": [
+        {
+          "name": "Claw"
+        },
+        {
+          "name": "Pulverize"
+        },
+        {
+          "name": "Debilitating Roar"
+        },
+        {
+          "name": "Grizzly Rage"
+        },
+        {
+          "name": "Cyclone Armor"
+        },
+        {
+          "name": "Ravens"
+        }
+      ]
+    }
+  },
+  {
+    "slug": "payback-spiritborn",
+    "title_en": "Payback",
+    "title_tr": null,
+    "diablo_class": "Spiritborn",
+    "class_key": "spiritborn",
+    "season": 10,
+    "difficulty": null,
+    "tags": null,
+    "description_en": null,
+    "description_tr": null,
+    "data": {
+      "name": "Payback",
+      "tier": 1,
+      "season": 10,
+      "cc": "Rob2628",
+      "class": "Spiritborn",
+      "content": "Endgame",
+      "pit": 125,
+      "buildid": "549ae747-6dad-4fb8-aea9-a1bd03322fbd",
+      "skills": [
+        {
+          "name": "Vortex"
+        },
+        {
+          "name": "Armored Hide"
+        },
+        {
+          "name": "Ravager"
+        },
+        {
+          "name": "The Protector"
+        },
+        {
+          "name": "Scourge"
+        },
+        {
+          "name": "Payback"
+        }
+      ]
+    }
+  },
+  {
+    "slug": "shred-druid",
+    "title_en": "Shred",
+    "title_tr": null,
+    "diablo_class": "Druid",
+    "class_key": "druid",
+    "season": 10,
+    "difficulty": null,
+    "tags": null,
+    "description_en": null,
+    "description_tr": null,
+    "data": {
+      "name": "Shred",
+      "tier": 1,
+      "season": 10,
+      "class": "Druid",
+      "content": "Endgame",
+      "pit": 125,
+      "buildid": "8d39eed7-7344-48a7-95f0-56ff30119abb",
+      "skills": [
+        {
+          "name": "Shred"
+        },
+        {
+          "name": "Blood Howl"
+        },
+        {
+          "name": "Cyclone Armor"
+        },
+        {
+          "name": "Grizzly Rage"
+        },
+        {
+          "name": "Earthen Bulwark"
+        },
+        {
+          "name": "Maul"
+        }
+      ]
+    }
+  },
+  {
+    "slug": "bone-splinters-necromancer",
+    "title_en": "Bone Splinters",
+    "title_tr": null,
+    "diablo_class": "Necromancer",
+    "class_key": "necromancer",
+    "season": 10,
+    "difficulty": null,
+    "tags": null,
+    "description_en": null,
+    "description_tr": null,
+    "data": {
+      "name": "Bone Splinters",
+      "tier": 1,
+      "season": 10,
+      "cc": "Rob2628",
+      "class": "Necromancer",
+      "content": "Endgame",
+      "pit": 125,
+      "buildid": "aa994f92-d53b-4b07-845d-7eecb76b978c",
+      "skills": [
+        {
+          "name": "Bone Spirit"
+        },
+        {
+          "name": "Decompose"
+        },
+        {
+          "name": "Corpse Explosion"
+        },
+        {
+          "name": "Bone Storm"
+        },
+        {
+          "name": "Reap"
+        },
+        {
+          "name": "Blight"
+        }
+      ]
+    }
+  },
+  {
+    "slug": "ball-lightning-sorcerer",
+    "title_en": "Ball Lightning",
+    "title_tr": null,
+    "diablo_class": "Sorcerer",
+    "class_key": "sorcerer",
+    "season": 10,
+    "difficulty": null,
+    "tags": null,
+    "description_en": null,
+    "description_tr": null,
+    "data": {
+      "name": "Ball Lightning",
+      "tier": 1,
+      "season": 10,
+      "cc": "Rob2628",
+      "class": "Sorcerer",
+      "content": "Endgame",
+      "pit": 120,
+      "buildid": "6f1ae4e0-728b-4e05-af81-600256334eda",
+      "skills": [
+        {
+          "name": "Lightning Spear"
+        },
+        {
+          "name": "Ball Lightning"
+        },
+        {
+          "name": "Blizzard"
+        },
+        {
+          "name": "Unstable Currents"
+        },
+        {
+          "name": "Familiar"
+        },
+        {
+          "name": "Fire Bolt"
+        }
+      ]
+    }
+  },
+  {
+    "slug": "hydra-sorcerer",
+    "title_en": "Hydra",
+    "title_tr": null,
+    "diablo_class": "Sorcerer",
+    "class_key": "sorcerer",
+    "season": 10,
+    "difficulty": null,
+    "tags": null,
+    "description_en": null,
+    "description_tr": null,
+    "data": {
+      "name": "Hydra",
+      "tier": 1,
+      "season": 10,
+      "cc": "Rob2628",
+      "class": "Sorcerer",
+      "content": "Endgame",
+      "pit": 120,
+      "buildid": "a80e1ee6-2a5a-445a-8740-d25c357ce9d2",
+      "skills": [
+        {
+          "name": "Lightning Spear"
+        },
+        {
+          "name": "Ball Lightning"
+        },
+        {
+          "name": "Ice Armor"
+        },
+        {
+          "name": "Unstable Currents"
+        },
+        {
+          "name": "Ice Blades"
+        },
+        {
+          "name": "Hydra"
+        }
+      ]
+    }
+  },
+  {
+    "slug": "shadowblight-necromancer",
+    "title_en": "Shadowblight",
+    "title_tr": null,
+    "diablo_class": "Necromancer",
+    "class_key": "necromancer",
+    "season": 10,
+    "difficulty": null,
+    "tags": null,
+    "description_en": null,
+    "description_tr": null,
+    "data": {
+      "name": "Shadowblight",
+      "tier": 1,
+      "season": 10,
+      "cc": "Rob2628",
+      "class": "Necromancer",
+      "content": "Endgame",
+      "pit": 120,
+      "buildid": "dfef7fcc-a293-45db-b980-aa8e9e9af097",
+      "skills": [
+        {
+          "name": "Blight"
+        },
+        {
+          "name": "Sever"
+        },
+        {
+          "name": "Corpse Tendrils"
+        },
+        {
+          "name": "Soulrift"
+        },
+        {
+          "name": "Decompose"
+        },
+        {
+          "name": "Reap"
+        }
+      ]
+    }
+  },
+  {
+    "slug": "crushing-hands-spiritborn",
+    "title_en": "Crushing Hands",
+    "title_tr": null,
+    "diablo_class": "Spiritborn",
+    "class_key": "spiritborn",
+    "season": 10,
+    "difficulty": null,
+    "tags": null,
+    "description_en": null,
+    "description_tr": null,
+    "data": {
+      "name": "Crushing Hands",
+      "tier": 1,
+      "season": 10,
+      "cc": "Rob2628",
+      "class": "Spiritborn",
+      "content": "Endgame",
+      "pit": 120,
+      "buildid": "942b2315-3a83-486b-b914-158bc3a316c7",
+      "skills": [
+        {
+          "name": "Crushing Hand"
+        },
+        {
+          "name": "Armored Hide"
+        },
+        {
+          "name": "Ravager"
+        },
+        {
+          "name": "The Hunter"
+        },
+        {
+          "name": "Scourge"
+        },
+        {
+          "name": "Vortex"
+        }
+      ]
+    }
+  },
+  {
+    "slug": "dual-basic-barbarian",
+    "title_en": "Dual Basic",
+    "title_tr": null,
+    "diablo_class": "Barbarian",
+    "class_key": "barbarian",
+    "season": 10,
+    "difficulty": null,
+    "tags": null,
+    "description_en": null,
+    "description_tr": null,
+    "data": {
+      "name": "Dual Basic",
+      "tier": 1,
+      "season": 10,
+      "cc": "Rob2628",
+      "class": "Barbarian",
+      "content": "Endgame",
+      "pit": 120,
+      "buildid": "fbdd16af-309b-4ca0-8abe-2dd709233b3c",
+      "skills": [
+        {
+          "name": "Lunging Strike"
+        },
+        {
+          "name": "Bash"
+        },
+        {
+          "name": "War Cry"
+        },
+        {
+          "name": "Challenging Shout"
+        },
+        {
+          "name": "Wrath of the Berserker"
+        },
+        {
+          "name": "Whirlwind"
+        }
+      ]
+    }
+  },
+  {
+    "slug": "death-trap-rogue",
+    "title_en": "Death Trap",
+    "title_tr": null,
+    "diablo_class": "Rogue",
+    "class_key": "rogue",
+    "season": 10,
+    "difficulty": null,
+    "tags": null,
+    "description_en": null,
+    "description_tr": null,
+    "data": {
+      "name": "Death Trap",
+      "tier": 1,
+      "season": 10,
+      "cc": "Rob2628",
+      "class": "Rogue",
+      "content": "Endgame",
+      "pit": 115,
+      "buildid": "011bda8e-f331-4d29-8dcb-8a2b103365a4",
+      "skills": [
+        {
+          "name": "Poison Trap"
+        },
+        {
+          "name": "Concealment"
+        },
+        {
+          "name": "Dark Shroud"
+        },
+        {
+          "name": "Dash"
+        },
+        {
+          "name": "Death Trap"
+        },
+        {
+          "name": "Shadow Step"
+        }
+      ]
+    }
+  },
+  {
+    "slug": "quill-volley-spiritborn",
+    "title_en": "Quill Volley",
+    "title_tr": null,
+    "diablo_class": "Spiritborn",
+    "class_key": "spiritborn",
+    "season": 10,
+    "difficulty": null,
+    "tags": null,
+    "description_en": null,
+    "description_tr": null,
+    "data": {
+      "name": "Quill Volley",
+      "tier": 1,
+      "season": 10,
+      "cc": "Rob2628",
+      "class": "Spiritborn",
+      "content": "Endgame",
+      "pit": 115,
+      "buildid": "cf4fdf80-0dbc-483c-ac6f-c5b041b1df4f",
+      "skills": [
+        {
+          "name": "Quill Volley"
+        },
+        {
+          "name": "Armored Hide"
+        },
+        {
+          "name": "Ravager"
+        },
+        {
+          "name": "The Protector"
+        },
+        {
+          "name": "Scourge"
+        },
+        {
+          "name": "Vortex"
+        }
+      ]
+    }
+  },
+  {
+    "slug": "lunging-strike-barbarian",
+    "title_en": "Lunging Strike",
+    "title_tr": null,
+    "diablo_class": "Barbarian",
+    "class_key": "barbarian",
+    "season": 10,
+    "difficulty": null,
+    "tags": null,
+    "description_en": null,
+    "description_tr": null,
+    "data": {
+      "name": "Lunging Strike",
+      "tier": 1,
+      "season": 10,
+      "cc": "Rob2628",
+      "class": "Barbarian",
+      "content": "Endgame",
+      "pit": 115,
+      "buildid": "5f916ed4-c8ee-41d2-bc1f-a48dcb9eff10",
+      "skills": [
+        {
+          "name": "Lunging Strike"
+        },
+        {
+          "name": "War Cry"
+        },
+        {
+          "name": "Challenging Shout"
+        },
+        {
+          "name": "Rallying Cry"
+        },
+        {
+          "name": "Wrath of the Berserker"
+        },
+        {
+          "name": "Ground Stomp"
+        }
+      ]
+    }
+  },
+  {
+    "slug": "touch-of-death-spiritborn",
+    "title_en": "Touch of Death",
+    "title_tr": null,
+    "diablo_class": "Spiritborn",
+    "class_key": "spiritborn",
+    "season": 10,
+    "difficulty": null,
+    "tags": null,
+    "description_en": null,
+    "description_tr": null,
+    "data": {
+      "name": "Touch of Death",
+      "tier": 1,
+      "season": 10,
+      "cc": "Rob2628",
+      "class": "Spiritborn",
+      "content": "Endgame",
+      "pit": 115,
+      "buildid": "5613c790-be8e-49bc-9f1a-d40e4dd363d3",
+      "skills": [
+        {
+          "name": "Vortex"
+        },
+        {
+          "name": "Armored Hide"
+        },
+        {
+          "name": "Ravager"
+        },
+        {
+          "name": "The Hunter"
+        },
+        {
+          "name": "Scourge"
+        },
+        {
+          "name": "Touch of Death"
+        }
+      ]
+    }
+  },
+  {
+    "slug": "boulder-druid",
+    "title_en": "Boulder",
+    "title_tr": null,
+    "diablo_class": "Druid",
+    "class_key": "druid",
+    "season": 10,
+    "difficulty": null,
+    "tags": null,
+    "description_en": null,
+    "description_tr": null,
+    "data": {
+      "name": "Boulder",
+      "season": 10,
+      "cc": "Rob2628",
+      "class": "Druid",
+      "content": "Endgame",
+      "pit": 120,
+      "buildid": "82a0e6ad-ecb1-470a-acc2-ac9f28b65a91",
+      "skills": [
+        {
+          "name": "Debilitating Roar"
+        },
+        {
+          "name": "Blood Howl"
+        },
+        {
+          "name": "Cyclone Armor"
+        },
+        {
+          "name": "Grizzly Rage"
+        },
+        {
+          "name": "Hurricane"
+        },
+        {
+          "name": "Boulder"
+        }
+      ]
+    }
+  },
+  {
+    "slug": "bone-storm-necromancer",
+    "title_en": "Bone Storm",
+    "title_tr": null,
+    "diablo_class": "Necromancer",
+    "class_key": "necromancer",
+    "season": 10,
+    "difficulty": null,
+    "tags": null,
+    "description_en": null,
+    "description_tr": null,
+    "data": {
+      "name": "Bone Storm",
+      "season": 10,
+      "class": "Necromancer",
+      "content": "Endgame",
+      "pit": 115,
+      "buildid": "68ee9667-2b20-46d9-b7c4-2545a55c7e39",
+      "skills": [
+        {
+          "name": "Bone Storm"
+        },
+        {
+          "name": "Decompose"
+        },
+        {
+          "name": "Reap"
+        },
+        {
+          "name": "Blight"
+        },
+        {
+          "name": "Sever"
+        },
+        {
+          "name": "Corpse Explosion"
+        }
+      ]
+    }
+  },
+  {
+    "slug": "werenado-druid",
+    "title_en": "Werenado",
+    "title_tr": null,
+    "diablo_class": "Druid",
+    "class_key": "druid",
+    "season": 10,
+    "difficulty": null,
+    "tags": null,
+    "description_en": null,
+    "description_tr": null,
+    "data": {
+      "name": "Werenado",
+      "season": 10,
+      "cc": "Rob2628",
+      "class": "Druid",
+      "content": "Endgame",
+      "pit": 115,
+      "buildid": "9e326d87-f847-418a-8517-717d34b90ea5",
+      "skills": [
+        {
+          "name": "Shred"
+        },
+        {
+          "name": "Blood Howl"
+        },
+        {
+          "name": "Cyclone Armor"
+        },
+        {
+          "name": "Grizzly Rage"
+        },
+        {
+          "name": "Hurricane"
+        },
+        {
+          "name": "Tornado"
+        }
+      ]
+    }
+  },
+  {
+    "slug": "evade-spiritborn",
+    "title_en": "Evade",
+    "title_tr": null,
+    "diablo_class": "Spiritborn",
+    "class_key": "spiritborn",
+    "season": 10,
+    "difficulty": null,
+    "tags": null,
+    "description_en": null,
+    "description_tr": null,
+    "data": {
+      "name": "Evade",
+      "season": 10,
+      "cc": "Rob2628",
+      "class": "Spiritborn",
+      "content": "Endgame",
+      "pit": 110,
+      "buildid": "b09a33e8-c06c-4670-ab5e-ee5ab9b67b57",
+      "skills": [
+        {
+          "name": "Crushing Hand"
+        },
+        {
+          "name": "Armored Hide"
+        },
+        {
+          "name": "Ravager"
+        },
+        {
+          "name": "Thunderspike"
+        },
+        {
+          "name": "Counterattack"
+        },
+        {
+          "name": "The Seeker"
+        }
+      ]
+    }
+  },
+  {
+    "slug": "poison-trap-dok-rogue",
+    "title_en": "Poison Trap DoK",
+    "title_tr": null,
+    "diablo_class": "Rogue",
+    "class_key": "rogue",
+    "season": 10,
+    "difficulty": null,
+    "tags": null,
+    "description_en": null,
+    "description_tr": null,
+    "data": {
+      "name": "Poison Trap DoK",
+      "season": 10,
+      "cc": "Rob2628",
+      "class": "Rogue",
+      "content": "Endgame",
+      "pit": 110,
+      "buildid": "46cac0ee-5b52-4f15-b91b-ad60defe3485",
+      "skills": [
+        {
+          "name": "Death Trap"
+        },
+        {
+          "name": "Concealment"
+        },
+        {
+          "name": "Poison Imbuement"
+        },
+        {
+          "name": "Dark Shroud"
+        },
+        {
+          "name": "Poison Trap"
+        },
+        {
+          "name": "Dance of Knives"
+        }
+      ]
+    }
+  },
+  {
+    "slug": "incinerate-sorcerer",
+    "title_en": "Incinerate",
+    "title_tr": null,
+    "diablo_class": "Sorcerer",
+    "class_key": "sorcerer",
+    "season": 10,
+    "difficulty": null,
+    "tags": null,
+    "description_en": null,
+    "description_tr": null,
+    "data": {
+      "name": "Incinerate",
+      "season": 10,
+      "class": "Sorcerer",
+      "content": "Endgame",
+      "pit": 110,
+      "buildid": "169220a9-f528-4966-aa78-5a78e4a36c89",
+      "skills": [
+        {
+          "name": "Incinerate"
+        },
+        {
+          "name": "Fire Bolt"
+        },
+        {
+          "name": "Inferno"
+        },
+        {
+          "name": "Flame Shield"
+        },
+        {
+          "name": "Frost Nova"
+        },
+        {
+          "name": "Teleport"
+        }
+      ]
+    }
+  },
+  {
+    "slug": "rapid-fire-rogue",
+    "title_en": "Rapid Fire",
+    "title_tr": null,
+    "diablo_class": "Rogue",
+    "class_key": "rogue",
+    "season": 10,
+    "difficulty": null,
+    "tags": null,
+    "description_en": null,
+    "description_tr": null,
+    "data": {
+      "name": "Rapid Fire",
+      "season": 10,
+      "class": "Rogue",
+      "content": "Endgame",
+      "pit": 110,
+      "buildid": "f4512880-c5d9-45b2-b328-899479a2a4b4",
+      "skills": [
+        {
+          "name": "Shadow Clone"
+        },
+        {
+          "name": "Concealment"
+        },
+        {
+          "name": "Caltrops"
+        },
+        {
+          "name": "Dash"
+        },
+        {
+          "name": "Heartseeker"
+        },
+        {
+          "name": "Rapid Fire"
+        }
+      ]
+    }
+  },
+  {
+    "slug": "rupture-barbarian",
+    "title_en": "Rupture",
+    "title_tr": null,
+    "diablo_class": "Barbarian",
+    "class_key": "barbarian",
+    "season": 10,
+    "difficulty": null,
+    "tags": null,
+    "description_en": null,
+    "description_tr": null,
+    "data": {
+      "name": "Rupture",
+      "season": 10,
+      "cc": "Rob2628",
+      "class": "Barbarian",
+      "content": "Endgame",
+      "pit": 110,
+      "buildid": "9b7bce0d-4567-4b1a-9257-73892f209642",
+      "skills": [
+        {
+          "name": "Rupture"
+        },
+        {
+          "name": "War Cry"
+        },
+        {
+          "name": "Challenging Shout"
+        },
+        {
+          "name": "Rallying Cry"
+        },
+        {
+          "name": "Wrath of the Berserker"
+        },
+        {
+          "name": "Ground Stomp"
+        }
+      ]
+    }
+  },
+  {
+    "slug": "rain-of-arrows-rogue",
+    "title_en": "Rain of Arrows",
+    "title_tr": null,
+    "diablo_class": "Rogue",
+    "class_key": "rogue",
+    "season": 10,
+    "difficulty": null,
+    "tags": null,
+    "description_en": null,
+    "description_tr": null,
+    "data": {
+      "name": "Rain of Arrows",
+      "season": 10,
+      "class": "Rogue",
+      "content": "Endgame",
+      "pit": 105,
+      "buildid": "227159c8-d537-4e34-88bd-6af6cb9f260e",
+      "skills": [
+        {
+          "name": "Dash"
+        },
+        {
+          "name": "Caltrops"
+        },
+        {
+          "name": "Smoke Grenade"
+        },
+        {
+          "name": "Concealment"
+        },
+        {
+          "name": "Barrage"
+        },
+        {
+          "name": "Rain of Arrows"
+        }
+      ]
+    }
+  },
+  {
+    "slug": "mighty-throw-barbarian",
+    "title_en": "Mighty Throw",
+    "title_tr": null,
+    "diablo_class": "Barbarian",
+    "class_key": "barbarian",
+    "season": 10,
+    "difficulty": null,
+    "tags": null,
+    "description_en": null,
+    "description_tr": null,
+    "data": {
+      "name": "Mighty Throw",
+      "season": 10,
+      "cc": "Rob2628",
+      "class": "Barbarian",
+      "content": "Endgame",
+      "pit": 105,
+      "buildid": "40d20262-242f-43d1-abce-c2d75bbc00c7",
+      "skills": [
+        {
+          "name": "Ground Stomp"
+        },
+        {
+          "name": "Hammer of the Ancients"
+        },
+        {
+          "name": "War Cry"
+        },
+        {
+          "name": "Wrath of the Berserker"
+        },
+        {
+          "name": "Rallying Cry"
+        },
+        {
+          "name": "Mighty Throw"
+        }
+      ]
+    }
+  },
+  {
+    "slug": "skeletal-mages-necromancer",
+    "title_en": "Skeletal Mages",
+    "title_tr": null,
+    "diablo_class": "Necromancer",
+    "class_key": "necromancer",
+    "season": 10,
+    "difficulty": null,
+    "tags": null,
+    "description_en": null,
+    "description_tr": null,
+    "data": {
+      "name": "Skeletal Mages",
+      "season": 10,
+      "class": "Necromancer",
+      "content": "Endgame",
+      "pit": 100,
+      "buildid": "f5525626-955c-4d6c-9946-5be3c83e5186",
+      "skills": [
+        {
+          "name": "Blight"
+        },
+        {
+          "name": "Corpse Tendrils"
+        },
+        {
+          "name": "Raise Skeleton"
+        },
+        {
+          "name": "Soulrift"
+        },
+        {
+          "name": "Bone Prison"
+        },
+        {
+          "name": "Decrepify"
+        }
+      ]
+    }
+  },
+  {
+    "slug": "stinger-spiritborn",
+    "title_en": "Stinger",
+    "title_tr": null,
+    "diablo_class": "Spiritborn",
+    "class_key": "spiritborn",
+    "season": 10,
+    "difficulty": null,
+    "tags": null,
+    "description_en": null,
+    "description_tr": null,
+    "data": {
+      "name": "Stinger",
+      "season": 10,
+      "cc": "Rob2628",
+      "class": "Spiritborn",
+      "content": "Endgame",
+      "buildid": "a204a47c-85bf-4b8c-a7a0-a305868cc3cc",
+      "skills": [
+        {
+          "name": "Stinger"
+        },
+        {
+          "name": "Armored Hide"
+        },
+        {
+          "name": "Ravager"
+        },
+        {
+          "name": "The Hunter"
+        },
+        {
+          "name": "Scourge"
+        },
+        {
+          "name": "Vortex"
+        }
+      ]
+    }
+  },
+  {
+    "slug": "fleshrender-druid",
+    "title_en": "Fleshrender",
+    "title_tr": null,
+    "diablo_class": "Druid",
+    "class_key": "druid",
+    "season": 10,
+    "difficulty": null,
+    "tags": null,
+    "description_en": null,
+    "description_tr": null,
+    "data": {
+      "name": "Fleshrender",
+      "season": 10,
+      "cc": "Rob2628",
+      "class": "Druid",
+      "content": "Endgame",
+      "buildid": "e88e8152-0cf9-4a4f-8bfa-b616c88b73aa",
+      "skills": [
+        {
+          "name": "Debilitating Roar"
+        },
+        {
+          "name": "Earthen Bulwark"
+        },
+        {
+          "name": "Cyclone Armor"
+        },
+        {
+          "name": "Blood Howl"
+        },
+        {
+          "name": "Poison Creeper"
+        },
+        {
+          "name": "Petrify"
+        }
+      ]
+    }
+  },
+  {
+    "slug": "blood-wave-necromancer",
+    "title_en": "Blood Wave",
+    "title_tr": null,
+    "diablo_class": "Necromancer",
+    "class_key": "necromancer",
+    "season": 10,
+    "difficulty": null,
+    "tags": null,
+    "description_en": null,
+    "description_tr": null,
+    "data": {
+      "name": "Blood Wave",
+      "season": 10,
+      "cc": "Rob2628",
+      "class": "Necromancer",
+      "content": "Endgame",
+      "buildid": "fcad7dad-80f7-4826-933d-105303c3d792",
+      "skills": [
+        {
+          "name": "Blight"
+        },
+        {
+          "name": "Sever"
+        },
+        {
+          "name": "Corpse Explosion"
+        },
+        {
+          "name": "Blood Wave"
+        },
+        {
+          "name": "Decompose"
+        },
+        {
+          "name": "Reap"
+        }
+      ]
+    }
+  },
+  {
+    "slug": "crackling-energy-sorcerer",
+    "title_en": "Crackling Energy",
+    "title_tr": null,
+    "diablo_class": "Sorcerer",
+    "class_key": "sorcerer",
+    "season": 10,
+    "difficulty": null,
+    "tags": null,
+    "description_en": null,
+    "description_tr": null,
+    "data": {
+      "name": "Crackling Energy",
+      "season": 10,
+      "cc": "Rob2628",
+      "class": "Sorcerer",
+      "content": "Endgame",
+      "buildid": "4f7a3bda-ad5a-4944-a49d-4d2c0a51097f",
+      "skills": [
+        {
+          "name": "Lightning Spear"
+        },
+        {
+          "name": "Ball Lightning"
+        },
+        {
+          "name": "Spark"
+        },
+        {
+          "name": "Unstable Currents"
+        },
+        {
+          "name": "Charged Bolts"
+        },
+        {
+          "name": "Chain Lightning"
+        }
+      ]
+    }
+  },
+  {
+    "slug": "bash-barbarian",
+    "title_en": "Bash",
+    "title_tr": null,
+    "diablo_class": "Barbarian",
+    "class_key": "barbarian",
+    "season": 10,
+    "difficulty": null,
+    "tags": null,
+    "description_en": null,
+    "description_tr": null,
+    "data": {
+      "name": "Bash",
+      "season": 10,
+      "cc": "Rob2628",
+      "class": "Barbarian",
+      "content": "Endgame",
+      "buildid": "2449f1b3-7a04-4320-ba96-47e46a1044a0",
+      "skills": [
+        {
+          "name": "Bash"
+        },
+        {
+          "name": "Ground Stomp"
+        },
+        {
+          "name": "Rupture"
+        },
+        {
+          "name": "Steel Grasp"
+        },
+        {
+          "name": "Wrath of the Berserker"
+        },
+        {
+          "name": "Hammer of the Ancients"
+        }
+      ]
+    }
+  },
+  {
+    "slug": "dust-devils-barbarian",
+    "title_en": "Dust Devils",
+    "title_tr": null,
+    "diablo_class": "Barbarian",
+    "class_key": "barbarian",
+    "season": 10,
+    "difficulty": null,
+    "tags": null,
+    "description_en": null,
+    "description_tr": null,
+    "data": {
+      "name": "Dust Devils",
+      "season": 10,
+      "cc": "Rob2628",
+      "class": "Barbarian",
+      "content": "Endgame",
+      "buildid": "849318c6-8d87-41dd-b047-607f3c75ab1c",
+      "skills": [
+        {
+          "name": "Whirlwind"
+        },
+        {
+          "name": "War Cry"
+        },
+        {
+          "name": "Challenging Shout"
+        },
+        {
+          "name": "Rallying Cry"
+        },
+        {
+          "name": "Wrath of the Berserker"
+        },
+        {
+          "name": "Iron Skin"
+        }
+      ]
+    }
+  },
+  {
+    "slug": "earth-spike-druid",
+    "title_en": "Earth Spike",
+    "title_tr": null,
+    "diablo_class": "Druid",
+    "class_key": "druid",
+    "season": 10,
+    "difficulty": null,
+    "tags": null,
+    "description_en": null,
+    "description_tr": null,
+    "data": {
+      "name": "Earth Spike",
+      "season": 10,
+      "cc": "Rob2628",
+      "class": "Druid",
+      "content": "Endgame",
+      "buildid": "e0913417-183f-4128-aa55-461bcfb9e64e",
+      "skills": [
+        {
+          "name": "Debilitating Roar"
+        },
+        {
+          "name": "Blood Howl"
+        },
+        {
+          "name": "Cyclone Armor"
+        },
+        {
+          "name": "Grizzly Rage"
+        },
+        {
+          "name": "Hurricane"
+        },
+        {
+          "name": "Earth Spike"
+        }
+      ]
+    }
+  },
+  {
+    "slug": "fireball-sorcerer",
+    "title_en": "Fireball",
+    "title_tr": null,
+    "diablo_class": "Sorcerer",
+    "class_key": "sorcerer",
+    "season": 10,
+    "difficulty": null,
+    "tags": null,
+    "description_en": null,
+    "description_tr": null,
+    "data": {
+      "name": "Fireball",
+      "season": 10,
+      "class": "Sorcerer",
+      "content": "Endgame",
+      "buildid": "f3858ccd-fa43-46ed-bf73-eb2246cfeda8",
+      "skills": [
+        {
+          "name": "Fireball"
+        },
+        {
+          "name": "Inferno"
+        },
+        {
+          "name": "Fire Bolt"
+        },
+        {
+          "name": "Lightning Spear"
+        },
+        {
+          "name": "Familiar"
+        },
+        {
+          "name": "Ice Blades"
+        }
+      ]
+    }
+  },
+  {
+    "slug": "flay-barbarian",
+    "title_en": "Flay",
+    "title_tr": null,
+    "diablo_class": "Barbarian",
+    "class_key": "barbarian",
+    "season": 10,
+    "difficulty": null,
+    "tags": null,
+    "description_en": null,
+    "description_tr": null,
+    "data": {
+      "name": "Flay",
+      "season": 10,
+      "cc": "Rob2628",
+      "class": "Barbarian",
+      "content": "Endgame",
+      "buildid": "ca83f505-ee92-49bd-9f42-f85b2204c5bb",
+      "skills": [
+        {
+          "name": "Flay"
+        },
+        {
+          "name": "War Cry"
+        },
+        {
+          "name": "Challenging Shout"
+        },
+        {
+          "name": "Rupture"
+        },
+        {
+          "name": "Wrath of the Berserker"
+        },
+        {
+          "name": "Ground Stomp"
+        }
+      ]
+    }
+  },
+  {
+    "slug": "frenzy-barbarian",
+    "title_en": "Frenzy",
+    "title_tr": null,
+    "diablo_class": "Barbarian",
+    "class_key": "barbarian",
+    "season": 10,
+    "difficulty": null,
+    "tags": null,
+    "description_en": null,
+    "description_tr": null,
+    "data": {
+      "name": "Frenzy",
+      "season": 10,
+      "cc": "Rob2628",
+      "class": "Barbarian",
+      "content": "Endgame",
+      "buildid": "9c8eb2ee-dd5b-4d84-b879-d2d1c1659595",
+      "skills": [
+        {
+          "name": "Frenzy"
+        },
+        {
+          "name": "War Cry"
+        },
+        {
+          "name": "Challenging Shout"
+        },
+        {
+          "name": "Rallying Cry"
+        },
+        {
+          "name": "Wrath of the Berserker"
+        },
+        {
+          "name": "Ground Stomp"
+        }
+      ]
+    }
+  },
+  {
+    "slug": "heartseeker-rogue",
+    "title_en": "Heartseeker",
+    "title_tr": null,
+    "diablo_class": "Rogue",
+    "class_key": "rogue",
+    "season": 10,
+    "difficulty": null,
+    "tags": null,
+    "description_en": null,
+    "description_tr": null,
+    "data": {
+      "name": "Heartseeker",
+      "season": 10,
+      "class": "Rogue",
+      "content": "Endgame",
+      "buildid": "209c663e-49e2-4bf6-b798-b3af3f974b2b",
+      "skills": [
+        {
+          "name": "Smoke Grenade"
+        },
+        {
+          "name": "Caltrops"
+        },
+        {
+          "name": "Concealment"
+        },
+        {
+          "name": "Dash"
+        },
+        {
+          "name": "Heartseeker"
+        },
+        {
+          "name": "Shadow Clone"
+        }
+      ]
+    }
+  },
+  {
+    "slug": "hota-barbarian",
+    "title_en": "HotA",
+    "title_tr": null,
+    "diablo_class": "Barbarian",
+    "class_key": "barbarian",
+    "season": 10,
+    "difficulty": null,
+    "tags": null,
+    "description_en": null,
+    "description_tr": null,
+    "data": {
+      "name": "HotA",
+      "season": 10,
+      "cc": "Rob2628",
+      "class": "Barbarian",
+      "content": "Endgame",
+      "buildid": "97ab419c-313a-4e4f-87f3-8f0957ab432b",
+      "skills": [
+        {
+          "name": "Hammer of the Ancients"
+        },
+        {
+          "name": "War Cry"
+        },
+        {
+          "name": "Challenging Shout"
+        },
+        {
+          "name": "Rallying Cry"
+        },
+        {
+          "name": "Wrath of the Berserker"
+        },
+        {
+          "name": "Ground Stomp"
+        }
+      ]
+    }
+  },
+  {
+    "slug": "lightning-spear-sorcerer",
+    "title_en": "Lightning Spear",
+    "title_tr": null,
+    "diablo_class": "Sorcerer",
+    "class_key": "sorcerer",
+    "season": 10,
+    "difficulty": null,
+    "tags": null,
+    "description_en": null,
+    "description_tr": null,
+    "data": {
+      "name": "Lightning Spear",
+      "season": 10,
+      "cc": "Rob2628",
+      "class": "Sorcerer",
+      "content": "Endgame",
+      "buildid": "14a3858d-6865-4878-b482-4335d1943370",
+      "skills": [
+        {
+          "name": "Lightning Spear"
+        },
+        {
+          "name": "Ice Blades"
+        },
+        {
+          "name": "Flame Shield"
+        },
+        {
+          "name": "Ball Lightning"
+        },
+        {
+          "name": "Unstable Currents"
+        },
+        {
+          "name": "Fire Bolt"
+        }
+      ]
+    }
+  },
+  {
+    "slug": "thorns-spiritborn",
+    "title_en": "Thorns",
+    "title_tr": null,
+    "diablo_class": "Spiritborn",
+    "class_key": "spiritborn",
+    "season": 10,
+    "difficulty": null,
+    "tags": null,
+    "description_en": null,
+    "description_tr": null,
+    "data": {
+      "name": "Thorns",
+      "season": 10,
+      "cc": "Rob2628",
+      "class": "Spiritborn",
+      "content": "Endgame",
+      "buildid": "0872a0b0-7f1d-4666-ae06-56d3119fce5b",
+      "skills": [
+        {
+          "name": "Crushing Hand"
+        },
+        {
+          "name": "Toxic Skin"
+        },
+        {
+          "name": "Armored Hide"
+        },
+        {
+          "name": "The Hunter"
+        },
+        {
+          "name": "Ravager"
+        },
+        {
+          "name": "Vortex"
+        }
+      ]
+    }
+  },
+  {
+    "slug": "twister-barbarian",
+    "title_en": "Twister",
+    "title_tr": null,
+    "diablo_class": "Barbarian",
+    "class_key": "barbarian",
+    "season": 10,
+    "difficulty": null,
+    "tags": null,
+    "description_en": null,
+    "description_tr": null,
+    "data": {
+      "name": "Twister",
+      "season": 10,
+      "cc": "Rob2628",
+      "class": "Barbarian",
+      "content": "Endgame",
+      "buildid": "849318c6-8d87-41dd-b047-607f3c75ab1c",
+      "skills": [
+        {
+          "name": "Whirlwind"
+        },
+        {
+          "name": "War Cry"
+        },
+        {
+          "name": "Challenging Shout"
+        },
+        {
+          "name": "Rallying Cry"
+        },
+        {
+          "name": "Wrath of the Berserker"
+        },
+        {
+          "name": "Iron Skin"
+        }
+      ]
+    }
+  },
+  {
+    "slug": "dance-of-knives-rogue",
+    "title_en": "Dance of Knives",
+    "title_tr": null,
+    "diablo_class": "Rogue",
+    "class_key": "rogue",
+    "season": 10,
+    "difficulty": null,
+    "tags": null,
+    "description_en": null,
+    "description_tr": null,
+    "data": {
+      "name": "Dance of Knives",
+      "tier": 1,
+      "season": 10,
+      "cc": "Rob2628",
+      "class": "Rogue",
+      "content": "Leveling",
+      "buildid": "23ccd5ee-6c39-45d8-b785-4b3a07e1eeb9",
+      "skills": [
+        {
+          "name": "Shadow Clone"
+        },
+        {
+          "name": "Poison Imbuement"
+        },
+        {
+          "name": "Dark Shroud"
+        },
+        {
+          "name": "Concealment"
+        },
+        {
+          "name": "Shadow Imbuement"
+        },
+        {
+          "name": "Dance of Knives"
+        }
+      ]
+    }
+  },
+  {
+    "slug": "firewall-hydra-sorcerer",
+    "title_en": "Firewall Hydra",
+    "title_tr": null,
+    "diablo_class": "Sorcerer",
+    "class_key": "sorcerer",
+    "season": 10,
+    "difficulty": null,
+    "tags": null,
+    "description_en": null,
+    "description_tr": null,
+    "data": {
+      "name": "Firewall Hydra",
+      "tier": 1,
+      "season": 10,
+      "cc": "Rob2628",
+      "class": "Sorcerer",
+      "content": "Leveling",
+      "buildid": "76b424a6-91d2-49d2-a88e-c43788fe0e26",
+      "skills": [
+        {
+          "name": "Teleport"
+        },
+        {
+          "name": "Hydra"
+        },
+        {
+          "name": "Ice Armor"
+        },
+        {
+          "name": "Familiar"
+        },
+        {
+          "name": "Fire Bolt"
+        },
+        {
+          "name": "Firewall"
+        }
+      ]
+    }
+  },
+  {
+    "slug": "minion-necromancer",
+    "title_en": "Minion",
+    "title_tr": null,
+    "diablo_class": "Necromancer",
+    "class_key": "necromancer",
+    "season": 10,
+    "difficulty": null,
+    "tags": null,
+    "description_en": null,
+    "description_tr": null,
+    "data": {
+      "name": "Minion",
+      "tier": 1,
+      "season": 10,
+      "cc": "Rob2628",
+      "class": "Necromancer",
+      "content": "Leveling",
+      "buildid": "28167f63-8f3d-46c5-a262-278d74f7e126",
+      "skills": [
+        {
+          "name": "Decrepify"
+        },
+        {
+          "name": "Corpse Explosion"
+        },
+        {
+          "name": "Corpse Tendrils"
+        },
+        {
+          "name": "Golem"
+        },
+        {
+          "name": "Raise Skeleton"
+        },
+        {
+          "name": "Blight"
+        }
+      ]
+    }
+  },
+  {
+    "slug": "companion-druid",
+    "title_en": "Companion",
+    "title_tr": null,
+    "diablo_class": "Druid",
+    "class_key": "druid",
+    "season": 10,
+    "difficulty": null,
+    "tags": null,
+    "description_en": null,
+    "description_tr": null,
+    "data": {
+      "name": "Companion",
+      "tier": 1,
+      "season": 10,
+      "cc": "Rob2628",
+      "class": "Druid",
+      "content": "Leveling",
+      "buildid": "5d91980a-7b6f-452a-b2fe-03c5f3432256",
+      "skills": [
+        {
+          "name": "Wolves"
+        },
+        {
+          "name": "Ravens"
+        },
+        {
+          "name": "Poison Creeper"
+        },
+        {
+          "name": "Cataclysm"
+        },
+        {
+          "name": "Wind Shear"
+        },
+        {
+          "name": "Pulverize"
+        }
+      ]
+    }
+  },
+  {
+    "slug": "evade-spiritborn",
+    "title_en": "Evade",
+    "title_tr": null,
+    "diablo_class": "Spiritborn",
+    "class_key": "spiritborn",
+    "season": 10,
+    "difficulty": null,
+    "tags": null,
+    "description_en": null,
+    "description_tr": null,
+    "data": {
+      "name": "Evade",
+      "tier": 1,
+      "season": 10,
+      "cc": "Rob2628",
+      "class": "Spiritborn",
+      "content": "Leveling",
+      "buildid": "ea57b2c1-6796-4668-8182-b7d74292db27",
+      "skills": [
+        {
+          "name": "Thunderspike"
+        },
+        {
+          "name": "Armored Hide"
+        },
+        {
+          "name": "Toxic Skin"
+        },
+        {
+          "name": "The Hunter"
+        },
+        {
+          "name": "Quill Volley"
+        },
+        {
+          "name": "Ravager"
+        }
+      ]
+    }
+  },
+  {
+    "slug": "whirlwind-barbarian",
+    "title_en": "Whirlwind",
+    "title_tr": null,
+    "diablo_class": "Barbarian",
+    "class_key": "barbarian",
+    "season": 10,
+    "difficulty": null,
+    "tags": null,
+    "description_en": null,
+    "description_tr": null,
+    "data": {
+      "name": "Whirlwind",
+      "tier": 1,
+      "season": 10,
+      "cc": "Rob2628",
+      "class": "Barbarian",
+      "content": "Leveling",
+      "buildid": "4eb04ff7-e213-450b-9eaf-4d3352294fe1",
+      "skills": [
+        {
+          "name": "Ground Stomp"
+        },
+        {
+          "name": "War Cry"
+        },
+        {
+          "name": "Rallying Cry"
+        },
+        {
+          "name": "Wrath of the Berserker"
+        },
+        {
+          "name": "Lunging Strike"
+        },
+        {
+          "name": "Whirlwind"
+        }
+      ]
+    }
+  }
+]

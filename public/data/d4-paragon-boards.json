@@ -1,0 +1,1488 @@
+[
+  {
+    "slug": "starter-board",
+    "name_en": "Starter Board",
+    "name_tr": null,
+    "class_en": "Barbarian",
+    "class_key": "barbarian",
+    "rarity": "Legendary",
+    "description_en": null,
+    "description_tr": null,
+    "tags": null,
+    "data": {
+      "title": "Starter Board",
+      "icon": "Barbarian",
+      "class": "Barbarian",
+      "str": 105,
+      "int": 25,
+      "will": 64,
+      "dex": 59
+    }
+  },
+  {
+    "slug": "legendary-node",
+    "name_en": "Legendary Node",
+    "name_tr": null,
+    "class_en": "Barbarian",
+    "class_key": "barbarian",
+    "rarity": "Legendary",
+    "description_en": null,
+    "description_tr": null,
+    "tags": null,
+    "data": {
+      "name": "Legendary Node",
+      "title": "Blood Rage",
+      "icon": "Barbarian",
+      "class": "Barbarian",
+      "filters": [
+        "Berserking",
+        "Bleed"
+      ],
+      "description": "Killing a Bleeding enemy has 10% chance to grant Berserking for 5 seconds. You gain x45% increased damage while Berserking.",
+      "str": "115!",
+      "int": 25,
+      "will": 59,
+      "dex": 51
+    }
+  },
+  {
+    "slug": "legendary-node",
+    "name_en": "Legendary Node",
+    "name_tr": null,
+    "class_en": "Barbarian",
+    "class_key": "barbarian",
+    "rarity": "Legendary",
+    "description_en": null,
+    "description_tr": null,
+    "tags": null,
+    "data": {
+      "name": "Legendary Node",
+      "title": "Bone Breaker",
+      "icon": "Barbarian",
+      "class": "Barbarian",
+      "filters": [
+        "Stun",
+        "Fortfiy",
+        "Two-Handed",
+        "Bludgeoning"
+      ],
+      "description": "Every 12 seconds, your next Skill is guaranteed to Overpower. Whenever you Overpower, your Ultimate Skills deal x10% increased damage for 10 seconds, up to 80%.",
+      "str": 105,
+      "int": 10,
+      "will": 59,
+      "dex": "74!"
+    }
+  },
+  {
+    "slug": "legendary-node",
+    "name_en": "Legendary Node",
+    "name_tr": null,
+    "class_en": "Barbarian",
+    "class_key": "barbarian",
+    "rarity": "Legendary",
+    "description_en": null,
+    "description_tr": null,
+    "tags": null,
+    "data": {
+      "name": "Legendary Node",
+      "title": "Carnage",
+      "icon": "Barbarian",
+      "class": "Barbarian",
+      "filters": [
+        "Berserking",
+        "Critical Strike",
+        "Attack Speed"
+      ],
+      "description": "Berserking now additionally grants 15% Attack Speed. You deal x30% increased Fire and Physical damage.",
+      "str": "110!",
+      "int": 20,
+      "will": 59,
+      "dex": 59
+    }
+  },
+  {
+    "slug": "legendary-node",
+    "name_en": "Legendary Node",
+    "name_tr": null,
+    "class_en": "Barbarian",
+    "class_key": "barbarian",
+    "rarity": "Legendary",
+    "description_en": null,
+    "description_tr": null,
+    "tags": null,
+    "data": {
+      "name": "Legendary Node",
+      "title": "Decimator",
+      "icon": "Barbarian",
+      "class": "Barbarian",
+      "filters": [
+        "Lucky Hit",
+        "Vulnerable",
+        "Slashing"
+      ],
+      "description": "You deal x20% increased damage to Vulnerable enemies. Your Overpower deals x20% increased damage.",
+      "str": "110!",
+      "int": 15,
+      "will": "69!",
+      "dex": 54
+    }
+  },
+  {
+    "slug": "legendary-node",
+    "name_en": "Legendary Node",
+    "name_tr": null,
+    "class_en": "Barbarian",
+    "class_key": "barbarian",
+    "rarity": "Legendary",
+    "description_en": null,
+    "description_tr": null,
+    "tags": null,
+    "data": {
+      "name": "Legendary Node",
+      "title": "Flawless Technique",
+      "icon": "Barbarian",
+      "class": "Barbarian",
+      "filters": [
+        "One-Handed",
+        "Critical Strike"
+      ],
+      "description": "Consecutive attacking with the same weapon increases your Critical Strike chance by 15% and Critical Strike Damage by x30% for 4 seconds.",
+      "str": 90,
+      "int": 25,
+      "will": "69!",
+      "dex": "64!"
+    }
+  },
+  {
+    "slug": "legendary-node",
+    "name_en": "Legendary Node",
+    "name_tr": null,
+    "class_en": "Barbarian",
+    "class_key": "barbarian",
+    "rarity": "Legendary",
+    "description_en": null,
+    "description_tr": null,
+    "tags": null,
+    "data": {
+      "name": "Legendary Node",
+      "title": "Force of Nature",
+      "icon": "Barbarian",
+      "class": "Barbarian",
+      "filters": [
+        "Close"
+      ],
+      "description": "Your Earthquakes deals x45% increased damage and have a 75% chance to spawn a Dust Devil every second that deals [X] damage.",
+      "str": 100,
+      "int": 20,
+      "will": "79!",
+      "dex": 49
+    }
+  },
+  {
+    "slug": "legendary-node",
+    "name_en": "Legendary Node",
+    "name_tr": null,
+    "class_en": "Barbarian",
+    "class_key": "barbarian",
+    "rarity": "Legendary",
+    "description_en": null,
+    "description_tr": null,
+    "tags": null,
+    "data": {
+      "name": "Legendary Node",
+      "title": "Hemorrhage",
+      "icon": "Barbarian",
+      "class": "Barbarian",
+      "filters": [
+        "Bleed"
+      ],
+      "description": "Applying a Bleed to a Vulnerable target deals x45% increased damage.",
+      "str": "110!",
+      "int": 15,
+      "will": 64,
+      "dex": 59
+    }
+  },
+  {
+    "slug": "legendary-node",
+    "name_en": "Legendary Node",
+    "name_tr": null,
+    "class_en": "Barbarian",
+    "class_key": "barbarian",
+    "rarity": "Legendary",
+    "description_en": null,
+    "description_tr": null,
+    "tags": null,
+    "data": {
+      "name": "Legendary Node",
+      "title": "Warbringer",
+      "icon": "Barbarian",
+      "class": "Barbarian",
+      "filters": [
+        "Fortify",
+        "Fury"
+      ],
+      "description": "For every 75 Fury you spend, gain 15% of your Maximum Life as Fortify.",
+      "str": "110!",
+      "int": 10,
+      "will": 54,
+      "dex": "74!"
+    }
+  },
+  {
+    "slug": "legendary-node",
+    "name_en": "Legendary Node",
+    "name_tr": null,
+    "class_en": "Barbarian",
+    "class_key": "barbarian",
+    "rarity": "Legendary",
+    "description_en": null,
+    "description_tr": null,
+    "tags": null,
+    "data": {
+      "name": "Legendary Node",
+      "title": "Weapons Master",
+      "icon": "Barbarian",
+      "class": "Barbarian",
+      "filters": [
+        "Weapon Swap",
+        "Fury"
+      ],
+      "description": "Swapping weapons grants you 8% of your Maximum Fury. You deal 30% increased damage to Injured and Healthy enemies.",
+      "str": "110!",
+      "int": 20,
+      "will": "69!",
+      "dex": 49
+    }
+  },
+  {
+    "slug": "starter-board",
+    "name_en": "Starter Board",
+    "name_tr": null,
+    "class_en": "Druid",
+    "class_key": "druid",
+    "rarity": "Legendary",
+    "description_en": null,
+    "description_tr": null,
+    "tags": null,
+    "data": {
+      "title": "Starter Board",
+      "icon": "Druid",
+      "class": "Druid",
+      "str": 25,
+      "int": 64,
+      "will": 105,
+      "dex": 59
+    }
+  },
+  {
+    "slug": "legendary-node",
+    "name_en": "Legendary Node",
+    "name_tr": null,
+    "class_en": "Druid",
+    "class_key": "druid",
+    "rarity": "Legendary",
+    "description_en": null,
+    "description_tr": null,
+    "tags": null,
+    "data": {
+      "name": "Legendary Node",
+      "title": "Ancestral Guidance",
+      "icon": "Druid",
+      "class": "Druid",
+      "filters": [
+        "Spirit"
+      ],
+      "description": "After spending 75 Spirit, you deal 40% increased damage for 5 seconds. Your Ultimate Skills deal x1% increased damage per Spirit when cast.",
+      "str": 20,
+      "int": "69!",
+      "will": "110!",
+      "dex": 49
+    }
+  },
+  {
+    "slug": "legendary-node",
+    "name_en": "Legendary Node",
+    "name_tr": null,
+    "class_en": "Druid",
+    "class_key": "druid",
+    "rarity": "Legendary",
+    "description_en": null,
+    "description_tr": null,
+    "tags": null,
+    "data": {
+      "name": "Legendary Node",
+      "title": "Sinister Tendrils",
+      "icon": "Druid",
+      "class": "Druid",
+      "filters": [
+        "Lucky Hit",
+        "Immobilize",
+        "Poison"
+      ],
+      "description": "Nature Magic Skills do 35% increased damage against Poisoned enemies.\nLucky Hit: Nature Magic Skills have up to a 40% chance to deal [X] Poisoning damage over 4 seconds.",
+      "str": 10,
+      "int": 54,
+      "will": "110!",
+      "dex": "74!"
+    }
+  },
+  {
+    "slug": "legendary-node",
+    "name_en": "Legendary Node",
+    "name_tr": null,
+    "class_en": "Druid",
+    "class_key": "druid",
+    "rarity": "Legendary",
+    "description_en": null,
+    "description_tr": null,
+    "tags": null,
+    "data": {
+      "name": "Legendary Node",
+      "title": "Earthen Devastation",
+      "icon": "Druid",
+      "class": "Druid",
+      "filters": [
+        "Earth",
+        "Crowd Control"
+      ],
+      "description": "Your Earth Skills deal x10% increased Critical Strike Damage, increased by x20% of your Damage vs Crowd Controlled bonus, up to x60%.",
+      "str": 25,
+      "int": 59,
+      "will": "115!",
+      "dex": 49
+    }
+  },
+  {
+    "slug": "legendary-node",
+    "name_en": "Legendary Node",
+    "name_tr": null,
+    "class_en": "Druid",
+    "class_key": "druid",
+    "rarity": "Legendary",
+    "description_en": null,
+    "description_tr": null,
+    "tags": null,
+    "data": {
+      "name": "Legendary Node",
+      "title": "Heightened Malice",
+      "icon": "Druid",
+      "class": "Druid",
+      "filters": [
+        "Poison",
+        "Nearby",
+        "Close"
+      ],
+      "description": "While a Poisoned enemy is Nearby, you deal x35% increased damage plus an additional 5% for each additional Poisoned enemy, up to 4.",
+      "str": 10,
+      "int": 59,
+      "will": 105,
+      "dex": "74!"
+    }
+  },
+  {
+    "slug": "legendary-node",
+    "name_en": "Legendary Node",
+    "name_tr": null,
+    "class_en": "Druid",
+    "class_key": "druid",
+    "rarity": "Legendary",
+    "description_en": null,
+    "description_tr": null,
+    "tags": null,
+    "data": {
+      "name": "Legendary Node",
+      "title": "Inner Beast",
+      "icon": "Druid",
+      "class": "Druid",
+      "filters": [
+        "Spirit"
+      ],
+      "description": "After Shapeshifting, your Spirit costs are reduced by 5% for 10 seconds, up to 45%. If you reach 10 stacks, this bonus resets and reduces the Cooldown of your Ultimate Skill by 5 seconds.",
+      "str": 25,
+      "int": "69!",
+      "will": 90,
+      "dex": "64!"
+    }
+  },
+  {
+    "slug": "legendary-node",
+    "name_en": "Legendary Node",
+    "name_tr": null,
+    "class_en": "Druid",
+    "class_key": "druid",
+    "rarity": "Legendary",
+    "description_en": null,
+    "description_tr": null,
+    "tags": null,
+    "data": {
+      "name": "Legendary Node",
+      "title": "Lust for Carnage",
+      "icon": "Druid",
+      "class": "Druid",
+      "filters": [
+        "Critical Strike",
+        "Werewolf",
+        "Spirit"
+      ],
+      "description": "Critical Strikes with Werewolf Skills restore 2 Spirit and deal x50% increased damage.",
+      "str": 15,
+      "int": "69!",
+      "will": "110!",
+      "dex": 54
+    }
+  },
+  {
+    "slug": "legendary-node",
+    "name_en": "Legendary Node",
+    "name_tr": null,
+    "class_en": "Druid",
+    "class_key": "druid",
+    "rarity": "Legendary",
+    "description_en": null,
+    "description_tr": null,
+    "tags": null,
+    "data": {
+      "name": "Legendary Node",
+      "title": "Survival Instincts",
+      "icon": "Druid",
+      "class": "Druid",
+      "filters": [
+        "Werebear"
+      ],
+      "description": "While in Werebear form, you deal x30% increased damage or x45% when you are at full Life. You have x1% increased Overpower damage, up to x25%, for every 1% difference in current Life percent and Fortified Life percent between you and the enemy.",
+      "str": 20,
+      "int": 59,
+      "will": "110!",
+      "dex": 59
+    }
+  },
+  {
+    "slug": "legendary-node",
+    "name_en": "Legendary Node",
+    "name_tr": null,
+    "class_en": "Druid",
+    "class_key": "druid",
+    "rarity": "Legendary",
+    "description_en": null,
+    "description_tr": null,
+    "tags": null,
+    "data": {
+      "name": "Legendary Node",
+      "title": "Thunderstruck",
+      "icon": "Druid",
+      "class": "Druid",
+      "filters": [
+        "Vulnerable",
+        "Immobilize",
+        "Critical Strike"
+      ],
+      "description": "Storm Skills deal increased damage equal to x20% of your Damage vs Close and Damage vs Distant bonuses, up to x60%.",
+      "str": 15,
+      "int": 64,
+      "will": "110!",
+      "dex": 59
+    }
+  },
+  {
+    "slug": "legendary-node",
+    "name_en": "Legendary Node",
+    "name_tr": null,
+    "class_en": "Druid",
+    "class_key": "druid",
+    "rarity": "Legendary",
+    "description_en": null,
+    "description_tr": null,
+    "tags": null,
+    "data": {
+      "name": "Legendary Node",
+      "title": "Untamed",
+      "icon": "Druid",
+      "class": "Druid",
+      "filters": [
+        "Companion"
+      ],
+      "description": "Casting a Companion Skill grants x20% increased Companion damage for 5 seconds, stacking up to x80%.",
+      "str": 20,
+      "int": "79!",
+      "will": 95,
+      "dex": 54
+    }
+  },
+  {
+    "slug": "starter-board",
+    "name_en": "Starter Board",
+    "name_tr": null,
+    "class_en": "Necromancer",
+    "class_key": "necromancer",
+    "rarity": "Legendary",
+    "description_en": null,
+    "description_tr": null,
+    "tags": null,
+    "data": {
+      "title": "Starter Board",
+      "icon": "Necromancer",
+      "class": "Necromancer",
+      "str": 25,
+      "int": 105,
+      "will": 64,
+      "dex": 59
+    }
+  },
+  {
+    "slug": "legendary-node",
+    "name_en": "Legendary Node",
+    "name_tr": null,
+    "class_en": "Necromancer",
+    "class_key": "necromancer",
+    "rarity": "Legendary",
+    "description_en": null,
+    "description_tr": null,
+    "tags": null,
+    "data": {
+      "name": "Legendary Node",
+      "title": "Blood Begets Blood",
+      "icon": "Necromancer",
+      "class": "Necromancer",
+      "filters": [
+        "Blood Orb"
+      ],
+      "description": "Blood Orbs grant x10% increased damage, up to x50%, for 5 seconds.",
+      "str": 25,
+      "int": 90,
+      "will": "69!",
+      "dex": "64!"
+    }
+  },
+  {
+    "slug": "legendary-node",
+    "name_en": "Legendary Node",
+    "name_tr": null,
+    "class_en": "Necromancer",
+    "class_key": "necromancer",
+    "rarity": "Legendary",
+    "description_en": null,
+    "description_tr": null,
+    "tags": null,
+    "data": {
+      "name": "Legendary Node",
+      "title": "Bloodbath",
+      "icon": "Necromancer",
+      "class": "Necromancer",
+      "filters": [
+        "Overpower"
+      ],
+      "description": "Deal x40% increased Overpower damage. After Overpowering, you deal x25% increased Blood Skill damage for 5 seconds.",
+      "str": 10,
+      "int": "110!",
+      "will": 54,
+      "dex": "74!"
+    }
+  },
+  {
+    "slug": "legendary-node",
+    "name_en": "Legendary Node",
+    "name_tr": null,
+    "class_en": "Necromancer",
+    "class_key": "necromancer",
+    "rarity": "Legendary",
+    "description_en": null,
+    "description_tr": null,
+    "tags": null,
+    "data": {
+      "name": "Legendary Node",
+      "title": "Bone Graft",
+      "icon": "Necromancer",
+      "class": "Necromancer",
+      "filters": [
+        "Bone",
+        "Essence"
+      ],
+      "description": "Your Bone Skills deal x40% increased damage and your Maximum Essence is increased by 10.",
+      "str": 10,
+      "int": 105,
+      "will": 59,
+      "dex": "74!"
+    }
+  },
+  {
+    "slug": "legendary-node",
+    "name_en": "Legendary Node",
+    "name_tr": null,
+    "class_en": "Necromancer",
+    "class_key": "necromancer",
+    "rarity": "Legendary",
+    "description_en": null,
+    "description_tr": null,
+    "tags": null,
+    "data": {
+      "name": "Legendary Node",
+      "title": "Cult Leader",
+      "icon": "Necromancer",
+      "class": "Necromancer",
+      "filters": [
+        "Minion"
+      ],
+      "description": "Your Minions deal x40% increased damage for each x20% of Attack Speed Bonus they have, up to a maximum of 100% Attack Speed Bonus.",
+      "str": 15,
+      "int": "110!",
+      "will": 64,
+      "dex": 59
+    }
+  },
+  {
+    "slug": "legendary-node",
+    "name_en": "Legendary Node",
+    "name_tr": null,
+    "class_en": "Necromancer",
+    "class_key": "necromancer",
+    "rarity": "Legendary",
+    "description_en": null,
+    "description_tr": null,
+    "tags": null,
+    "data": {
+      "name": "Legendary Node",
+      "title": "Flesh-eater",
+      "icon": "Necromancer",
+      "class": "Necromancer",
+      "filters": [
+        "Corpse"
+      ],
+      "description": "Consuming 3 Corpses grants x40% increased damage for 6 seconds. Corpses consumed during the bonus's duration will refresh this bonus.",
+      "str": 20,
+      "int": "110!",
+      "will": 59,
+      "dex": 59
+    }
+  },
+  {
+    "slug": "legendary-node",
+    "name_en": "Legendary Node",
+    "name_tr": null,
+    "class_en": "Necromancer",
+    "class_key": "necromancer",
+    "rarity": "Legendary",
+    "description_en": null,
+    "description_tr": null,
+    "tags": null,
+    "data": {
+      "name": "Legendary Node",
+      "title": "Frailty",
+      "icon": "Necromancer",
+      "class": "Necromancer",
+      "description": "Cursed enemies take x10% increased damage from you and your Minions. This bonus is increased by x10% each second they are Cursed, up to x40%.",
+      "str": 20,
+      "int": 95,
+      "will": "79!",
+      "dex": 54
+    }
+  },
+  {
+    "slug": "legendary-node",
+    "name_en": "Legendary Node",
+    "name_tr": null,
+    "class_en": "Necromancer",
+    "class_key": "necromancer",
+    "rarity": "Legendary",
+    "description_en": null,
+    "description_tr": null,
+    "tags": null,
+    "data": {
+      "name": "Legendary Node",
+      "title": "Hulking Monstrosity",
+      "icon": "Necromancer",
+      "class": "Necromancer",
+      "filters": [
+        "Minion"
+      ],
+      "description": "Your Golem has x40% increased Maximum Life and deals x100% increased damage.\nSkeletal Mages and Warriors Sacrifice bonuses grant an additional x60% Golem damage.",
+      "str": 25,
+      "int": "115!",
+      "will": 59,
+      "dex": 49
+    }
+  },
+  {
+    "slug": "legendary-node",
+    "name_en": "Legendary Node",
+    "name_tr": null,
+    "class_en": "Necromancer",
+    "class_key": "necromancer",
+    "rarity": "Legendary",
+    "description_en": null,
+    "description_tr": null,
+    "tags": null,
+    "data": {
+      "name": "Legendary Node",
+      "title": "Scent of Death",
+      "icon": "Necromancer",
+      "class": "Necromancer",
+      "filters": [
+        "Corpse",
+        "Damage Reduction"
+      ],
+      "description": "You gain x15% Damage Reduction and deal x30% increased Critical Strike Damage.",
+      "str": 15,
+      "int": "110!",
+      "will": "69!",
+      "dex": 54
+    }
+  },
+  {
+    "slug": "legendary-node",
+    "name_en": "Legendary Node",
+    "name_tr": null,
+    "class_en": "Necromancer",
+    "class_key": "necromancer",
+    "rarity": "Legendary",
+    "description_en": null,
+    "description_tr": null,
+    "tags": null,
+    "data": {
+      "name": "Legendary Node",
+      "title": "Wither",
+      "icon": "Necromancer",
+      "class": "Necromancer",
+      "filters": [
+        "Shadow",
+        "Willpower"
+      ],
+      "description": "Your Shadow Damage has a 20% chance to deal x300% increased damage.",
+      "str": 20,
+      "int": "110!",
+      "will": "69!",
+      "dex": 49
+    }
+  },
+  {
+    "slug": "starter-board",
+    "name_en": "Starter Board",
+    "name_tr": null,
+    "class_en": "Rogue",
+    "class_key": "rogue",
+    "rarity": "Legendary",
+    "description_en": null,
+    "description_tr": null,
+    "tags": null,
+    "data": {
+      "title": "Starter Board",
+      "icon": "Rogue",
+      "class": "Rogue",
+      "str": 64,
+      "int": 59,
+      "will": 25,
+      "dex": 105
+    }
+  },
+  {
+    "slug": "legendary-node",
+    "name_en": "Legendary Node",
+    "name_tr": null,
+    "class_en": "Rogue",
+    "class_key": "rogue",
+    "rarity": "Legendary",
+    "description_en": null,
+    "description_tr": null,
+    "tags": null,
+    "data": {
+      "name": "Legendary Node",
+      "title": "Cheap Shot",
+      "icon": "Rogue",
+      "class": "Rogue",
+      "filters": [
+        "Close",
+        "Nearby",
+        "Crowd Control"
+      ],
+      "description": "Deal x30% increased damage, doubled against Crowd Controlled enemies.",
+      "str": 59,
+      "int": 59,
+      "will": 20,
+      "dex": "110!"
+    }
+  },
+  {
+    "slug": "legendary-node",
+    "name_en": "Legendary Node",
+    "name_tr": null,
+    "class_en": "Rogue",
+    "class_key": "rogue",
+    "rarity": "Legendary",
+    "description_en": null,
+    "description_tr": null,
+    "tags": null,
+    "data": {
+      "name": "Legendary Node",
+      "title": "Cunning Stratagem",
+      "icon": "Rogue",
+      "class": "Rogue",
+      "filters": [
+        "Combo Point"
+      ],
+      "description": "Your Combo Point Bonuses are increased by x40% when you spend 3 Combo Points.",
+      "str": "69!",
+      "int": 49,
+      "will": 20,
+      "dex": "110!"
+    }
+  },
+  {
+    "slug": "legendary-node",
+    "name_en": "Legendary Node",
+    "name_tr": null,
+    "class_en": "Rogue",
+    "class_key": "rogue",
+    "rarity": "Legendary",
+    "description_en": null,
+    "description_tr": null,
+    "tags": null,
+    "data": {
+      "name": "Legendary Node",
+      "title": "Danse Macabre",
+      "icon": "Rogue",
+      "class": "Rogue",
+      "description": "Casting a Mobility or Subterfuge Skill increases your damage by x50% for 10 seconds.",
+      "str": "79!",
+      "int": 54,
+      "will": 20,
+      "dex": 95
+    }
+  },
+  {
+    "slug": "legendary-node",
+    "name_en": "Legendary Node",
+    "name_tr": null,
+    "class_en": "Rogue",
+    "class_key": "rogue",
+    "rarity": "Legendary",
+    "description_en": null,
+    "description_tr": null,
+    "tags": null,
+    "data": {
+      "name": "Legendary Node",
+      "title": "Deadly Ambush",
+      "icon": "Rogue",
+      "class": "Rogue",
+      "filters": [
+        "Trap"
+      ],
+      "description": "You deal x50% increased Critical Strike Damage to enemies affected by your Trap Skills.",
+      "str": "69!",
+      "int": 54,
+      "will": 15,
+      "dex": "110!"
+    }
+  },
+  {
+    "slug": "legendary-node",
+    "name_en": "Legendary Node",
+    "name_tr": null,
+    "class_en": "Rogue",
+    "class_key": "rogue",
+    "rarity": "Legendary",
+    "description_en": null,
+    "description_tr": null,
+    "tags": null,
+    "data": {
+      "name": "Legendary Node",
+      "title": "Eldritch Bounty",
+      "icon": "Rogue",
+      "class": "Rogue",
+      "filters": [
+        "Imbuement",
+        "Resistance"
+      ],
+      "description": "Poison, Shadow, and Cold gain 3% Maximum Resistance and x50% increased damage.",
+      "str": 64,
+      "int": 59,
+      "will": 15,
+      "dex": "110!"
+    }
+  },
+  {
+    "slug": "legendary-node",
+    "name_en": "Legendary Node",
+    "name_tr": null,
+    "class_en": "Rogue",
+    "class_key": "rogue",
+    "rarity": "Legendary",
+    "description_en": null,
+    "description_tr": null,
+    "tags": null,
+    "data": {
+      "name": "Legendary Node",
+      "title": "Exploit Weakness",
+      "icon": "Rogue",
+      "class": "Rogue",
+      "filters": [
+        "Vulnerable"
+      ],
+      "description": "You deal x45% more Vulnerable damage. The first time you hit a Vulnerable enemy their damage is reduced by x20% for 6 seconds.",
+      "str": 54,
+      "int": "74!",
+      "will": 10,
+      "dex": "110!"
+    }
+  },
+  {
+    "slug": "legendary-node",
+    "name_en": "Legendary Node",
+    "name_tr": null,
+    "class_en": "Rogue",
+    "class_key": "rogue",
+    "rarity": "Legendary",
+    "description_en": null,
+    "description_tr": null,
+    "tags": null,
+    "data": {
+      "name": "Legendary Node",
+      "title": "Leyrana's Instinct",
+      "icon": "Rogue",
+      "class": "Rogue",
+      "filters": [
+        "Inner Sight",
+        "Dodge"
+      ],
+      "description": "Your Core Skill damage is increased by x60%. When Inner Sight's gauge becomes full, you gain +100% Dodge Chance for 2 seconds.",
+      "str": 59,
+      "int": "74!",
+      "will": 10,
+      "dex": 105
+    }
+  },
+  {
+    "slug": "legendary-node",
+    "name_en": "Legendary Node",
+    "name_tr": null,
+    "class_en": "Rogue",
+    "class_key": "rogue",
+    "rarity": "Legendary",
+    "description_en": null,
+    "description_tr": null,
+    "tags": null,
+    "data": {
+      "name": "Legendary Node",
+      "title": "No Witnesses",
+      "icon": "Rogue",
+      "class": "Rogue",
+      "filters": [
+        "Ultimate"
+      ],
+      "description": "Your Ultimate Skills gain an additional x30% damage from your Damage with Ultimate bonus and grant this bonus to all other Skills for 10 seconds when cast. Maximum x60%.",
+      "str": "69!",
+      "int": "64!",
+      "will": 25,
+      "dex": 90
+    }
+  },
+  {
+    "slug": "legendary-node",
+    "name_en": "Legendary Node",
+    "name_tr": null,
+    "class_en": "Rogue",
+    "class_key": "rogue",
+    "rarity": "Legendary",
+    "description_en": null,
+    "description_tr": null,
+    "tags": null,
+    "data": {
+      "name": "Legendary Node",
+      "title": "Tricks of the Trade",
+      "icon": "Rogue",
+      "class": "Rogue",
+      "filters": [
+        "Marksman",
+        "Cutthroat"
+      ],
+      "description": "Enemies damaged by your Marksman Skills take x50% increased damage from your Cutthroat Skills, and vice versa.",
+      "str": 59,
+      "int": 49,
+      "will": 25,
+      "dex": "115!"
+    }
+  },
+  {
+    "slug": "starter-board",
+    "name_en": "Starter Board",
+    "name_tr": null,
+    "class_en": "Sorcerer",
+    "class_key": "sorcerer",
+    "rarity": "Legendary",
+    "description_en": null,
+    "description_tr": null,
+    "tags": null,
+    "data": {
+      "title": "Starter Board",
+      "icon": "Sorcerer",
+      "class": "Sorcerer",
+      "str": 25,
+      "int": 105,
+      "will": 64,
+      "dex": 59
+    }
+  },
+  {
+    "slug": "legendary-node",
+    "name_en": "Legendary Node",
+    "name_tr": null,
+    "class_en": "Sorcerer",
+    "class_key": "sorcerer",
+    "rarity": "Legendary",
+    "description_en": null,
+    "description_tr": null,
+    "tags": null,
+    "data": {
+      "name": "Legendary Node",
+      "title": "Burning Instinct",
+      "icon": "Sorcerer",
+      "class": "Sorcerer",
+      "filters": [
+        "Burn",
+        "Intelligence",
+        "Critical Strike"
+      ],
+      "description": "Your Burning damage is increased by x20% of your Damage with Fire bonus, plus x2% for every 30 Intelligence you have, up to x90%.",
+      "str": 10,
+      "int": 105,
+      "will": 59,
+      "dex": "74!"
+    }
+  },
+  {
+    "slug": "legendary-node",
+    "name_en": "Legendary Node",
+    "name_tr": null,
+    "class_en": "Sorcerer",
+    "class_key": "sorcerer",
+    "rarity": "Legendary",
+    "description_en": null,
+    "description_tr": null,
+    "tags": null,
+    "data": {
+      "name": "Legendary Node",
+      "title": "Ceaseless Conduit",
+      "icon": "Sorcerer",
+      "class": "Sorcerer",
+      "filters": [
+        "Crackling Energy",
+        "Intelligence"
+      ],
+      "description": "While you have Crackling Energy charges, your Skills deal x10% increased damage. This amount increases by x4% per 20 Intelligence you have, up to x60%. When you reach full charges, your Crackling Energy damage is increased by three times this amount until you run out of charges.",
+      "str": 10,
+      "int": 110,
+      "will": 54,
+      "dex": "74!"
+    }
+  },
+  {
+    "slug": "legendary-node",
+    "name_en": "Legendary Node",
+    "name_tr": null,
+    "class_en": "Sorcerer",
+    "class_key": "sorcerer",
+    "rarity": "Legendary",
+    "description_en": null,
+    "description_tr": null,
+    "tags": null,
+    "data": {
+      "name": "Legendary Node",
+      "title": "Elemental Summoner",
+      "icon": "Sorcerer",
+      "class": "Sorcerer",
+      "filters": [
+        "Conjuration",
+        "Cooldown",
+        "Mana"
+      ],
+      "description": "Your Conjuration Skills have x10% reduced Cooldown or Mana cost. They also deal bonus damage equal to x10% of the total amount of your Bonus Damage with Fire, Lightning, and Cold, up to x60%.",
+      "str": 15,
+      "int": "124!",
+      "will": 55,
+      "dex": 54
+    }
+  },
+  {
+    "slug": "legendary-node",
+    "name_en": "Legendary Node",
+    "name_tr": null,
+    "class_en": "Sorcerer",
+    "class_key": "sorcerer",
+    "rarity": "Legendary",
+    "description_en": null,
+    "description_tr": null,
+    "tags": null,
+    "data": {
+      "name": "Legendary Node",
+      "title": "Enchantment Master",
+      "icon": "Sorcerer",
+      "class": "Sorcerer",
+      "filters": [
+        "Enchantment"
+      ],
+      "description": "Your enchantments are x30% stronger, and each equipped Enhancement grants x40% increased damage with their main element, and x20% increased damage for the second Enchantment if it is the same element.",
+      "str": 20,
+      "int": 110,
+      "will": "69!",
+      "dex": 49
+    }
+  },
+  {
+    "slug": "legendary-node",
+    "name_en": "Legendary Node",
+    "name_tr": null,
+    "class_en": "Sorcerer",
+    "class_key": "sorcerer",
+    "rarity": "Legendary",
+    "description_en": null,
+    "description_tr": null,
+    "tags": null,
+    "data": {
+      "name": "Legendary Node",
+      "title": "Frigid Fate",
+      "icon": "Sorcerer",
+      "class": "Sorcerer",
+      "filters": [
+        "Cold",
+        "Vulnerable",
+        "Lucky Hit"
+      ],
+      "description": "You deal bonus damage to Vulnerable enemies equal to x20% of the total amount of your Bonus Damage with Cold, up to a maximum of x60%.",
+      "str": 25,
+      "int": "115!",
+      "will": 59,
+      "dex": 49
+    }
+  },
+  {
+    "slug": "legendary-node",
+    "name_en": "Legendary Node",
+    "name_tr": null,
+    "class_en": "Sorcerer",
+    "class_key": "sorcerer",
+    "rarity": "Legendary",
+    "description_en": null,
+    "description_tr": null,
+    "tags": null,
+    "data": {
+      "name": "Legendary Node",
+      "title": "Fundamental Release",
+      "icon": "Sorcerer",
+      "class": "Sorcerer",
+      "filters": [
+        "Vulnerable",
+        "Burn",
+        "Critical Strike"
+      ],
+      "description": "Every time you apply Vulnerable, Burning, or Critically Strike an enemy, they take x10% increased damage from you, up to x50%. Your Ultimate Skill damage is increased by x10% of your Non-Physical Damage bonus, up to x40%.",
+      "str": 20,
+      "int": 95,
+      "will": "79!",
+      "dex": 54
+    }
+  },
+  {
+    "slug": "legendary-node",
+    "name_en": "Legendary Node",
+    "name_tr": null,
+    "class_en": "Sorcerer",
+    "class_key": "sorcerer",
+    "rarity": "Legendary",
+    "description_en": null,
+    "description_tr": null,
+    "tags": null,
+    "data": {
+      "name": "Legendary Node",
+      "title": "Icefall",
+      "icon": "Sorcerer",
+      "class": "Sorcerer",
+      "filters": [
+        "Freeze",
+        "Barrier"
+      ],
+      "description": "Your Frost Skills deal x35% increased damage. This bonus is doubled and applied to all of your damage against Frozen enemies and bosses.",
+      "str": 25,
+      "int": 90,
+      "will": "69!",
+      "dex": "64!"
+    }
+  },
+  {
+    "slug": "legendary-node",
+    "name_en": "Legendary Node",
+    "name_tr": null,
+    "class_en": "Sorcerer",
+    "class_key": "sorcerer",
+    "rarity": "Legendary",
+    "description_en": null,
+    "description_tr": null,
+    "tags": null,
+    "data": {
+      "name": "Legendary Node",
+      "title": "Searing Heat",
+      "icon": "Sorcerer",
+      "class": "Sorcerer",
+      "filters": [
+        "Fireball",
+        "Meteor"
+      ],
+      "description": "Pyromancy Skills have a 15% increased Critical Strike chance and all of your Skills deal increased Direct damage equal to x10% of your Critical Strike Damage Bonus, up to x60%.",
+      "str": 15,
+      "int": 110,
+      "will": 64,
+      "dex": 59
+    }
+  },
+  {
+    "slug": "legendary-node",
+    "name_en": "Legendary Node",
+    "name_tr": null,
+    "class_en": "Sorcerer",
+    "class_key": "sorcerer",
+    "rarity": "Legendary",
+    "description_en": null,
+    "description_tr": null,
+    "tags": null,
+    "data": {
+      "name": "Legendary Node",
+      "title": "Static Surge",
+      "icon": "Sorcerer",
+      "class": "Sorcerer",
+      "filters": [
+        "Stun",
+        "Close",
+        "Mana"
+      ],
+      "description": "Hitting enemies at least 8 times in a second with Shock Skills grants 30 Mana Regeneration and increases your damage by x50% for 2 seconds.",
+      "str": 20,
+      "int": 110,
+      "will": 59,
+      "dex": 59
+    }
+  },
+  {
+    "slug": "starter-board",
+    "name_en": "Starter Board",
+    "name_tr": null,
+    "class_en": "Spiritborn",
+    "class_key": "spiritborn",
+    "rarity": "Legendary",
+    "description_en": null,
+    "description_tr": null,
+    "tags": null,
+    "data": {
+      "title": "Starter Board",
+      "icon": "Spiritborn",
+      "class": "Spiritborn",
+      "str": 59,
+      "int": "64!",
+      "will": 25,
+      "dex": 105
+    }
+  },
+  {
+    "slug": "legendary-node",
+    "name_en": "Legendary Node",
+    "name_tr": null,
+    "class_en": "Spiritborn",
+    "class_key": "spiritborn",
+    "rarity": "Legendary",
+    "description_en": null,
+    "description_tr": null,
+    "tags": null,
+    "data": {
+      "name": "Legendary Node",
+      "title": "Bitter Medicine",
+      "icon": "Spiritborn",
+      "class": "Spiritborn",
+      "filters": [
+        "Maximum Life",
+        "Heal",
+        "Close"
+      ],
+      "description": "When you heal for 100% of your Maximum Life, afflict Close enemies, dealing 200% Poisoning damage and causing them to take x10% increased Poisoning damage for 6 seconds, up to 60%.",
+      "str": 54,
+      "int": "69!",
+      "will": 15,
+      "dex": "110!"
+    }
+  },
+  {
+    "slug": "legendary-node",
+    "name_en": "Legendary Node",
+    "name_tr": null,
+    "class_en": "Spiritborn",
+    "class_key": "spiritborn",
+    "rarity": "Legendary",
+    "description_en": null,
+    "description_tr": null,
+    "tags": null,
+    "data": {
+      "name": "Legendary Node",
+      "title": "Convergence",
+      "icon": "Spiritborn",
+      "class": "Spiritborn",
+      "description": "You deal bonus damage equal to x7% of all your bonuses to Damage with Physical, Fire, Lightning, Cold, Poison, and Shadow combined, up to x60% total.",
+      "str": "74!",
+      "int": 54,
+      "will": 10,
+      "dex": "110!"
+    }
+  },
+  {
+    "slug": "legendary-node",
+    "name_en": "Legendary Node",
+    "name_tr": null,
+    "class_en": "Spiritborn",
+    "class_key": "spiritborn",
+    "rarity": "Legendary",
+    "description_en": null,
+    "description_tr": null,
+    "tags": null,
+    "data": {
+      "name": "Legendary Node",
+      "title": "Drive",
+      "icon": "Spiritborn",
+      "class": "Spiritborn",
+      "description": "After moving 10 meters, you deal x6% increased damage for 10 seconds. This can stack up to 10 times.",
+      "str": "64!",
+      "int": "69!",
+      "will": 25,
+      "dex": 90
+    }
+  },
+  {
+    "slug": "legendary-node",
+    "name_en": "Legendary Node",
+    "name_tr": null,
+    "class_en": "Spiritborn",
+    "class_key": "spiritborn",
+    "rarity": "Legendary",
+    "description_en": null,
+    "description_tr": null,
+    "tags": null,
+    "data": {
+      "name": "Legendary Node",
+      "title": "In-Fighter",
+      "icon": "Spiritborn",
+      "class": "Spiritborn",
+      "filters": [
+        "Attack Speed",
+        "Dodge",
+        "Block"
+      ],
+      "description": "When you Dodge or Block an attack, gain +20% increased Attack Speed and x30% increased Damage for 5 seconds.",
+      "str": 59,
+      "int": "64!",
+      "will": 15,
+      "dex": "110!"
+    }
+  },
+  {
+    "slug": "legendary-node",
+    "name_en": "Legendary Node",
+    "name_tr": null,
+    "class_en": "Spiritborn",
+    "class_key": "spiritborn",
+    "rarity": "Legendary",
+    "description_en": null,
+    "description_tr": null,
+    "tags": null,
+    "data": {
+      "name": "Legendary Node",
+      "title": "Revealing",
+      "icon": "Spiritborn",
+      "class": "Spiritborn",
+      "filters": [
+        "Lucky Hit",
+        "Knock Down",
+        "Crowd Control",
+        "Vulnerable"
+      ],
+      "description": "Lucky Hit: Up to a 30% chance to Knock Down Vulnerable enemies. You deal 30% increased damage, doubled against Crowd Controlled enemies.",
+      "str": "74!",
+      "int": 59,
+      "will": 10,
+      "dex": 105
+    }
+  },
+  {
+    "slug": "legendary-node",
+    "name_en": "Legendary Node",
+    "name_tr": null,
+    "class_en": "Spiritborn",
+    "class_key": "spiritborn",
+    "rarity": "Legendary",
+    "description_en": null,
+    "description_tr": null,
+    "tags": null,
+    "data": {
+      "name": "Legendary Node",
+      "title": "Sapping",
+      "icon": "Spiritborn",
+      "class": "Spiritborn",
+      "filters": [
+        "Gorrila",
+        "Jaguar",
+        "Eagle",
+        "Centipede",
+        "Vigor"
+      ],
+      "description": "When you cast 3 Gorilla, Jaguar, Eagle, or Centipede skills with the same spirit in a row, restore 15% of your Vigor and deal x60% increased damage for 5 seconds.",
+      "str": 49,
+      "int": "69!",
+      "will": 20,
+      "dex": "110!"
+    }
+  },
+  {
+    "slug": "legendary-node",
+    "name_en": "Legendary Node",
+    "name_tr": null,
+    "class_en": "Spiritborn",
+    "class_key": "spiritborn",
+    "rarity": "Legendary",
+    "description_en": null,
+    "description_tr": null,
+    "tags": null,
+    "data": {
+      "name": "Legendary Node",
+      "title": "Spiney Skin",
+      "icon": "Spiritborn",
+      "class": "Spiritborn",
+      "filters": [
+        "Cooldown"
+      ],
+      "description": "When you use a Cooldown you gain 35% Thorns for 5 seconds.",
+      "str": 49,
+      "int": 59,
+      "will": 25,
+      "dex": "115!"
+    }
+  },
+  {
+    "slug": "legendary-node",
+    "name_en": "Legendary Node",
+    "name_tr": null,
+    "class_en": "Spiritborn",
+    "class_key": "spiritborn",
+    "rarity": "Legendary",
+    "description_en": null,
+    "description_tr": null,
+    "tags": null,
+    "data": {
+      "name": "Legendary Node",
+      "title": "Viscous Shield",
+      "icon": "Spiritborn",
+      "class": "Spiritborn",
+      "filters": [
+        "Maximum Life",
+        "Barrier"
+      ],
+      "description": "You do x2% increased damage for each 3% of your Maximum Life you have as a Barrier.",
+      "str": 59,
+      "int": 59,
+      "will": 20,
+      "dex": "110!"
+    }
+  }
+]

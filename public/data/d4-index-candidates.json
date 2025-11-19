@@ -1,0 +1,438 @@
+[
+  {
+    "path": [
+      "result",
+      "pageContext",
+      "builds"
+    ],
+    "length": 47,
+    "sample": {
+      "name": "Rake",
+      "tier": 1,
+      "season": 10,
+      "cc": "Rob2628",
+      "class": "Spiritborn",
+      "content": "Endgame",
+      "pit": 140,
+      "buildid": "68a736a8-9cd2-43ee-8536-6c7402e35328",
+      "skills": [
+        {
+          "name": "Rake"
+        },
+        {
+          "name": "Armored Hide"
+        },
+        {
+          "name": "Concussive Stomp"
+        },
+        {
+          "name": "The Protector"
+        },
+        {
+          "name": "Scourge"
+        },
+        {
+          "name": "Thunderspike"
+        }
+      ]
+    }
+  },
+  {
+    "path": [
+      "result",
+      "pageContext",
+      "skills"
+    ],
+    "length": 503,
+    "sample": {
+      "name": "Bash",
+      "class": "Barbarian",
+      "tags": [
+        "Basic",
+        "Bludgeoning"
+      ],
+      "fury_generate": 15,
+      "lucky_hit": "50%",
+      "filters": [
+        "Stun",
+        "Fortify",
+        "Overpower",
+        "Physical",
+        "Basic",
+        "Bludgeoning",
+        "Two-Handed",
+        "Weapon Mastery",
+        "Critical Strike",
+        "Life",
+        "Fury"
+      ],
+      "description": [
+        "Bash the enemy with your weapon, dealing {value1} damage. After bashing enemies 4 times, your next Bash will clobber, Stunning enemies for 1.5 seconds. Clobber twice as often while using a Two-Handed weapon."
+      ],
+      "extra": [
+        "Physical Damage"
+      ],
+      "value1": [
+        "90%",
+        "99%",
+        "108%",
+        "117%",
+        "126%"
+      ],
+      "runes": [
+        {
+          "name": "Enhanced",
+          "description": [
+            "Clobbering an enemy grants you 20% Maximum Life as Fortify."
+          ]
+        },
+        {
+          "name": "Battle",
+          "description": [
+            "Clobbering an enemy generates an additional 10 Fury."
+          ]
+        },
+        {
+          "name": "Combat",
+          "description": [
+            "After Critically Striking 4 times with Bash using a Two-Handed weapon, your next Core or Weapon Mastery Skill will Overpower."
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "path": [
+      "result",
+      "pageContext",
+      "codexes"
+    ],
+    "length": 385,
+    "sample": {
+      "name": "Accelerating Aspect",
+      "new": false,
+      "type": "Offensive",
+      "legendary": true,
+      "campaign": false,
+      "filters": [
+        "Attack Speed",
+        "Core"
+      ],
+      "description": "Critical Strikes with Core Skills increase your Attack Speed by + [10-30%] for 5 seconds."
+    }
+  },
+  {
+    "path": [
+      "result",
+      "pageContext",
+      "uniques"
+    ],
+    "length": 566,
+    "sample": {
+      "name": "100,000 Steps",
+      "class": "Barbarian",
+      "type": "Boots",
+      "secondary_stats": [
+        "Evade Grants 10% Attack Speed for 3 Seconds"
+      ],
+      "terciary_stats": [
+        "Movement Speed",
+        "Movement Speed per Walking Arsenal Bonus",
+        "Damage to Stunned Enemies",
+        "Ground Stomp Size"
+      ],
+      "terciary_stats__full": [
+        "[17.5-23]% Movement Speed",
+        "[5-7]% Movement Speed per Walking Arsenal Bonus",
+        "[82.5-105]% Damage to Stunned Enemies",
+        "[46.5-60]% Ground Stomp Size"
+      ],
+      "effect": "When activating or refreshing the full Walking Arsenal Key Passive effect, you automatically cast Ground Stomp and gain [50-100] Fury. Can only occur once every 5 seconds.",
+      "flavor": "\"While many Barbarians remained in the Dreadlands, small groups from the Oxen, Crane and Bear tribes instead chose to search the land for a new home.\" - A History of the Children of Bul-Kathos"
+    }
+  },
+  {
+    "path": [
+      "result",
+      "pageContext",
+      "paragons"
+    ],
+    "length": 137,
+    "sample": {
+      "name": "Ambidextrous",
+      "rarity": "Rare",
+      "class": "Barbarian",
+      "bonus": [
+        "Grants + {value} bonus to all Magic nodes within range."
+      ],
+      "additional_bonus": [
+        "You deal x8% increased damage while Weilding One-Handed Weapons."
+      ],
+      "legendary_bonus": [
+        "Increase damage by x {legendary_value} ."
+      ],
+      "legendary_value": 0.104,
+      "requirements_amount": [
+        40
+      ],
+      "requirements_stat": [
+        "Strength"
+      ],
+      "value": 25,
+      "scaling": 2.5,
+      "max_value": 2.725,
+      "stat_name": "Special",
+      "stat_scaling": "Magic"
+    }
+  },
+  {
+    "path": [
+      "result",
+      "pageContext",
+      "gems"
+    ],
+    "length": 7,
+    "sample": {
+      "name": "Amethyst",
+      "weapon": "48% Damage Over Time",
+      "armor": "12% Barrier Generation",
+      "jewelry": "60% Shadow Resistance"
+    }
+  },
+  {
+    "path": [
+      "result",
+      "pageContext",
+      "hearts"
+    ],
+    "length": 32,
+    "sample": {
+      "name": "Cluster Munitions",
+      "class": "Rogue",
+      "type": "Offensive",
+      "color": "Vicious",
+      "filters": [
+        "Lucky Hit",
+        "Stun"
+      ],
+      "description": "Lucky Hit: You have up to a 20% chance to launch 6 Stun Grenades that deal [X] Physical damage and Stun enemies for 0.50 seconds."
+    }
+  },
+  {
+    "path": [
+      "result",
+      "pageContext",
+      "vampPowers"
+    ],
+    "length": 22,
+    "sample": {
+      "name": "Anticipation",
+      "type": "Minor",
+      "pacts": [
+        "1 Divinity"
+      ],
+      "pact": {
+        "divinity": 1
+      },
+      "filters": [
+        "Ultimate",
+        "Damage Over Time",
+        "Cooldown Reduction"
+      ],
+      "description": "Your Ultimate Skills gain 20% Cooldown Reduction. Your Ultimate Skills gain 12% increased damage for each nearby enemy affected by your Damage Over Time effects."
+    }
+  },
+  {
+    "path": [
+      "result",
+      "pageContext",
+      "stones"
+    ],
+    "length": 39,
+    "sample": {
+      "name": "Autodefense",
+      "type": "Governing",
+      "tags": [
+        "Cooldown",
+        "Duration",
+        "Utility"
+      ],
+      "color": "utility",
+      "rarity": "Legendary",
+      "speed": "1.5 seconds",
+      "cooldown": "25 seconds",
+      "location": "Acquired by defeating Heralds in Arcane Tremors",
+      "description": [
+        "The Seneschal Construct activates an antimaterial field around itself shooting down up to 30 enemy projectiles. Lasts for 5 seconds. Can not shoot down Boss or Player projectiles."
+      ]
+    }
+  },
+  {
+    "path": [
+      "result",
+      "pageContext",
+      "skillsPTR"
+    ],
+    "length": 503,
+    "sample": {
+      "name": "Bash",
+      "class": "Barbarian",
+      "tags": [
+        "Basic",
+        "Bludgeoning"
+      ],
+      "fury_generate": 15,
+      "lucky_hit": "50%",
+      "filters": [
+        "Stun",
+        "Fortify",
+        "Overpower",
+        "Physical",
+        "Basic",
+        "Bludgeoning",
+        "Two-Handed",
+        "Weapon Mastery",
+        "Critical Strike",
+        "Life",
+        "Fury"
+      ],
+      "description": [
+        "Bash the enemy with your weapon, dealing {value1} damage. After bashing enemies 4 times, your next Bash will clobber, Stunning enemies for 1.5 seconds. Clobber twice as often while using a Two-Handed weapon."
+      ],
+      "extra": [
+        "Physical Damage"
+      ],
+      "value1": [
+        "90%",
+        "99%",
+        "108%",
+        "117%",
+        "126%"
+      ],
+      "runes": [
+        {
+          "name": "Enhanced",
+          "description": [
+            "Clobbering an enemy grants you 10% Maximum Life as Fortify."
+          ]
+        },
+        {
+          "name": "Battle",
+          "description": [
+            "Clobbering an enemy generates an additional 10 Fury."
+          ]
+        },
+        {
+          "name": "Combat",
+          "description": [
+            "After Critically Striking 4 times with Bash using a Two-Handed weapon, your next Core or Weapon Mastery Skill will Overpower."
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "path": [
+      "result",
+      "pageContext",
+      "codexesPTR"
+    ],
+    "length": 385,
+    "sample": {
+      "name": "Accelerating Aspect",
+      "new": false,
+      "type": "Offensive",
+      "legendary": true,
+      "campaign": false,
+      "filters": [
+        "Attack Speed",
+        "Core"
+      ],
+      "description": "Critical Strikes with Core Skills increase your Attack Speed by + [10-30%] for 5 seconds."
+    }
+  },
+  {
+    "path": [
+      "result",
+      "pageContext",
+      "uniquesPTR"
+    ],
+    "length": 166,
+    "sample": {
+      "name": "100,000 Steps",
+      "class": "Barbarian",
+      "type": "Boots",
+      "secondary_stats": [
+        "Evade Grants 10% Attack Speed for 3 Seconds"
+      ],
+      "terciary_stats": [
+        "Movement Speed",
+        "Movement Speed per Walking Arsenal Bonus",
+        "Damage to Stunned Enemies",
+        "Ground Stomp Size"
+      ],
+      "terciary_stats__full": [
+        "[17.5-23]% Movement Speed",
+        "[5-7]% Movement Speed per Walking Arsenal Bonus",
+        "[82.5-105]% Damage to Stunned Enemies",
+        "[46.5-60]% Ground Stomp Size"
+      ],
+      "ga": [
+        "34.5% Movement Speed",
+        "10.5% Movement Speed per Walking Arsenal Bonus",
+        "157.5% Damage to Stunned Enemies",
+        "90% Ground Stomp Size"
+      ],
+      "effect": "When activating or refreshing the full Walking Arsenal Key Passive effect, you automatically cast Ground Stomp and gain [50-100] Fury. Can only occur once every 5 seconds.",
+      "flavor": "\"While many Barbarians remained in the Dreadlands, small groups from the Oxen, Crane and Bear tribes instead chose to search the land for a new home.\" - A History of the Children of Bul-Kathos"
+    }
+  },
+  {
+    "path": [
+      "result",
+      "pageContext",
+      "gemsPTR"
+    ],
+    "length": 7,
+    "sample": {
+      "name": "Amethyst",
+      "weapon": "48% Damage Over Time",
+      "armor": "12% Barrier Generation",
+      "jewelry": "60% Shadow Resistance"
+    }
+  },
+  {
+    "path": [
+      "result",
+      "pageContext",
+      "paragonsPTR"
+    ],
+    "length": 137,
+    "sample": {
+      "name": "Ambidextrous",
+      "rarity": "Rare",
+      "class": "Barbarian",
+      "bonus": [
+        "Grants + {value} bonus to all Magic nodes within range."
+      ],
+      "additional_bonus": [
+        "You deal x8% increased damage while Weilding One-Handed Weapons."
+      ],
+      "legendary_bonus": [
+        "Increase damage by x {legendary_value} ."
+      ],
+      "legendary_value": 0.104,
+      "requirements_amount": [
+        40
+      ],
+      "requirements_stat": [
+        "Strength"
+      ],
+      "value": 25,
+      "scaling": 2.5,
+      "max_value": 2.725,
+      "stat_name": "Special",
+      "stat_scaling": "Magic"
+    }
+  }
+]

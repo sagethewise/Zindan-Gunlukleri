@@ -1,0 +1,602 @@
+[
+  {
+    "slug": "grigoire",
+    "boss_en": "Grigoire",
+    "boss_tr": null,
+    "diablo_class": null,
+    "class_key": null,
+    "world_tier": null,
+    "location_en": "Hall of the Penitent - Dry Steppes",
+    "location_tr": null,
+    "drop_type": null,
+    "tags": null,
+    "data": {
+      "boss": "Grigoire",
+      "name": "Grigoire, The Galvanic Saint",
+      "location": "Hall of the Penitent - Dry Steppes",
+      "materials": [
+        "Living Steel~12"
+      ],
+      "source": "Helltides",
+      "all": [
+        "Penitent Greaves",
+        "Endurant Faith"
+      ],
+      "barbarian": [
+        "Rage of Harrogath",
+        "Battle Trance",
+        "The Butcher's Cleaver",
+        "Twin Strikes",
+        "Unbroken Chain"
+      ],
+      "druid": [
+        "Insatiable Fury",
+        "Hunter's Zenith",
+        "Waxing Gibbous",
+        "The Butcher's Cleaver",
+        "Earthbreaker"
+      ],
+      "necromancer": [
+        "Howl from Below",
+        "Greaves of the Empty Tomb",
+        "Ebonpiercer",
+        "Path of Trag'Oul",
+        "The Butcher's Cleaver",
+        "The Mortacrux"
+      ],
+      "rogue": [
+        "Word of Hakan",
+        "Grasp of Shadow",
+        "Saboteur's Signet",
+        "Shroud of Khanduras",
+        "Bands of Ichorous Rose"
+      ],
+      "sorcerer": [
+        "Staff of Lam Esen",
+        "Iceheart Brais",
+        "Flameweaver",
+        "Axial Conduit"
+      ],
+      "spiritborn": [
+        "Protection of the Prime",
+        "Peacemonger's Signet",
+        "Ring of the Midnight Sun",
+        "Loyalty's Mantle"
+      ]
+    }
+  },
+  {
+    "slug": "varshan",
+    "boss_en": "Varshan",
+    "boss_tr": null,
+    "diablo_class": null,
+    "class_key": null,
+    "world_tier": null,
+    "location_en": "Malignant Burrow - Tree of Whispers",
+    "location_tr": null,
+    "drop_type": null,
+    "tags": null,
+    "data": {
+      "boss": "Varshan",
+      "name": "Echo of Varshan",
+      "location": "Malignant Burrow - Tree of Whispers",
+      "materials": [
+        "Malignant Heart~12"
+      ],
+      "source": "Tree of Whispers",
+      "all": [
+        "Frostburn",
+        "Mother's Embrace",
+        "Rakanoth's Wake"
+      ],
+      "barbarian": [
+        "Fields of Crimson",
+        "100,000 Steps",
+        "Gohr's Devastating Grips",
+        "Ring of Red Furor",
+        "Sabre of Tsasgal",
+        "Shard of Verathiel"
+      ],
+      "druid": [
+        "Mad Wolf's Glee",
+        "Vasily's Prayer",
+        "Greatstaff of the Crone",
+        "Airidah's Inexorable Will",
+        "Rotting Lightbringer",
+        "Shard of Verathiel"
+      ],
+      "necromancer": [
+        "Bloodless Scream",
+        "Deathless Visage",
+        "Deathspeaker's Pendant",
+        "Ring of the Sacrilegious Soul",
+        "Gospel of the Devotee",
+        "Shard of Verathiel"
+      ],
+      "rogue": [
+        "Condemnation",
+        "Eyes in the Dark",
+        "Skyhunter",
+        "Writhing Band of Trickery",
+        "Shard of Verathiel"
+      ],
+      "sorcerer": [
+        "Staff of Endless Rage",
+        "Esu's Heirloom",
+        "Raiment of the Infinite",
+        "Tal Rasha's Iridescent Loop"
+      ],
+      "spiritborn": [
+        "Craze of the Dead God",
+        "Ring of Writhing Moon",
+        "Ring of the Midday Hunt",
+        "Sunstained War-Crozier"
+      ]
+    }
+  },
+  {
+    "slug": "lord-zir",
+    "boss_en": "Lord Zir",
+    "boss_tr": null,
+    "diablo_class": null,
+    "class_key": null,
+    "world_tier": null,
+    "location_en": "The Darkened Way - Fractured Peaks",
+    "location_tr": null,
+    "drop_type": null,
+    "tags": null,
+    "data": {
+      "boss": "Lord Zir",
+      "name": "Lord Zir",
+      "location": "The Darkened Way - Fractured Peaks",
+      "materials": [
+        "Exquisite Blood~12"
+      ],
+      "source": "World Bosses, Legion Events",
+      "all": [
+        "Razorplate",
+        "Temerity",
+        "Yen's Blessing"
+      ],
+      "barbarian": [
+        "Ramaladni's Magnum Opus",
+        "Overkill",
+        "Arreat's Bearing",
+        "Ugly Bastard Helm"
+      ],
+      "druid": [
+        "Fleshrender",
+        "Wildheart Hunger",
+        "Mjölnic Ryng",
+        "Malefic Crescent"
+      ],
+      "necromancer": [
+        "Blood Artisan's Cuirass",
+        "Lidless Wall",
+        "Cruor's Embrace",
+        "Kessime's Legacy",
+        "Sanguivor, Blade of Zir"
+      ],
+      "rogue": [
+        "Asheara's Khanjar",
+        "Scoundrel's Kiss",
+        "Assassin's Stride",
+        "Pitfighter's Gull",
+        "Orphan Maker"
+      ],
+      "sorcerer": [
+        "Esadora's Overflowing Cameo",
+        "Fractured Winterglass",
+        "Okun's Catalyst",
+        "Sidhe's Binding"
+      ],
+      "spiritborn": [
+        "Jacinth Shell",
+        "Wushe Nak Pa",
+        "Band of First Breath"
+      ]
+    }
+  },
+  {
+    "slug": "beast-in-ice",
+    "boss_en": "Beast in Ice",
+    "boss_tr": null,
+    "diablo_class": null,
+    "class_key": null,
+    "world_tier": null,
+    "location_en": "Glacial Fissure - Fractured Peaks",
+    "location_tr": null,
+    "drop_type": null,
+    "tags": null,
+    "data": {
+      "boss": "Beast in Ice",
+      "name": "The Beast in the Ice",
+      "location": "Glacial Fissure - Fractured Peaks",
+      "materials": [
+        "Distilled Fear~12"
+      ],
+      "source": "Nightmare Dungeons",
+      "all": [
+        "Fists of Fate",
+        "Tassets of the Dawning Sky",
+        "Paingorger's Gauntlets"
+      ],
+      "barbarian": [
+        "Ancients' Oath",
+        "Hellhammer",
+        "Ring of the Ravenous",
+        "Mantle of Mountain's Fury",
+        "Hooves of the Mountain God"
+      ],
+      "druid": [
+        "Storm's Companion",
+        "Unsung Ascetic's Wraps",
+        "Stone of Vehemen",
+        "Gathlen's Birthright",
+        "Kilt of Blackwing"
+      ],
+      "necromancer": [
+        "Ring of Mendeln",
+        "Mutilator Plate",
+        "Indira's Memory",
+        "The Unmaker"
+      ],
+      "rogue": [
+        "Windforce",
+        "Eaglehorn",
+        "Beastfall Boots",
+        "Deathmask of Nirmitruq"
+      ],
+      "sorcerer": [
+        "Gloves of the Illuminator",
+        "The Oculus",
+        "Starfall Coronet",
+        "Strike of Stormhorn"
+      ],
+      "spiritborn": [
+        "Scorn of the Earth",
+        "Wound Drinker",
+        "Harmony of Ebewaka"
+      ]
+    }
+  },
+  {
+    "slug": "urivar",
+    "boss_en": "Urivar",
+    "boss_tr": null,
+    "diablo_class": null,
+    "class_key": null,
+    "world_tier": null,
+    "location_en": "Fields of Judgement - Nahantu",
+    "location_tr": null,
+    "drop_type": null,
+    "tags": null,
+    "data": {
+      "boss": "Urivar",
+      "name": "Urivar",
+      "location": "Fields of Judgement - Nahantu",
+      "materials": [
+        "Judicator's Mask~12"
+      ],
+      "source": "Tree of Whispers, World Bosses, Mercenary Bartering",
+      "all": [
+        "Frostburn",
+        "Paingorger's Gauntlets",
+        "Temerity"
+      ],
+      "barbarian": [
+        "100,000 Steps",
+        "Ring of the Ravenous",
+        "Twin Strikes",
+        "Overkill",
+        "Hooves of the Mountain God"
+      ],
+      "druid": [
+        "Gathlen's Birthright",
+        "Earthbreaker",
+        "Storm's Companion",
+        "Greatstaff of the Crone",
+        "Malefic Crescent",
+        "Rotting Lightbringer"
+      ],
+      "necromancer": [
+        "Bloodless Scream",
+        "Ebonpiercer",
+        "The Unmaker",
+        "Blood Artisan's Cuirass",
+        "Gospel of the Devotee"
+      ],
+      "rogue": [
+        "Bands of Ichorous Rose",
+        "Windforce",
+        "Eyes in the Dark",
+        "Scoundrel's Kiss",
+        "Word of Hakan",
+        "Deathmask of Nirmitruq"
+      ],
+      "sorcerer": [
+        "Ahavarion, Spear of Lycander",
+        "Flamescar",
+        "Blue Rose"
+      ],
+      "spiritborn": [
+        "Sepazontec",
+        "Rod of Kepeleke"
+      ]
+    }
+  },
+  {
+    "slug": "harbinger-of-hatred",
+    "boss_en": "Harbinger of Hatred",
+    "boss_tr": null,
+    "diablo_class": null,
+    "class_key": null,
+    "world_tier": null,
+    "location_en": "Harbinger's Den - Nahantu",
+    "location_tr": null,
+    "drop_type": null,
+    "tags": null,
+    "data": {
+      "boss": "Harbinger of Hatred",
+      "name": "Harbinger of Hatred",
+      "location": "Harbinger's Den - Nahantu",
+      "materials": [
+        "Abhorrent Heart~3"
+      ],
+      "source": "Urivar",
+      "all": [
+        "Melted Heart of Selig",
+        "Andariel's Visage",
+        "Harlequin Crest",
+        "Ring of Starless Skies",
+        "Shroud of False Death",
+        "Heir of Perdition",
+        "Tyrael's Might",
+        "Banished Lord's Talisman",
+        "Crown of Lucion",
+        "Flickerstep",
+        "Godslayer Crown",
+        "Locran's Talisman",
+        "Tibault's Will"
+      ],
+      "barbarian": [
+        "Doombringer",
+        "The Grandfather",
+        "Shattered Vow",
+        "Bane of Ahjad-Den",
+        "The Third Blade"
+      ],
+      "druid": [
+        "Ahavarion, Spear of Lycander",
+        "Shattered Vow",
+        "Tempest Roar",
+        "The Basilisk"
+      ],
+      "necromancer": [
+        "Doombringer",
+        "The Grandfather",
+        "Black River",
+        "The Hand of Naz"
+      ],
+      "rogue": [
+        "Doombringer",
+        "Scoundrel's Leathers",
+        "The Umbracrux"
+      ],
+      "sorcerer": [
+        "Ahavarion, Spear of Lycander",
+        "Flamescar",
+        "Blue Rose"
+      ],
+      "spiritborn": [
+        "Sepazontec",
+        "Rod of Kepeleke"
+      ]
+    }
+  },
+  {
+    "slug": "duriel",
+    "boss_en": "Duriel",
+    "boss_tr": null,
+    "diablo_class": null,
+    "class_key": null,
+    "world_tier": null,
+    "location_en": "Gaping Crevasse - Kehjistan",
+    "location_tr": null,
+    "drop_type": null,
+    "tags": null,
+    "data": {
+      "boss": "Duriel",
+      "name": "Echo of Duriel",
+      "location": "Gaping Crevasse - Kehjistan",
+      "materials": [
+        "Shard of Agony~3"
+      ],
+      "source": "Grigoire, Varshan",
+      "all": [
+        "Melted Heart of Selig",
+        "Andariel's Visage",
+        "Harlequin Crest",
+        "Ring of Starless Skies",
+        "Shroud of False Death",
+        "Heir of Perdition",
+        "Tyrael's Might",
+        "Azurewrath",
+        "Banished Lord's Talisman",
+        "Crown of Lucion",
+        "Godslayer Crown",
+        "Soulbrand",
+        "X'Fal's Corroded Signet"
+      ],
+      "barbarian": [
+        "Doombringer",
+        "The Grandfather",
+        "Shattered Vow",
+        "The Third Blade",
+        "Tuskhelm of Joritz the Mighty"
+      ],
+      "druid": [
+        "Ahavarion, Spear of Lycander",
+        "Shattered Vow",
+        "Dolmen Stone",
+        "Tempest Roar"
+      ],
+      "necromancer": [
+        "Doombringer",
+        "The Grandfather",
+        "Blood Moon Breeches",
+        "The Hand of Naz"
+      ],
+      "rogue": [
+        "Doombringer",
+        "Cowl of the Nameless",
+        "Scoundrel's Leathers"
+      ],
+      "sorcerer": [
+        "Vox Omnium"
+      ],
+      "spiritborn": [
+        "Nesekem, The Herald",
+        "Shattered Vow",
+        "Rod of Kepeleke",
+        "Sepazontec"
+      ]
+    }
+  },
+  {
+    "slug": "andariel",
+    "boss_en": "Andariel",
+    "boss_tr": null,
+    "diablo_class": null,
+    "class_key": null,
+    "world_tier": null,
+    "location_en": "Hanged Man's Hall - Kehjistan",
+    "location_tr": null,
+    "drop_type": null,
+    "tags": null,
+    "data": {
+      "boss": "Andariel",
+      "name": "Echo of Andariel",
+      "location": "Hanged Man's Hall - Kehjistan",
+      "materials": [
+        "Pincushioned Doll~3"
+      ],
+      "source": "Lord Zir, Beast in Ice",
+      "all": [
+        "Melted Heart of Selig",
+        "Andariel's Visage",
+        "Harlequin Crest",
+        "Ring of Starless Skies",
+        "Shroud of False Death",
+        "Heir of Perdition",
+        "Tyrael's Might",
+        "Azurewrath",
+        "Flickerstep",
+        "Locran's Talisman",
+        "Soulbrand",
+        "Tibault's Will",
+        "X'Fal's Corroded Signet"
+      ],
+      "barbarian": [
+        "Doombringer",
+        "The Grandfather",
+        "Shattered Vow",
+        "Bane of Ahjad-Den",
+        "Tuskhelm of Joritz the Mighty"
+      ],
+      "druid": [
+        "Ahavarion, Spear of Lycander",
+        "Shattered Vow",
+        "Dolmen Stone",
+        "The Basilisk"
+      ],
+      "necromancer": [
+        "Doombringer",
+        "The Grandfather",
+        "Black River",
+        "Blood Moon Breeches"
+      ],
+      "rogue": [
+        "Doombringer",
+        "Cowl of the Nameless",
+        "The Umbracrux"
+      ],
+      "sorcerer": [
+        "Ahavarion, Spear of Lycander",
+        "Blue Rose",
+        "Flamescar",
+        "Galvanic Azurite"
+      ],
+      "spiritborn": [
+        "Nesekem, The Herald",
+        "Shattered Vow",
+        "Sepazontec",
+        "Sunbird's Gorget"
+      ]
+    }
+  },
+  {
+    "slug": "belial-lord-of-lies",
+    "boss_en": "Belial, Lord of Lies",
+    "boss_tr": null,
+    "diablo_class": null,
+    "class_key": null,
+    "world_tier": null,
+    "location_en": "Palace of the Deceiver - Kehjistan",
+    "location_tr": null,
+    "drop_type": null,
+    "tags": null,
+    "data": {
+      "boss": "Belial, Lord of Lies",
+      "name": "Belial, Lord of Lies",
+      "location": "Palace of the Deceiver - Kehjistan",
+      "materials": [
+        "Betrayer's Husk~2"
+      ],
+      "source": "Belial, Lord of Lies Ambush"
+    }
+  },
+  {
+    "slug": "the-infernal-hordes",
+    "boss_en": "The Infernal Hordes",
+    "boss_tr": null,
+    "diablo_class": null,
+    "class_key": null,
+    "world_tier": null,
+    "location_en": "Burning Hells",
+    "location_tr": null,
+    "drop_type": null,
+    "tags": null,
+    "data": {
+      "boss": "The Infernal Hordes",
+      "name": "The Infernal Hordes",
+      "location": "Burning Hells",
+      "materials": [
+        "The Infernal Hordes Compass"
+      ],
+      "source": "Endgame Bosses, Helltides, Nightmare Dungeons, Whisper Caches",
+      "all": [
+        "Crown of Lucion",
+        "Endurant Faith",
+        "Locran's Talisman",
+        "Rakanoth's Wake",
+        "Shard of Verathiel"
+      ],
+      "barbarian": [
+        "The Third Blade"
+      ],
+      "druid": [
+        "The Basilisk"
+      ],
+      "necromancer": [
+        "The Mortacrux"
+      ],
+      "rogue": [
+        "The Umbracrux"
+      ],
+      "sorcerer": [
+        "Vox Omnium"
+      ]
+    }
+  }
+]

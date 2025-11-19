@@ -1,0 +1,1484 @@
+[
+  {
+    "path": "result.pageContext.skills",
+    "length": 503,
+    "sample": {
+      "name": "Bash",
+      "class": "Barbarian",
+      "tags": [
+        "Basic",
+        "Bludgeoning"
+      ],
+      "fury_generate": 15,
+      "lucky_hit": "50%",
+      "filters": [
+        "Stun",
+        "Fortify",
+        "Overpower",
+        "Physical",
+        "Basic",
+        "Bludgeoning",
+        "Two-Handed",
+        "Weapon Mastery",
+        "Critical Strike",
+        "Life",
+        "Fury"
+      ],
+      "description": [
+        "Bash the enemy with your weapon, dealing {value1} damage. After bashing enemies 4 times, your next Bash will clobber, Stunning enemies for 1.5 seconds. Clobber twice as often while using a Two-Handed weapon."
+      ],
+      "extra": [
+        "Physical Damage"
+      ],
+      "value1": [
+        "90%",
+        "99%",
+        "108%",
+        "117%",
+        "126%"
+      ],
+      "runes": [
+        {
+          "name": "Enhanced",
+          "description": [
+            "Clobbering an enemy grants you 20% Maximum Life as Fortify."
+          ]
+        },
+        {
+          "name": "Battle",
+          "description": [
+            "Clobbering an enemy generates an additional 10 Fury."
+          ]
+        },
+        {
+          "name": "Combat",
+          "description": [
+            "After Critically Striking 4 times with Bash using a Two-Handed weapon, your next Core or Weapon Mastery Skill will Overpower."
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "path": "result.pageContext.codexes",
+    "length": 385,
+    "sample": {
+      "name": "Accelerating Aspect",
+      "new": false,
+      "type": "Offensive",
+      "legendary": true,
+      "campaign": false,
+      "filters": [
+        "Attack Speed",
+        "Core"
+      ],
+      "description": "Critical Strikes with Core Skills increase your Attack Speed by + [10-30%] for 5 seconds."
+    }
+  },
+  {
+    "path": "result.pageContext.uniques",
+    "length": 566,
+    "sample": {
+      "name": "100,000 Steps",
+      "class": "Barbarian",
+      "type": "Boots",
+      "secondary_stats": [
+        "Evade Grants 10% Attack Speed for 3 Seconds"
+      ],
+      "terciary_stats": [
+        "Movement Speed",
+        "Movement Speed per Walking Arsenal Bonus",
+        "Damage to Stunned Enemies",
+        "Ground Stomp Size"
+      ],
+      "terciary_stats__full": [
+        "[17.5-23]% Movement Speed",
+        "[5-7]% Movement Speed per Walking Arsenal Bonus",
+        "[82.5-105]% Damage to Stunned Enemies",
+        "[46.5-60]% Ground Stomp Size"
+      ],
+      "effect": "When activating or refreshing the full Walking Arsenal Key Passive effect, you automatically cast Ground Stomp and gain [50-100] Fury. Can only occur once every 5 seconds.",
+      "flavor": "\"While many Barbarians remained in the Dreadlands, small groups from the Oxen, Crane and Bear tribes instead chose to search the land for a new home.\" - A History of the Children of Bul-Kathos"
+    }
+  },
+  {
+    "path": "result.pageContext.paragons.Barbarian",
+    "length": 1570,
+    "sample": {
+      "name": "Normal Node",
+      "icon": "Will",
+      "board": "Starting Board",
+      "id": "startingboard_r2c10",
+      "glyph_radius": false,
+      "row": 2,
+      "column": 10,
+      "requires": [
+        "startingboard_r1c10",
+        "startingboard_r3c10",
+        "startingboard_r2c9",
+        "startingboard_r2c11"
+      ],
+      "willpower": 5,
+      "effects": [
+        "5 Willpower"
+      ],
+      "radius_stat": "Willpower",
+      "radius_value": 5
+    }
+  },
+  {
+    "path": "result.pageContext.paragons.Druid",
+    "length": 1570,
+    "sample": {
+      "name": "Normal Node",
+      "icon": "Int",
+      "board": "Starting Board",
+      "id": "startingboard_r2c10",
+      "glyph_radius": false,
+      "row": 2,
+      "column": 10,
+      "requires": [
+        "startingboard_r1c10",
+        "startingboard_r3c10",
+        "startingboard_r2c9",
+        "startingboard_r2c11"
+      ],
+      "intelligence": 5,
+      "effects": [
+        "5 Intelligence"
+      ],
+      "radius_stat": "Intelligence",
+      "radius_value": 5
+    }
+  },
+  {
+    "path": "result.pageContext.paragons.Necromancer",
+    "length": 1570,
+    "sample": {
+      "name": "Normal Node",
+      "icon": "Will",
+      "board": "Starting Board",
+      "id": "startingboard_r2c10",
+      "glyph_radius": false,
+      "row": 2,
+      "column": 10,
+      "requires": [
+        "startingboard_r1c10",
+        "startingboard_r3c10",
+        "startingboard_r2c9",
+        "startingboard_r2c11"
+      ],
+      "willpower": 5,
+      "effects": [
+        "5 Willpower"
+      ],
+      "radius_stat": "Willpower",
+      "radius_value": 5
+    }
+  },
+  {
+    "path": "result.pageContext.paragons.Rogue",
+    "length": 1569,
+    "sample": {
+      "name": "Normal Node",
+      "icon": "Str",
+      "board": "Starting Board",
+      "id": "startingboard_r2c10",
+      "glyph_radius": false,
+      "row": 2,
+      "column": 10,
+      "requires": [
+        "startingboard_r1c10",
+        "startingboard_r3c10",
+        "startingboard_r2c9",
+        "startingboard_r2c11"
+      ],
+      "strength": 5,
+      "effects": [
+        "5 Strength"
+      ],
+      "radius_stat": "Strength",
+      "radius_value": 5
+    }
+  },
+  {
+    "path": "result.pageContext.paragons.Sorcerer",
+    "length": 1569,
+    "sample": {
+      "name": "Normal Node",
+      "icon": "Will",
+      "board": "Starting Board",
+      "id": "startingboard_r2c10",
+      "glyph_radius": false,
+      "row": 2,
+      "column": 10,
+      "requires": [
+        "startingboard_r1c10",
+        "startingboard_r3c10",
+        "startingboard_r2c9",
+        "startingboard_r2c11"
+      ],
+      "willpower": 5,
+      "effects": [
+        "5 Willpower"
+      ],
+      "radius_stat": "Willpower",
+      "radius_value": 5
+    }
+  },
+  {
+    "path": "result.pageContext.paragons.Spiritborn",
+    "length": 1403,
+    "sample": {
+      "name": "Normal Node",
+      "icon": "Int",
+      "board": "Starting Board",
+      "id": "startingboard_r2c10",
+      "glyph_radius": false,
+      "row": 2,
+      "column": 10,
+      "requires": [
+        "startingboard_r1c10",
+        "startingboard_r3c10",
+        "startingboard_r2c9",
+        "startingboard_r2c11"
+      ],
+      "intelligence": 5,
+      "effects": [
+        "5 Intelligence"
+      ],
+      "radius_stat": "Intelligence",
+      "radius_value": 5
+    }
+  },
+  {
+    "path": "result.pageContext.paragonBoards",
+    "length": 59,
+    "sample": {
+      "title": "Starter Board",
+      "icon": "Barbarian",
+      "class": "Barbarian",
+      "str": 105,
+      "int": 25,
+      "will": 64,
+      "dex": 59
+    }
+  },
+  {
+    "path": "result.pageContext.paragonGlyphs",
+    "length": 137,
+    "sample": {
+      "name": "Ambidextrous",
+      "rarity": "Rare",
+      "class": "Barbarian",
+      "bonus": [
+        "Grants + {value} bonus to all Magic nodes within range."
+      ],
+      "additional_bonus": [
+        "You deal x8% increased damage while Weilding One-Handed Weapons."
+      ],
+      "legendary_bonus": [
+        "Increase damage by x {legendary_value} ."
+      ],
+      "legendary_value": 0.104,
+      "requirements_amount": [
+        40
+      ],
+      "requirements_stat": [
+        "Strength"
+      ],
+      "value": 25,
+      "scaling": 2.5,
+      "max_value": 2.725,
+      "stat_name": "Special",
+      "stat_scaling": "Magic"
+    }
+  },
+  {
+    "path": "result.pageContext.skillTree.Barbarian",
+    "length": 133,
+    "sample": {
+      "name": "Lunging Strike",
+      "id": 1,
+      "section": 1,
+      "group": 1,
+      "active_rank": 0,
+      "total_rank": 5,
+      "large": true,
+      "diamond": false,
+      "global_req": 0,
+      "row": "r1",
+      "column": "c1",
+      "filters": [
+        "Physical",
+        "Basic",
+        "Two-Handed",
+        "Bludgeoning",
+        "Slashing",
+        "Dual Wield",
+        "One-Handed"
+      ],
+      "after": "Bottom",
+      "left": 910,
+      "top": 470
+    }
+  },
+  {
+    "path": "result.pageContext.skillTree.Druid",
+    "length": 146,
+    "sample": {
+      "name": "Earth Spike",
+      "id": 1,
+      "section": 1,
+      "group": 1,
+      "active_rank": 0,
+      "total_rank": 5,
+      "large": true,
+      "diamond": false,
+      "global_req": 0,
+      "row": "r1",
+      "column": "c1",
+      "filters": [
+        "Physical",
+        "Basic",
+        "Nature Magic",
+        "Earth"
+      ],
+      "after": "Bottom",
+      "left": 955,
+      "top": 415
+    }
+  },
+  {
+    "path": "result.pageContext.skillTree.Necromancer",
+    "length": 117,
+    "sample": {
+      "name": "Reap",
+      "id": 1,
+      "section": 1,
+      "group": 1,
+      "active_rank": 0,
+      "total_rank": 5,
+      "large": true,
+      "diamond": false,
+      "global_req": 0,
+      "row": "r1",
+      "column": "c1",
+      "filters": [
+        "Damage Reduction",
+        "Shadow",
+        "Basic",
+        "Darkness"
+      ],
+      "after": "Bottom",
+      "left": 930,
+      "top": 480
+    }
+  },
+  {
+    "path": "result.pageContext.skillTree.Rogue",
+    "length": 133,
+    "sample": {
+      "name": "Invigorating Strike",
+      "id": 1,
+      "section": 1,
+      "group": 1,
+      "active_rank": 0,
+      "total_rank": 5,
+      "large": true,
+      "diamond": false,
+      "global_req": 0,
+      "row": "r1",
+      "column": "c1",
+      "filters": [
+        "Physical",
+        "Basic",
+        "Cutthroat",
+        "Energy"
+      ],
+      "after": "Bottom",
+      "left": 955,
+      "top": 415
+    }
+  },
+  {
+    "path": "result.pageContext.skillTree.Sorcerer",
+    "length": 139,
+    "sample": {
+      "name": "Spark",
+      "id": 1,
+      "section": 1,
+      "group": 1,
+      "active_rank": 0,
+      "total_rank": 5,
+      "large": true,
+      "diamond": false,
+      "global_req": 0,
+      "row": "r1",
+      "column": "c1",
+      "filters": [
+        "Crackling Energy",
+        "Lightning",
+        "Basic",
+        "Shock"
+      ],
+      "after": "Bottom",
+      "left": 930,
+      "top": 480
+    }
+  },
+  {
+    "path": "result.pageContext.skillTree.Spiritborn",
+    "length": 129,
+    "sample": {
+      "name": "Rock Splitter",
+      "id": 1,
+      "section": 1,
+      "group": 1,
+      "active_rank": 0,
+      "total_rank": 5,
+      "large": true,
+      "diamond": false,
+      "global_req": 0,
+      "row": "r1",
+      "column": "c1",
+      "after": "Bottom",
+      "left": 910,
+      "top": 470
+    }
+  },
+  {
+    "path": "result.pageContext.gems",
+    "length": 7,
+    "sample": {
+      "name": "Amethyst",
+      "weapon": "48% Damage Over Time",
+      "armor": "12% Barrier Generation",
+      "jewelry": "60% Shadow Resistance"
+    }
+  },
+  {
+    "path": "result.pageContext.runes",
+    "length": 44,
+    "sample": {
+      "name": "Ahu",
+      "type": "Ritual",
+      "rarity": "Legendary",
+      "gain": 15,
+      "bonus": "Lucky Hit: Up to a 100% chance against non-Healthy enemies."
+    }
+  },
+  {
+    "path": "result.pageContext.stats",
+    "length": 10,
+    "sample": {
+      "slot": "Helm",
+      "all": [
+        "Maximum Life",
+        "Life per 5 Seconds",
+        "Healing Received",
+        "Armor",
+        "Maximum Resource",
+        "Cooldown Reduction",
+        "Lucky Hit Chance",
+        "Resistance to All Elements",
+        "Cold Resistance",
+        "Fire Resistance",
+        "Lightning Resistance",
+        "Poison Resistance",
+        "Shadow Resistance",
+        "Impairment Reduction",
+        "Thorns"
+      ],
+      "barbarian": [
+        "Strength",
+        "Fury per Second",
+        "Ranks to Death Blow",
+        "Ranks to Rupture",
+        "Ranks to Steel Grasp",
+        "Ranks to Mighty Throw",
+        "Ranks to Weapon Mastery Skills"
+      ],
+      "druid": [
+        "Willpower",
+        "Spirit per Second",
+        "Ranks to Poison Creeper",
+        "Ranks to Ravens",
+        "Ranks to Wolves",
+        "Ranks to Companion Skills"
+      ],
+      "necromancer": [
+        "Intelligence",
+        "Essence per Second",
+        "Ranks to Decrepify",
+        "Ranks to Iron Maiden",
+        "Ranks to Skeletal Warrior Mastery",
+        "Ranks to Curse Skills"
+      ],
+      "rogue": [
+        "Dexterity",
+        "Energy per Second",
+        "Ranks to Cold Imbuement",
+        "Ranks to Poison Imbuement",
+        "Ranks to Shadow Imbuement",
+        "Ranks to Imbuement Skills"
+      ],
+      "sorcerer": [
+        "Intelligence",
+        "Mana per Second",
+        "Ranks to Hydra",
+        "Ranks to Ice Blades",
+        "Ranks to Lightning Spear",
+        "Ranks to Familiar",
+        "Ranks to Conjuration Skills"
+      ],
+      "spiritborn": [
+        "Dexterity",
+        "Vigor per Second",
+        "Ranks to Payback",
+        "Ranks to Razor Wings",
+        "Ranks to Rushing Claw",
+        "Ranks to Touch of Death",
+        "Ranks to Potency Skills"
+      ]
+    }
+  },
+  {
+    "path": "result.pageContext.hearts",
+    "length": 32,
+    "sample": {
+      "name": "Cluster Munitions",
+      "class": "Rogue",
+      "type": "Offensive",
+      "color": "Vicious",
+      "filters": [
+        "Lucky Hit",
+        "Stun"
+      ],
+      "description": "Lucky Hit: You have up to a 20% chance to launch 6 Stun Grenades that deal [X] Physical damage and Stun enemies for 0.50 seconds."
+    }
+  },
+  {
+    "path": "result.pageContext.vampPowers",
+    "length": 22,
+    "sample": {
+      "name": "Anticipation",
+      "type": "Minor",
+      "pacts": [
+        "1 Divinity"
+      ],
+      "pact": {
+        "divinity": 1
+      },
+      "filters": [
+        "Ultimate",
+        "Damage Over Time",
+        "Cooldown Reduction"
+      ],
+      "description": "Your Ultimate Skills gain 20% Cooldown Reduction. Your Ultimate Skills gain 12% increased damage for each nearby enemy affected by your Damage Over Time effects."
+    }
+  },
+  {
+    "path": "result.pageContext.witchPowers",
+    "length": 25,
+    "sample": {
+      "name": "Abyssal Resonance",
+      "rarity": "Magic",
+      "type": "Eldritch",
+      "unique": false,
+      "filters": [
+        "Resource",
+        "Shadow",
+        "Pull"
+      ],
+      "description": "After spending 250 Primary Resource, you explode, dealing [X] Shadow damage and gaining a stack of Abyssal Resonance for 10 seconds. The explosion Pulls In enemies while at 2 stacks of Abyssal Resonance.\n\nEach stack of Abyssal Resonance increases its Size by x [260%] and damage by x [130%] , up to x [780%] and x [260%] respectively."
+    }
+  },
+  {
+    "path": "result.pageContext.bossPowers",
+    "length": 24,
+    "sample": {
+      "name": "Andariel's Flaming Skull",
+      "color": "Purple",
+      "rarity": "Legendary",
+      "filters": [
+        "Burn"
+      ],
+      "main": "After standing still for 1 second, summon a skull for 4 seconds that rotates around you and breathes fire that Burns enemies for [450%] damage over 3 seconds.",
+      "modifier": "Enemies take [10.5%] more damage from your Damage over Time effects.",
+      "location": "Defeat Andariel (Torment 1 or higher) to unlock"
+    }
+  },
+  {
+    "path": "result.pageContext.stones",
+    "length": 39,
+    "sample": {
+      "name": "Autodefense",
+      "type": "Governing",
+      "tags": [
+        "Cooldown",
+        "Duration",
+        "Utility"
+      ],
+      "color": "utility",
+      "rarity": "Legendary",
+      "speed": "1.5 seconds",
+      "cooldown": "25 seconds",
+      "location": "Acquired by defeating Heralds in Arcane Tremors",
+      "description": [
+        "The Seneschal Construct activates an antimaterial field around itself shooting down up to 30 enemy projectiles. Lasts for 5 seconds. Can not shoot down Boss or Player projectiles."
+      ]
+    }
+  },
+  {
+    "path": "result.pageContext.temperingStats",
+    "length": 157,
+    "sample": {
+      "name": "Barbarian Recovery",
+      "class": "Barbarian",
+      "type": "Defensive",
+      "stats": [
+        "[41.5-55%] Lunging Strike Healing",
+        "[1-2] to Raid Leader",
+        "[1-2] to Invigorating Fury"
+      ]
+    }
+  },
+  {
+    "path": "result.pageContext.horadricSpells",
+    "length": 30,
+    "sample": {
+      "name": "Astral Pillar",
+      "type": "Catalyst",
+      "tags": [
+        "Catalyst"
+      ],
+      "magic_type": "Astral Magic",
+      "cooldown": 7,
+      "lucky_hit": "12%",
+      "filters": [
+        "Taunt",
+        "Vulnerable"
+      ],
+      "description": [
+        "Shape an Ethereal Column that Taunts for 4.9 seconds. Piercing waves flow from it and deal 1127% damage, until you create another one or move too far away.",
+        "Rank 10: The Taunted enemies become Vulnerable and move faster."
+      ]
+    }
+  },
+  {
+    "path": "result.pageContext.chaosPerks",
+    "length": 36,
+    "sample": {
+      "name": "A Beast Cornered",
+      "rarity": "Unique",
+      "filters": [
+        "Damage Reduction"
+      ],
+      "description": [
+        "For every 10% Life you are missing, you gain x20% increased damage and 5% damage reduction.",
+        "Each resource you spend also drains a 0.2% of your Maximum Life to refund 40% of the total resources spent. This cannot reduce you to below 10% Life."
+      ]
+    }
+  },
+  {
+    "path": "result.pageContext.skillsPTR",
+    "length": 503,
+    "sample": {
+      "name": "Bash",
+      "class": "Barbarian",
+      "tags": [
+        "Basic",
+        "Bludgeoning"
+      ],
+      "fury_generate": 15,
+      "lucky_hit": "50%",
+      "filters": [
+        "Stun",
+        "Fortify",
+        "Overpower",
+        "Physical",
+        "Basic",
+        "Bludgeoning",
+        "Two-Handed",
+        "Weapon Mastery",
+        "Critical Strike",
+        "Life",
+        "Fury"
+      ],
+      "description": [
+        "Bash the enemy with your weapon, dealing {value1} damage. After bashing enemies 4 times, your next Bash will clobber, Stunning enemies for 1.5 seconds. Clobber twice as often while using a Two-Handed weapon."
+      ],
+      "extra": [
+        "Physical Damage"
+      ],
+      "value1": [
+        "90%",
+        "99%",
+        "108%",
+        "117%",
+        "126%"
+      ],
+      "runes": [
+        {
+          "name": "Enhanced",
+          "description": [
+            "Clobbering an enemy grants you 10% Maximum Life as Fortify."
+          ]
+        },
+        {
+          "name": "Battle",
+          "description": [
+            "Clobbering an enemy generates an additional 10 Fury."
+          ]
+        },
+        {
+          "name": "Combat",
+          "description": [
+            "After Critically Striking 4 times with Bash using a Two-Handed weapon, your next Core or Weapon Mastery Skill will Overpower."
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "path": "result.pageContext.codexesPTR",
+    "length": 385,
+    "sample": {
+      "name": "Accelerating Aspect",
+      "new": false,
+      "type": "Offensive",
+      "legendary": true,
+      "campaign": false,
+      "filters": [
+        "Attack Speed",
+        "Core"
+      ],
+      "description": "Critical Strikes with Core Skills increase your Attack Speed by + [10-30%] for 5 seconds."
+    }
+  },
+  {
+    "path": "result.pageContext.uniquesPTR",
+    "length": 166,
+    "sample": {
+      "name": "100,000 Steps",
+      "class": "Barbarian",
+      "type": "Boots",
+      "secondary_stats": [
+        "Evade Grants 10% Attack Speed for 3 Seconds"
+      ],
+      "terciary_stats": [
+        "Movement Speed",
+        "Movement Speed per Walking Arsenal Bonus",
+        "Damage to Stunned Enemies",
+        "Ground Stomp Size"
+      ],
+      "terciary_stats__full": [
+        "[17.5-23]% Movement Speed",
+        "[5-7]% Movement Speed per Walking Arsenal Bonus",
+        "[82.5-105]% Damage to Stunned Enemies",
+        "[46.5-60]% Ground Stomp Size"
+      ],
+      "ga": [
+        "34.5% Movement Speed",
+        "10.5% Movement Speed per Walking Arsenal Bonus",
+        "157.5% Damage to Stunned Enemies",
+        "90% Ground Stomp Size"
+      ],
+      "effect": "When activating or refreshing the full Walking Arsenal Key Passive effect, you automatically cast Ground Stomp and gain [50-100] Fury. Can only occur once every 5 seconds.",
+      "flavor": "\"While many Barbarians remained in the Dreadlands, small groups from the Oxen, Crane and Bear tribes instead chose to search the land for a new home.\" - A History of the Children of Bul-Kathos"
+    }
+  },
+  {
+    "path": "result.pageContext.gemsPTR",
+    "length": 7,
+    "sample": {
+      "name": "Amethyst",
+      "weapon": "48% Damage Over Time",
+      "armor": "12% Barrier Generation",
+      "jewelry": "60% Shadow Resistance"
+    }
+  },
+  {
+    "path": "result.pageContext.statsPTR",
+    "length": 10,
+    "sample": {
+      "slot": "Helm",
+      "all": [
+        "Maximum Life",
+        "Life per 5 Seconds",
+        "Life On Kill",
+        "Healing Received",
+        "Armor",
+        "Maximum Resource",
+        "Resource Generation",
+        "Cooldown Reduction",
+        "Lucky Hit Chance",
+        "Resistance to All Elements",
+        "Cold Resistance",
+        "Fire Resistance",
+        "Lightning Resistance",
+        "Poison Resistance",
+        "Shadow Resistance",
+        "Physical Resistance",
+        "Thorns"
+      ],
+      "barbarian": [
+        "Strength",
+        "Fury per Second",
+        "Ranks to Death Blow",
+        "Ranks to Rupture",
+        "Ranks to Steel Grasp",
+        "Ranks to Mighty Throw",
+        "Ranks to Weapon Mastery Skills"
+      ],
+      "druid": [
+        "Willpower",
+        "Spirit per Second",
+        "Ranks to Poison Creeper",
+        "Ranks to Ravens",
+        "Ranks to Wolves",
+        "Ranks to Companion Skills"
+      ],
+      "necromancer": [
+        "Intelligence",
+        "Essence per Second",
+        "Ranks to Decrepify",
+        "Ranks to Iron Maiden",
+        "Ranks to Skeletal Warrior Mastery",
+        "Ranks to Curse Skills"
+      ],
+      "rogue": [
+        "Dexterity",
+        "Energy per Second",
+        "Ranks to Cold Imbuement",
+        "Ranks to Poison Imbuement",
+        "Ranks to Shadow Imbuement",
+        "Ranks to Imbuement Skills"
+      ],
+      "sorcerer": [
+        "Intelligence",
+        "Mana per Second",
+        "Ranks to Hydra",
+        "Ranks to Ice Blades",
+        "Ranks to Lightning Spear",
+        "Ranks to Familiar",
+        "Ranks to Conjuration Skills"
+      ],
+      "spiritborn": [
+        "Dexterity",
+        "Vigor per Second",
+        "Ranks to Payback",
+        "Ranks to Razor Wings",
+        "Ranks to Rushing Claw",
+        "Ranks to Touch of Death",
+        "Ranks to Potency Skills"
+      ]
+    }
+  },
+  {
+    "path": "result.pageContext.paragonGlyphsPTR",
+    "length": 137,
+    "sample": {
+      "name": "Ambidextrous",
+      "rarity": "Rare",
+      "class": "Barbarian",
+      "bonus": [
+        "Grants + {value} bonus to all Magic nodes within range."
+      ],
+      "additional_bonus": [
+        "You deal x8% increased damage while Weilding One-Handed Weapons."
+      ],
+      "legendary_bonus": [
+        "Increase damage by x {legendary_value} ."
+      ],
+      "legendary_value": 0.104,
+      "requirements_amount": [
+        40
+      ],
+      "requirements_stat": [
+        "Strength"
+      ],
+      "value": 25,
+      "scaling": 2.5,
+      "max_value": 2.725,
+      "stat_name": "Special",
+      "stat_scaling": "Magic"
+    }
+  },
+  {
+    "path": "result.pageContext.paragonBoardsPTR",
+    "length": 59,
+    "sample": {
+      "title": "Starter Board",
+      "icon": "Barbarian",
+      "class": "Barbarian",
+      "str": 105,
+      "int": 25,
+      "will": 64,
+      "dex": 59
+    }
+  },
+  {
+    "path": "result.pageContext.temperingStatsPTR",
+    "length": 157,
+    "sample": {
+      "name": "Barbarian Recovery",
+      "class": "Barbarian",
+      "type": "Defensive",
+      "stats": [
+        "Lunging Strike Healing",
+        "Ranks to Raid Leader",
+        "Ranks to Invigorating Fury"
+      ]
+    }
+  },
+  {
+    "path": "result.pageContext.paragonsPTR.Barbarian",
+    "length": 1570,
+    "sample": {
+      "name": "Normal Node",
+      "icon": "Will",
+      "board": "Starting Board",
+      "id": "startingboard_r2c10",
+      "glyph_radius": false,
+      "row": 2,
+      "column": 10,
+      "requires": [
+        "startingboard_r1c10",
+        "startingboard_r3c10",
+        "startingboard_r2c9",
+        "startingboard_r2c11"
+      ],
+      "willpower": 5,
+      "effects": [
+        "5 Willpower"
+      ],
+      "radius_stat": "Willpower",
+      "radius_value": 5
+    }
+  },
+  {
+    "path": "result.pageContext.paragonsPTR.Druid",
+    "length": 1570,
+    "sample": {
+      "name": "Normal Node",
+      "icon": "Int",
+      "board": "Starting Board",
+      "id": "startingboard_r2c10",
+      "glyph_radius": false,
+      "row": 2,
+      "column": 10,
+      "requires": [
+        "startingboard_r1c10",
+        "startingboard_r3c10",
+        "startingboard_r2c9",
+        "startingboard_r2c11"
+      ],
+      "intelligence": 5,
+      "effects": [
+        "5 Intelligence"
+      ],
+      "radius_stat": "Intelligence",
+      "radius_value": 5
+    }
+  },
+  {
+    "path": "result.pageContext.paragonsPTR.Necromancer",
+    "length": 1570,
+    "sample": {
+      "name": "Normal Node",
+      "icon": "Will",
+      "board": "Starting Board",
+      "id": "startingboard_r2c10",
+      "glyph_radius": false,
+      "row": 2,
+      "column": 10,
+      "requires": [
+        "startingboard_r1c10",
+        "startingboard_r3c10",
+        "startingboard_r2c9",
+        "startingboard_r2c11"
+      ],
+      "willpower": 5,
+      "effects": [
+        "5 Willpower"
+      ],
+      "radius_stat": "Willpower",
+      "radius_value": 5
+    }
+  },
+  {
+    "path": "result.pageContext.paragonsPTR.Rogue",
+    "length": 1569,
+    "sample": {
+      "name": "Normal Node",
+      "icon": "Str",
+      "board": "Starting Board",
+      "id": "startingboard_r2c10",
+      "glyph_radius": false,
+      "row": 2,
+      "column": 10,
+      "requires": [
+        "startingboard_r1c10",
+        "startingboard_r3c10",
+        "startingboard_r2c9",
+        "startingboard_r2c11"
+      ],
+      "strength": 5,
+      "effects": [
+        "5 Strength"
+      ],
+      "radius_stat": "Strength",
+      "radius_value": 5
+    }
+  },
+  {
+    "path": "result.pageContext.paragonsPTR.Sorcerer",
+    "length": 1569,
+    "sample": {
+      "name": "Normal Node",
+      "icon": "Will",
+      "board": "Starting Board",
+      "id": "startingboard_r2c10",
+      "glyph_radius": false,
+      "row": 2,
+      "column": 10,
+      "requires": [
+        "startingboard_r1c10",
+        "startingboard_r3c10",
+        "startingboard_r2c9",
+        "startingboard_r2c11"
+      ],
+      "willpower": 5,
+      "effects": [
+        "5 Willpower"
+      ],
+      "radius_stat": "Willpower",
+      "radius_value": 5
+    }
+  },
+  {
+    "path": "result.pageContext.paragonsPTR.Spiritborn",
+    "length": 1403,
+    "sample": {
+      "name": "Normal Node",
+      "icon": "Int",
+      "board": "Starting Board",
+      "id": "startingboard_r2c10",
+      "glyph_radius": false,
+      "row": 2,
+      "column": 10,
+      "requires": [
+        "startingboard_r1c10",
+        "startingboard_r3c10",
+        "startingboard_r2c9",
+        "startingboard_r2c11"
+      ],
+      "intelligence": 5,
+      "effects": [
+        "5 Intelligence"
+      ],
+      "radius_stat": "Intelligence",
+      "radius_value": 5
+    }
+  },
+  {
+    "path": "result.pageContext.runesPTR",
+    "length": 44,
+    "sample": {
+      "name": "Ahu",
+      "type": "Ritual",
+      "rarity": "Legendary",
+      "gain": 15,
+      "bonus": "Lucky Hit: Up to a 100% chance against non-Healthy enemies."
+    }
+  },
+  {
+    "path": "result.pageContext.skillTreePTR.Barbarian",
+    "length": 133,
+    "sample": {
+      "name": "Lunging Strike",
+      "id": 1,
+      "section": 1,
+      "group": 1,
+      "active_rank": 0,
+      "total_rank": 5,
+      "large": true,
+      "diamond": false,
+      "global_req": 0,
+      "row": "r1",
+      "column": "c1",
+      "filters": [
+        "Physical",
+        "Basic",
+        "Two-Handed",
+        "Bludgeoning",
+        "Slashing",
+        "Dual Wield",
+        "One-Handed"
+      ],
+      "after": "Bottom",
+      "left": 910,
+      "top": 470
+    }
+  },
+  {
+    "path": "result.pageContext.skillTreePTR.Druid",
+    "length": 146,
+    "sample": {
+      "name": "Earth Spike",
+      "id": 1,
+      "section": 1,
+      "group": 1,
+      "active_rank": 0,
+      "total_rank": 5,
+      "large": true,
+      "diamond": false,
+      "global_req": 0,
+      "row": "r1",
+      "column": "c1",
+      "filters": [
+        "Physical",
+        "Basic",
+        "Nature Magic",
+        "Earth"
+      ],
+      "after": "Bottom",
+      "left": 955,
+      "top": 415
+    }
+  },
+  {
+    "path": "result.pageContext.skillTreePTR.Necromancer",
+    "length": 117,
+    "sample": {
+      "name": "Reap",
+      "id": 1,
+      "section": 1,
+      "group": 1,
+      "active_rank": 0,
+      "total_rank": 5,
+      "large": true,
+      "diamond": false,
+      "global_req": 0,
+      "row": "r1",
+      "column": "c1",
+      "filters": [
+        "Damage Reduction",
+        "Shadow",
+        "Basic",
+        "Darkness"
+      ],
+      "after": "Bottom",
+      "left": 930,
+      "top": 480
+    }
+  },
+  {
+    "path": "result.pageContext.skillTreePTR.Rogue",
+    "length": 133,
+    "sample": {
+      "name": "Invigorating Strike",
+      "id": 1,
+      "section": 1,
+      "group": 1,
+      "active_rank": 0,
+      "total_rank": 5,
+      "large": true,
+      "diamond": false,
+      "global_req": 0,
+      "row": "r1",
+      "column": "c1",
+      "filters": [
+        "Physical",
+        "Basic",
+        "Cutthroat",
+        "Energy"
+      ],
+      "after": "Bottom",
+      "left": 955,
+      "top": 415
+    }
+  },
+  {
+    "path": "result.pageContext.skillTreePTR.Sorcerer",
+    "length": 139,
+    "sample": {
+      "name": "Spark",
+      "id": 1,
+      "section": 1,
+      "group": 1,
+      "active_rank": 0,
+      "total_rank": 5,
+      "large": true,
+      "diamond": false,
+      "global_req": 0,
+      "row": "r1",
+      "column": "c1",
+      "filters": [
+        "Crackling Energy",
+        "Lightning",
+        "Basic",
+        "Shock"
+      ],
+      "after": "Bottom",
+      "left": 930,
+      "top": 480
+    }
+  },
+  {
+    "path": "result.pageContext.skillTreePTR.Spiritborn",
+    "length": 129,
+    "sample": {
+      "name": "Rock Splitter",
+      "id": 1,
+      "section": 1,
+      "group": 1,
+      "active_rank": 0,
+      "total_rank": 5,
+      "large": true,
+      "diamond": false,
+      "global_req": 0,
+      "row": "r1",
+      "column": "c1",
+      "after": "Bottom",
+      "left": 910,
+      "top": 470
+    }
+  },
+  {
+    "path": "result.pageContext.mercenarySkillTrees",
+    "length": 76,
+    "sample": {
+      "name": "Valiance",
+      "mercenary": "Raheir, The Shieldbearer",
+      "id": 0,
+      "section": 0,
+      "group": 1,
+      "active_rank": 1,
+      "total_rank": 1,
+      "large": true,
+      "no_interact": true,
+      "global_req": 0,
+      "row": "r1",
+      "column": "c1",
+      "filters": [
+        "Knock Down",
+        "Unstoppable"
+      ],
+      "after": "Bottom",
+      "left": 1050,
+      "top": 230
+    }
+  },
+  {
+    "path": "result.pageContext.lootTables",
+    "length": 10,
+    "sample": {
+      "boss": "Grigoire",
+      "name": "Grigoire, The Galvanic Saint",
+      "location": "Hall of the Penitent - Dry Steppes",
+      "materials": [
+        "Living Steel~12"
+      ],
+      "source": "Helltides",
+      "all": [
+        "Penitent Greaves",
+        "Endurant Faith"
+      ],
+      "barbarian": [
+        "Rage of Harrogath",
+        "Battle Trance",
+        "The Butcher's Cleaver",
+        "Twin Strikes",
+        "Unbroken Chain"
+      ],
+      "druid": [
+        "Insatiable Fury",
+        "Hunter's Zenith",
+        "Waxing Gibbous",
+        "The Butcher's Cleaver",
+        "Earthbreaker"
+      ],
+      "necromancer": [
+        "Howl from Below",
+        "Greaves of the Empty Tomb",
+        "Ebonpiercer",
+        "Path of Trag'Oul",
+        "The Butcher's Cleaver",
+        "The Mortacrux"
+      ],
+      "rogue": [
+        "Word of Hakan",
+        "Grasp of Shadow",
+        "Saboteur's Signet",
+        "Shroud of Khanduras",
+        "Bands of Ichorous Rose"
+      ],
+      "sorcerer": [
+        "Staff of Lam Esen",
+        "Iceheart Brais",
+        "Flameweaver",
+        "Axial Conduit"
+      ],
+      "spiritborn": [
+        "Protection of the Prime",
+        "Peacemonger's Signet",
+        "Ring of the Midnight Sun",
+        "Loyalty's Mantle"
+      ]
+    }
+  },
+  {
+    "path": "result.pageContext.lootTablesPTR",
+    "length": 10,
+    "sample": {
+      "boss": "Grigoire",
+      "name": "Grigoire, The Galvanic Saint",
+      "location": "Hall of the Penitent - Dry Steppes",
+      "materials": [
+        "Living Steel~12"
+      ],
+      "source": "Helltides",
+      "all": [
+        "Penitent Greaves",
+        "Endurant Faith"
+      ],
+      "barbarian": [
+        "Rage of Harrogath",
+        "Battle Trance",
+        "The Butcher's Cleaver",
+        "Twin Strikes",
+        "Unbroken Chain"
+      ],
+      "druid": [
+        "Insatiable Fury",
+        "Hunter's Zenith",
+        "Waxing Gibbous",
+        "The Butcher's Cleaver",
+        "Earthbreaker",
+        "Khamsin Steppewalkers"
+      ],
+      "necromancer": [
+        "Howl from Below",
+        "Greaves of the Empty Tomb",
+        "Ebonpiercer",
+        "Path of Trag'Oul",
+        "The Butcher's Cleaver",
+        "The Mortacrux"
+      ],
+      "rogue": [
+        "Word of Hakan",
+        "Grasp of Shadow",
+        "Saboteur's Signet",
+        "Shroud of Khanduras",
+        "Bands of Ichorous Rose"
+      ],
+      "sorcerer": [
+        "Staff of Lam Esen",
+        "Iceheart Brais",
+        "Flameweaver",
+        "Axial Conduit",
+        "Hail of Verglas"
+      ],
+      "spiritborn": [
+        "Protection of the Prime",
+        "Peacemonger's Signet",
+        "Ring of the Midnight Sun",
+        "Loyalty's Mantle",
+        "Hesha e Kesungi"
+      ]
+    }
+  },
+  {
+    "path": "result.pageContext.elixirs",
+    "length": 23,
+    "sample": {
+      "name": "Elixir of Advantage",
+      "type": "Elixir",
+      "rarity": "Magic",
+      "description": [
+        "For the next 30 minutes:",
+        "• Increases Attack Speed by 15% and Lucky Hit by 15%.",
+        "• Experience gained is increased by 8%."
+      ]
+    }
+  },
+  {
+    "path": "result.pageContext.divineGifts",
+    "length": 8,
+    "sample": {
+      "name": "Essence of Anguish",
+      "rarity": "Unique",
+      "filters": [
+        "Movement Speed"
+      ],
+      "positions": [
+        "right",
+        "inner-right"
+      ],
+      "rewards": "Vanquish the Undercity to earn Obols, doubled while Purified.",
+      "purified": "Gain 30% Movement Speed.",
+      "corrupted": "Manifestations of Anguish lurk throughout the Undercity and attach lightning siphons to you that Slow you by 70% while you are close to them.",
+      "location": "Earned by battling Andariel in the Undercity."
+    }
+  },
+  {
+    "path": "result.pageContext.sanctificationStats",
+    "length": 10,
+    "sample": {
+      "slot": "Helm",
+      "all": [
+        "Gem Strength in this Item",
+        "Total Armor",
+        "Ranks to Defensive Skills",
+        "All Stats",
+        "Critical Strike Chance",
+        "Cooldown Reduction",
+        "Fire Damage",
+        "Lucky Hit Chance",
+        "Resource Cost Reduction",
+        "Maximum Resource",
+        "Cold Damage",
+        "Lightning Damage",
+        "Poision Damage",
+        "Shadow Damage",
+        "Physical Damage",
+        "Maximum Life"
+      ],
+      "barbarian": [
+        "% Strength",
+        "Ranks to Weapon Mastery Skills",
+        "Strength"
+      ],
+      "druid": [
+        "% Willpower",
+        "Ranks to Companion Skills",
+        "Willpower"
+      ],
+      "necromancer": [
+        "% Intelligence",
+        "Ranks to Curse Skills",
+        "Ranks to Macabre Skills",
+        "Intelligence"
+      ],
+      "rogue": [
+        "% Dexterity",
+        "Ranks to Imbuement Skills",
+        "Ranks to Subterfuge Skills",
+        "Dexterity"
+      ],
+      "sorcerer": [
+        "% Intelligence",
+        "Ranks to Conjuration Skills",
+        "Intelligence"
+      ],
+      "spiritborn": [
+        "% Dexterity",
+        "Ranks to Potency Skills",
+        "Dexterity"
+      ]
+    }
+  }
+]

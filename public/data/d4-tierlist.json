@@ -1,0 +1,1433 @@
+[
+  {
+    "slug": "tierlist-build-1",
+    "title_en": "Tierlist Build #1",
+    "title_tr": null,
+    "diablo_class": "Spiritborn",
+    "class_key": "spiritborn",
+    "mode": null,
+    "role": null,
+    "tier": null,
+    "score": null,
+    "is_meta": null,
+    "tags": null,
+    "data": {
+      "build": "Rake",
+      "class": "Spiritborn",
+      "icon": "Rake",
+      "Endgame": "S",
+      "link2": "https://d4builds.gg/builds/68a736a8-9cd2-43ee-8536-6c7402e35328/?var=0",
+      "link": "68a736a8-9cd2-43ee-8536-6c7402e35328/?var=0"
+    }
+  },
+  {
+    "slug": "tierlist-build-2",
+    "title_en": "Tierlist Build #2",
+    "title_tr": null,
+    "diablo_class": "Druid",
+    "class_key": "druid",
+    "mode": null,
+    "role": null,
+    "tier": null,
+    "score": null,
+    "is_meta": null,
+    "tags": null,
+    "data": {
+      "build": "Puddle Pulverize",
+      "class": "Druid",
+      "icon": "Pulverize",
+      "Endgame": "S",
+      "link2": "https://d4builds.gg/builds/89bf3385-55f0-4574-be22-16e8f865caf7/?var=0",
+      "link": "89bf3385-55f0-4574-be22-16e8f865caf7/?var=0"
+    }
+  },
+  {
+    "slug": "tierlist-build-3",
+    "title_en": "Tierlist Build #3",
+    "title_tr": null,
+    "diablo_class": "Spiritborn",
+    "class_key": "spiritborn",
+    "mode": null,
+    "role": null,
+    "tier": null,
+    "score": null,
+    "is_meta": null,
+    "tags": null,
+    "data": {
+      "build": "Payback",
+      "class": "Spiritborn",
+      "icon": "Payback",
+      "Endgame": "S",
+      "link2": "https://d4builds.gg/builds/549ae747-6dad-4fb8-aea9-a1bd03322fbd/?var=0",
+      "link": "549ae747-6dad-4fb8-aea9-a1bd03322fbd/?var=0"
+    }
+  },
+  {
+    "slug": "tierlist-build-4",
+    "title_en": "Tierlist Build #4",
+    "title_tr": null,
+    "diablo_class": "Spiritborn",
+    "class_key": "spiritborn",
+    "mode": null,
+    "role": null,
+    "tier": null,
+    "score": null,
+    "is_meta": null,
+    "tags": null,
+    "data": {
+      "build": "Crushing Hands",
+      "class": "Spiritborn",
+      "icon": "Crushing Hand",
+      "Endgame": "S",
+      "link2": "https://d4builds.gg/builds/942b2315-3a83-486b-b914-158bc3a316c7/?var=0",
+      "link": "942b2315-3a83-486b-b914-158bc3a316c7/?var=0"
+    }
+  },
+  {
+    "slug": "tierlist-build-5",
+    "title_en": "Tierlist Build #5",
+    "title_tr": null,
+    "diablo_class": "Spiritborn",
+    "class_key": "spiritborn",
+    "mode": null,
+    "role": null,
+    "tier": null,
+    "score": null,
+    "is_meta": null,
+    "tags": null,
+    "data": {
+      "build": "Quill Volley",
+      "class": "Spiritborn",
+      "icon": "Quill Volley",
+      "Endgame": "S",
+      "link2": "https://d4builds.gg/builds/cf4fdf80-0dbc-483c-ac6f-c5b041b1df4f/?var=0",
+      "link": "cf4fdf80-0dbc-483c-ac6f-c5b041b1df4f/?var=0"
+    }
+  },
+  {
+    "slug": "tierlist-build-6",
+    "title_en": "Tierlist Build #6",
+    "title_tr": null,
+    "diablo_class": "Spiritborn",
+    "class_key": "spiritborn",
+    "mode": null,
+    "role": null,
+    "tier": null,
+    "score": null,
+    "is_meta": null,
+    "tags": null,
+    "data": {
+      "build": "Stinger",
+      "class": "Spiritborn",
+      "icon": "Stinger",
+      "Endgame": "S",
+      "link2": "https://d4builds.gg/builds/a204a47c-85bf-4b8c-a7a0-a305868cc3cc/?var=0",
+      "link": "a204a47c-85bf-4b8c-a7a0-a305868cc3cc/?var=0"
+    }
+  },
+  {
+    "slug": "tierlist-build-7",
+    "title_en": "Tierlist Build #7",
+    "title_tr": null,
+    "diablo_class": "Druid",
+    "class_key": "druid",
+    "mode": null,
+    "role": null,
+    "tier": null,
+    "score": null,
+    "is_meta": null,
+    "tags": null,
+    "data": {
+      "build": "Ravens",
+      "class": "Druid",
+      "icon": "Ravens",
+      "Endgame": "S",
+      "link2": "https://d4builds.gg/builds/e6ca4b40-b46b-47c9-9592-62e5eff707c8/?var=0",
+      "link": "e6ca4b40-b46b-47c9-9592-62e5eff707c8/?var=0"
+    }
+  },
+  {
+    "slug": "tierlist-build-8",
+    "title_en": "Tierlist Build #8",
+    "title_tr": null,
+    "diablo_class": "Druid",
+    "class_key": "druid",
+    "mode": null,
+    "role": null,
+    "tier": null,
+    "score": null,
+    "is_meta": null,
+    "tags": null,
+    "data": {
+      "build": "Shred",
+      "class": "Druid",
+      "icon": "Shred",
+      "Endgame": "S",
+      "link2": "https://d4builds.gg/builds/438f0c07-c235-4e1a-ac7a-7d70bb794e89/?var=0",
+      "link": "438f0c07-c235-4e1a-ac7a-7d70bb794e89/?var=0"
+    }
+  },
+  {
+    "slug": "tierlist-build-9",
+    "title_en": "Tierlist Build #9",
+    "title_tr": null,
+    "diablo_class": "Druid",
+    "class_key": "druid",
+    "mode": null,
+    "role": null,
+    "tier": null,
+    "score": null,
+    "is_meta": null,
+    "tags": null,
+    "data": {
+      "build": "Fleshrender",
+      "class": "Druid",
+      "icon": "Petrify",
+      "Endgame": "S",
+      "link2": "https://d4builds.gg/builds/e88e8152-0cf9-4a4f-8bfa-b616c88b73aa/?var=0",
+      "link": "e88e8152-0cf9-4a4f-8bfa-b616c88b73aa/?var=0"
+    }
+  },
+  {
+    "slug": "tierlist-build-10",
+    "title_en": "Tierlist Build #10",
+    "title_tr": null,
+    "diablo_class": "Necromancer",
+    "class_key": "necromancer",
+    "mode": null,
+    "role": null,
+    "tier": null,
+    "score": null,
+    "is_meta": null,
+    "tags": null,
+    "data": {
+      "build": "Shadowblight",
+      "class": "Necromancer",
+      "icon": "Soulrift",
+      "Endgame": "S",
+      "link2": "https://d4builds.gg/builds/dfef7fcc-a293-45db-b980-aa8e9e9af097/?var=0",
+      "link": "dfef7fcc-a293-45db-b980-aa8e9e9af097/?var=0"
+    }
+  },
+  {
+    "slug": "tierlist-build-11",
+    "title_en": "Tierlist Build #11",
+    "title_tr": null,
+    "diablo_class": "Necromancer",
+    "class_key": "necromancer",
+    "mode": null,
+    "role": null,
+    "tier": null,
+    "score": null,
+    "is_meta": null,
+    "tags": null,
+    "data": {
+      "build": "Bone Splinter",
+      "class": "Necromancer",
+      "icon": "Bone Spirit",
+      "Endgame": "S",
+      "link2": "https://d4builds.gg/builds/aa994f92-d53b-4b07-845d-7eecb76b978c/?var=0",
+      "link": "aa994f92-d53b-4b07-845d-7eecb76b978c/?var=0"
+    }
+  },
+  {
+    "slug": "tierlist-build-12",
+    "title_en": "Tierlist Build #12",
+    "title_tr": null,
+    "diablo_class": "Necromancer",
+    "class_key": "necromancer",
+    "mode": null,
+    "role": null,
+    "tier": null,
+    "score": null,
+    "is_meta": null,
+    "tags": null,
+    "data": {
+      "build": "Blood Wave",
+      "class": "Necromancer",
+      "icon": "Blood Wave",
+      "Endgame": "S",
+      "link2": "https://d4builds.gg/builds/fcad7dad-80f7-4826-933d-105303c3d792/?var=0",
+      "link": "fcad7dad-80f7-4826-933d-105303c3d792/?var=0"
+    }
+  },
+  {
+    "slug": "tierlist-build-13",
+    "title_en": "Tierlist Build #13",
+    "title_tr": null,
+    "diablo_class": "Sorcerer",
+    "class_key": "sorcerer",
+    "mode": null,
+    "role": null,
+    "tier": null,
+    "score": null,
+    "is_meta": null,
+    "tags": null,
+    "data": {
+      "build": "Ball Lightning",
+      "class": "Sorcerer",
+      "icon": "Ball Lightning",
+      "Endgame": "S",
+      "link2": "https://d4builds.gg/builds/6f1ae4e0-728b-4e05-af81-600256334eda/?var=0",
+      "link": "6f1ae4e0-728b-4e05-af81-600256334eda/?var=0"
+    }
+  },
+  {
+    "slug": "tierlist-build-14",
+    "title_en": "Tierlist Build #14",
+    "title_tr": null,
+    "diablo_class": "Sorcerer",
+    "class_key": "sorcerer",
+    "mode": null,
+    "role": null,
+    "tier": null,
+    "score": null,
+    "is_meta": null,
+    "tags": null,
+    "data": {
+      "build": "Hydra",
+      "class": "Sorcerer",
+      "icon": "Hydra",
+      "Endgame": "S",
+      "link2": "https://d4builds.gg/builds/a80e1ee6-2a5a-445a-8740-d25c357ce9d2/?var=0",
+      "link": "a80e1ee6-2a5a-445a-8740-d25c357ce9d2/?var=0"
+    }
+  },
+  {
+    "slug": "tierlist-build-15",
+    "title_en": "Tierlist Build #15",
+    "title_tr": null,
+    "diablo_class": "Sorcerer",
+    "class_key": "sorcerer",
+    "mode": null,
+    "role": null,
+    "tier": null,
+    "score": null,
+    "is_meta": null,
+    "tags": null,
+    "data": {
+      "build": "Crackling Energy",
+      "class": "Sorcerer",
+      "icon": "Unstable Currents",
+      "Endgame": "S",
+      "link2": "https://d4builds.gg/builds/4f7a3bda-ad5a-4944-a49d-4d2c0a51097f/?var=0",
+      "link": "4f7a3bda-ad5a-4944-a49d-4d2c0a51097f/?var=0"
+    }
+  },
+  {
+    "slug": "tierlist-build-16",
+    "title_en": "Tierlist Build #16",
+    "title_tr": null,
+    "diablo_class": "Rogue",
+    "class_key": "rogue",
+    "mode": null,
+    "role": null,
+    "tier": null,
+    "score": null,
+    "is_meta": null,
+    "tags": null,
+    "data": {
+      "build": "Death Trap",
+      "class": "Rogue",
+      "icon": "Death Trap",
+      "Endgame": "S",
+      "link2": "https://d4builds.gg/builds/011bda8e-f331-4d29-8dcb-8a2b103365a4/?var=0",
+      "link": "011bda8e-f331-4d29-8dcb-8a2b103365a4/?var=0"
+    }
+  },
+  {
+    "slug": "tierlist-build-17",
+    "title_en": "Tierlist Build #17",
+    "title_tr": null,
+    "diablo_class": "Barbarian",
+    "class_key": "barbarian",
+    "mode": null,
+    "role": null,
+    "tier": null,
+    "score": null,
+    "is_meta": null,
+    "tags": null,
+    "data": {
+      "build": "Dual Basic",
+      "class": "Barbarian",
+      "icon": "Lunging Strike",
+      "Endgame": "S",
+      "link2": "https://d4builds.gg/builds/fbdd16af-309b-4ca0-8abe-2dd709233b3c/?var=0",
+      "link": "fbdd16af-309b-4ca0-8abe-2dd709233b3c/?var=0"
+    }
+  },
+  {
+    "slug": "tierlist-build-18",
+    "title_en": "Tierlist Build #18",
+    "title_tr": null,
+    "diablo_class": "Spiritborn",
+    "class_key": "spiritborn",
+    "mode": null,
+    "role": null,
+    "tier": null,
+    "score": null,
+    "is_meta": null,
+    "tags": null,
+    "data": {
+      "build": "Touch of Death",
+      "class": "Spiritborn",
+      "icon": "Touch of Death",
+      "Endgame": "S",
+      "link2": "https://d4builds.gg/builds/5613c790-be8e-49bc-9f1a-d40e4dd363d3/?var=0",
+      "link": "5613c790-be8e-49bc-9f1a-d40e4dd363d3/?var=0"
+    }
+  },
+  {
+    "slug": "tierlist-build-19",
+    "title_en": "Tierlist Build #19",
+    "title_tr": null,
+    "diablo_class": "Druid",
+    "class_key": "druid",
+    "mode": null,
+    "role": null,
+    "tier": null,
+    "score": null,
+    "is_meta": null,
+    "tags": null,
+    "data": {
+      "build": "Werenado",
+      "class": "Druid",
+      "icon": "Tornado",
+      "Endgame": "A",
+      "link2": "https://d4builds.gg/builds/9e326d87-f847-418a-8517-717d34b90ea5/?var=0",
+      "link": "9e326d87-f847-418a-8517-717d34b90ea5/?var=0"
+    }
+  },
+  {
+    "slug": "tierlist-build-20",
+    "title_en": "Tierlist Build #20",
+    "title_tr": null,
+    "diablo_class": "Druid",
+    "class_key": "druid",
+    "mode": null,
+    "role": null,
+    "tier": null,
+    "score": null,
+    "is_meta": null,
+    "tags": null,
+    "data": {
+      "build": "Boulder",
+      "class": "Druid",
+      "icon": "Boulder",
+      "Endgame": "A",
+      "link2": "https://d4builds.gg/builds/82a0e6ad-ecb1-470a-acc2-ac9f28b65a91/?var=0",
+      "link": "82a0e6ad-ecb1-470a-acc2-ac9f28b65a91/?var=0"
+    }
+  },
+  {
+    "slug": "tierlist-build-21",
+    "title_en": "Tierlist Build #21",
+    "title_tr": null,
+    "diablo_class": "Druid",
+    "class_key": "druid",
+    "mode": null,
+    "role": null,
+    "tier": null,
+    "score": null,
+    "is_meta": null,
+    "tags": null,
+    "data": {
+      "build": "Earth Spike",
+      "class": "Druid",
+      "icon": "Earth Spike",
+      "Endgame": "A",
+      "link2": "https://d4builds.gg/builds/e0913417-183f-4128-aa55-461bcfb9e64e/?var=0",
+      "link": "e0913417-183f-4128-aa55-461bcfb9e64e/?var=0"
+    }
+  },
+  {
+    "slug": "tierlist-build-22",
+    "title_en": "Tierlist Build #22",
+    "title_tr": null,
+    "diablo_class": "Barbarian",
+    "class_key": "barbarian",
+    "mode": null,
+    "role": null,
+    "tier": null,
+    "score": null,
+    "is_meta": null,
+    "tags": null,
+    "data": {
+      "build": "Mighty Throw",
+      "class": "Barbarian",
+      "icon": "Mighty Throw",
+      "Endgame": "A",
+      "link2": "https://d4builds.gg/builds/40d20262-242f-43d1-abce-c2d75bbc00c7/?var=0",
+      "link": "40d20262-242f-43d1-abce-c2d75bbc00c7/?var=0"
+    }
+  },
+  {
+    "slug": "tierlist-build-23",
+    "title_en": "Tierlist Build #23",
+    "title_tr": null,
+    "diablo_class": "Barbarian",
+    "class_key": "barbarian",
+    "mode": null,
+    "role": null,
+    "tier": null,
+    "score": null,
+    "is_meta": null,
+    "tags": null,
+    "data": {
+      "build": "HotA",
+      "class": "Barbarian",
+      "icon": "Hammer of the Ancients",
+      "Endgame": "A",
+      "link2": "https://d4builds.gg/builds/97ab419c-313a-4e4f-87f3-8f0957ab432b/?var=0",
+      "link": "97ab419c-313a-4e4f-87f3-8f0957ab432b/?var=0"
+    }
+  },
+  {
+    "slug": "tierlist-build-24",
+    "title_en": "Tierlist Build #24",
+    "title_tr": null,
+    "diablo_class": "Barbarian",
+    "class_key": "barbarian",
+    "mode": null,
+    "role": null,
+    "tier": null,
+    "score": null,
+    "is_meta": null,
+    "tags": null,
+    "data": {
+      "build": "Bleed Rupture",
+      "class": "Barbarian",
+      "icon": "Rupture",
+      "Endgame": "A",
+      "link2": "https://d4builds.gg/builds/9b7bce0d-4567-4b1a-9257-73892f209642/?var=0",
+      "link": "9b7bce0d-4567-4b1a-9257-73892f209642/?var=0"
+    }
+  },
+  {
+    "slug": "tierlist-build-25",
+    "title_en": "Tierlist Build #25",
+    "title_tr": null,
+    "diablo_class": "Barbarian",
+    "class_key": "barbarian",
+    "mode": null,
+    "role": null,
+    "tier": null,
+    "score": null,
+    "is_meta": null,
+    "tags": null,
+    "data": {
+      "build": "Lunging Strike",
+      "class": "Barbarian",
+      "icon": "Lunging Strike",
+      "Endgame": "A",
+      "link2": "https://d4builds.gg/builds/5f916ed4-c8ee-41d2-bc1f-a48dcb9eff10/?var=0",
+      "link": "5f916ed4-c8ee-41d2-bc1f-a48dcb9eff10/?var=0"
+    }
+  },
+  {
+    "slug": "tierlist-build-26",
+    "title_en": "Tierlist Build #26",
+    "title_tr": null,
+    "diablo_class": "Barbarian",
+    "class_key": "barbarian",
+    "mode": null,
+    "role": null,
+    "tier": null,
+    "score": null,
+    "is_meta": null,
+    "tags": null,
+    "data": {
+      "build": "Bash",
+      "class": "Barbarian",
+      "icon": "Bash",
+      "Endgame": "A",
+      "link2": "https://d4builds.gg/builds/2449f1b3-7a04-4320-ba96-47e46a1044a0/?var=0",
+      "link": "2449f1b3-7a04-4320-ba96-47e46a1044a0/?var=0"
+    }
+  },
+  {
+    "slug": "tierlist-build-27",
+    "title_en": "Tierlist Build #27",
+    "title_tr": null,
+    "diablo_class": "Barbarian",
+    "class_key": "barbarian",
+    "mode": null,
+    "role": null,
+    "tier": null,
+    "score": null,
+    "is_meta": null,
+    "tags": null,
+    "data": {
+      "build": "Flay",
+      "class": "Barbarian",
+      "icon": "Flay",
+      "Endgame": "A",
+      "link2": "https://d4builds.gg/builds/ca83f505-ee92-49bd-9f42-f85b2204c5bb/?var=0",
+      "link": "ca83f505-ee92-49bd-9f42-f85b2204c5bb/?var=0"
+    }
+  },
+  {
+    "slug": "tierlist-build-28",
+    "title_en": "Tierlist Build #28",
+    "title_tr": null,
+    "diablo_class": "Barbarian",
+    "class_key": "barbarian",
+    "mode": null,
+    "role": null,
+    "tier": null,
+    "score": null,
+    "is_meta": null,
+    "tags": null,
+    "data": {
+      "build": "Frenzy",
+      "class": "Barbarian",
+      "icon": "Frenzy",
+      "Endgame": "A",
+      "link2": "https://d4builds.gg/builds/9c8eb2ee-dd5b-4d84-b879-d2d1c1659595/?var=0",
+      "link": "9c8eb2ee-dd5b-4d84-b879-d2d1c1659595/?var=0"
+    }
+  },
+  {
+    "slug": "tierlist-build-29",
+    "title_en": "Tierlist Build #29",
+    "title_tr": null,
+    "diablo_class": "Spiritborn",
+    "class_key": "spiritborn",
+    "mode": null,
+    "role": null,
+    "tier": null,
+    "score": null,
+    "is_meta": null,
+    "tags": null,
+    "data": {
+      "build": "Evade",
+      "class": "Spiritborn",
+      "icon": "Thunderspike",
+      "Endgame": "A",
+      "link2": "https://d4builds.gg/builds/b09a33e8-c06c-4670-ab5e-ee5ab9b67b57/?var=0",
+      "link": "b09a33e8-c06c-4670-ab5e-ee5ab9b67b57/?var=0"
+    }
+  },
+  {
+    "slug": "tierlist-build-30",
+    "title_en": "Tierlist Build #30",
+    "title_tr": null,
+    "diablo_class": "Spiritborn",
+    "class_key": "spiritborn",
+    "mode": null,
+    "role": null,
+    "tier": null,
+    "score": null,
+    "is_meta": null,
+    "tags": null,
+    "data": {
+      "build": "Thorns",
+      "class": "Spiritborn",
+      "icon": "Crushing Hand",
+      "Endgame": "A",
+      "link2": "https://d4builds.gg/builds/0872a0b0-7f1d-4666-ae06-56d3119fce5b/?var=0",
+      "link": "0872a0b0-7f1d-4666-ae06-56d3119fce5b/?var=0"
+    }
+  },
+  {
+    "slug": "tierlist-build-31",
+    "title_en": "Tierlist Build #31",
+    "title_tr": null,
+    "diablo_class": "Necromancer",
+    "class_key": "necromancer",
+    "mode": null,
+    "role": null,
+    "tier": null,
+    "score": null,
+    "is_meta": null,
+    "tags": null,
+    "data": {
+      "build": "Bone Blood Spear",
+      "class": "Necromancer",
+      "icon": "Bone Spear",
+      "Endgame": "A",
+      "link2": "https://d4builds.gg/builds/02ea150b-d848-4425-8bbe-8d93ef4f10fc/?var=0",
+      "link": "02ea150b-d848-4425-8bbe-8d93ef4f10fc/?var=0"
+    }
+  },
+  {
+    "slug": "tierlist-build-32",
+    "title_en": "Tierlist Build #32",
+    "title_tr": null,
+    "diablo_class": "Necromancer",
+    "class_key": "necromancer",
+    "mode": null,
+    "role": null,
+    "tier": null,
+    "score": null,
+    "is_meta": null,
+    "tags": null,
+    "data": {
+      "build": "Mendelin Summon",
+      "class": "Necromancer",
+      "icon": "Raise Skeleton",
+      "Endgame": "A",
+      "link2": "https://d4builds.gg/builds/c085e85d-8746-43d8-b8a0-fd9df501ac66/?var=0",
+      "link": "c085e85d-8746-43d8-b8a0-fd9df501ac66/?var=0"
+    }
+  },
+  {
+    "slug": "tierlist-build-33",
+    "title_en": "Tierlist Build #33",
+    "title_tr": null,
+    "diablo_class": "Necromancer",
+    "class_key": "necromancer",
+    "mode": null,
+    "role": null,
+    "tier": null,
+    "score": null,
+    "is_meta": null,
+    "tags": null,
+    "data": {
+      "build": "Bone Storm",
+      "class": "Necromancer",
+      "icon": "Bone Storm",
+      "Endgame": "A",
+      "link2": "https://d4builds.gg/builds/053791a8-8fac-4f78-b83c-4ee7a6449dc7/?var=0",
+      "link": "053791a8-8fac-4f78-b83c-4ee7a6449dc7/?var=0"
+    }
+  },
+  {
+    "slug": "tierlist-build-34",
+    "title_en": "Tierlist Build #34",
+    "title_tr": null,
+    "diablo_class": "Sorcerer",
+    "class_key": "sorcerer",
+    "mode": null,
+    "role": null,
+    "tier": null,
+    "score": null,
+    "is_meta": null,
+    "tags": null,
+    "data": {
+      "build": "Meteor",
+      "class": "Sorcerer",
+      "icon": "Meteor",
+      "Endgame": "A",
+      "link2": "https://d4builds.gg/builds/0518fd6b-5e38-47b5-a37c-725ec828e42f/?var=0",
+      "link": "0518fd6b-5e38-47b5-a37c-725ec828e42f/?var=0"
+    }
+  },
+  {
+    "slug": "tierlist-build-35",
+    "title_en": "Tierlist Build #35",
+    "title_tr": null,
+    "diablo_class": "Sorcerer",
+    "class_key": "sorcerer",
+    "mode": null,
+    "role": null,
+    "tier": null,
+    "score": null,
+    "is_meta": null,
+    "tags": null,
+    "data": {
+      "build": "Ice Shards",
+      "class": "Sorcerer",
+      "icon": "Ice Shards",
+      "Endgame": "A",
+      "link2": "https://d4builds.gg/builds/5622b4ec-d4fe-4ca3-9352-274a7e74b90c/?var=0",
+      "link": "5622b4ec-d4fe-4ca3-9352-274a7e74b90c/?var=0"
+    }
+  },
+  {
+    "slug": "tierlist-build-36",
+    "title_en": "Tierlist Build #36",
+    "title_tr": null,
+    "diablo_class": "Sorcerer",
+    "class_key": "sorcerer",
+    "mode": null,
+    "role": null,
+    "tier": null,
+    "score": null,
+    "is_meta": null,
+    "tags": null,
+    "data": {
+      "build": "Incinerate",
+      "class": "Sorcerer",
+      "icon": "Incinerate",
+      "Endgame": "A",
+      "link2": "https://d4builds.gg/builds/cfd28e5e-b9de-49fd-86fb-6e888f311454/?var=0",
+      "link": "cfd28e5e-b9de-49fd-86fb-6e888f311454/?var=0"
+    }
+  },
+  {
+    "slug": "tierlist-build-37",
+    "title_en": "Tierlist Build #37",
+    "title_tr": null,
+    "diablo_class": "Rogue",
+    "class_key": "rogue",
+    "mode": null,
+    "role": null,
+    "tier": null,
+    "score": null,
+    "is_meta": null,
+    "tags": null,
+    "data": {
+      "build": "Poison Trap DoK",
+      "class": "Rogue",
+      "icon": "Poison Trap",
+      "Endgame": "A",
+      "link2": "https://d4builds.gg/builds/46cac0ee-5b52-4f15-b91b-ad60defe3485/?var=0",
+      "link": "46cac0ee-5b52-4f15-b91b-ad60defe3485/?var=0"
+    }
+  },
+  {
+    "slug": "tierlist-build-38",
+    "title_en": "Tierlist Build #38",
+    "title_tr": null,
+    "diablo_class": "Rogue",
+    "class_key": "rogue",
+    "mode": null,
+    "role": null,
+    "tier": null,
+    "score": null,
+    "is_meta": null,
+    "tags": null,
+    "data": {
+      "build": "Rapid Fire",
+      "class": "Rogue",
+      "icon": "Rapid Fire",
+      "Endgame": "A",
+      "link2": "https://d4builds.gg/builds/0e3035ba-65c7-4fa8-955f-ff3b184cc560/?var=0",
+      "link": "0e3035ba-65c7-4fa8-955f-ff3b184cc560/?var=0"
+    }
+  },
+  {
+    "slug": "tierlist-build-39",
+    "title_en": "Tierlist Build #39",
+    "title_tr": null,
+    "diablo_class": "Rogue",
+    "class_key": "rogue",
+    "mode": null,
+    "role": null,
+    "tier": null,
+    "score": null,
+    "is_meta": null,
+    "tags": null,
+    "data": {
+      "build": "Flurry",
+      "class": "Rogue",
+      "icon": "Flurry",
+      "Endgame": "A",
+      "link2": "https://d4builds.gg/builds/da07f6a3-67f4-40a6-9421-0122c0fbf154/?var=0",
+      "link": "da07f6a3-67f4-40a6-9421-0122c0fbf154/?var=0"
+    }
+  },
+  {
+    "slug": "tierlist-build-40",
+    "title_en": "Tierlist Build #40",
+    "title_tr": null,
+    "diablo_class": "Druid",
+    "class_key": "druid",
+    "mode": null,
+    "role": null,
+    "tier": null,
+    "score": null,
+    "is_meta": null,
+    "tags": null,
+    "data": {
+      "build": "Cataclysm",
+      "class": "Druid",
+      "icon": "Cataclysm",
+      "Endgame": "B"
+    }
+  },
+  {
+    "slug": "tierlist-build-41",
+    "title_en": "Tierlist Build #41",
+    "title_tr": null,
+    "diablo_class": "Druid",
+    "class_key": "druid",
+    "mode": null,
+    "role": null,
+    "tier": null,
+    "score": null,
+    "is_meta": null,
+    "tags": null,
+    "data": {
+      "build": "Landslide",
+      "class": "Druid",
+      "icon": "Landslide",
+      "Endgame": "B"
+    }
+  },
+  {
+    "slug": "tierlist-build-42",
+    "title_en": "Tierlist Build #42",
+    "title_tr": null,
+    "diablo_class": "Barbarian",
+    "class_key": "barbarian",
+    "mode": null,
+    "role": null,
+    "tier": null,
+    "score": null,
+    "is_meta": null,
+    "tags": null,
+    "data": {
+      "build": "Twister",
+      "class": "Barbarian",
+      "icon": "Whirlwind",
+      "Endgame": "B",
+      "link2": "https://d4builds.gg/builds/849318c6-8d87-41dd-b047-607f3c75ab1c/?var=0",
+      "link": "849318c6-8d87-41dd-b047-607f3c75ab1c/?var=0"
+    }
+  },
+  {
+    "slug": "tierlist-build-43",
+    "title_en": "Tierlist Build #43",
+    "title_tr": null,
+    "diablo_class": "Barbarian",
+    "class_key": "barbarian",
+    "mode": null,
+    "role": null,
+    "tier": null,
+    "score": null,
+    "is_meta": null,
+    "tags": null,
+    "data": {
+      "build": "Upheaval",
+      "class": "Barbarian",
+      "icon": "Upheaval",
+      "Endgame": "B"
+    }
+  },
+  {
+    "slug": "tierlist-build-44",
+    "title_en": "Tierlist Build #44",
+    "title_tr": null,
+    "diablo_class": "Barbarian",
+    "class_key": "barbarian",
+    "mode": null,
+    "role": null,
+    "tier": null,
+    "score": null,
+    "is_meta": null,
+    "tags": null,
+    "data": {
+      "build": "Earthquake",
+      "class": "Barbarian",
+      "icon": "Call of the Ancients",
+      "Endgame": "B"
+    }
+  },
+  {
+    "slug": "tierlist-build-45",
+    "title_en": "Tierlist Build #45",
+    "title_tr": null,
+    "diablo_class": "Barbarian",
+    "class_key": "barbarian",
+    "mode": null,
+    "role": null,
+    "tier": null,
+    "score": null,
+    "is_meta": null,
+    "tags": null,
+    "data": {
+      "build": "Kick",
+      "class": "Barbarian",
+      "icon": "Kick",
+      "Endgame": "B"
+    }
+  },
+  {
+    "slug": "tierlist-build-46",
+    "title_en": "Tierlist Build #46",
+    "title_tr": null,
+    "diablo_class": "Barbarian",
+    "class_key": "barbarian",
+    "mode": null,
+    "role": null,
+    "tier": null,
+    "score": null,
+    "is_meta": null,
+    "tags": null,
+    "data": {
+      "build": "Death Blow",
+      "class": "Barbarian",
+      "icon": "Death Blow",
+      "Endgame": "B"
+    }
+  },
+  {
+    "slug": "tierlist-build-47",
+    "title_en": "Tierlist Build #47",
+    "title_tr": null,
+    "diablo_class": "Barbarian",
+    "class_key": "barbarian",
+    "mode": null,
+    "role": null,
+    "tier": null,
+    "score": null,
+    "is_meta": null,
+    "tags": null,
+    "data": {
+      "build": "Double Swing",
+      "class": "Barbarian",
+      "icon": "Double Swing",
+      "Endgame": "B"
+    }
+  },
+  {
+    "slug": "tierlist-build-48",
+    "title_en": "Tierlist Build #48",
+    "title_tr": null,
+    "diablo_class": "Necromancer",
+    "class_key": "necromancer",
+    "mode": null,
+    "role": null,
+    "tier": null,
+    "score": null,
+    "is_meta": null,
+    "tags": null,
+    "data": {
+      "build": "Blood Lance",
+      "class": "Necromancer",
+      "icon": "Blood Lance",
+      "Endgame": "B"
+    }
+  },
+  {
+    "slug": "tierlist-build-49",
+    "title_en": "Tierlist Build #49",
+    "title_tr": null,
+    "diablo_class": "Necromancer",
+    "class_key": "necromancer",
+    "mode": null,
+    "role": null,
+    "tier": null,
+    "score": null,
+    "is_meta": null,
+    "tags": null,
+    "data": {
+      "build": "Blood Surge",
+      "class": "Necromancer",
+      "icon": "Blood Surge",
+      "Endgame": "B"
+    }
+  },
+  {
+    "slug": "tierlist-build-50",
+    "title_en": "Tierlist Build #50",
+    "title_tr": null,
+    "diablo_class": "Sorcerer",
+    "class_key": "sorcerer",
+    "mode": null,
+    "role": null,
+    "tier": null,
+    "score": null,
+    "is_meta": null,
+    "tags": null,
+    "data": {
+      "build": "Lightning Spear",
+      "class": "Sorcerer",
+      "icon": "Lightning Spear",
+      "Endgame": "B",
+      "link2": "https://d4builds.gg/builds/14a3858d-6865-4878-b482-4335d1943370/?var=0",
+      "link": "14a3858d-6865-4878-b482-4335d1943370/?var=0"
+    }
+  },
+  {
+    "slug": "tierlist-build-51",
+    "title_en": "Tierlist Build #51",
+    "title_tr": null,
+    "diablo_class": "Sorcerer",
+    "class_key": "sorcerer",
+    "mode": null,
+    "role": null,
+    "tier": null,
+    "score": null,
+    "is_meta": null,
+    "tags": null,
+    "data": {
+      "build": "Fireball",
+      "class": "Sorcerer",
+      "icon": "Fireball",
+      "Endgame": "B"
+    }
+  },
+  {
+    "slug": "tierlist-build-52",
+    "title_en": "Tierlist Build #52",
+    "title_tr": null,
+    "diablo_class": "Sorcerer",
+    "class_key": "sorcerer",
+    "mode": null,
+    "role": null,
+    "tier": null,
+    "score": null,
+    "is_meta": null,
+    "tags": null,
+    "data": {
+      "build": "Frozen Orb",
+      "class": "Sorcerer",
+      "icon": "Frozen Orb",
+      "Endgame": "B"
+    }
+  },
+  {
+    "slug": "tierlist-build-53",
+    "title_en": "Tierlist Build #53",
+    "title_tr": null,
+    "diablo_class": "Sorcerer",
+    "class_key": "sorcerer",
+    "mode": null,
+    "role": null,
+    "tier": null,
+    "score": null,
+    "is_meta": null,
+    "tags": null,
+    "data": {
+      "build": "Chain Lightning",
+      "class": "Sorcerer",
+      "icon": "Chain Lightning",
+      "Endgame": "B"
+    }
+  },
+  {
+    "slug": "tierlist-build-54",
+    "title_en": "Tierlist Build #54",
+    "title_tr": null,
+    "diablo_class": "Sorcerer",
+    "class_key": "sorcerer",
+    "mode": null,
+    "role": null,
+    "tier": null,
+    "score": null,
+    "is_meta": null,
+    "tags": null,
+    "data": {
+      "build": "Blizzard",
+      "class": "Sorcerer",
+      "icon": "Blizzard",
+      "Endgame": "B"
+    }
+  },
+  {
+    "slug": "tierlist-build-55",
+    "title_en": "Tierlist Build #55",
+    "title_tr": null,
+    "diablo_class": "Spiritborn",
+    "class_key": "spiritborn",
+    "mode": null,
+    "role": null,
+    "tier": null,
+    "score": null,
+    "is_meta": null,
+    "tags": null,
+    "data": {
+      "build": "Razor Wings",
+      "class": "Spiritborn",
+      "icon": "Razor Wings",
+      "Endgame": "B"
+    }
+  },
+  {
+    "slug": "tierlist-build-56",
+    "title_en": "Tierlist Build #56",
+    "title_tr": null,
+    "diablo_class": "Rogue",
+    "class_key": "rogue",
+    "mode": null,
+    "role": null,
+    "tier": null,
+    "score": null,
+    "is_meta": null,
+    "tags": null,
+    "data": {
+      "build": "Penetrating Shot",
+      "class": "Rogue",
+      "icon": "Penetrating Shot",
+      "Endgame": "B"
+    }
+  },
+  {
+    "slug": "tierlist-build-57",
+    "title_en": "Tierlist Build #57",
+    "title_tr": null,
+    "diablo_class": "Rogue",
+    "class_key": "rogue",
+    "mode": null,
+    "role": null,
+    "tier": null,
+    "score": null,
+    "is_meta": null,
+    "tags": null,
+    "data": {
+      "build": "Poison Twisting Blades",
+      "class": "Rogue",
+      "icon": "Twisting Blades",
+      "Endgame": "B"
+    }
+  },
+  {
+    "slug": "tierlist-build-58",
+    "title_en": "Tierlist Build #58",
+    "title_tr": null,
+    "diablo_class": "Rogue",
+    "class_key": "rogue",
+    "mode": null,
+    "role": null,
+    "tier": null,
+    "score": null,
+    "is_meta": null,
+    "tags": null,
+    "data": {
+      "build": "Rain of Arrows",
+      "class": "Rogue",
+      "icon": "Rain of Arrows",
+      "Endgame": "B"
+    }
+  },
+  {
+    "slug": "tierlist-build-59",
+    "title_en": "Tierlist Build #59",
+    "title_tr": null,
+    "diablo_class": "Rogue",
+    "class_key": "rogue",
+    "mode": null,
+    "role": null,
+    "tier": null,
+    "score": null,
+    "is_meta": null,
+    "tags": null,
+    "data": {
+      "build": "Dance of Knives",
+      "class": "Rogue",
+      "icon": "Dance of Knives",
+      "Endgame": "B"
+    }
+  },
+  {
+    "slug": "tierlist-build-60",
+    "title_en": "Tierlist Build #60",
+    "title_tr": null,
+    "diablo_class": "Barbarian",
+    "class_key": "barbarian",
+    "mode": null,
+    "role": null,
+    "tier": null,
+    "score": null,
+    "is_meta": null,
+    "tags": null,
+    "data": {
+      "build": "Whirlwind",
+      "class": "Barbarian",
+      "icon": "Whirlwind",
+      "Endgame": "C"
+    }
+  },
+  {
+    "slug": "tierlist-build-61",
+    "title_en": "Tierlist Build #61",
+    "title_tr": null,
+    "diablo_class": "Druid",
+    "class_key": "druid",
+    "mode": null,
+    "role": null,
+    "tier": null,
+    "score": null,
+    "is_meta": null,
+    "tags": null,
+    "data": {
+      "build": "Storm Claw",
+      "class": "Druid",
+      "icon": "Storm Strike",
+      "Endgame": "C"
+    }
+  },
+  {
+    "slug": "tierlist-build-62",
+    "title_en": "Tierlist Build #62",
+    "title_tr": null,
+    "diablo_class": "Druid",
+    "class_key": "druid",
+    "mode": null,
+    "role": null,
+    "tier": null,
+    "score": null,
+    "is_meta": null,
+    "tags": null,
+    "data": {
+      "build": "Hurricane",
+      "class": "Druid",
+      "icon": "Hurricane",
+      "Endgame": "C"
+    }
+  },
+  {
+    "slug": "tierlist-build-63",
+    "title_en": "Tierlist Build #63",
+    "title_tr": null,
+    "diablo_class": "Druid",
+    "class_key": "druid",
+    "mode": null,
+    "role": null,
+    "tier": null,
+    "score": null,
+    "is_meta": null,
+    "tags": null,
+    "data": {
+      "build": "Lightning Storm",
+      "class": "Druid",
+      "icon": "Lightning Storm",
+      "Endgame": "C"
+    }
+  },
+  {
+    "slug": "tierlist-build-64",
+    "title_en": "Tierlist Build #64",
+    "title_tr": null,
+    "diablo_class": "Druid",
+    "class_key": "druid",
+    "mode": null,
+    "role": null,
+    "tier": null,
+    "score": null,
+    "is_meta": null,
+    "tags": null,
+    "data": {
+      "build": "Wind Shear",
+      "class": "Druid",
+      "icon": "Wind Shear",
+      "Endgame": "C"
+    }
+  },
+  {
+    "slug": "tierlist-build-65",
+    "title_en": "Tierlist Build #65",
+    "title_tr": null,
+    "diablo_class": "Spiritborn",
+    "class_key": "spiritborn",
+    "mode": null,
+    "role": null,
+    "tier": null,
+    "score": null,
+    "is_meta": null,
+    "tags": null,
+    "data": {
+      "build": "Rushing Claw",
+      "class": "Spiritborn",
+      "icon": "Rushing Claw",
+      "Endgame": "C"
+    }
+  },
+  {
+    "slug": "tierlist-build-66",
+    "title_en": "Tierlist Build #66",
+    "title_tr": null,
+    "diablo_class": "Sorcerer",
+    "class_key": "sorcerer",
+    "mode": null,
+    "role": null,
+    "tier": null,
+    "score": null,
+    "is_meta": null,
+    "tags": null,
+    "data": {
+      "build": "Arc Lash",
+      "class": "Sorcerer",
+      "icon": "Arc Lash",
+      "Endgame": "C"
+    }
+  },
+  {
+    "slug": "tierlist-build-67",
+    "title_en": "Tierlist Build #67",
+    "title_tr": null,
+    "diablo_class": "Rogue",
+    "class_key": "rogue",
+    "mode": null,
+    "role": null,
+    "tier": null,
+    "score": null,
+    "is_meta": null,
+    "tags": null,
+    "data": {
+      "build": "Heartseeker",
+      "class": "Rogue",
+      "icon": "Heartseeker",
+      "Endgame": "C"
+    }
+  },
+  {
+    "slug": "tierlist-build-68",
+    "title_en": "Tierlist Build #68",
+    "title_tr": null,
+    "diablo_class": "Barbarian",
+    "class_key": "barbarian",
+    "mode": null,
+    "role": null,
+    "tier": null,
+    "score": null,
+    "is_meta": null,
+    "tags": null,
+    "data": {
+      "build": "Rend",
+      "class": "Barbarian",
+      "icon": "Rend",
+      "Endgame": "C"
+    }
+  },
+  {
+    "slug": "tierlist-build-69",
+    "title_en": "Tierlist Build #69",
+    "title_tr": null,
+    "diablo_class": "Barbarian",
+    "class_key": "barbarian",
+    "mode": null,
+    "role": null,
+    "tier": null,
+    "score": null,
+    "is_meta": null,
+    "tags": null,
+    "data": {
+      "build": "Steel Grasp",
+      "class": "Barbarian",
+      "icon": "Steel Grasp",
+      "Endgame": "C"
+    }
+  },
+  {
+    "slug": "tierlist-build-70",
+    "title_en": "Tierlist Build #70",
+    "title_tr": null,
+    "diablo_class": "Barbarian",
+    "class_key": "barbarian",
+    "mode": null,
+    "role": null,
+    "tier": null,
+    "score": null,
+    "is_meta": null,
+    "tags": null,
+    "data": {
+      "build": "Iron Maelstrom",
+      "class": "Barbarian",
+      "icon": "Iron Maelstrom",
+      "Endgame": "C"
+    }
+  },
+  {
+    "slug": "tierlist-build-71",
+    "title_en": "Tierlist Build #71",
+    "title_tr": null,
+    "diablo_class": "Barbarian",
+    "class_key": "barbarian",
+    "mode": null,
+    "role": null,
+    "tier": null,
+    "score": null,
+    "is_meta": null,
+    "tags": null,
+    "data": {
+      "build": "Charge",
+      "class": "Barbarian",
+      "icon": "Charge",
+      "Endgame": "C"
+    }
+  }
+]
