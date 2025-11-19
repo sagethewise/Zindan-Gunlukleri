@@ -160,44 +160,50 @@ export default function BuildDetail({ build }: BuildDetailProps) {
   const updatedAt = "September 17, 2025"; // şimdilik sabit
   const buildTitleLine = `${build.title} (S${build.season})`;
 
-  // ❶ Gear slotlarını Supabase'den çek
+  // ❶ Gear slotlarını (şimdilik placeholder) – her zaman ARRAY olacak
   useEffect(() => {
     async function loadGear() {
       setLoadingGear(true);
 
-const { data, error } = await supabaseBuilds
-  .from("d4_build_details")
-  .select(
-    `
-    id,
-    build_uuid,
-    slug,
-    name_en,
-    name_tr,
-    tier,
-    season,
-    content,
-    pit,
-    class_en,
-    class_key,
-    skills,
-    chaos_perks,
-    data,
-    created_at,
-    updated_at
-  `
-  )
-  .eq("slug", build.slug)
-  .single();
+      /**
+       * ŞU AN:
+       * - Gear için ayrı bir Supabase tablomuz yok / hazır değil.
+       * - UI sadece slot ikonları + slot label ile çalışabiliyor.
+       *
+       * O yüzden burada DB çağrısı yapmıyoruz, sadece
+       * gear'i boş ARRAY olarak bırakıyoruz ki:
+       *   gear.find(...) çağrısı güvenli olsun.
+       *
+       * İLERİDE:
+       * - build_gear tablosu açtığında buraya Supabase query ekleyebiliriz.
+       *   Örneğin:
+       *
+       *   const { data, error } = await supabaseBuilds
+       *     .from("build_gear")
+       *     .select(`
+       *       id,
+       *       build_id,
+       *       slot_key,
+       *       unique_name,
+       *       aspect_name,
+       *       icon_key,
+       *       item_id,
+       *       d4_items (
+       *         id,
+       *         slug,
+       *         name_en,
+       *         name_tr,
+       *         slot_key,
+       *         icon_key,
+       *         class_key
+       *       )
+       *     `)
+       *     .eq("build_id", build.id);
+       *
+       *   if (!error && data) setGear(data as GearRow[]);
+       */
 
-
-      if (error) {
-        console.error("Error fetching build gear", error);
-        setGear([]);
-      } else {
-        setGear((data ?? []) as unknown as GearRow[]);
-      }
-
+      setGear([]); // <-- önemli: her zaman array
       setLoadingGear(false);
     }
 

@@ -1,7 +1,73 @@
 "use server";
 
-import { createClient } from "@/lib/supabase-server";
+import { supabaseBuilds } from "@/lib/supabase-builds";
 import { CURRENT_D4_SEASON } from "@/lib/constants";
+import type { D4Build, D4BuildType, D4ClassId } from "@/lib/types";
+
+/**
+ * d4_homepage_builds satırını D4Build şekline çevirir
+ */
+function mapHomepageRowToD4Build(row: any): D4Build & {
+  skills?: { name: string }[];
+  buildUuid?: string | null;
+  creator?: string | null;
+  pit?: number | null;
+  tier?: number | null;
+  data?: any;
+} {
+  const type: D4BuildType =
+    (row.content?.toLowerCase() as D4BuildType) ?? "endgame";
+
+  const classId = (row.class_key?.toLowerCase() ??
+    "druid") as D4ClassId; // fallback önemli
+
+  // data JSONB sütununu parse edelim (string gelebilir)
+  let parsedData: any = null;
+  if (row.data) {
+    try {
+      parsedData =
+        typeof row.data === "string" ? JSON.parse(row.data) : row.data;
+    } catch {
+      parsedData = row.data;
+    }
+  }
+
+  // skills JSONB sütunu da string olabiliyor → normalize
+  let skills: { name: string }[] = [];
+  if (row.skills) {
+    try {
+      const raw =
+        typeof row.skills === "string"
+          ? JSON.parse(row.skills)
+          : row.skills;
+      if (Array.isArray(raw)) {
+        skills = raw;
+      }
+    } catch {
+      // parse edilemezse boş bırak
+      skills = [];
+    }
+  }
+
+  return {
+    id: row.id,
+    slug: row.slug,
+    title: row.name_en ?? row.name_tr ?? row.slug,
+    classId,
+    type,
+    season: row.season ?? CURRENT_D4_SEASON,
+    pitLevel: row.pit ?? null,
+    tags: parsedData?.tags ?? null,
+
+    // extra alanlar (BuildDetail için)
+    skills,
+    buildUuid: row.build_uuid ?? null,
+    creator: row.creator ?? null,
+    pit: row.pit ?? null,
+    tier: row.tier ?? null,
+    data: parsedData,
+  };
+}
 
 /**
  * Homepage build listesini getirir (build-firini için)
@@ -9,9 +75,7 @@ import { CURRENT_D4_SEASON } from "@/lib/constants";
 export async function getHomepageBuilds(
   season: number = CURRENT_D4_SEASON
 ) {
-  const supabase = createClient();
-
-  const { data, error } = await supabase
+  const { data, error } = await supabaseBuilds
     .from("d4_homepage_builds")
     .select("*")
     .eq("season", season)
@@ -24,39 +88,15 @@ export async function getHomepageBuilds(
 
   if (!data) return [];
 
-  // 🔥 UI'ın ihtiyaç duyduğu alanları normalize ediyoruz
-  const mapped = data.map((row) => ({
-    ...row,
-
-    // UI bunu istiyor → class_key üzerinden üretiyoruz
-    classId: row.class_key?.toLowerCase(),
-
-    // UI BuildCard "title" bekliyor
-    title: row.name_en ?? row.name_tr ?? row.slug,
-
-    // skills bazen text olabilir → normalize et
-    skills: Array.isArray(row.skills) ? row.skills : [],
-
-    // content → type (UI bazen 'endgame' bekliyor)
-    type: row.content?.toLowerCase() ?? "endgame",
-
-    // bunlar detay sayfada lazım, aynı bırak
-    buildUuid: row.build_uuid,
-    creator: row.creator,
-    pit: row.pit,
-    tier: row.tier,
-  }));
-
-  return mapped;
+  return data.map(mapHomepageRowToD4Build);
 }
 
 /**
- * Tek build (slug ile)
+ * Tek homepage build (slug ile)
+ * – sadece homepage listesine özel kullanmak istersen
  */
 export async function getHomepageBuildBySlug(slug: string) {
-  const supabase = createClient();
-
-  const { data, error } = await supabase
+  const { data, error } = await supabaseBuilds
     .from("d4_homepage_builds")
     .select("*")
     .eq("slug", slug)
@@ -64,14 +104,20 @@ export async function getHomepageBuildBySlug(slug: string) {
 
   if (error || !data) return null;
 
-  return {
-    ...data,
+  return mapHomepageRowToD4Build(data);
+}
 
-    classId: data.class_key?.toLowerCase(),
-    title: data.name_en ?? data.name_tr ?? data.slug,
-    skills: Array.isArray(data.skills) ? data.skills : [],
-    type: data.content?.toLowerCase() ?? "endgame",
-    buildUuid: data.build_uuid,
-    creator: data.creator,
-  };
+/**
+ * Detail sayfa için tek build (slug ile)
+ * BuildDetailPage bu fonksiyonu kullanıyor.
+ */
+export async function getBuildBySlug(slug: string) {
+  // Şu an için detail sayfada kullanacağımız ana kaynak yine d4_homepage_builds
+  const base = await getHomepageBuildBySlug(slug);
+  if (!base) return null;
+
+  // İleride d4_build_details, paragon vs ekleyeceksen
+  // burada ekstra Supabase çağrılarıyla merge edebilirsin.
+  // Şimdilik sadece base’i dönüyoruz.
+  return base;
 }
