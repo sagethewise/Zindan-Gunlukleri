@@ -22,10 +22,9 @@ type SkillRow = {
   runes_json: SkillRuneJson[] | null;
 };
 
-interface PageProps {
-  params: { key: string };
-}
-
+type PageProps = {
+  params: Promise<{ key: string }>;
+};
 export default async function SkillDetailPage({ params }: PageProps) {
   const supabase = createClient();
 
@@ -34,7 +33,7 @@ export default async function SkillDetailPage({ params }: PageProps) {
     .select(
       "key, name_en, name_tr, class_key, tags, lucky_hit, fury_generate, description_en, description_tr, extra_en, filters, runes_json"
     )
-    .eq("key", params.key)
+    .eq("key", (await params).key)
     .maybeSingle();
 
   if (error) {

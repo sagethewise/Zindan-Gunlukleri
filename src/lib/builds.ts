@@ -123,3 +123,8 @@ export async function getBuildBySlug(slug: string) {
   // Şimdilik sadece base’i dönüyoruz.
   return base;
 }
+export async function getBuildsBySeason(season: number) {
+  // Aynı tabloyu kullanıyoruz; CURRENT_D4_SEASON default’u istemediğimiz için
+  // sadece explicit param geçiriyoruz.
+  return getHomepageBuilds(season);
+}

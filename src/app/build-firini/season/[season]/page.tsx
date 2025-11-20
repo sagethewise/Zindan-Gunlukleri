@@ -22,4 +22,7 @@ export default async function SeasonPage({
       builds={builds}
     />
   );
+
+  
 }
+
