@@ -1,18 +1,17 @@
-import BuildFirini from "@/components/builds/BuildFirini";
-import { CURRENT_D4_SEASON, KNOWN_D4_SEASONS } from "@/lib/d4Config";
-import { getBuildsBySeason } from "@/lib/builds";
-import { notFound } from "next/navigation";
+// src/app/build-firini/season/[season]/page.tsx
 
-interface SeasonPageProps {
-  params: { season: string };
-}
+import BuildFirini from "@/components/builds/BuildFirini";
+import { getBuildsBySeason } from "@/lib/builds";
+import { CURRENT_D4_SEASON } from "@/lib/constants";
+
+type SeasonPageProps = {
+  params: {
+    season: string;
+  };
+};
 
 export default async function SeasonPage({ params }: SeasonPageProps) {
   const seasonNumber = Number(params.season);
-
-  if (!Number.isFinite(seasonNumber) || !KNOWN_D4_SEASONS.includes(seasonNumber)) {
-    return notFound();
-  }
 
   const builds = await getBuildsBySeason(seasonNumber);
 
