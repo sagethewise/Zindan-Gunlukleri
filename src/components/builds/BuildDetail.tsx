@@ -22,10 +22,6 @@ interface Rune {
   icon: string;
 }
 
-interface SkillIcon {
-  name: string;
-  icon: string;
-}
 
 // 🔧 Supabase join tipleri – DİKKAT: d4_* alanları ARRAY!
 interface GearRow {
@@ -107,34 +103,6 @@ function getBarbarianDummyRunes(): Rune[] {
   ];
 }
 
-function getBarbarianDummySkills(): SkillIcon[] {
-  return [
-    {
-      name: "Lunging Strike",
-      icon: "/images/builds/barbarian/lunging_strike.png",
-    },
-    {
-      name: "Whirlwind",
-      icon: "/images/builds/barbarian/whirlwind.png",
-    },
-    {
-      name: "Rallying Cry",
-      icon: "/images/builds/barbarian/rallying_cry.png",
-    },
-    {
-      name: "War Cry",
-      icon: "/images/builds/barbarian/war_cry.png",
-    },
-    {
-      name: "Challenging Shout",
-      icon: "/images/builds/barbarian/challenging_shout.png",
-    },
-    {
-      name: "Wrath of the Berserker",
-      icon: "/images/builds/barbarian/wrath_of_the_berserker.png",
-    },
-  ];
-}
 
 interface BuildDetailProps {
   build: D4Build & {
@@ -153,7 +121,7 @@ export default function BuildDetail({ build }: BuildDetailProps) {
 
   const [gear, setGear] = useState<GearRow[]>([]);
   const [runes, setRunes] = useState<Rune[]>([]);
-  const [skillBar, setSkillBar] = useState<SkillIcon[]>([]);
+  
 
   const [loadingGear, setLoadingGear] = useState(false);
   const [loadingRunes, setLoadingRunes] = useState(false);
@@ -272,95 +240,6 @@ export default function BuildDetail({ build }: BuildDetailProps) {
     loadRunes();
   }, [build.id, build.classId]);
 
-  // ❸ Skills Supabase'den (yoksa rawData.skills / build.skills / dummy)
-  useEffect(() => {
-    async function loadSkills() {
-      setLoadingSkills(true);
-
-      const { data, error } = await supabaseBuilds
-        .from("build_skills")
-        .select(
-          `
-          id,
-          skill_slot,
-          d4_skills (
-            id,
-            key,
-            name_en,
-            name_tr,
-            icon_key,
-            class_key
-          )
-        `
-        )
-        .eq("build_id", build.id)
-        .order("skill_slot", { ascending: true });
-
-      if (error) {
-        console.error("Error fetching build skills", error);
-
-        // 🔹 Supabase hata verirse → JSON’dan skills dene, yoksa dummy
-        const rawSkills: { name: string }[] =
-          (build.skills as any) ??
-          (build.rawData?.skills as { name: string }[] | undefined) ??
-          [];
-
-        if (rawSkills.length > 0) {
-          setSkillBar(
-            rawSkills.map((s) => ({
-              name: s.name,
-              icon: `/images/builds/${build.classId}/placeholder.png`,
-            }))
-          );
-        } else if (build.classId === "barbarian") {
-          setSkillBar(getBarbarianDummySkills());
-        } else {
-          setSkillBar([]);
-        }
-      } else if (!data || data.length === 0) {
-        // 🔹 DB’de skill kaydı yoksa → önce JSON’dan dene
-        const rawSkills: { name: string }[] =
-          (build.skills as any) ??
-          (build.rawData?.skills as { name: string }[] | undefined) ??
-          [];
-
-        if (rawSkills.length > 0) {
-          setSkillBar(
-            rawSkills.map((s) => ({
-              name: s.name,
-              icon: `/images/builds/${build.classId}/placeholder.png`,
-            }))
-          );
-        } else if (build.classId === "barbarian") {
-          setSkillBar(getBarbarianDummySkills());
-        } else {
-          setSkillBar([]);
-        }
-      } else {
-        // 🔹 DB’de skill kaydı varsa → d4_skills join + icon_key
-        const mapped: SkillIcon[] = (data as unknown as SkillRow[]).map(
-          (row) => {
-            const s = row.d4_skills?.[0];
-
-            const name =
-              s?.name_tr || s?.name_en || s?.key || "Skill";
-
-            const icon = s?.icon_key
-              ? `/images/builds/${build.classId}/${s.icon_key}.png`
-              : `/images/builds/${build.classId}/placeholder.png`;
-
-            return { name, icon };
-          }
-        );
-
-        setSkillBar(mapped);
-      }
-
-      setLoadingSkills(false);
-    }
-
-    loadSkills();
-  }, [build.id, build.classId, build.skills, build.rawData]);
 
   return (
     <div className="space-y-5">
@@ -513,44 +392,6 @@ export default function BuildDetail({ build }: BuildDetailProps) {
               </div>
             </div>
 
-            {/* Skills */}
-            <div>
-              <h3 className="mb-2 text-xs font-semibold text-slate-700">
-                Skills
-              </h3>
-              <div className="flex flex-wrap gap-3">
-                {loadingSkills && (
-                  <span className="text-[11px] text-slate-400">
-                    Loading skills…
-                  </span>
-                )}
-                {!loadingSkills && skillBar.length === 0 && (
-                  <span className="text-[11px] text-slate-400">
-                    Skill ikonları için veri eklenmedi.
-                  </span>
-                )}
-                {!loadingSkills &&
-                  skillBar.map((s) => (
-                    <div
-                      key={s.name}
-                      className="flex flex-col items-center gap-1 text-[10px]"
-                    >
-                      <div className="flex h-9 w-9 items-center justify-center rounded bg-slate-900/90">
-                        <Image
-                          src={s.icon}
-                          alt={s.name}
-                          width={28}
-                          height={28}
-                          className="object-contain"
-                        />
-                      </div>
-                      <span className="max-w-[80px] text-center text-slate-600">
-                        {s.name}
-                      </span>
-                    </div>
-                  ))}
-              </div>
-            </div>
           </div>
 
           {/* SAĞ KOLON */}
