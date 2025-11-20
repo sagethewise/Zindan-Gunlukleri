@@ -44,9 +44,9 @@ export default function BuildCard({ build, classes }: BuildCardProps) {
         </div>
 
         <div className="flex items-center gap-3">
-          {build.pitLevel ? (
+          {build.pitLevel && typeof build.pitLevel !== 'object' ? (
             <div className="rounded-md bg-slate-800 px-2 py-1 text-[10px] text-slate-100">
-              Pit {build.pitLevel}
+              Pit {String(build.pitLevel)}
             </div>
           ) : null}
           <span className="text-lg text-slate-400">›</span>
@@ -81,17 +81,17 @@ export default function BuildCard({ build, classes }: BuildCardProps) {
           )}
         </div>
 
-        {build.tags && build.tags.length > 0 && (
-          <div className="flex flex-wrap gap-1">
-            {build.tags.map((t) => (
+        {Array.isArray(build.tags) && build.tags.length > 0 && (
+            <div className="flex flex-wrap gap-1">
+            {build.tags.map((t: string) => (
               <span
-                key={t}
-                className="rounded bg-slate-900 px-2 py-0.5 text-[10px] text-slate-100"
+              key={t}
+              className="rounded bg-slate-900 px-2 py-0.5 text-[10px] text-slate-100"
               >
-                {t}
+              {t}
               </span>
             ))}
-          </div>
+            </div>
         )}
       </div>
     </Link>
