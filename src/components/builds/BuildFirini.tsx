@@ -44,7 +44,7 @@ const filteredBuilds = useMemo(
       const q = search.toLowerCase();
       return (
         b.title.toLowerCase().includes(q) ||
-        b.tags?.some((t: string) => t.toLowerCase().includes(q))
+        (Array.isArray(b.tags) && b.tags.some((t: string) => t.toLowerCase().includes(q)))
       );
     }),
   [builds, season, selectedClass, selectedTab, search]
