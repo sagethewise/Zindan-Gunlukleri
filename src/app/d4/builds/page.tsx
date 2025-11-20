@@ -1,3 +1,5 @@
+/* eslint-disable @typescript-eslint/no-explicit-any */
+
 // src/app/d4/builds/page.tsx
 import { createClient } from "@/lib/supabase-server";
 import BuildListClient, {

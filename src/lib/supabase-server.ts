@@ -11,3 +11,5 @@ export const createClient = () =>
   createServerComponentClient({
     cookies,
   });
+// Eski importlar için alias
+export const createSupabaseServerClient = createClient;

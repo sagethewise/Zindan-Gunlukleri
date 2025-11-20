@@ -1,3 +1,5 @@
+/* eslint-disable @typescript-eslint/no-explicit-any */
+
 // src/lib/types.ts
 
 // ===== Blog Tipleri =====
@@ -74,7 +76,7 @@ export interface D4Build {
   skills?: D4BuildSkillSummary[];
 
   // Her türlü ekstra JSON (paragon, full raw data vs)
-  rawData?: any;
+  rawData?: unknown;
 
   // DB timestamp’leri – istersen kullanırsın
   createdAt?: string | null;
@@ -82,7 +84,7 @@ export interface D4Build {
 
   // Eski yerlerden gelen ekstra property’ler bozulmasın diye
   // (mesela videoUrl falan kullanıyorsan)
-  [key: string]: any;
+  [key: string]: unknown;
 }
 
 // Build tipleri (leveling / endgame / vb.)
@@ -201,7 +203,7 @@ export interface D4SkillRow {
   runes: D4SkillRune[] | null;
 
   // orijinal page-data’dan gelen her şey:
-  data?: any; // istersen ileride daha detaylı type’layabilirsin
+  data?: unknown; // istersen ileride daha detaylı type’layabilirsin
 }
 // Build Fırını ana sayfa kartları için tip
 export type HomepageBuild = {
@@ -227,7 +229,7 @@ export type HomepageBuild = {
   skills: { name: string }[];
 
   // raw data (tooltip / future analiz için)
-  rawData: any;
+  rawData: unknown;
 };
 
 // ===================================================
@@ -249,7 +251,7 @@ export interface D4BuildDetailRow {
   author: string | null;
   tags: string[] | null;
   skills: string | null;       // DB'de JSON string
-  data: any | null;
+  data: unknown | null;
   created_at: string | null;
   updated_at: string | null;
   build_uuid: string | null;

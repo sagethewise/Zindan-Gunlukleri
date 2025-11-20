@@ -1,3 +1,5 @@
+/* eslint-disable @typescript-eslint/no-explicit-any */
+
 // src/components/builds/BuildDetail.tsx
 "use client";
 

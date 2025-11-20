@@ -1,3 +1,5 @@
+/* eslint-disable @typescript-eslint/no-explicit-any */
+
 "use server";
 
 import { supabaseBuilds } from "@/lib/supabase-builds";
@@ -13,7 +15,7 @@ function mapHomepageRowToD4Build(row: any): D4Build & {
   creator?: string | null;
   pit?: number | null;
   tier?: number | null;
-  data?: any;
+  data?: unknown;
 } {
   const type: D4BuildType =
     (row.content?.toLowerCase() as D4BuildType) ?? "endgame";

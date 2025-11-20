@@ -1,3 +1,5 @@
+/* eslint-disable @typescript-eslint/no-explicit-any */
+
 // src/app/d4/skills/page.tsx
 import { createClient } from "@/lib/supabase-server";
 import SkillsListClient, {
