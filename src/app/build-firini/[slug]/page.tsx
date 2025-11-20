@@ -1,5 +1,4 @@
 // src/app/build-firini/[slug]/page.tsx
-/* eslint-disable @typescript-eslint/no-explicit-any */
 
 import BuildDetail from "@/components/builds/BuildDetail";
 import { getBuildBySlug } from "@/lib/builds";
