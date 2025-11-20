@@ -4,12 +4,15 @@ import BuildFirini from "@/components/builds/BuildFirini";
 import { getBuildsBySeason } from "@/lib/builds";
 import { CURRENT_D4_SEASON } from "@/lib/constants";
 
-export default async function SeasonPage({ params }: any) {
-  // Next 15'te params Promise olduğu için:
-  const resolved = await params;
-  const seasonParam = resolved?.season ?? CURRENT_D4_SEASON;
-  const seasonNumber = Number(seasonParam);
+export default async function SeasonPage({
+  params,
+}: {
+  params: Promise<{ season: string }>;
+}) {
+  // Next 15: params bir Promise
+  const { season } = await params;
 
+  const seasonNumber = Number(season ?? CURRENT_D4_SEASON);
   const builds = await getBuildsBySeason(seasonNumber);
 
   return (
