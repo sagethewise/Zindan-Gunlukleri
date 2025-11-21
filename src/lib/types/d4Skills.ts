@@ -1,3 +1,5 @@
+
+/* eslint-disable @typescript-eslint/no-explicit-any */
 export type D4Skill = {
   id: string;
   key: string;          // örn: "booming-voice-barbarian" / "rend-barbarian"

@@ -55,18 +55,6 @@ interface RuneRow {
   }[] | null;
 }
 
-interface SkillRow {
-  id: string;
-  skill_slot: number;
-  d4_skills?: {
-    id: string;
-    key: string;
-    name_en: string | null;
-    name_tr: string | null;
-    icon_key: string | null;
-    class_key: string | null;
-  }[] | null;
-}
 
 /**
  * Ortak ikon seti:
@@ -125,7 +113,7 @@ export default function BuildDetail({ build }: BuildDetailProps) {
 
   const [loadingGear, setLoadingGear] = useState(false);
   const [loadingRunes, setLoadingRunes] = useState(false);
-  const [loadingSkills, setLoadingSkills] = useState(false);
+
 
   const updatedAt = "September 17, 2025"; // şimdilik sabit
   const buildTitleLine = `${build.title} (S${build.season})`;
