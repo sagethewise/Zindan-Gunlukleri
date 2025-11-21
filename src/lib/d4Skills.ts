@@ -34,7 +34,7 @@ export async function getSkillsByKeys(keys: string[]): Promise<D4Skill[]> {
 }
 
 // 2) İSİM listesine göre skill çek (asıl build spesifik mantık burası)
-export async function getSkillsByNames(classId: string, p0: number, names: string[]): Promise<D4Skill[]> {
+export async function getSkillsByNames(names: string[]): Promise<D4Skill[]> {
   if (!names || names.length === 0) return [];
 
   const { data, error } = await supabase
@@ -44,6 +44,22 @@ export async function getSkillsByNames(classId: string, p0: number, names: strin
 
   if (error) {
     console.error("[getSkillsByNames] Supabase error:", error);
+    return [];
+  }
+
+  return (data ?? []) as D4Skill[];
+}
+
+// 3) CLASS'a göre skill çek (limit ile)
+export async function getSkillsByClass(classId: string, limit: number = 12): Promise<D4Skill[]> {
+  const { data, error } = await supabase
+    .from("d4_skills")
+    .select(SKILL_SELECT)
+    .eq("class_key", classId)
+    .limit(limit);
+
+  if (error) {
+    console.error("[getSkillsByClass] Supabase error:", error);
     return [];
   }
 

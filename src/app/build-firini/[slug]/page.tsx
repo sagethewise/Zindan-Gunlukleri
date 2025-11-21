@@ -1,5 +1,5 @@
 // src/app/build-firini/[slug]/page.tsx
-import { getSkillsByNames, getSkillsByKeys } from "@/lib/d4Skills";
+import { getSkillsByClass, getSkillsByKeys } from "@/lib/d4Skills";
 import BuildDetail from "@/components/builds/BuildDetail";
 import { getBuildBySlug } from "@/lib/builds";
 import { notFound } from "next/navigation";
@@ -34,7 +34,7 @@ export default async function BuildDetailPage({ params }: PageProps) {
   } else {
     // 3) Diğer tüm class'lar için: d4_skills'ten class_key'e göre skill çek
     //    Burada build'e özel değil, class kit'inden örnek skill'ler gösteriyoruz.
-    skills = await getSkillsByNames(classId, 5, []); // 12: göstermek istediğin skill sayısı
+    skills = await getSkillsByClass(classId, 6); // 12: göstermek istediğin skill sayısı
   }
 
   return (
