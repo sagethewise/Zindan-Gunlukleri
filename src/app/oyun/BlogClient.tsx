@@ -64,21 +64,7 @@ export default function BlogClient({ posts }: { posts: Post[] }) {
               </button>
             ))}
           </div>
-          <div className="flex flex-wrap justify-center gap-2">
-            {allTags.map((tag, index) => (
-              <button
-                key={`tag-${tag}-${index}`}
-                onClick={() => setActiveTag(tag === activeTag ? null : tag || null)}
-                className={`px-3 py-1 text-sm rounded-full border transition ${
-                  tag === activeTag
-                    ? "bg-green-600 text-white"
-                    : "border-gray-300 text-gray-600 hover:bg-green-50"
-                }`}
-              >
-                #{tag}
-              </button>
-            ))}
-          </div>
+          
         </div>
       </div>
 
