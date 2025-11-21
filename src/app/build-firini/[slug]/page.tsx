@@ -8,11 +8,11 @@ import { barbarianLungingStrikeSkills } from "@/lib/buildConfigs/barbarian";
 import { spiritbornQuillVolleySkills } from "@/lib/buildConfigs/spiritborn";
 
 interface PageProps {
-  params: { slug: string };
+  params: Promise<{ slug: string }>;
 }
 
 export default async function BuildDetailPage({ params }: PageProps) {
-  const { slug } = params;
+  const { slug } = await params;
 
   const build = await getBuildBySlug(slug);
 

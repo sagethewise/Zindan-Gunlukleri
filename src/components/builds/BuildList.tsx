@@ -1,5 +1,6 @@
 // src/components/builds/BuildList.tsx
 import Link from "next/link";
+import Image from "next/image";
 import type { D4Build } from "@/lib/types";
 import type { BuildClassInfo } from "./BuildClassSidebar";
 
@@ -54,9 +55,11 @@ export default function BuildList({ builds, classes, seasonLabel }: BuildListPro
             {/* Üst bölüm: Class icon + type */}
             <div className="flex items-center justify-between">
               {classInfo && (
-                <img
+                <Image
                   src={classInfo.icon}
                   alt={classInfo.label}
+                  width={32}
+                  height={32}
                   className="h-8 w-8 rounded-lg border border-slate-300 bg-white/50 shadow-md"
                 />
               )}
