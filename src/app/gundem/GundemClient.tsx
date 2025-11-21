@@ -9,27 +9,23 @@ import { AnimatePresence, motion } from 'framer-motion';
 import Image from "next/image";
 
 export default function GundemClient({ posts }: { posts: Post[] }) {
-  const [activeTag, setActiveTag] = useState<string | null>(null);
+  
   const [activeCategory, setActiveCategory] = useState<string | null>(null);
   const [visibleCount, setVisibleCount] = useState(6);
   const [sortOrder, setSortOrder] = useState<'newest' | 'oldest'>('newest');
-
-  const allTags = Array.from(new Set(posts.flatMap(p => p.metadata.tags ?? [])));
   const allCategories = Array.from(new Set(posts.map(p => p.metadata.category)));
 
-  const filteredPosts = posts
-    .filter((post) => {
-      const tagMatch = activeTag ? post.metadata.tags?.includes(activeTag) : true;
-      const categoryMatch = activeCategory ? post.metadata.category === activeCategory : true;
-      return tagMatch && categoryMatch;
-    })
-    .sort((a, b) => {
-      const dateA = new Date(a.metadata.date).getTime();
-      const dateB = new Date(b.metadata.date).getTime();
-      return sortOrder === 'newest' ? dateB - dateA : dateA - dateB;
-    });
+  const filteredPosts = activeCategory
+    ? posts.filter(p => p.metadata.category === activeCategory)
+    : posts;
 
-  const visiblePosts = filteredPosts.slice(0, visibleCount);
+  const sortedPosts = [...filteredPosts].sort((a, b) => {
+    const dateA = new Date(a.metadata.date).getTime();
+    const dateB = new Date(b.metadata.date).getTime();
+    return sortOrder === 'newest' ? dateB - dateA : dateA - dateB;
+  });
+
+  const visiblePosts = sortedPosts.slice(0, visibleCount);
 
   return (
     <main className="px-4 py-8 max-w-7xl mx-auto grid gap-6">
@@ -90,7 +86,7 @@ export default function GundemClient({ posts }: { posts: Post[] }) {
       <AnimatePresence mode="wait">
         {visiblePosts.length > 0 && (
           <motion.div
-            key={`${activeCategory}-${activeTag}-${sortOrder}`}
+            key={`${activeCategory}-${sortOrder}`}
             initial={{ opacity: 0 }}
             animate={{ opacity: 1 }}
             exit={{ opacity: 0 }}

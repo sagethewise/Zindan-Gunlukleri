@@ -10,18 +10,16 @@ import Image from "next/image";
 
 export default function BlogClient({ posts }: { posts: Post[] }) {
   const [visibleCount, setVisibleCount] = useState(6);
-  const [activeTag, setActiveTag] = useState<string | null>(null);
-  const [activeCategory, setActiveCategory] = useState<string | null>(null);
+   const [activeCategory, setActiveCategory] = useState<string | null>(null);
   const [sortOrder, setSortOrder] = useState<'newest' | 'oldest'>('newest');
 
-  const allTags = Array.from(new Set(posts.flatMap(post => post.metadata.tags || [])));
-  const allCategories = Array.from(new Set(posts.map(post => post.metadata.category).filter(Boolean)));
+    const allCategories = Array.from(new Set(posts.map(post => post.metadata.category).filter(Boolean)));
 
   const filteredPosts = posts
     .filter((post) => {
-      const tagMatch = activeTag ? post.metadata.tags?.includes(activeTag) : true;
+      
       const categoryMatch = activeCategory ? post.metadata.category === activeCategory : true;
-      return tagMatch && categoryMatch;
+      return categoryMatch;
     })
     .sort((a, b) => {
       const dateA = new Date(a.metadata.date).getTime();
@@ -90,7 +88,7 @@ export default function BlogClient({ posts }: { posts: Post[] }) {
       <AnimatePresence mode="wait">
         {visiblePosts.length > 0 && (
           <motion.div
-            key={`${activeCategory}-${activeTag}-${sortOrder}`}
+            key={`${activeCategory}-${sortOrder}`}
             initial={{ opacity: 0 }}
             animate={{ opacity: 1 }}
             exit={{ opacity: 0 }}
