@@ -392,6 +392,7 @@ export default function BuildDetail({ build }: BuildDetailProps) {
               </div>
             </div>
 
+
           </div>
 
           {/* SAĞ KOLON */}

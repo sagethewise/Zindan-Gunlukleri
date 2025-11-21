@@ -32,9 +32,9 @@ export default async function BuildDetailPage({ params }: PageProps) {
   } else if (classId === "spiritborn") {
     skills = await getSkillsByKeys([...spiritbornQuillVolleySkills]);
   } else {
-    // 3) Diğer tüm class’lar için: d4_skills’ten class_key’e göre skill çek
-    //    Burada build’e özel değil, class kit’inden örnek skill’ler gösteriyoruz.
-    skills = await getSkillsByNames(classId, 5); // 12: göstermek istediğin skill sayısı
+    // 3) Diğer tüm class'lar için: d4_skills'ten class_key'e göre skill çek
+    //    Burada build'e özel değil, class kit'inden örnek skill'ler gösteriyoruz.
+    skills = await getSkillsByNames(classId, 5, []); // 12: göstermek istediğin skill sayısı
   }
 
   return (
