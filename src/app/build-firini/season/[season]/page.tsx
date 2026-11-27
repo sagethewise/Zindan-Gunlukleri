@@ -2,7 +2,8 @@
 
 import BuildFirini from "@/components/builds/BuildFirini";
 import { getBuildsBySeason } from "@/lib/builds";
-import { CURRENT_D4_SEASON } from "@/lib/constants";
+import {notFound} from "next/navigation";
+import { TARGET_D4_SEASON,isKnownSeason } from "@/lib/constants";
 
 export default async function SeasonPage({
   params,
@@ -12,13 +13,14 @@ export default async function SeasonPage({
   // Next 15: params bir Promise
   const { season } = await params;
 
-  const seasonNumber = Number(season ?? CURRENT_D4_SEASON);
+  const seasonNumber = Number(season ?? TARGET_D4_SEASON);
+  if(!isKnownSeason(seasonNumber))notFound();
   const builds = await getBuildsBySeason(seasonNumber);
 
   return (
     <BuildFirini
       season={seasonNumber}
-      isCurrent={seasonNumber === CURRENT_D4_SEASON}
+      isCurrent={seasonNumber === TARGET_D4_SEASON}
       builds={builds}
     />
   );

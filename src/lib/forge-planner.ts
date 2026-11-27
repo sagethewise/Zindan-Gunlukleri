@@ -7,7 +7,7 @@ export type Skill={name:string;rank:string};
 export type Board={name:string;glyph:string;notes:string};
 export type ForgePlan={version:1;id:string;title:string;classId:PlannerClass;season:string;patch:string;mode:"seasonal"|"eternal";gear:Record<PlannerSlot,Gear>;skills:Skill[];boards:Board[];runes:string;mercenary:string;warPlans:string;notes:string;updatedAt:string};
 const emptyGear=():Record<PlannerSlot,Gear>=>Object.fromEntries(slots.map(s=>[s,{item:"",aspect:"",affixes:""}])) as Record<PlannerSlot,Gear>;
-export function newPlan(id:string):ForgePlan{return {version:1,id,title:"",classId:"barbarian",season:"",patch:"",mode:"seasonal",gear:emptyGear(),skills:Array.from({length:6},()=>({name:"",rank:""})),boards:[],runes:"",mercenary:"",warPlans:"",notes:"",updatedAt:new Date().toISOString()};}
+export function newPlan(id:string):ForgePlan{return {version:1,id,title:"",classId:"barbarian",season:"16",patch:"",mode:"seasonal",gear:emptyGear(),skills:Array.from({length:6},()=>({name:"",rank:""})),boards:[],runes:"",mercenary:"",warPlans:"",notes:"",updatedAt:new Date().toISOString()};}
 const str=(v:unknown,max=3000)=>typeof v==="string"?v.slice(0,max):"";
 const obj=(v:unknown):Record<string,unknown>=>v&&typeof v==="object"&&!Array.isArray(v)?v as Record<string,unknown>:{};
 export function parsePlan(value:unknown):ForgePlan|null{

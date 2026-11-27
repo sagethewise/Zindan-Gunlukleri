@@ -3,7 +3,7 @@
 "use server";
 
 import { supabaseBuilds } from "@/lib/supabase-builds";
-import { CURRENT_D4_SEASON } from "@/lib/constants";
+import { TARGET_D4_SEASON, LEGACY_D4_SEASON } from "@/lib/constants";
 import type { D4Build, D4BuildType, D4ClassId } from "@/lib/types";
 
 /**
@@ -57,7 +57,7 @@ function mapHomepageRowToD4Build(row: any): D4Build & {
     title: row.name_en ?? row.name_tr ?? row.slug,
     classId,
     type,
-    season: row.season ?? CURRENT_D4_SEASON,
+    season: row.season,
     pitLevel: row.pit ?? null,
     tags: parsedData?.tags ?? null,
 
@@ -75,8 +75,9 @@ function mapHomepageRowToD4Build(row: any): D4Build & {
  * Homepage build listesini getirir (build-firini için)
  */
 export async function getHomepageBuilds(
-  season: number = CURRENT_D4_SEASON
+  season: number = TARGET_D4_SEASON
 ) {
+  if(season!==LEGACY_D4_SEASON)return []; // New target awaits authorized source and reviewed publication.
   const { data, error } = await supabaseBuilds
     .from("d4_homepage_builds")
     .select("*")
@@ -102,6 +103,7 @@ export async function getHomepageBuildBySlug(slug: string) {
     .from("d4_homepage_builds")
     .select("*")
     .eq("slug", slug)
+    .eq("season", LEGACY_D4_SEASON)
     .single();
 
   if (error || !data) return null;
@@ -124,7 +126,7 @@ export async function getBuildBySlug(slug: string) {
   return base;
 }
 export async function getBuildsBySeason(season: number) {
-  // Aynı tabloyu kullanıyoruz; CURRENT_D4_SEASON default’u istemediğimiz için
+  // Aynı tabloyu kullanıyoruz; TARGET_D4_SEASON default’u istemediğimiz için
   // sadece explicit param geçiriyoruz.
   return getHomepageBuilds(season);
 }

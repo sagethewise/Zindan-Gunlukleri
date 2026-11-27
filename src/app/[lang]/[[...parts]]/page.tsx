@@ -10,7 +10,7 @@ import {DungeonVideos,DungeonAbout,DungeonContact} from "@/components/DungeonPag
 import GuideReader from "@/components/GuideReader";
 import BuildFirini from "@/components/builds/BuildFirini";
 import {getBuildsBySeason} from "@/lib/builds";
-import {CURRENT_D4_SEASON} from "@/lib/constants";
+import {TARGET_D4_SEASON,isKnownSeason} from "@/lib/constants";
 import BuildDetailPage from "@/components/builds/BuildDetailContent";
 import ForgeDatabasePage from "@/components/builds/ForgeDatabasePage";
 import {catalogCopy} from "@/lib/forge-catalog-copy";
@@ -27,7 +27,7 @@ function resolve(lang:string,parts:string[]=[]){
  const suffix=parts.slice(1);
  if(suffix.length&&!["games","forge"].includes(section))notFound();
  if(section==="games"&&suffix.length>1&&(suffix.length!==2||suffix[0]!=="hub"||!findHub(suffix[1])))notFound();
- if(section==="forge"&&suffix.length>1&&(suffix.length!==2||suffix[0]!==(locale==="de"?"saison":"season")||!/^\d+$/.test(suffix[1])))notFound();
+ if(section==="forge"&&suffix.length>1&&(suffix.length!==2||suffix[0]!==(locale==="de"?"saison":"season")||!/^\d+$/.test(suffix[1])||!isKnownSeason(Number(suffix[1]))))notFound();
  return {locale,section,suffix};
 }
 export async function generateMetadata({params}:{params:Params}):Promise<Metadata>{
@@ -45,6 +45,6 @@ export default async function Page({params}:{params:Params}){
  if(section==="videos")return <DungeonVideos locale={locale}/>;
  if(section==="about")return <DungeonAbout locale={locale}/>;
  if(section==="contact")return <DungeonContact locale={locale}/>;
- if(section==="forge"){if(suffix[0]==="database"&&suffix.length===1)return <ForgeDatabasePage locale={locale}/>;if(suffix[0]==="planner"&&suffix.length===1)return <ForgePlanner locale={locale}/>;if(suffix.length===1)return <div><p className="max-w-6xl mx-auto px-4 py-3 text-sm text-gray-600">{buildText[locale].data}</p><BuildDetailPage locale={locale} params={Promise.resolve({slug:suffix[0]})}/></div>;const season=suffix.length===2?Number(suffix[1]):CURRENT_D4_SEASON;return <BuildFirini builds={await getBuildsBySeason(season)} season={season} isCurrent={season===CURRENT_D4_SEASON} locale={locale}/>;}
+ if(section==="forge"){if(suffix[0]==="database"&&suffix.length===1)return <ForgeDatabasePage locale={locale}/>;if(suffix[0]==="planner"&&suffix.length===1)return <ForgePlanner locale={locale}/>;if(suffix.length===1)return <div><p className="max-w-6xl mx-auto px-4 py-3 text-sm text-gray-600">{buildText[locale].data}</p><BuildDetailPage locale={locale} params={Promise.resolve({slug:suffix[0]})}/></div>;const season=suffix.length===2?Number(suffix[1]):TARGET_D4_SEASON;return <BuildFirini builds={await getBuildsBySeason(season)} season={season} isCurrent={season===TARGET_D4_SEASON} locale={locale}/>;}
  notFound();
 }

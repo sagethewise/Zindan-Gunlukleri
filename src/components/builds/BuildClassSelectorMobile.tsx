@@ -21,6 +21,7 @@ export default function BuildClassSelectorMobile({
         return (
           <button
             key={cls.id}
+            aria-label={cls.label}
             onClick={() => onSelectClass(cls.id)}
             className={`flex h-10 w-10 items-center justify-center rounded-lg border text-[10px] font-semibold tracking-tight
               ${
@@ -29,13 +30,13 @@ export default function BuildClassSelectorMobile({
                   : "border-slate-300 bg-white text-slate-500 hover:border-stone-400/80 hover:text-stone-700"
               }`}
           >
-            <Image
+            {cls.icon?<Image
               src={cls.icon}
               alt={cls.label}
               width={24}
               height={24}
               className="opacity-90"
-            />
+            />:<span>{cls.label.slice(0,2).toUpperCase()}</span>}
           </button>
         );
       })}

@@ -25,7 +25,7 @@ export default function BuildCard({ build, classes }: BuildCardProps) {
       <div className="flex items-center justify-between gap-4">
         <div className="flex items-center gap-3">
           <div className="flex h-9 w-9 items-center justify-center rounded-md bg-slate-800">
-            {cls && (
+            {cls?.icon && (
               <Image
                 src={cls.icon}
                 alt={cls.label}

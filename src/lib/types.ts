@@ -37,7 +37,9 @@ export type D4ClassId =
   | "necromancer"
   | "rogue"
   | "sorcerer"
-  | "spiritborn";
+  | "spiritborn"
+  | "paladin"
+  | "warlock";
 
 // 🔹 Kartlarda / detayda kullanacağımız skill özeti
 export interface D4BuildSkillSummary {

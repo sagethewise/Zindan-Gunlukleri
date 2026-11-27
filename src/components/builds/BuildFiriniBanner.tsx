@@ -37,7 +37,7 @@ export default function BuildFiriniBanner({
 
             {/* Açıklama */}
             <p className="max-w-xl text-[12px] text-stone-900/80">
-              {locale==="tr"?"Build içerikleri Dungeon Diaries tarafından yabancı kaynaklardan derlenmiş ve Türkçe olarak yeniden düzenlenmiştir.":m.source}
+              {locale==="tr"?"Sezon bazlı build rehberleri ve ekipman arşivi.":locale==="de"?"Saisonbezogene Build-Guides und Ausrüstungsarchiv.":"Season-specific build guides and equipment archive."}
             </p>
 
             {/* Başlık */}
