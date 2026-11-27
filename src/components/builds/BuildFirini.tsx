@@ -2,6 +2,7 @@
 "use client";
 
 import Link from "next/link";
+import {catalogCopy} from "@/lib/forge-catalog-copy";
 import {forgeCopy} from "@/lib/forge-copy";
 import { messages,localizedPath, type Locale } from "@/lib/i18n";
 import { useMemo, useState } from "react";
@@ -58,7 +59,7 @@ const filteredBuilds = useMemo(
   return (
     <div className="min-h-screen bg-[#f5f2ec] text-slate-600">
       <div className="mx-auto max-w-6xl px-4 py-6">
-        <div className="fp-warning mb-5"><div><strong>{c.coverage}</strong><p className="mt-1">{seasonLabel}</p></div><Link href={localizedPath(locale,"forge","planner")} className="dd-button primary">{c.goPlanner} →</Link></div>
+        <div className="fp-warning mb-5"><div><strong>{c.coverage}</strong><p className="mt-1">{seasonLabel}</p></div><div className="flex flex-wrap gap-2"><Link href={localizedPath(locale,"forge","database")} className="dd-button secondary">{catalogCopy[locale].title} →</Link><Link href={localizedPath(locale,"forge","planner")} className="dd-button primary">{c.goPlanner} →</Link></div></div>
         {/* Banner + Search */}
         <BuildFiriniBanner season={season} isCurrent={false} locale={locale}>
           <BuildSearchInput search={search} onSearchChange={setSearch} placeholder={messages[locale].searchBuild} />
