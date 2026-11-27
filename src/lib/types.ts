@@ -27,6 +27,7 @@ export type Post = {
     readingTime?: string;
     type?: "oyun" | "gundem";
     featured?: boolean;
+    previewOnly?: boolean;
   };
 };
 

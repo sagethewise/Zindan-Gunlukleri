@@ -1,7 +1,6 @@
 "use client";
 import {useMemo,useState} from "react";
 import Link from "next/link";
-import ForgeSourceLinks from "./ForgeSourceLinks";
 import {Database,Shield,Swords,Network,Gem,ScrollText,Globe,Search,ArrowUpRight} from "lucide-react";
 import {groups,allKinds,filterCatalog,catalogCounts,defaultFilter,type Group,type CatalogEntry,type CatalogFilter} from "@/lib/forge-catalog";
 import {catalogCopy,groupLabel,kindLabel} from "@/lib/forge-catalog-copy";
@@ -24,7 +23,6 @@ export default function ForgeDatabase({locale,entries}:{locale:Locale;entries:Ca
  <Link href={localizedPath(locale,"forge")} className="dd-text-link">← {c.back}</Link>
  <section className="dd-page-head fc-head"><div><p className="dd-kicker">DIABLO IV / DUNGEON DIARIES</p><h1>{c.title}</h1><p>{c.intro}</p></div><Link href={localizedPath(locale,"forge","planner")} className="dd-button secondary">{c.planner}<ArrowUpRight size={16}/></Link></section>
  {!visible.length&&<div className="fp-warning fc-notice"><Shield size={20}/><div><strong>{c.status}</strong><p>{c.statusBody}</p></div></div>}
- <ForgeSourceLinks locale={locale}/>
  <div className="fc-stats"><div><strong>{visible.length}</strong><span>{c.total}</span></div><div><strong>{Object.keys(groups).length}</strong><span>{c.sections}</span></div><div><strong>{allKinds.length}</strong><span>{c.types}</span></div></div>
  <div className="fc-layout"><aside className="fp-sidebar fc-nav"><h2>{c.sections}</h2><button type="button" aria-pressed={filter.group==="all"} onClick={()=>update({group:"all",kind:"all"})}><Database size={18}/><span>{c.all}</span><small>{visible.length}</small></button>{(Object.keys(groups) as Group[]).map(g=>{const Icon=icons[g];return <button type="button" key={g} aria-pressed={filter.group===g} onClick={()=>update({group:g,kind:"all"})}><Icon size={18}/><span>{groupLabel(g,locale)}</span><small>{counts[g]}</small></button>})}</aside>
  <section className="fp-workspace fc-workspace"><h2>{filter.group==="all"?c.title:groupLabel(filter.group,locale)}</h2>

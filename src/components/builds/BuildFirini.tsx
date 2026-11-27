@@ -3,7 +3,6 @@
 
 import Link from "next/link";
 import {TARGET_D4_SEASON,PREVIOUS_D4_SEASON,D4_SEASON_15,D4_SEASON_16,season16Status} from "@/lib/constants";
-import ForgeSourceLinks from "./ForgeSourceLinks";
 import {seasonCopy} from "@/lib/forge-season-copy";
 import {catalogCopy} from "@/lib/forge-catalog-copy";
 import {forgeCopy} from "@/lib/forge-copy";
@@ -66,7 +65,6 @@ const filteredBuilds = useMemo(
         <div className="fp-warning mb-5"><div><strong>{target?sc.target:(season16Status()==="upcoming"?sc.archive:sc.archiveAfter)}</strong><p className="mt-1">{target?(season16Status()==="upcoming"?sc.upcoming:sc.checkLive):seasonLabel}</p></div><div className="flex flex-wrap gap-2"><Link href={localizedPath(locale,"forge","database")} className="dd-button secondary">{catalogCopy[locale].title} →</Link><Link href={localizedPath(locale,"forge","planner")} className="dd-button primary">{c.goPlanner} →</Link></div></div>
         <nav aria-label={messages[locale].season} className="flex flex-wrap gap-2 mb-4"><Link href={localizedPath(locale,"forge")} className={target?"dd-button primary":"dd-button secondary"} aria-current={target?"page":undefined}>{sc.targetLink}</Link><Link href={seasonPath(PREVIOUS_D4_SEASON)} className={!target?"dd-button primary":"dd-button secondary"} aria-current={!target?"page":undefined}>{sc.archiveLink}</Link></nav>
         <section className="fp-workspace mb-5"><p className="dd-kicker">DIABLO IV · {target?sc.plannedPatch:sc.currentPatch} {target?D4_SEASON_16.patch:D4_SEASON_15.patch}</p><h2 className="text-xl font-semibold mt-2">{target?sc.name:sc.previousName}</h2><p className="mt-2 text-sm">{sc.pendingBody}</p><div className="flex flex-wrap gap-4 mt-4"><a href={target?D4_SEASON_16.announcement:D4_SEASON_15.announcement} target="_blank" rel="noreferrer" className="dd-text-link">{sc.source} ↗</a><a href={target?D4_SEASON_16.patchNotes:D4_SEASON_15.patchNotes} target="_blank" rel="noreferrer" className="dd-text-link">{sc.notes} ↗</a></div></section>
-        <ForgeSourceLinks locale={locale}/>
         {/* Banner + Search */}
         <BuildFiriniBanner season={season} isCurrent={false} locale={locale}>
           <BuildSearchInput search={search} onSearchChange={setSearch} placeholder={messages[locale].searchBuild} />

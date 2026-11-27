@@ -2,9 +2,11 @@ import {seasonCopy} from "@/lib/forge-season-copy";
 import type {Locale} from "@/lib/i18n";
 export default function ForgeSourceLinks({locale}:{locale:Locale}){
  const c=seasonCopy[locale];
- return <section className="fp-workspace mb-5"><h2 className="text-lg font-semibold">{c.sources}</h2><p className="text-xs mt-2">{c.sourceNote}</p><div className="grid gap-3 mt-4 sm:grid-cols-2">
- <a href="https://tools.infinitybuilds.gg/en/database" target="_blank" rel="noreferrer" className="dd-text-link">{c.infinity} ↗<small className="block text-stone-600 mt-1">{c.infinityVersion}</small></a>
- <a href="https://infinitybuilds.gg/en" target="_blank" rel="noreferrer" className="dd-text-link">{c.infinityBuilds} ↗</a>
- <a href="https://mobalytics.gg/diablo-4/tier-list" target="_blank" rel="noreferrer" className="dd-text-link">{c.mobalytics} ↗</a>
- <a href="https://d4builds.gg/?var=0" target="_blank" rel="noreferrer" className="dd-text-link">{c.d4builds} ↗</a></div></section>
+ const links=[
+  {url:"https://tools.infinitybuilds.gg/en/database",name:"InfinityTools",detail:c.infinityVersion},
+  {url:"https://infinitybuilds.gg/en",name:"InfinityBuilds",detail:c.infinityBuilds},
+  {url:"https://mobalytics.gg/diablo-4/tier-list",name:"Mobalytics",detail:c.mobalytics},
+  {url:"https://d4builds.gg/?var=0",name:"D4Builds",detail:c.d4builds}
+ ];
+ return <aside className="forge-sources-band" aria-label={c.sources}><div className="forge-sources-inner"><div className="forge-sources-heading"><h2>{c.sources}</h2><p>{c.sourceNote}</p></div><nav aria-label={c.sources} className="forge-sources-links">{links.map(link=><a key={link.name} href={link.url} target="_blank" rel="noreferrer" title={link.detail}>{link.name}<span aria-hidden="true">↗</span></a>)}</nav></div></aside>
 }

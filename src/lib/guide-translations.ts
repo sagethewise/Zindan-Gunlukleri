@@ -1,4 +1,5 @@
 import type { Locale } from "./i18n";
+import previewNews from "../../content/editorial/preview-news.json";
 import publishedNews from "../../content/editorial/published-news.json";
 import type { Post } from "./types";
 const translations: Record<string, {en:[string,string];de:[string,string]}> = {
@@ -18,7 +19,7 @@ const translations: Record<string, {en:[string,string];de:[string,string]}> = {
 };
 export function guideTranslation(post:Post,locale:Locale){
   if(locale==="tr") return {title:post.metadata.title,summary:post.metadata.summary};
-  const news=publishedNews as Record<string,{en:[string,string];de:[string,string]}>;
+  const news={...publishedNews,...previewNews} as Record<string,{en:string[];de:string[]}>;
   const t=(news[post.slug]??translations[post.slug])?.[locale];
   return {title:t?.[0]??post.metadata.title,summary:t?.[1]??""};
 }

@@ -10,6 +10,7 @@ export default function sitemap():MetadataRoute.Sitemap{
  for(const l of locales)pages.push({url:origin+localizedPath(l,"forge","planner"),alternates:{languages:Object.fromEntries(locales.map(lang=>[lang,origin+localizedPath(lang,"forge","planner")]))}});
  for(const h of hubs)for(const l of locales)pages.push({url:origin+localizedPath(l,"games","hub/"+h.id),alternates:{languages:Object.fromEntries(locales.map(lang=>[lang,origin+localizedPath(lang,"games","hub/"+h.id)]))}});
  for(const p of getAllPostsByType("oyun")){
+  if(p.metadata.previewOnly)continue;
   const available=locales.filter(l=>l==="tr"||getTranslatedContent(l,p.slug));
   for(const l of available)pages.push({url:origin+localizedPath(l,"games",p.slug),alternates:{languages:Object.fromEntries(available.map(lang=>[lang,origin+localizedPath(lang,"games",p.slug)]))}});
  }
