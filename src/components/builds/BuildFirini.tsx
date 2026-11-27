@@ -1,7 +1,9 @@
 // src/components/builds/BuildFirini.tsx
 "use client";
 
-import { messages, type Locale } from "@/lib/i18n";
+import Link from "next/link";
+import {forgeCopy} from "@/lib/forge-copy";
+import { messages,localizedPath, type Locale } from "@/lib/i18n";
 import { useMemo, useState } from "react";
 import { D4Build, D4BuildType, D4ClassId } from "@/lib/types";
 import BuildFiriniBanner from "./BuildFiriniBanner";
@@ -28,11 +30,12 @@ const CLASSES: BuildClassInfo[] = [
   { id: "spiritborn", label: "Spiritborn", icon: "/images/classes/spiritborn.png" },
 ];
 
-export default function BuildFirini({ season, isCurrent, builds, locale="tr" }: BuildFiriniProps) {
+export default function BuildFirini({ season, builds, locale="tr" }: BuildFiriniProps) {
   const [selectedClass, setSelectedClass] = useState<D4ClassId>("druid");
   const [selectedTab, setSelectedTab] = useState<D4BuildType>("endgame");
   const [search, setSearch] = useState<string>("");
 
+  const c=forgeCopy[locale];
   const seasonLabel = `${messages[locale].season} ${season}`;
 
 const filteredBuilds = useMemo(
@@ -55,8 +58,9 @@ const filteredBuilds = useMemo(
   return (
     <div className="min-h-screen bg-[#f5f2ec] text-slate-600">
       <div className="mx-auto max-w-6xl px-4 py-6">
+        <div className="fp-warning mb-5"><div><strong>{c.coverage}</strong><p className="mt-1">{seasonLabel}</p></div><Link href={localizedPath(locale,"forge","planner")} className="dd-button primary">{c.goPlanner} →</Link></div>
         {/* Banner + Search */}
-        <BuildFiriniBanner season={season} isCurrent={isCurrent} locale={locale}>
+        <BuildFiriniBanner season={season} isCurrent={false} locale={locale}>
           <BuildSearchInput search={search} onSearchChange={setSearch} placeholder={messages[locale].searchBuild} />
         </BuildFiriniBanner>
 
