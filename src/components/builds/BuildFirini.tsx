@@ -2,7 +2,8 @@
 "use client";
 
 import Link from "next/link";
-import {TARGET_D4_SEASON,LEGACY_D4_SEASON,D4_SEASON_16,season16Status} from "@/lib/constants";
+import {TARGET_D4_SEASON,PREVIOUS_D4_SEASON,D4_SEASON_15,D4_SEASON_16,season16Status} from "@/lib/constants";
+import ForgeSourceLinks from "./ForgeSourceLinks";
 import {seasonCopy} from "@/lib/forge-season-copy";
 import {catalogCopy} from "@/lib/forge-catalog-copy";
 import {forgeCopy} from "@/lib/forge-copy";
@@ -14,7 +15,6 @@ import BuildSearchInput from "./BuildSearchInput";
 import BuildClassSidebar, { BuildClassInfo } from "./BuildClassSidebar";
 import BuildClassSelectorMobile from "./BuildClassSelectorMobile";
 import BuildTabs from "./BuildTabs";
-import BuildMetaHeader from "./BuildMetaHeader";
 import BuildList from "./BuildList";
 
 interface BuildFiriniProps {
@@ -40,7 +40,7 @@ export default function BuildFirini({ season, builds, locale="tr" }: BuildFirini
 
   const c=forgeCopy[locale],sc=seasonCopy[locale],target=season===TARGET_D4_SEASON;
   const seasonPath=(n:number)=>localizedPath(locale,"forge",(locale==="de"?"saison":"season")+"/"+n);
-  const classes=target?[...CLASSES,{id:"paladin" as const,label:"Paladin"},{id:"warlock" as const,label:"Warlock"}]:CLASSES;
+  const classes=[...CLASSES,{id:"paladin" as const,label:"Paladin"},{id:"warlock" as const,label:"Warlock"}];
   const seasonLabel = `${messages[locale].season} ${season}`;
 
 const filteredBuilds = useMemo(
@@ -63,9 +63,10 @@ const filteredBuilds = useMemo(
   return (
     <div className="min-h-screen bg-[#f5f2ec] text-slate-600">
       <div className="mx-auto max-w-6xl px-4 py-6">
-        <div className="fp-warning mb-5"><div><strong>{target?sc.target:sc.archive}</strong><p className="mt-1">{target?(season16Status()==="upcoming"?sc.upcoming:sc.checkLive):seasonLabel}</p></div><div className="flex flex-wrap gap-2"><Link href={localizedPath(locale,"forge","database")} className="dd-button secondary">{catalogCopy[locale].title} →</Link><Link href={localizedPath(locale,"forge","planner")} className="dd-button primary">{c.goPlanner} →</Link></div></div>
-        <nav aria-label={messages[locale].season} className="flex flex-wrap gap-2 mb-4"><Link href={localizedPath(locale,"forge")} className={target?"dd-button primary":"dd-button secondary"} aria-current={target?"page":undefined}>{sc.targetLink}</Link><Link href={seasonPath(LEGACY_D4_SEASON)} className={!target?"dd-button primary":"dd-button secondary"} aria-current={!target?"page":undefined}>{sc.archiveLink}</Link></nav>
-        {target&&<section className="fp-workspace mb-5"><p className="dd-kicker">DIABLO IV · {sc.plannedPatch} {D4_SEASON_16.patch}</p><h2 className="text-xl font-semibold mt-2">{sc.name}</h2><p className="mt-2 text-sm">{sc.pendingBody}</p><div className="flex flex-wrap gap-4 mt-4"><a href={D4_SEASON_16.announcement} target="_blank" rel="noreferrer" className="dd-text-link">{sc.source} ↗</a><a href={D4_SEASON_16.patchNotes} target="_blank" rel="noreferrer" className="dd-text-link">{sc.notes} ↗</a><a href="https://d4builds.gg/?var=0" target="_blank" rel="noreferrer" className="dd-text-link">{sc.sourceLink} ↗</a></div><p className="text-xs mt-3">{sc.sourceNote}</p></section>}
+        <div className="fp-warning mb-5"><div><strong>{target?sc.target:(season16Status()==="upcoming"?sc.archive:sc.archiveAfter)}</strong><p className="mt-1">{target?(season16Status()==="upcoming"?sc.upcoming:sc.checkLive):seasonLabel}</p></div><div className="flex flex-wrap gap-2"><Link href={localizedPath(locale,"forge","database")} className="dd-button secondary">{catalogCopy[locale].title} →</Link><Link href={localizedPath(locale,"forge","planner")} className="dd-button primary">{c.goPlanner} →</Link></div></div>
+        <nav aria-label={messages[locale].season} className="flex flex-wrap gap-2 mb-4"><Link href={localizedPath(locale,"forge")} className={target?"dd-button primary":"dd-button secondary"} aria-current={target?"page":undefined}>{sc.targetLink}</Link><Link href={seasonPath(PREVIOUS_D4_SEASON)} className={!target?"dd-button primary":"dd-button secondary"} aria-current={!target?"page":undefined}>{sc.archiveLink}</Link></nav>
+        <section className="fp-workspace mb-5"><p className="dd-kicker">DIABLO IV · {target?sc.plannedPatch:sc.currentPatch} {target?D4_SEASON_16.patch:D4_SEASON_15.patch}</p><h2 className="text-xl font-semibold mt-2">{target?sc.name:sc.previousName}</h2><p className="mt-2 text-sm">{sc.pendingBody}</p><div className="flex flex-wrap gap-4 mt-4"><a href={target?D4_SEASON_16.announcement:D4_SEASON_15.announcement} target="_blank" rel="noreferrer" className="dd-text-link">{sc.source} ↗</a><a href={target?D4_SEASON_16.patchNotes:D4_SEASON_15.patchNotes} target="_blank" rel="noreferrer" className="dd-text-link">{sc.notes} ↗</a></div></section>
+        <ForgeSourceLinks locale={locale}/>
         {/* Banner + Search */}
         <BuildFiriniBanner season={season} isCurrent={false} locale={locale}>
           <BuildSearchInput search={search} onSearchChange={setSearch} placeholder={messages[locale].searchBuild} />
@@ -93,7 +94,7 @@ const filteredBuilds = useMemo(
             <BuildTabs selectedTab={selectedTab} onChangeTab={setSelectedTab} />
 
             {/* Meta Header */}
-            {target?<h2 className="text-lg font-semibold mb-3">{sc.pending}</h2>:<BuildMetaHeader locale={locale} />}
+            <h2 className="text-lg font-semibold mb-3">{target?sc.pending:sc.previousPending}</h2>
 
             {/* Build List */}
             <BuildList

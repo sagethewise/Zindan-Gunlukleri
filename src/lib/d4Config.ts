@@ -1,1 +1,1 @@
-export {TARGET_D4_SEASON,LEGACY_D4_SEASON,KNOWN_D4_SEASONS} from "./constants";
+export {TARGET_D4_SEASON,PREVIOUS_D4_SEASON,KNOWN_D4_SEASONS} from "./constants";

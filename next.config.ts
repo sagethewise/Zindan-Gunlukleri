@@ -2,7 +2,7 @@ import type { NextConfig } from 'next';
 
 const nextConfig: NextConfig = {
   reactStrictMode: true,
-  outputFileTracingIncludes: { "/api/forge/archive": ["./public/data/d4-build-planner-raw-page-data.json","./public/images/items/**/*"], "/*": ["./content/oyun/**/*", "./content/translations/**/*"] },
+  outputFileTracingIncludes: { "/*": ["./content/oyun/**/*", "./content/translations/**/*"] },
   images: {
     domains: ["img.youtube.com"],
     remotePatterns: [
