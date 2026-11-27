@@ -1,8 +1,10 @@
 "use client";
 
 import { useState } from "react";
+import { messages, type Locale } from "@/lib/i18n";
 
-export default function ContactForm() {
+export default function ContactForm({locale="tr"}:{locale?:Locale}) {
+  const m=messages[locale];
   const [formData, setFormData] = useState({
     name: "",
     email: "",
@@ -31,7 +33,7 @@ export default function ContactForm() {
         >
           <div>
             <label htmlFor="name" className="block text-sm font-medium mb-1">
-              İsim <span className="text-red-500">*</span>
+              {m.name} <span className="text-red-500">*</span>
             </label>
             <input
               required
@@ -46,7 +48,7 @@ export default function ContactForm() {
 
           <div>
             <label htmlFor="email" className="block text-sm font-medium mb-1">
-              E-posta <span className="text-red-500">*</span>
+              {m.email} <span className="text-red-500">*</span>
             </label>
             <input
               required
@@ -60,7 +62,7 @@ export default function ContactForm() {
           </div>
 
           <div>
-            <label className="block text-sm font-medium mb-2">Hangisi?</label>
+            <label className="block text-sm font-medium mb-2">{m.house}</label>
             <div className="grid grid-cols-2 gap-2 text-sm">
               {["Gryffindor", "Slytherin", "Ravenclaw", "Hufflepuff"].map(
                 (house) => (
@@ -85,7 +87,7 @@ export default function ContactForm() {
               htmlFor="message"
               className="block text-sm font-medium mb-1"
             >
-              Buyrun; nedir konu? <span className="text-red-500">*</span>
+              {m.message} <span className="text-red-500">*</span>
             </label>
             <textarea
               required
@@ -103,7 +105,7 @@ export default function ContactForm() {
               type="submit"
               className="bg-red-600 hover:bg-red-700 text-white px-5 py-1.5 text-sm rounded-md font-medium transition"
             >
-              Gönder ✉️
+              {m.send} ✉️
             </button>
           </div>
         </form>

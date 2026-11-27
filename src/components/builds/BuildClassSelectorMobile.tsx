@@ -25,8 +25,8 @@ export default function BuildClassSelectorMobile({
             className={`flex h-10 w-10 items-center justify-center rounded-lg border text-[10px] font-semibold tracking-tight
               ${
                 isActive
-                  ? "border-purple-500 bg-purple-500/10 text-purple-900 shadow shadow-purple-400/40"
-                  : "border-slate-300 bg-white text-slate-500 hover:border-purple-400/80 hover:text-purple-700"
+                  ? "border-stone-500 bg-stone-500/10 text-stone-900 shadow shadow-stone-400/40"
+                  : "border-slate-300 bg-white text-slate-500 hover:border-stone-400/80 hover:text-stone-700"
               }`}
           >
             <Image

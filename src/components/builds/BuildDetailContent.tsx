@@ -1,0 +1,52 @@
+// src/app/build-firini/[slug]/page.tsx
+import { getSkillsByClass, getSkillsByKeys } from "@/lib/d4Skills";
+import BuildDetail from "@/components/builds/BuildDetail";
+import { getBuildBySlug } from "@/lib/builds";
+import { notFound } from "next/navigation";
+import SkillsSection from "@/components/builds/SkillsSection";
+import { barbarianLungingStrikeSkills } from "@/lib/buildConfigs/barbarian";
+import { spiritbornQuillVolleySkills } from "@/lib/buildConfigs/spiritborn";
+
+import type {Locale} from "@/lib/i18n";
+
+interface PageProps {
+  params: Promise<{ slug: string }>;
+  locale?:Locale;
+}
+
+export default async function BuildDetailContent({ params,locale="tr" }: PageProps) {
+  const { slug } = await params;
+
+  const build = await getBuildBySlug(slug);
+
+  if (!build) {
+    return notFound();
+  }
+
+  // build.classId: "barbarian" | "druid" | "sorcerer" | "rogue" | "necromancer" | "spiritborn"
+  const classId = build.classId;
+
+  // 1) Varsayılan boş array
+  let skills = [];
+
+  // 2) Barbarian & Spiritborn için build’e özel key listeleri kullan
+  if (classId === "barbarian") {
+    skills = await getSkillsByKeys([...barbarianLungingStrikeSkills]);
+  } else if (classId === "spiritborn") {
+    skills = await getSkillsByKeys([...spiritbornQuillVolleySkills]);
+  } else {
+    // 3) Diğer tüm class'lar için: d4_skills'ten class_key'e göre skill çek
+    //    Burada build'e özel değil, class kit'inden örnek skill'ler gösteriyoruz.
+    skills = await getSkillsByClass(classId, 6); // 12: göstermek istediğin skill sayısı
+  }
+
+  return (
+    <div className="min-h-screen bg-[#f5f2ec] text-slate-800">
+      <div className="mx-auto max-w-6xl px-4 py-6">
+        <BuildDetail build={build} locale={locale} />
+        {/* Gear tab'ı zaten BuildDetail içinde. Skills Section'ı ayrı blokta gösteriyoruz. */}
+        <SkillsSection skills={skills} locale={locale} exact={classId==="barbarian"||classId==="spiritborn"} />
+      </div>
+    </div>
+  );
+}

@@ -1,4 +1,5 @@
 // src/components/builds/BuildList.tsx
+import { localizedPath, messages, type Locale } from "@/lib/i18n";
 import Link from "next/link";
 import Image from "next/image";
 import type { D4Build } from "@/lib/types";
@@ -10,16 +11,17 @@ type BuildWithExtras = D4Build & {
 };
 
 interface BuildListProps {
+  locale?:Locale;
   builds: BuildWithExtras[];
   classes: BuildClassInfo[];
   seasonLabel: string;
 }
 
-export default function BuildList({ builds, classes, seasonLabel }: BuildListProps) {
+export default function BuildList({ builds, classes, seasonLabel, locale="tr" }: BuildListProps) {
   if (!builds.length) {
     return (
       <div className="mt-6 rounded-xl border border-slate-300 bg-white/70 p-6 text-center text-sm text-slate-500 shadow">
-        Bu filtreye uygun build bulunamadı.
+        {messages[locale].noBuild}
       </div>
     );
   }
@@ -33,12 +35,12 @@ export default function BuildList({ builds, classes, seasonLabel }: BuildListPro
         return (
           <Link
             key={b.slug}
-            href={`/build-firini/${b.slug}`}
+            href={localizedPath(locale,"forge",b.slug)}
             className="
               group relative flex flex-col overflow-hidden
               rounded-2xl border border-slate-200 bg-white/80 p-4
               shadow-md transition-all
-              hover:-translate-y-1 hover:border-emerald-400 hover:shadow-xl
+              hover:-translate-y-1 hover:border-green-400 hover:shadow-xl
               backdrop-blur-xl
             "
           >
@@ -46,7 +48,7 @@ export default function BuildList({ builds, classes, seasonLabel }: BuildListPro
             <div
               className="
               pointer-events-none absolute inset-x-0 top-0 h-20
-              bg-gradient-to-b from-emerald-400/30 via-transparent to-transparent
+              bg-gradient-to-b from-green-400/30 via-transparent to-transparent
               opacity-0 blur-xl transition-opacity
               group-hover:opacity-100
             "
@@ -112,11 +114,11 @@ export default function BuildList({ builds, classes, seasonLabel }: BuildListPro
               <span>{seasonLabel}</span>
               <span
                 className="
-                text-emerald-600 font-medium
+                text-green-600 font-medium
                 group-hover:translate-x-0.5 transition-transform
               "
               >
-                Detay →
+                {messages[locale].detail} →
               </span>
             </div>
           </Link>

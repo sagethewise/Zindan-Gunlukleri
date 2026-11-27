@@ -10,7 +10,7 @@ export default function FooterBanner() {
       href="https://www.youtube.com/@gg_asli"
       target="_blank"
       rel="noopener noreferrer"
-      aria-label="Zindan Günlükleri YouTube kanalına git"
+      aria-label="Dungeon Diaries YouTube kanalına git"
     >
       <Image
         src="/images/1920x260.png"

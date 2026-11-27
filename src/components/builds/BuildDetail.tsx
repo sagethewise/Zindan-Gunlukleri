@@ -3,6 +3,8 @@
 // src/components/builds/BuildDetail.tsx
 "use client";
 
+import { buildText,gearLabel } from "@/lib/build-i18n";
+import { messages,type Locale } from "@/lib/i18n";
 import { useEffect, useState } from "react";
 import Image from "next/image";
 import { D4Build } from "@/lib/types";
@@ -10,7 +12,6 @@ import ChaosPerksRing from "./ChaosPerksRing";
 import { supabaseBuilds } from "@/lib/supabase-builds";
 import {
   GearSlotKey,
-  GEAR_SLOT_LABELS,
   LEFT_GEAR_SLOTS,
   RIGHT_GEAR_SLOTS,
 } from "@/lib/types";
@@ -82,17 +83,8 @@ function resolveIconPath(slotKey: GearSlotKey) {
 }
 
 // Eğer DB'den rune/skill gelmezse barbarian için fallback:
-function getBarbarianDummyRunes(): Rune[] {
-  return [
-    { name: "Igni", icon: "/images/runes/moni.png" },
-    { name: "Tec", icon: "/images/runes/tec.png" },
-    { name: "Moni", icon: "/images/runes/cir.png" },
-    { name: "Qax", icon: "/images/runes/gar.png" },
-  ];
-}
-
-
 interface BuildDetailProps {
+  locale?:Locale;
   build: D4Build & {
     // d4_homepage_builds.data / skills gibi ekstralar gelebilir
     skills?: { name: string }[];
@@ -104,7 +96,8 @@ interface BuildDetailProps {
   };
 }
 
-export default function BuildDetail({ build }: BuildDetailProps) {
+export default function BuildDetail({ build,locale="tr" }: BuildDetailProps) {
+  const t=buildText[locale];
   const [tab, setTab] = useState<DetailTab>("gear");
 
   const [gear, setGear] = useState<GearRow[]>([]);
@@ -115,7 +108,6 @@ export default function BuildDetail({ build }: BuildDetailProps) {
   const [loadingRunes, setLoadingRunes] = useState(false);
 
 
-  const updatedAt = "September 17, 2025"; // şimdilik sabit
   const buildTitleLine = `${build.title} (S${build.season})`;
 
   // ❶ Gear slotlarını (şimdilik placeholder) – her zaman ARRAY olacak
@@ -193,23 +185,15 @@ export default function BuildDetail({ build }: BuildDetailProps) {
 
       if (error) {
         console.error("Error fetching build runes", error);
-        if (build.classId === "barbarian") {
-          setRunes(getBarbarianDummyRunes());
-        } else {
-          setRunes([]);
-        }
+        setRunes([]);
       } else if (!data || data.length === 0) {
-        if (build.classId === "barbarian") {
-          setRunes(getBarbarianDummyRunes());
-        } else {
-          setRunes([]);
-        }
+        setRunes([]);
       } else {
         const mapped: Rune[] = (data as unknown as RuneRow[]).map((row) => {
           const r = row.d4_runes?.[0];
 
           const name =
-            r?.name_tr || r?.name_en || r?.key || "Rune";
+            (locale==="tr" ? r?.name_tr || r?.name_en : r?.name_en || r?.name_tr) || r?.key || "Rune";
 
           // 🔹 /public/images/runes altındaki ikonlar
           const icon = r?.icon_key
@@ -226,15 +210,15 @@ export default function BuildDetail({ build }: BuildDetailProps) {
     }
 
     loadRunes();
-  }, [build.id, build.classId]);
+  }, [build.id, build.classId,locale]);
 
 
   return (
     <div className="space-y-5">
       {/* HEADER */}
-      <div className="flex flex-col justify-between gap-3 border-b border-purple-100 pb-3 md:flex-row md:items-center">
+      <div className="flex flex-col justify-between gap-3 border-b border-stone-100 pb-3 md:flex-row md:items-center">
         <div className="flex items-center gap-3">
-          <div className="flex h-10 w-10 items-center justify-center rounded-md bg-purple-100">
+          <div className="flex h-10 w-10 items-center justify-center rounded-md bg-stone-100">
             <Image
               src={`/images/classes/${build.classId}.png`}
               alt={build.classId}
@@ -249,14 +233,14 @@ export default function BuildDetail({ build }: BuildDetailProps) {
             <p className="text-[11px] text-slate-500">
               {build.classId.charAt(0).toUpperCase() +
                 build.classId.slice(1)}{" "}
-              Build · Updated on {updatedAt}
+              Build
             </p>
           </div>
         </div>
       </div>
 
       {/* TAB MENÜSÜ */}
-      <div className="flex items-center gap-4 border-b border-purple-100 text-[11px] font-medium">
+      <div className="flex items-center gap-4 border-b border-stone-100 text-[11px] font-medium">
         {(["gear", "skills", "paragon", "mercs", "notes"] as DetailTab[]).map(
           (key) => (
             <button
@@ -264,15 +248,15 @@ export default function BuildDetail({ build }: BuildDetailProps) {
               onClick={() => setTab(key)}
               className={`pb-2 ${
                 tab === key
-                  ? "border-b-2 border-purple-500 text-purple-700"
+                  ? "border-b-2 border-stone-500 text-stone-700"
                   : "text-slate-500 hover:text-slate-800"
               }`}
             >
-              {key === "gear" && "Gear & Skills"}
-              {key === "skills" && "Skill Tree"}
-              {key === "paragon" && "Paragon"}
-              {key === "mercs" && "Mercenaries"}
-              {key === "notes" && "Notes"}
+              {key === "gear" && t.gear}
+              {key === "skills" && t.skills}
+              {key === "paragon" && t.paragon}
+              {key === "mercs" && t.mercs}
+              {key === "notes" && t.notes}
             </button>
           )
         )}
@@ -282,13 +266,13 @@ export default function BuildDetail({ build }: BuildDetailProps) {
       {tab === "gear" && (
         <div className="grid gap-4 lg:grid-cols-[1.2fr_1.6fr_1.2fr]">
           {/* SOL KOLON */}
-          <div className="space-y-2 rounded-2xl bg-white/80 p-3 shadow-sm ring-1 ring-purple-100">
+          <div className="space-y-2 rounded-2xl bg-white/80 p-3 shadow-sm ring-1 ring-stone-100">
             <h2 className="mb-2 text-xs font-semibold text-slate-700">
-              Aspects (Left)
+              {t.left}
             </h2>
 
             {loadingGear && (
-              <p className="text-[11px] text-slate-400">Loading gear…</p>
+              <p className="text-[11px] text-slate-400">{t.loading}</p>
             )}
 
             {!loadingGear &&
@@ -297,15 +281,14 @@ export default function BuildDetail({ build }: BuildDetailProps) {
                 const baseItem = row?.d4_items?.[0];
 
                 const displayName =
-                  baseItem?.name_tr ||
-                  baseItem?.name_en ||
+                  (locale==="tr" ? baseItem?.name_tr || baseItem?.name_en : baseItem?.name_en || baseItem?.name_tr) ||
                   row?.unique_name ||
                   "—";
 
                 return (
                   <div
                     key={slotKey}
-                    className="flex items-center gap-3 rounded-lg bg-purple-50/80 px-3 py-2"
+                    className="flex items-center gap-3 rounded-lg bg-stone-50/80 px-3 py-2"
                   >
                     <div className="flex h-10 w-10 items-center justify-center rounded-md bg-slate-900/90">
                       <Image
@@ -317,11 +300,11 @@ export default function BuildDetail({ build }: BuildDetailProps) {
                       />
                     </div>
                     <div className="flex flex-col">
-                      <span className="text-xs font-semibold text-emerald-600">
+                      <span className="text-xs font-semibold text-green-600">
                         {displayName}
                       </span>
                       <span className="text-[11px] text-slate-500">
-                        {GEAR_SLOT_LABELS[slotKey]}
+                        {gearLabel(locale,slotKey)}
                       </span>
                     </div>
                   </div>
@@ -330,34 +313,34 @@ export default function BuildDetail({ build }: BuildDetailProps) {
           </div>
 
           {/* ORTA KOLON – Chaos Perks + Runes + Skills */}
-          <div className="space-y-4 rounded-2xl bg-white/80 p-4 shadow-sm ring-1 ring-purple-100">
+          <div className="space-y-4 rounded-2xl bg-white/80 p-4 shadow-sm ring-1 ring-stone-100">
             {/* Season badge */}
             <div className="mb-2 flex items-center justify-between text-[11px]">
-              <span className="text-slate-500">Season</span>
-              <span className="rounded-full bg-purple-100 px-3 py-1 text-xs font-semibold text-purple-800">
-                Season {build.season}
+              <span className="text-slate-500">{messages[locale].season}</span>
+              <span className="rounded-full bg-stone-100 px-3 py-1 text-xs font-semibold text-stone-800">
+                {messages[locale].season} {build.season}
               </span>
             </div>
 
             {/* Chaos Perks Ring */}
-            <div className="relative flex items-center justify-center rounded-2xl bg-gradient-to-br from-purple-50 via-slate-50 to-purple-100 py-6 md:py-10">
+            <div className="relative flex items-center justify-center rounded-2xl bg-gradient-to-br from-stone-50 via-slate-50 to-stone-100 py-6 md:py-10">
               <ChaosPerksRing classId={build.classId} />
             </div>
 
-            {/* Active Runes */}
+            {/* {t.runes} */}
             <div>
               <h3 className="mb-2 text-xs font-semibold text-slate-700">
-                Active Runes
+                {t.runes}
               </h3>
               <div className="flex flex-wrap gap-3">
                 {loadingRunes && (
                   <span className="text-[11px] text-slate-400">
-                    Loading runes…
+                    {t.loading}
                   </span>
                 )}
                 {!loadingRunes && runes.length === 0 && (
                   <span className="text-[11px] text-slate-400">
-                    Bu build için rune verisi eklenmedi.
+                    {t.noRunes}
                   </span>
                 )}
                 {!loadingRunes &&
@@ -384,13 +367,13 @@ export default function BuildDetail({ build }: BuildDetailProps) {
           </div>
 
           {/* SAĞ KOLON */}
-          <div className="space-y-2 rounded-2xl bg-white/80 p-3 shadow-sm ring-1 ring-purple-100">
+          <div className="space-y-2 rounded-2xl bg-white/80 p-3 shadow-sm ring-1 ring-stone-100">
             <h2 className="mb-2 text-xs font-semibold text-slate-700">
-              Aspects (Right)
+              {t.right}
             </h2>
 
             {loadingGear && (
-              <p className="text-[11px] text-slate-400">Loading gear…</p>
+              <p className="text-[11px] text-slate-400">{t.loading}</p>
             )}
 
             {!loadingGear &&
@@ -399,15 +382,14 @@ export default function BuildDetail({ build }: BuildDetailProps) {
                 const baseItem = row?.d4_items?.[0];
 
                 const displayName =
-                  baseItem?.name_tr ||
-                  baseItem?.name_en ||
+                  (locale==="tr" ? baseItem?.name_tr || baseItem?.name_en : baseItem?.name_en || baseItem?.name_tr) ||
                   row?.unique_name ||
                   "—";
 
                 return (
                   <div
                     key={slotKey}
-                    className="flex items-center gap-3 rounded-lg bg-purple-50/80 px-3 py-2"
+                    className="flex items-center gap-3 rounded-lg bg-stone-50/80 px-3 py-2"
                   >
                     <div className="flex h-10 w-10 items-center justify-center rounded-md bg-slate-900/90">
                       <Image
@@ -419,11 +401,11 @@ export default function BuildDetail({ build }: BuildDetailProps) {
                       />
                     </div>
                     <div className="flex flex-col">
-                      <span className="text-xs font-semibold text-emerald-600">
+                      <span className="text-xs font-semibold text-green-600">
                         {displayName}
                       </span>
                       <span className="text-[11px] text-slate-500">
-                        {GEAR_SLOT_LABELS[slotKey]}
+                        {gearLabel(locale,slotKey)}
                       </span>
                     </div>
                   </div>
@@ -435,24 +417,23 @@ export default function BuildDetail({ build }: BuildDetailProps) {
 
       {/* DİĞER TABLAR – şimdilik placeholder */}
       {tab === "skills" && (
-        <div className="rounded-2xl bg-white/80 p-4 text-[11px] text-slate-700 shadow-sm ring-1 ring-purple-100">
-          Skill tree görseli / planner burada olacak. (Şimdilik placeholder.)
+        <div className="rounded-2xl bg-white/80 p-4 text-[11px] text-slate-700 shadow-sm ring-1 ring-stone-100">
+          {t.unavailable}
         </div>
       )}
       {tab === "paragon" && (
-        <div className="rounded-2xl bg-white/80 p-4 text-[11px] text-slate-700 shadow-sm ring-1 ring-purple-100">
-          Paragon board / node düzeni burada olacak. (Placeholder.)
+        <div className="rounded-2xl bg-white/80 p-4 text-[11px] text-slate-700 shadow-sm ring-1 ring-stone-100">
+          {t.unavailable}
         </div>
       )}
       {tab === "mercs" && (
-        <div className="rounded-2xl bg-white/80 p-4 text-[11px] text-slate-700 shadow-sm ring-1 ring-purple-100">
-          Mercenary setup burada olacak. (Placeholder.)
+        <div className="rounded-2xl bg-white/80 p-4 text-[11px] text-slate-700 shadow-sm ring-1 ring-stone-100">
+          {t.unavailable}
         </div>
       )}
       {tab === "notes" && (
-        <div className="rounded-2xl bg-white/80 p-4 text-[11px] text-slate-700 shadow-sm ring-1 ring-purple-100">
-          Rotation, playstyle notları, boss tips vs. burada markdown/text
-          olarak tutulabilir. (Placeholder.)
+        <div className="rounded-2xl bg-white/80 p-4 text-[11px] text-slate-700 shadow-sm ring-1 ring-stone-100">
+          {t.unavailable}
         </div>
       )}
     </div>

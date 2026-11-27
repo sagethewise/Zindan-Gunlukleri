@@ -25,7 +25,7 @@ export default function AboutPage() {
     href="https://www.youtube.com/@gg_asli"
     target="_blank"
     rel="noopener noreferrer"
-    aria-label="Zindan Günlükleri YouTube kanalına git"
+    aria-label="Dungeon Diaries YouTube kanalına git"
     className="absolute inset-0 cursor-pointer"
   />
              {/* Dark overlay */}
@@ -34,7 +34,7 @@ export default function AboutPage() {
 
       <h1 className="text-4xl font-bold mb-6">🧙‍♂️ Hakkımızda</h1>
       <p className="mb-4 leading-relaxed">
-        <strong>Zindan Günlükleri</strong>, karanlık mağaralardan büyüyle
+        <strong>Dungeon Diaries</strong>, karanlık mağaralardan büyüyle
         örülmüş diyarların sokaklarına, vampir saraylarından kadim ejderha
         inlerine uzanan bir yolculuğun adıdır.
       </p>
@@ -55,7 +55,7 @@ export default function AboutPage() {
         🎥 YouTube&apos;da Bizimle Derinlere Dal
       </h2>
       <p className="mb-4 leading-relaxed">
-        <strong>Zindan Günlükleri</strong> adlı YouTube kanalımızda, oyun
+        <strong>Dungeon Diaries</strong> adlı YouTube kanalımızda, oyun
         içeriklerinden seans özetlerine, karakter analizlerinden atmosferik
         video serilerine kadar dijital FRP dünyasını keşfetmeye devam ediyoruz.
       </p>
@@ -80,7 +80,7 @@ export default function AboutPage() {
           target="_blank"
           className="text-red-600 hover:underline font-semibold"
         >
-          Zindan Günlükleri YouTube
+          Dungeon Diaries YouTube
         </Link>
       </p>
 
