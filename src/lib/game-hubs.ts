@@ -1,4 +1,3 @@
-import type {Locale} from "./i18n";
 export const hubs=[
  {id:"diablo-iv",name:"Diablo IV",image:"/images/diablo4.jpg",category:"Diablo",accent:"#b25945",slugs:["diablo-4","diablo4-2-5-0-PTR","spiritborn-quill-volley-leveling","spiritborn-quill-volley-endgame"],text:{tr:"Build'ler, sezonlar ve Sanctuary rehberleri.",en:"Builds, seasons and guides to Sanctuary.",de:"Builds, Saisons und Guides zu Sanktuario."}},
  {id:"world-of-warcraft",name:"World of Warcraft",image:"/images/wow1.jpeg",category:null,accent:"#6299c7",slugs:[],text:{tr:"Azeroth, keşif ve birlikte oynama günlükleri.",en:"Azeroth, exploration and co-op diaries.",de:"Azeroth, Erkundung und gemeinsame Abenteuer."}},
