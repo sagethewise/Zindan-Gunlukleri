@@ -54,6 +54,12 @@ const filtered: VideoItem[] = [...videos]
         ))}
       </div>
 
+      {filtered.length === 0 && (
+        <p className="rounded-lg border border-gray-200 p-4 text-sm text-gray-600">
+          Şu anda gösterilecek video bulunamadı. Lütfen daha sonra tekrar dene.
+        </p>
+      )}
+
       <div className="flex flex-col md:flex-row gap-6">
         {/* Sol: Kartlar */}
         <div className="grid sm:grid-cols-2 gap-4 flex-1">

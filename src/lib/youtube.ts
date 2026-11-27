@@ -32,39 +32,40 @@ export async function fetchYouTubeVideos(
 
   const playlistId = playlistMap[category];
 
-  // 🧪 Debug log (build sırasında da görünsün)
-  console.log("🧪 ENV CHECK", {
-    category,
-    apiKeyExists: Boolean(apiKey),
-    playlistIdExists: Boolean(playlistId),
-    playlistId,
-    nodeEnv: process.env.NODE_ENV,
-  });
-
   if (!apiKey || !playlistId) {
-    if (process.env.NODE_ENV === "production") {
-      throw new Error("❌ YouTube API key veya playlist ID eksik.");
-    }
-    console.warn("⚠️ Geliştirme ortamı: Eksik API bilgileri. Boş liste dönülüyor.");
+    console.warn("YouTube configuration missing for category:", category);
     return [];
   }
 
-  const res = await fetch(
-    `https://www.googleapis.com/youtube/v3/playlistItems?part=snippet&maxResults=10&playlistId=${playlistId}&key=${apiKey}`
-  );
+  try {
+    const query = new URLSearchParams({
+      part: "snippet",
+      maxResults: "10",
+      playlistId,
+      key: apiKey,
+    });
+    const res = await fetch(
+      `https://www.googleapis.com/youtube/v3/playlistItems?${query}`,
+      { next: { revalidate: 3600 }, signal: AbortSignal.timeout(10000) }
+    );
 
-  if (!res.ok) {
-    console.error("YouTube API isteği başarısız:", res.status);
-    throw new Error("YouTube API isteği başarısız.");
+    if (!res.ok) {
+      console.warn("YouTube API unavailable:", category, res.status);
+      return [];
+    }
+
+    const data: YouTubePlaylistResponse = await res.json();
+    return data.items
+      .filter((item) => Boolean(item.snippet?.resourceId?.videoId))
+      .map((item) => ({
+        id: item.snippet.resourceId.videoId,
+        title: item.snippet.title,
+        description: item.snippet.description,
+        date: item.snippet.publishedAt,
+        category,
+      }));
+  } catch {
+    console.warn("YouTube videos temporarily unavailable:", category);
+    return [];
   }
-
-  const data: YouTubePlaylistResponse = await res.json();
-
-  return data.items.map((item) => ({
-    id: item.snippet.resourceId.videoId,
-    title: item.snippet.title,
-    description: item.snippet.description,
-    date: item.snippet.publishedAt,
-    category,
-  }));
 }
