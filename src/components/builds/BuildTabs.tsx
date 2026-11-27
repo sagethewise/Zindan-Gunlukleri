@@ -15,8 +15,8 @@ export default function BuildTabs({ selectedTab, onChangeTab }: BuildTabsProps) 
           className={`pb-2 text-xs font-semibold tracking-wide
             ${
               selectedTab === "leveling"
-                ? "border-b-2 border-purple-400 text-purple-700"
-                : "text-purple-400 hover:text-purple-600"
+                ? "border-b-2 border-stone-400 text-stone-700"
+                : "text-stone-400 hover:text-stone-600"
             }`}
         >
           Leveling
@@ -26,8 +26,8 @@ export default function BuildTabs({ selectedTab, onChangeTab }: BuildTabsProps) 
           className={`pb-2 text-xs font-semibold tracking-wide
             ${
               selectedTab === "endgame"
-                ? "border-b-2 border-purple-400 text-purple-700"
-                : "text-purple-400 hover:text-purple-600"
+                ? "border-b-2 border-stone-400 text-stone-700"
+                : "text-stone-400 hover:text-stone-600"
             }`}
         >
           Endgame

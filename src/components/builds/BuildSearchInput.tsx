@@ -17,8 +17,8 @@ export default function BuildSearchInput({
     <div className="w-full">
       <div className="relative w-full">
         <span className="
-          pointer-events-none absolute left-3 top-1/2 -translate-y-1/2 
-          text-xs text-purple-800
+          pointer-events-none absolute left-3 top-1/2 -translate-y-1/2
+          text-xs text-stone-800
         ">
           🔍
         </span>
@@ -29,14 +29,14 @@ export default function BuildSearchInput({
           value={search}
           onChange={(e) => onSearchChange(e.target.value)}
           className="
-            h-9 w-full rounded-md border border-purple-300 
-           glass bg-white/70 text-purple-950 
-            shadow-lg shadow-purple-300/30
+            h-9 w-full rounded-md border border-stone-300
+           glass bg-white/70 text-stone-950
+            shadow-lg shadow-stone-300/30
             pl-7 pr-3
-            text-xs 
-            placeholder:text-purple-700
+            text-xs
+            placeholder:text-stone-700
             outline-none
-            focus:border-purple-700
+            focus:border-stone-700
             backdrop-blur-sm
           "
         />

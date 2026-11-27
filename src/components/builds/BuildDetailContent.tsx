@@ -41,7 +41,7 @@ export default async function BuildDetailContent({ params,locale="tr" }: PagePro
   }
 
   return (
-    <div className="min-h-screen bg-[#ffffff] text-slate-800">
+    <div className="min-h-screen bg-[#f5f2ec] text-slate-800">
       <div className="mx-auto max-w-6xl px-4 py-6">
         <BuildDetail build={build} locale={locale} />
         {/* Gear tab'ı zaten BuildDetail içinde. Skills Section'ı ayrı blokta gösteriyoruz. */}

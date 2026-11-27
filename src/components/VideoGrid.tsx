@@ -4,27 +4,28 @@ import Image from "next/image";
 import Link from "next/link";
 import type { Locale } from "@/lib/i18n";
 import { VideoItem } from "@/lib/youtube";
-import { FaCalendarAlt, FaEye, FaComment, FaShare } from "react-icons/fa";
+import { FaCalendarAlt } from "react-icons/fa";
 
 export default function VideoGrid({ videos, locale="tr" }: { videos: VideoItem[]; locale?:Locale }) {
   return (
-    <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 gap-5">
+    <div className="dd-video-grid">
       {videos.map((video) => (
         <Link
           key={video.id}
           href={`https://www.youtube.com/watch?v=${video.id}`}
           target="_blank"
-          className="bg-green-100 rounded-lg overflow-hidden shadow hover:shadow-md transition flex flex-col"
+          className="dd-guide-card"
         >
-          <div className="relative w-full aspect-video">
+          <div className="dd-guide-image">
             <Image
               src={`https://img.youtube.com/vi/${video.id}/hqdefault.jpg`}
               alt={video.title}
               fill
+              sizes="(max-width:640px) 100vw, 33vw"
               className="object-cover"
             />
           </div>
-          <div className="p-3 flex flex-col gap-1">
+          <div className="dd-guide-info">
             <div className="flex gap-2 mb-1">
               <span className="bg-gray-200 text-gray-900 text-[10px] px-2 py-0.5 rounded-full">
                 {video.category}
@@ -33,7 +34,7 @@ export default function VideoGrid({ videos, locale="tr" }: { videos: VideoItem[]
                 YouTube
               </span>
             </div>
-<h3 className="text-[13px] font-medium text-green-900 line-clamp-2 leading-tight">
+<h3 className="line-clamp-2">
   {video.title}
 </h3>
             <p className="text-[11px] text-gray-500 flex items-center gap-1">
@@ -44,11 +45,7 @@ export default function VideoGrid({ videos, locale="tr" }: { videos: VideoItem[]
                 day: "numeric",
               })}
             </p>
-            <div className="flex gap-3 text-[11px] text-gray-400 mt-1">
-              <span className="flex items-center gap-1"><FaEye /> 0</span>
-              <span className="flex items-center gap-1"><FaComment /> 0</span>
-              <span className="flex items-center gap-1"><FaShare /> 0</span>
-            </div>
+
           </div>
         </Link>
       ))}

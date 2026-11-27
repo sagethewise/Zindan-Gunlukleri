@@ -40,7 +40,7 @@ export default function BuildList({ builds, classes, seasonLabel, locale="tr" }:
               group relative flex flex-col overflow-hidden
               rounded-2xl border border-slate-200 bg-white/80 p-4
               shadow-md transition-all
-              hover:-translate-y-1 hover:border-emerald-400 hover:shadow-xl
+              hover:-translate-y-1 hover:border-green-400 hover:shadow-xl
               backdrop-blur-xl
             "
           >
@@ -48,7 +48,7 @@ export default function BuildList({ builds, classes, seasonLabel, locale="tr" }:
             <div
               className="
               pointer-events-none absolute inset-x-0 top-0 h-20
-              bg-gradient-to-b from-emerald-400/30 via-transparent to-transparent
+              bg-gradient-to-b from-green-400/30 via-transparent to-transparent
               opacity-0 blur-xl transition-opacity
               group-hover:opacity-100
             "
@@ -114,7 +114,7 @@ export default function BuildList({ builds, classes, seasonLabel, locale="tr" }:
               <span>{seasonLabel}</span>
               <span
                 className="
-                text-emerald-600 font-medium
+                text-green-600 font-medium
                 group-hover:translate-x-0.5 transition-transform
               "
               >

@@ -24,8 +24,8 @@ export default function BuildClassSidebar({
   onSelectClass,
 }: BuildClassSidebarProps) {
   return (
-    <aside className="hidden w-full max-w-xs flex-col rounded-lg bg-[#ffffff] md:flex">
-      <div className="space-y-3 rounded-lg border border-slate-300  bg-gradient-to-r from-[#C3B3FF] via-[#E2D4FF] to-[#F8F4FF] glass p-3">
+    <aside className="hidden w-full max-w-xs flex-col rounded-lg bg-[#f5f2ec] md:flex">
+      <div className="space-y-3 rounded-lg border border-slate-300  bg-gradient-to-r from-[#dbd3bf] via-[#e8e2d5] to-[#faf7f0] glass p-3">
         {classes.map((cls) => {
           const isActive = cls.id === selectedClass;
           return (
@@ -35,7 +35,7 @@ export default function BuildClassSidebar({
               className={`flex w-full items-center justify-between gap-3 rounded-md px-3 py-2 text-sm transition
                 ${
                   isActive
-                    ? "bg-gradient-to-r from-[#8165e6] via-[#9e88ca] to-[#b19bd8] text-slate-700/70 shadow-lg shadow-purple-300/30"
+                    ? "bg-gradient-to-r from-[#7c896e] via-[#a3ad90] to-[#c0c8ac] text-slate-700/70 shadow-lg shadow-stone-300/30"
                     : "text-slate-500 hover:bg-slate-300/70"
                 }`}
             >
@@ -55,7 +55,7 @@ export default function BuildClassSidebar({
               <span
                 className={`h-3 w-3 rounded-sm border ${
                   isActive
-                    ? "border-purple-600 bg-purple-600/80"
+                    ? "border-stone-600 bg-stone-600/80"
                     : "border-slate-300 bg-slate-100"
                 }`}
               />
@@ -64,7 +64,7 @@ export default function BuildClassSidebar({
         })}
       </div>
 
-      <div className="mt-4 rounded-lg border border-slate-300 bg-[#d5c5ee] p-3 text-center text-[11px] text-purple-950">
+      <div className="mt-4 rounded-lg border border-slate-300 bg-[#e9e4d6] p-3 text-center text-[11px] text-stone-950">
         {buildText[locale].ads}
       </div>
     </aside>

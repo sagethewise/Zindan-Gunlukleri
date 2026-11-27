@@ -1,7 +1,2 @@
-
-import AboutPage from "@/components/AboutPage";
-
-
-export default function About() {
-  return <AboutPage />;
-}
+import {DungeonAbout} from "@/components/DungeonPages";
+export default function Page(){return <DungeonAbout locale="tr"/>}

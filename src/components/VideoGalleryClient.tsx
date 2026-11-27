@@ -25,7 +25,7 @@ export default function VideoGalleryClient({ videos, locale="tr" }: { videos: Vi
   return (
     <>
       {/* 🔒 Sticky filtre bar */}
-      <div className="mb-4 sticky top-[76px] z-30 bg-white/80 backdrop-blur border-b border-gray-200">
+      <div className="dd-video-filters">
         <div className="max-w-7xl mx-auto px-4 py-4 space-y-2">
           {/* Kategori filtreleri */}
           <div className="flex flex-wrap justify-center gap-2">
@@ -35,8 +35,8 @@ export default function VideoGalleryClient({ videos, locale="tr" }: { videos: Vi
                 onClick={() => setActiveCategory(cat === activeCategory ? "Hepsi" : cat)}
                 className={`px-4 py-1 text-sm font-medium rounded-full transition ${
                   cat === activeCategory
-                    ? "bg-green-700 text-white"
-                    : "bg-gray-100 text-gray-800 hover:bg-green-100"
+                    ? "bg-[#304c3a] text-white"
+                    : "bg-white text-gray-800 hover:bg-stone-100"
                 }`}
               >
                 {cat === "Hepsi" ? m.all : cat}
@@ -50,7 +50,7 @@ export default function VideoGalleryClient({ videos, locale="tr" }: { videos: Vi
               type="text"
               value={search}
               onChange={(e) => setSearch(e.target.value)}
-              placeholder={m.search}
+              aria-label={m.search} placeholder={m.search}
               className="w-full max-w-md px-4 py-2 border border-gray-300 rounded-md text-sm"
             />
           </div>

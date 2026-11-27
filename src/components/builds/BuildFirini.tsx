@@ -53,7 +53,7 @@ const filteredBuilds = useMemo(
 );
 
   return (
-    <div className="min-h-screen bg-[#ffffff] text-slate-600">
+    <div className="min-h-screen bg-[#f5f2ec] text-slate-600">
       <div className="mx-auto max-w-6xl px-4 py-6">
         {/* Banner + Search */}
         <BuildFiriniBanner season={season} isCurrent={isCurrent} locale={locale}>

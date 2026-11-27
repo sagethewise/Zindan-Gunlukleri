@@ -216,9 +216,9 @@ export default function BuildDetail({ build,locale="tr" }: BuildDetailProps) {
   return (
     <div className="space-y-5">
       {/* HEADER */}
-      <div className="flex flex-col justify-between gap-3 border-b border-purple-100 pb-3 md:flex-row md:items-center">
+      <div className="flex flex-col justify-between gap-3 border-b border-stone-100 pb-3 md:flex-row md:items-center">
         <div className="flex items-center gap-3">
-          <div className="flex h-10 w-10 items-center justify-center rounded-md bg-purple-100">
+          <div className="flex h-10 w-10 items-center justify-center rounded-md bg-stone-100">
             <Image
               src={`/images/classes/${build.classId}.png`}
               alt={build.classId}
@@ -240,7 +240,7 @@ export default function BuildDetail({ build,locale="tr" }: BuildDetailProps) {
       </div>
 
       {/* TAB MENÜSÜ */}
-      <div className="flex items-center gap-4 border-b border-purple-100 text-[11px] font-medium">
+      <div className="flex items-center gap-4 border-b border-stone-100 text-[11px] font-medium">
         {(["gear", "skills", "paragon", "mercs", "notes"] as DetailTab[]).map(
           (key) => (
             <button
@@ -248,7 +248,7 @@ export default function BuildDetail({ build,locale="tr" }: BuildDetailProps) {
               onClick={() => setTab(key)}
               className={`pb-2 ${
                 tab === key
-                  ? "border-b-2 border-purple-500 text-purple-700"
+                  ? "border-b-2 border-stone-500 text-stone-700"
                   : "text-slate-500 hover:text-slate-800"
               }`}
             >
@@ -266,7 +266,7 @@ export default function BuildDetail({ build,locale="tr" }: BuildDetailProps) {
       {tab === "gear" && (
         <div className="grid gap-4 lg:grid-cols-[1.2fr_1.6fr_1.2fr]">
           {/* SOL KOLON */}
-          <div className="space-y-2 rounded-2xl bg-white/80 p-3 shadow-sm ring-1 ring-purple-100">
+          <div className="space-y-2 rounded-2xl bg-white/80 p-3 shadow-sm ring-1 ring-stone-100">
             <h2 className="mb-2 text-xs font-semibold text-slate-700">
               {t.left}
             </h2>
@@ -288,7 +288,7 @@ export default function BuildDetail({ build,locale="tr" }: BuildDetailProps) {
                 return (
                   <div
                     key={slotKey}
-                    className="flex items-center gap-3 rounded-lg bg-purple-50/80 px-3 py-2"
+                    className="flex items-center gap-3 rounded-lg bg-stone-50/80 px-3 py-2"
                   >
                     <div className="flex h-10 w-10 items-center justify-center rounded-md bg-slate-900/90">
                       <Image
@@ -300,7 +300,7 @@ export default function BuildDetail({ build,locale="tr" }: BuildDetailProps) {
                       />
                     </div>
                     <div className="flex flex-col">
-                      <span className="text-xs font-semibold text-emerald-600">
+                      <span className="text-xs font-semibold text-green-600">
                         {displayName}
                       </span>
                       <span className="text-[11px] text-slate-500">
@@ -313,17 +313,17 @@ export default function BuildDetail({ build,locale="tr" }: BuildDetailProps) {
           </div>
 
           {/* ORTA KOLON – Chaos Perks + Runes + Skills */}
-          <div className="space-y-4 rounded-2xl bg-white/80 p-4 shadow-sm ring-1 ring-purple-100">
+          <div className="space-y-4 rounded-2xl bg-white/80 p-4 shadow-sm ring-1 ring-stone-100">
             {/* Season badge */}
             <div className="mb-2 flex items-center justify-between text-[11px]">
               <span className="text-slate-500">{messages[locale].season}</span>
-              <span className="rounded-full bg-purple-100 px-3 py-1 text-xs font-semibold text-purple-800">
+              <span className="rounded-full bg-stone-100 px-3 py-1 text-xs font-semibold text-stone-800">
                 {messages[locale].season} {build.season}
               </span>
             </div>
 
             {/* Chaos Perks Ring */}
-            <div className="relative flex items-center justify-center rounded-2xl bg-gradient-to-br from-purple-50 via-slate-50 to-purple-100 py-6 md:py-10">
+            <div className="relative flex items-center justify-center rounded-2xl bg-gradient-to-br from-stone-50 via-slate-50 to-stone-100 py-6 md:py-10">
               <ChaosPerksRing classId={build.classId} />
             </div>
 
@@ -367,7 +367,7 @@ export default function BuildDetail({ build,locale="tr" }: BuildDetailProps) {
           </div>
 
           {/* SAĞ KOLON */}
-          <div className="space-y-2 rounded-2xl bg-white/80 p-3 shadow-sm ring-1 ring-purple-100">
+          <div className="space-y-2 rounded-2xl bg-white/80 p-3 shadow-sm ring-1 ring-stone-100">
             <h2 className="mb-2 text-xs font-semibold text-slate-700">
               {t.right}
             </h2>
@@ -389,7 +389,7 @@ export default function BuildDetail({ build,locale="tr" }: BuildDetailProps) {
                 return (
                   <div
                     key={slotKey}
-                    className="flex items-center gap-3 rounded-lg bg-purple-50/80 px-3 py-2"
+                    className="flex items-center gap-3 rounded-lg bg-stone-50/80 px-3 py-2"
                   >
                     <div className="flex h-10 w-10 items-center justify-center rounded-md bg-slate-900/90">
                       <Image
@@ -401,7 +401,7 @@ export default function BuildDetail({ build,locale="tr" }: BuildDetailProps) {
                       />
                     </div>
                     <div className="flex flex-col">
-                      <span className="text-xs font-semibold text-emerald-600">
+                      <span className="text-xs font-semibold text-green-600">
                         {displayName}
                       </span>
                       <span className="text-[11px] text-slate-500">
@@ -417,22 +417,22 @@ export default function BuildDetail({ build,locale="tr" }: BuildDetailProps) {
 
       {/* DİĞER TABLAR – şimdilik placeholder */}
       {tab === "skills" && (
-        <div className="rounded-2xl bg-white/80 p-4 text-[11px] text-slate-700 shadow-sm ring-1 ring-purple-100">
+        <div className="rounded-2xl bg-white/80 p-4 text-[11px] text-slate-700 shadow-sm ring-1 ring-stone-100">
           {t.unavailable}
         </div>
       )}
       {tab === "paragon" && (
-        <div className="rounded-2xl bg-white/80 p-4 text-[11px] text-slate-700 shadow-sm ring-1 ring-purple-100">
+        <div className="rounded-2xl bg-white/80 p-4 text-[11px] text-slate-700 shadow-sm ring-1 ring-stone-100">
           {t.unavailable}
         </div>
       )}
       {tab === "mercs" && (
-        <div className="rounded-2xl bg-white/80 p-4 text-[11px] text-slate-700 shadow-sm ring-1 ring-purple-100">
+        <div className="rounded-2xl bg-white/80 p-4 text-[11px] text-slate-700 shadow-sm ring-1 ring-stone-100">
           {t.unavailable}
         </div>
       )}
       {tab === "notes" && (
-        <div className="rounded-2xl bg-white/80 p-4 text-[11px] text-slate-700 shadow-sm ring-1 ring-purple-100">
+        <div className="rounded-2xl bg-white/80 p-4 text-[11px] text-slate-700 shadow-sm ring-1 ring-stone-100">
           {t.unavailable}
         </div>
       )}
