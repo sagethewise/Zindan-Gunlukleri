@@ -3,6 +3,8 @@
 // src/components/builds/BuildDetail.tsx
 "use client";
 
+import GearArchiveDialog from "./GearArchiveDialog";
+import {gearCopy} from "@/lib/forge-gear-copy";
 import { buildText,gearLabel } from "@/lib/build-i18n";
 import { messages,type Locale } from "@/lib/i18n";
 import { useEffect, useState } from "react";
@@ -97,7 +99,9 @@ interface BuildDetailProps {
 }
 
 export default function BuildDetail({ build,locale="tr" }: BuildDetailProps) {
-  const t=buildText[locale];
+  const t=buildText[locale],gc=gearCopy[locale];
+  const [inspectSlot,setInspectSlot]=useState<GearSlotKey|null>(null);
+  const [gearError,setGearError]=useState(false);
   const [tab, setTab] = useState<DetailTab>("gear");
 
   const [gear, setGear] = useState<GearRow[]>([]);
@@ -110,55 +114,25 @@ export default function BuildDetail({ build,locale="tr" }: BuildDetailProps) {
 
   const buildTitleLine = `${build.title} (S${build.season})`;
 
-  // ❶ Gear slotlarını (şimdilik placeholder) – her zaman ARRAY olacak
+  // Existing archived build gear; only exact build associations, never guessed assignments.
   useEffect(() => {
-    async function loadGear() {
-      setLoadingGear(true);
-
-      /**
-       * ŞU AN:
-       * - Gear için ayrı bir Supabase tablomuz yok / hazır değil.
-       * - UI sadece slot ikonları + slot label ile çalışabiliyor.
-       *
-       * O yüzden burada DB çağrısı yapmıyoruz, sadece
-       * gear'i boş ARRAY olarak bırakıyoruz ki:
-       *   gear.find(...) çağrısı güvenli olsun.
-       *
-       * İLERİDE:
-       * - build_gear tablosu açtığında buraya Supabase query ekleyebiliriz.
-       *   Örneğin:
-       *
-       *   const { data, error } = await supabaseBuilds
-       *     .from("build_gear")
-       *     .select(`
-       *       id,
-       *       build_id,
-       *       slot_key,
-       *       unique_name,
-       *       aspect_name,
-       *       icon_key,
-       *       item_id,
-       *       d4_items (
-       *         id,
-       *         slug,
-       *         name_en,
-       *         name_tr,
-       *         slot_key,
-       *         icon_key,
-       *         class_key
-       *       )
-       *     `)
-       *     .eq("build_id", build.id);
-       *
-       *   if (!error && data) setGear(data as GearRow[]);
-       */
-
-      setGear([]); // <-- önemli: her zaman array
-      setLoadingGear(false);
+    let active=true;
+    async function loadGear(){
+      setLoadingGear(true);setGear([]);setGearError(false);
+      try{
+        let id=build.id;
+        if(build.buildUuid){
+          const {data,error}=await supabaseBuilds.from("d4_build_details").select("id").eq("buildid",build.buildUuid).eq("season",build.season).maybeSingle();
+          if(!error&&data?.id)id=data.id;
+        }
+        const {data,error}=await supabaseBuilds.from("build_gear_slots").select("id,build_id,slot_key,unique_name,aspect_name,icon_key,item_id").eq("build_id",id);
+        if(error)throw error;
+        if(active)setGear((data??[]) as GearRow[]);
+      }catch{if(active)setGearError(true)}
+      finally{if(active)setLoadingGear(false)}
     }
-
-    loadGear();
-  }, [build.id]);
+    void loadGear();return()=>{active=false};
+  }, [build.id,build.buildUuid,build.season]);
 
   // ❷ Runes Supabase'den (yoksa dummy)
   useEffect(() => {
@@ -262,6 +236,7 @@ export default function BuildDetail({ build,locale="tr" }: BuildDetailProps) {
         )}
       </div>
 
+      {tab==="gear"&&<div className="fp-warning"><div><strong>{gc.archive}</strong><p>{gearError?gc.missing:gc.archiveDetail}</p></div></div>}
       {/* GEAR TAB – 3 kolon layout */}
       {tab === "gear" && (
         <div className="grid gap-4 lg:grid-cols-[1.2fr_1.6fr_1.2fr]">
@@ -282,13 +257,14 @@ export default function BuildDetail({ build,locale="tr" }: BuildDetailProps) {
 
                 const displayName =
                   (locale==="tr" ? baseItem?.name_tr || baseItem?.name_en : baseItem?.name_en || baseItem?.name_tr) ||
-                  row?.unique_name ||
-                  "—";
+                  row?.unique_name || row?.aspect_name || "—";
 
                 return (
-                  <div
+                  <button type="button"
                     key={slotKey}
-                    className="flex items-center gap-3 rounded-lg bg-stone-50/80 px-3 py-2"
+                    onClick={()=>setInspectSlot(slotKey)}
+                    title={gc.inspect+" · "+gearLabel(locale,slotKey)}
+                    className="fg-build-slot"
                   >
                     <div className="flex h-10 w-10 items-center justify-center rounded-md bg-slate-900/90">
                       <Image
@@ -300,14 +276,15 @@ export default function BuildDetail({ build,locale="tr" }: BuildDetailProps) {
                       />
                     </div>
                     <div className="flex flex-col">
-                      <span className="text-xs font-semibold text-green-600">
+                      <span className={row?.unique_name?"fg-unique":row?.aspect_name?"fg-aspect":"text-slate-600"}>
                         {displayName}
                       </span>
                       <span className="text-[11px] text-slate-500">
                         {gearLabel(locale,slotKey)}
                       </span>
                     </div>
-                  </div>
+                    <span className="fg-slot-action">↗</span>
+                  </button>
                 );
               })}
           </div>
@@ -383,13 +360,14 @@ export default function BuildDetail({ build,locale="tr" }: BuildDetailProps) {
 
                 const displayName =
                   (locale==="tr" ? baseItem?.name_tr || baseItem?.name_en : baseItem?.name_en || baseItem?.name_tr) ||
-                  row?.unique_name ||
-                  "—";
+                  row?.unique_name || row?.aspect_name || "—";
 
                 return (
-                  <div
+                  <button type="button"
                     key={slotKey}
-                    className="flex items-center gap-3 rounded-lg bg-stone-50/80 px-3 py-2"
+                    onClick={()=>setInspectSlot(slotKey)}
+                    title={gc.inspect+" · "+gearLabel(locale,slotKey)}
+                    className="fg-build-slot"
                   >
                     <div className="flex h-10 w-10 items-center justify-center rounded-md bg-slate-900/90">
                       <Image
@@ -401,20 +379,22 @@ export default function BuildDetail({ build,locale="tr" }: BuildDetailProps) {
                       />
                     </div>
                     <div className="flex flex-col">
-                      <span className="text-xs font-semibold text-green-600">
+                      <span className={row?.unique_name?"fg-unique":row?.aspect_name?"fg-aspect":"text-slate-600"}>
                         {displayName}
                       </span>
                       <span className="text-[11px] text-slate-500">
                         {gearLabel(locale,slotKey)}
                       </span>
                     </div>
-                  </div>
+                    <span className="fg-slot-action">↗</span>
+                  </button>
                 );
               })}
           </div>
         </div>
       )}
 
+      {inspectSlot&&<GearArchiveDialog key={inspectSlot} locale={locale} slot={inspectSlot} slotLabel={gearLabel(locale,inspectSlot)} classKey={build.classId} assigned={{item:gear.find(g=>g.slot_key===inspectSlot)?.unique_name??undefined,aspect:gear.find(g=>g.slot_key===inspectSlot)?.aspect_name??undefined}} onClose={()=>setInspectSlot(null)}/>}
       {/* DİĞER TABLAR – şimdilik placeholder */}
       {tab === "skills" && (
         <div className="rounded-2xl bg-white/80 p-4 text-[11px] text-slate-700 shadow-sm ring-1 ring-stone-100">
