@@ -1,15 +1,19 @@
+import {messages, type Locale} from "@/lib/i18n";
 interface BuildFiriniBannerProps {
   season: number;
+  locale?:Locale;
   isCurrent?: boolean;
   children?: React.ReactNode; // SEARCH BAR BURADAN GELİYOR
 }
 
 export default function BuildFiriniBanner({
   season,
+  locale="tr",
   isCurrent,
   children,
 }: BuildFiriniBannerProps) {
-  const seasonLabel = `Season ${season}`;
+  const m=messages[locale];
+  const seasonLabel = `${m.season} ${season}`;
 
   return (
     <section
@@ -28,23 +32,21 @@ export default function BuildFiriniBanner({
             {/* Badge */}
             <div className="inline-flex items-center gap-2 rounded-full bg-white/70 px-3 py-1 text-[11px] font-medium text-purple-800">
               <span className="inline-block h-1.5 w-1.5 rounded-full bg-purple-500" />
-              Zindan Günlükleri · Build Fırını
+              Dungeon Diaries · {m.forge}
             </div>
 
             {/* Açıklama */}
             <p className="max-w-xl text-[12px] text-purple-900/80">
-              Build içerikleri Zindan Günlükleri tarafından yabancı kaynaklardan
-              derlenmiş ve Türkçe olarak yeniden düzenlenmiştir.
+              {locale==="tr"?"Build içerikleri Dungeon Diaries tarafından yabancı kaynaklardan derlenmiş ve Türkçe olarak yeniden düzenlenmiştir.":m.source}
             </p>
 
             {/* Başlık */}
             <div>
               <h1 className="text-xl font-bold tracking-tight text-purple-950/80 sm:text-2xl">
-                Diablo 4 Meta Build Rehberi
+                {m.builds}
               </h1>
               <p className="mt-1 max-w-xl text-[12px] text-purple-900/80">
-                {seasonLabel} için leveling ve endgame build’lerini tek ekrandan
-                filtrele, karşılaştır ve detay sayfalarına geç.
+                {locale==="tr"?"Leveling ve endgame build’lerini filtrele ve karşılaştır.":locale==="de"?"Filtere und vergleiche Leveling- und Endgame-Builds.":"Filter and compare leveling and endgame builds."}
               </p>
             </div>
           </div>
@@ -53,7 +55,7 @@ export default function BuildFiriniBanner({
           <div className="flex flex-col items-start gap-2 sm:items-end">
             <div className="inline-flex items-center gap-2 rounded-full bg-white/80 px-3 py-1 text-xs font-semibold text-purple-900 shadow-sm">
               <span className="text-[11px] uppercase tracking-wide text-purple-700">
-                Aktif Sezon
+                {m.season}
               </span>
               <span className="rounded-full bg-purple-600 px-2 py-0.5 text-[11px] text-white">
                 {seasonLabel}
@@ -62,7 +64,7 @@ export default function BuildFiriniBanner({
 
             {isCurrent && (
               <span className="text-[11px] text-purple-800/80">
-                Şu anda aktif olan sezondaki build’ler gösteriliyor.
+                {locale==="tr"?"Aktif sezon":locale==="de"?"Aktuelle Saison":"Current season"}
               </span>
             )}
           </div>

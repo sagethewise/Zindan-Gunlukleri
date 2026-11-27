@@ -4,11 +4,13 @@
 
 interface BuildSearchInputProps {
   search: string;
+  placeholder?:string;
   onSearchChange: (value: string) => void;
 }
 
 export default function BuildSearchInput({
   search,
+  placeholder="Search by Build or Skill...",
   onSearchChange,
 }: BuildSearchInputProps) {
   return (
@@ -23,7 +25,7 @@ export default function BuildSearchInput({
 
         <input
           type="text"
-          placeholder="Search by Build or Skill..."
+          placeholder={placeholder}
           value={search}
           onChange={(e) => onSearchChange(e.target.value)}
           className="

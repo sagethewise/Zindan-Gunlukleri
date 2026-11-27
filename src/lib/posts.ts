@@ -4,9 +4,9 @@ import matter from 'gray-matter';
 import { Post } from './types';
 
 export function getAllPosts(): Post[] {
-  const contentDirs = ['oyun', 'gundem'];
+  const contentDirs = ['oyun'];
   const allPosts: Post[] = [];
-  console.log(allPosts.map(p => `${p.metadata.date} - ${p.slug}`));
+
 
   for (const dir of contentDirs) {
     const fullPath = path.join(process.cwd(), 'content', dir);
@@ -19,7 +19,7 @@ export function getAllPosts(): Post[] {
       const filePath = path.join(fullPath, filename);
       const fileContent = fs.readFileSync(filePath, 'utf8');
       const { data, content } = matter(fileContent);
-      console.log(`${slug} ➜`, data); // ✅ ekle!
+
 
       allPosts.push({
         slug,
@@ -50,7 +50,7 @@ export function getAllPosts(): Post[] {
 }
 
 export function getPostBySlug(slug: string): Post | null {
-  const contentDirs = ['oyun', 'gundem'];
+  const contentDirs = ['oyun'];
 
   for (const dir of contentDirs) {
     const filePath = path.join(process.cwd(), 'content', dir, `${slug}.md`);

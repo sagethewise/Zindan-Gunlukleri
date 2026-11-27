@@ -2,10 +2,11 @@
 
 import Image from "next/image";
 import Link from "next/link";
+import type { Locale } from "@/lib/i18n";
 import { VideoItem } from "@/lib/youtube";
 import { FaCalendarAlt, FaEye, FaComment, FaShare } from "react-icons/fa";
 
-export default function VideoGrid({ videos }: { videos: VideoItem[] }) {
+export default function VideoGrid({ videos, locale="tr" }: { videos: VideoItem[]; locale?:Locale }) {
   return (
     <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 gap-5">
       {videos.map((video) => (
@@ -37,7 +38,7 @@ export default function VideoGrid({ videos }: { videos: VideoItem[] }) {
 </h3>
             <p className="text-[11px] text-gray-500 flex items-center gap-1">
               <FaCalendarAlt className="text-[10px]" />
-              {new Date(video.date).toLocaleDateString("tr-TR", {
+              {new Date(video.date).toLocaleDateString(locale, {
                 year: "numeric",
                 month: "short",
                 day: "numeric",

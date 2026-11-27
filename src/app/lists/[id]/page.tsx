@@ -27,10 +27,10 @@ export async function generateMetadata({
 
   // Hata ya da veri yoksa “Liste Bulunamadı” başlığı
   if (error || !list) {
-    return { title: "Liste Bulunamadı | Zindan Günlükleri" };
+    return { title: "Liste Bulunamadı | Dungeon Diaries" };
   }
 
-  return { title: `${list.list_name} | Zindan Günlükleri` };
+  return { title: `${list.list_name} | Dungeon Diaries` };
 }
 
 // ---- Page ----

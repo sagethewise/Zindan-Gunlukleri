@@ -19,7 +19,7 @@ export default async function Page({
   const { slug } = await params;
 
   const post = getPostBySlug(slug) as Post | null;
-  if (!post) return notFound();
+  if (!post || post.metadata.type !== "oyun") return notFound();
 
   const contentHtml = await markdownToHtml(post.content);
 
