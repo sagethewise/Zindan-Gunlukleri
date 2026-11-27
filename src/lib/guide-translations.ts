@@ -1,4 +1,5 @@
 import type { Locale } from "./i18n";
+import publishedNews from "../../content/editorial/published-news.json";
 import type { Post } from "./types";
 const translations: Record<string, {en:[string,string];de:[string,string]}> = {
 "bg3patch8": {en:["Baldur’s Gate 3: Patch 8","A look at the eighth major update."],de:["Baldur’s Gate 3: Patch 8","Ein Blick auf das achte große Update."]},
@@ -17,6 +18,7 @@ const translations: Record<string, {en:[string,string];de:[string,string]}> = {
 };
 export function guideTranslation(post:Post,locale:Locale){
   if(locale==="tr") return {title:post.metadata.title,summary:post.metadata.summary};
-  const t=translations[post.slug]?.[locale];
+  const news=publishedNews as Record<string,{en:[string,string];de:[string,string]}>;
+  const t=(news[post.slug]??translations[post.slug])?.[locale];
   return {title:t?.[0]??post.metadata.title,summary:t?.[1]??""};
 }
