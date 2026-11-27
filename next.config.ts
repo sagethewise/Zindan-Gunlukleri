@@ -2,6 +2,7 @@ import type { NextConfig } from 'next';
 
 const nextConfig: NextConfig = {
   reactStrictMode: true,
+  outputFileTracingIncludes: { "/*": ["./content/oyun/**/*", "./content/translations/**/*"] },
   images: {
     domains: ["img.youtube.com"],
     remotePatterns: [

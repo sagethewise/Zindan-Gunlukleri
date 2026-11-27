@@ -63,7 +63,7 @@ const filteredBuilds = useMemo(
         {/* Ana Layout */}
         <div className="flex flex-col gap-6 md:flex-row">
           {/* Sol: Sidebar */}
-          <BuildClassSidebar
+          <BuildClassSidebar locale={locale}
             classes={CLASSES}
             selectedClass={selectedClass}
             onSelectClass={setSelectedClass}
@@ -82,7 +82,7 @@ const filteredBuilds = useMemo(
             <BuildTabs selectedTab={selectedTab} onChangeTab={setSelectedTab} />
 
             {/* Meta Header */}
-            <BuildMetaHeader />
+            <BuildMetaHeader locale={locale} />
 
             {/* Build List */}
             <BuildList

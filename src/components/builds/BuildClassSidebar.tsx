@@ -1,4 +1,6 @@
 // src/components/builds/BuildClassSidebar.tsx
+import {buildText} from "@/lib/build-i18n";
+import type {Locale} from "@/lib/i18n";
 import Image from "next/image";
 import { D4ClassId } from "@/lib/types";
 
@@ -9,6 +11,7 @@ export interface BuildClassInfo {
 }
 
 interface BuildClassSidebarProps {
+  locale?:Locale;
   classes: BuildClassInfo[];
   selectedClass: D4ClassId;
   onSelectClass: (id: D4ClassId) => void;
@@ -16,6 +19,7 @@ interface BuildClassSidebarProps {
 
 export default function BuildClassSidebar({
   classes,
+  locale="tr",
   selectedClass,
   onSelectClass,
 }: BuildClassSidebarProps) {
@@ -61,7 +65,7 @@ export default function BuildClassSidebar({
       </div>
 
       <div className="mt-4 rounded-lg border border-slate-300 bg-[#d5c5ee] p-3 text-center text-[11px] text-purple-950">
-        This website is supported by ads.
+        {buildText[locale].ads}
       </div>
     </aside>
   );

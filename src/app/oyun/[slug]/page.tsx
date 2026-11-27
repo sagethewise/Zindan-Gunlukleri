@@ -1,3 +1,6 @@
+import type { Metadata } from "next";
+import {localizedPath,locales} from "@/lib/i18n";
+import {getTranslatedContent} from "@/lib/translated-content";
 import Image from "next/image";
 import { getPostBySlug, getRelatedPostsByType } from "@/lib/posts";
 import { markdownToHtml } from "@/lib/markdownToHtml";
@@ -10,6 +13,11 @@ import type { Post } from "@/lib/types";
 import ScrollBox from "@/components/ScrollBox";
 import BackToTop from "@/components/BackToTop";
 import MobileTocBar from "@/components/MobileTocBar";
+
+export async function generateMetadata({params}:{params:Promise<{slug:string}>}):Promise<Metadata>{
+ const {slug}=await params;const post=getPostBySlug(slug);if(!post||post.metadata.type!=="oyun")notFound();
+ return {title:post.metadata.title+" | Dungeon Diaries",description:post.metadata.summary,alternates:{canonical:localizedPath("tr","games",slug),languages:Object.fromEntries(locales.filter(l=>l==="tr"||getTranslatedContent(l,slug)).map(l=>[l,localizedPath(l,"games",slug)]))}};
+}
 
 export default async function Page({
   params,
