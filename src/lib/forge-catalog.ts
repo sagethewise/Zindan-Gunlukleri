@@ -9,7 +9,7 @@ export const groups = {
 export type Group=keyof typeof groups;
 export type Kind=typeof groups[Group][number];
 export type Lang="tr"|"en"|"de";
-export type CatalogEntry={id:string;kind:Kind;patch:string;channel:"live"|"ptr"|"historical";classKey?:string;source:{name:string;url:string;reviewedDate:string};texts:Partial<Record<Lang,{name:string;description?:string}>>};
+export type CatalogEntry={id:string;kind:Kind;patch:string;channel:"live"|"ptr"|"historical";classKey?:string;source:{name:string;url:string;reviewedDate:string};texts:Partial<Record<Lang,{name:string;description?:string}>>;reference?:true;aliases?:string[]};
 export type CatalogFilter={group:Group|"all";kind:Kind|"all";patch:string;channel:string;classKey:string;query:string};
 export const defaultFilter:CatalogFilter={group:"all",kind:"all",patch:"",channel:"",classKey:"",query:""};
 export const allKinds=Object.values(groups).flat() as Kind[];
@@ -17,7 +17,7 @@ export function filterCatalog(entries:CatalogEntry[],locale:Lang,f:CatalogFilter
  const query=f.query.trim().toLocaleLowerCase(locale);
  return entries.filter(e=>{
   const t=e.texts[locale];if(!t)return false;
-  return (f.group==="all"|| (groups[f.group] as readonly Kind[]).includes(e.kind))&&(f.kind==="all"||e.kind===f.kind)&&(!f.patch||e.patch===f.patch)&&(!f.channel||e.channel===f.channel)&&(!f.classKey||e.classKey===f.classKey)&&(!query||[t.name,t.description??""].some(s=>s.toLocaleLowerCase(locale).includes(query)));
+  return (f.group==="all"|| (groups[f.group] as readonly Kind[]).includes(e.kind))&&(f.kind==="all"||e.kind===f.kind)&&(!f.patch||e.patch===f.patch)&&(!f.channel||e.channel===f.channel)&&(!f.classKey||e.classKey===f.classKey)&&(!query||[t.name,t.description??"",...(e.reference?e.aliases??[]:[])].some(s=>s.toLocaleLowerCase(locale).includes(query)));
  }).sort((a,b)=>a.texts[locale]!.name.localeCompare(b.texts[locale]!.name,locale));
 }
 export function catalogCounts(entries:CatalogEntry[],locale:Lang){
