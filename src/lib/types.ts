@@ -27,6 +27,7 @@ export type Post = {
     readingTime?: string;
     type?: "oyun" | "gundem";
     featured?: boolean;
+    previewOnly?: boolean;
   };
 };
 
@@ -37,7 +38,9 @@ export type D4ClassId =
   | "necromancer"
   | "rogue"
   | "sorcerer"
-  | "spiritborn";
+  | "spiritborn"
+  | "paladin"
+  | "warlock";
 
 // 🔹 Kartlarda / detayda kullanacağımız skill özeti
 export interface D4BuildSkillSummary {

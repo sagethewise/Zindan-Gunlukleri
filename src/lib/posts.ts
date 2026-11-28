@@ -19,6 +19,7 @@ export function getAllPosts(): Post[] {
       const filePath = path.join(fullPath, filename);
       const fileContent = fs.readFileSync(filePath, 'utf8');
       const { data, content } = matter(fileContent);
+      if(data.previewOnly===true && process.env.VERCEL_ENV==="production") continue;
 
 
       allPosts.push({
@@ -34,6 +35,7 @@ export function getAllPosts(): Post[] {
           type: dir === 'gundem' ? 'gundem' : 'oyun',
           summary: typeof data.summary === "string" ? data.summary : "",
             featured: data.featured || false,
+          previewOnly: data.previewOnly === true,
         },
       });
     }
@@ -57,6 +59,7 @@ export function getPostBySlug(slug: string): Post | null {
     if (fs.existsSync(filePath)) {
       const fileContent = fs.readFileSync(filePath, 'utf8');
       const { data, content } = matter(fileContent);
+      if(data.previewOnly===true && process.env.VERCEL_ENV==="production") continue;
 
       return {
         slug,
@@ -71,6 +74,7 @@ export function getPostBySlug(slug: string): Post | null {
           type: dir === 'gundem' ? 'gundem' : 'oyun',
           summary: typeof data.summary === "string" ? data.summary : "",
           featured: data.featured || false,
+          previewOnly: data.previewOnly === true,
         },
       };
     }
@@ -94,6 +98,7 @@ export function getAllPostsByType(type: 'oyun' | 'gundem'): Post[] {
     const filePath = path.join(fullPath, filename);
     const fileContent = fs.readFileSync(filePath, 'utf8');
     const { data, content } = matter(fileContent);
+      if(data.previewOnly===true && process.env.VERCEL_ENV==="production") continue;
 
     all.push({
       slug,
@@ -108,6 +113,7 @@ export function getAllPostsByType(type: 'oyun' | 'gundem'): Post[] {
         type, // klasörden gelen net tip
         summary: typeof data.summary === 'string' ? data.summary : '',
         featured: data.featured || false,
+          previewOnly: data.previewOnly === true,
       },
     });
   }

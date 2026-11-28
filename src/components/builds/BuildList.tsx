@@ -56,7 +56,7 @@ export default function BuildList({ builds, classes, seasonLabel, locale="tr" }:
 
             {/* Üst bölüm: Class icon + type */}
             <div className="flex items-center justify-between">
-              {classInfo && (
+              {classInfo?.icon && (
                 <Image
                   src={classInfo.icon}
                   alt={classInfo.label}
